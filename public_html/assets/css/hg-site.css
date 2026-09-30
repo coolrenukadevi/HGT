@@ -519,3 +519,7 @@
 @media (min-width: 992px) and (max-width: 1299px) {
     .hg-footer__logotag { font-size: 10.5px; letter-spacing: .03em; }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+    .hg-footer__logotag { gap: 4px; font-size: 9.5px; letter-spacing: .02em; }
+    .hg-footer__logotag::before, .hg-footer__logotag::after { width: 10px; }
+}
