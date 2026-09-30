@@ -794,6 +794,18 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-enq__helpicon .hg-i { width: 26px; height: 26px; color: #fff; }
     .hg-enq__main { max-height: calc(100vh - 24px); padding: 40px 40px 32px; }
 }
+/* Owner request 2026-09-30: the "Enquire Now" window is 30% of the screen width (never narrower than 420px or
+   wider than the screen), form only in one column; the photo panel is no longer shown. */
+.hg-enq { width: min(max(30vw, 420px), calc(100vw - 24px)); }
+.hg-enq .hg-enq__grid { grid-template-columns: minmax(0, 1fr); }
+.hg-enq .hg-enq__side { display: none; }
+.hg-enq .hg-enq__fields { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.hg-enq .hg-enq__main { max-height: calc(100vh - 24px); padding: 30px 26px 24px; }
+.hg-enq .hg-enq__title { font-size: 28px; }
+.hg-enq .hg-enq__in input, .hg-enq .hg-enq__in select { height: 42px; font-size: 14.5px; }
+.hg-enq .hg-enq__f label { margin-bottom: 4px; font-size: 13.5px; }
+.hg-enq .hg-enq__lead { margin-bottom: 14px; font-size: 14.5px; }
+.hg-enq .hg-enq__submit { min-height: 48px; font-size: 16px; }
 
 /* ===== src/pages/homepage.css ===== */
 /* ---------- Hero ---------- */
