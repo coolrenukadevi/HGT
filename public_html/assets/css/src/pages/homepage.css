@@ -116,3 +116,12 @@
 @media (max-width: 1023px) {
     .hg-hero__slides::after { background: linear-gradient(180deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .78) 38%, rgba(255, 255, 255, 0) 68%); }
 }
+/* Hero title (owner request 2026-09-30, fourth pass): exact logo colours (sampled from the logo: orange #F98400,
+   navy #00003C), no white glow (it made the text look faded), and a slightly smaller size. */
+.hg-hero__inner .hg-h1 { font-size: 44px; text-shadow: none; }
+.hg-hero__inner .hg-eyebrow { text-shadow: none; }
+.hg-hero h1 .hg-hero__t1 { color: #F98400; }
+.hg-hero h1 .hg-hero__t2 { color: #00003C; }
+@media (max-width: 767px) {
+    .hg-hero__inner .hg-h1 { font-size: 28px; }
+}
