@@ -70,7 +70,10 @@ $heroSlides = array(
             <h2 class="hg-searchwidget__title" id="search-title"><?= hg_icon('search') ?>Search holiday packages</h2>
             <div class="hg-searchwidget__grid">
                 <div class="hg-field">
-                    <label for="sw-q">Where do you want to go?</label>
+                    <div class="hg-sw-labelrow">
+                        <label for="sw-q">Where do you want to go?</label>
+                        <a class="hg-btn hg-btn--primary hg-sw-enquire" href="#enquire" data-hg-track="enquiry_start">Enquiry Now</a>
+                    </div>
                     <input id="sw-q" name="destination" type="search" placeholder="Destination, city or package" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sw-q-list" data-hg-autocomplete data-hg-ac-fill>
                     <ul class="hg-ac" id="sw-q-list" role="listbox" aria-label="Suggestions" hidden></ul>
                 </div>
