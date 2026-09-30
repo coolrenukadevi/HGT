@@ -306,6 +306,8 @@
         b.addEventListener('click', function () {
             if (!enquiry) return;
             if (nav && nav.classList.contains('is-open')) setDrawer(false);
+            var sp = document.querySelector('.hg-support__panel:not([hidden]) [data-hg-support-close]');
+            if (sp) sp.click(); // close the "Need help?" panel first
             if (typeof enquiry.showModal === 'function') enquiry.showModal(); else enquiry.setAttribute('open', '');
             var first = enquiry.querySelector('input:not([type="hidden"])');
             if (first) first.focus();

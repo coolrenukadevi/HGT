@@ -1,5 +1,5 @@
 <?php require_once __DIR__ . '/../site_config.php'; ?>
-<!-- Floating support widget: 1 Enquire Now, 2 Chat with us (WhatsApp / call inside), 3 Email us (owner order, 2026-09-30).
+<!-- Floating support widget: 1 Enquire Now (opens the Enquire Now dialog), 2 Chat with us (WhatsApp / call inside), 3 Email us (owner order, 2026-09-30).
      Call and WhatsApp are not listed separately: they are in "Chat with us" and in the header. Behaviour: assets/js/hg-site.js -->
 <div class="hg-support" id="hg-support">
     <div class="hg-support__panel" id="hg-support-panel" role="dialog" aria-labelledby="hg-support-title" hidden>
@@ -14,10 +14,10 @@
         </div>
 
         <div class="hg-support__view" data-hg-view="actions">
-            <a class="hg-support__action" href="/customized-holidays" data-hg-track="enquiry_start">
+            <button type="button" class="hg-support__action" data-hg-enquiry-open aria-haspopup="dialog" data-hg-track="enquiry_start">
                 <span class="hg-support__icon" aria-hidden="true"><?= hg_icon('route') ?></span>
                 <span class="hg-support__label">Enquire Now<small>Get an itinerary and quote</small></span>
-            </a>
+            </button>
             <button type="button" class="hg-support__action" data-hg-chat-open>
                 <span class="hg-support__icon" aria-hidden="true"><?= hg_icon('chat') ?></span>
                 <span class="hg-support__label">Chat with us<small>WhatsApp or call a travel expert</small></span>
