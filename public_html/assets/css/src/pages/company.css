@@ -24,3 +24,28 @@
     .hg-leader { grid-template-columns: 1fr; }
     .hg-leader__avatar { width: 80px; height: 80px; font-size: 26px; }
 }
+/* Blog listing and articles (2026-09-30) */
+.hg-post__meta { margin: 8px 0 0 !important; color: var(--hg-muted-2); font-size: 14px; }
+.hg-post__sec { padding: 12px 0 8px; scroll-margin-top: calc(var(--hg-sticky) + 16px); }
+.hg-post__sec h2 { margin-top: 18px; }
+.hg-post__sec ul, .hg-post__sec ol { padding-left: 1.3em; }
+.hg-post__sec li { margin-bottom: 6px; }
+.hg-post__plan { margin: 32px 0 40px; padding: 24px; border-radius: var(--hg-r-lg); background: #00003C; color: #D6DBE7; }
+.hg-post__plantitle { margin: 0 0 6px !important; font-family: var(--hg-font-head); font-size: 20px; font-weight: 800; color: #fff; }
+.hg-post__planbtns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.hg-post__cardmeta { margin: auto 0 0 !important; padding-top: 8px; color: var(--hg-muted-2); font-size: 13px; }
+.hg-topic h3 a { color: var(--hg-navy); text-decoration: none; }
+.hg-topic h3 a:hover { color: var(--hg-orange-text); text-decoration: underline; }
+.hg-postfeature { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); overflow: hidden; border: 1px solid var(--hg-border); border-radius: var(--hg-r-lg); background: #fff; }
+.hg-postfeature__art { display: grid; place-items: center; min-height: 240px; padding: 28px; background: #00003C; }
+.hg-postfeature__art svg { max-width: 320px; }
+.hg-postfeature__body { padding: 28px; }
+.hg-postfeature__body h2 a { color: #00003C; text-decoration: none; }
+.hg-postfeature__body h2 a:hover { color: var(--hg-orange-text); }
+.hg-blogfilters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; }
+.hg-blogfilters button { padding: 7px 16px; border: 1px solid var(--hg-border); border-radius: 999px; background: #fff; color: var(--hg-navy); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.hg-blogfilters button[aria-pressed="true"] { border-color: #00003C; background: #00003C; color: #fff; }
+@media (max-width: 767px) {
+    .hg-postfeature { grid-template-columns: 1fr; }
+    .hg-postfeature__art { min-height: 150px; }
+}

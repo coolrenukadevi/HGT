@@ -19,6 +19,6 @@ return array(
     // Company pages from the owner's page pack (2026-09-30).
     '/why-us'               => 'approved',   // owner's own wording
     '/career'               => 'approved',   // owner's own wording; applications to the site email
-    '/blog'                 => 'draft',      // topics only until the first articles are written
+    '/blog'                 => 'approved',   // 35 articles (/blog/{slug}); approved for indexing by the owner 2026-09-30
     '/disclaimer'           => 'draft',      // legal review requested in the pack (liability limit, jurisdiction)
 );

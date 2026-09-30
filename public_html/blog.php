@@ -1,24 +1,23 @@
 <?php
-// Blog / travel desk. From the owner's company-page pack (2026-09-30). The pack listed six articles that are
-// not written yet, so they are shown as upcoming topics (no links or read times) until each article exists.
-// The one topic already covered on the site links to that page. Publishing status: include/data/page-status.php.
+// Blog: travel guides from the Holiday Guru Travel team (articles in include/content/blog/, pages at /blog/{slug}).
+// Design from the owner's page pack: featured guide, category filters, all guides. Status: include/data/page-status.php.
 require __DIR__ . '/include/ui/core.php';
+require_once __DIR__ . '/include/content/blog/index.php';
 
-$topics = array(
-    array('International', 'Planning your first family trip to Dubai', 'How many nights you really need, which areas suit families, when the weather is kind, and what to sort out before you apply for a visa.', ''),
-    array('India', 'Kashmir by season: what each month is like', 'Tulips in spring, green meadows in summer, gold in autumn and snow in winter. How to pick your month and what changes in the itinerary.', ''),
-    array('International', 'Singapore and Malaysia in one trip', 'How to split the nights, whether to cross by road or air, and which order works better with children.', ''),
-    array('International', 'Choosing a Maldives resort: seaplane, speedboat or local island', 'Transfer type changes your budget and your arrival time. What to weigh up before you pick a resort.', ''),
-    array('India', 'Kerala for first-timers: Munnar, Thekkady and a houseboat', 'A classic route, the drive times between stops, and when a houseboat night is worth it.', ''),
-    array('Booking tips', 'How the 35% advance and balance payment work', 'What the advance secures, when the balance is due, and why flight and train tickets are paid in full.', '/payment-policy'),
-    array('Booking tips', 'Travel insurance: what to check before you buy', 'Medical cover, trip cancellation and baggage delay. The questions that matter and the ones that don\'t.', ''),
-);
+$posts = hg_blog_posts();
+$featured = hg_blog_post('first-family-trip-dubai');
+$cats = array();
+foreach ($posts as $p) $cats[hg_blog_cat_key($p['cat'])] = $p['cat'];
+$list = array();
+foreach ($posts as $p) $list[] = array('@type' => 'ListItem', 'position' => count($list) + 1, 'url' => hg_abs($p['url']), 'name' => $p['title']);
 
 hg_layout_start(array(
-    'title' => 'Travel Desk Blog | Holiday Guru Travel',
-    'description' => 'Practical travel guides from the Holiday Guru Travel team: Dubai, Kashmir, Singapore and Malaysia, the Maldives, Kerala and booking tips.',
+    'title' => 'Travel Blog: Guides and Tips | Holiday Guru Travel',
+    'description' => 'Practical travel guides from Holiday Guru Travel: Kashmir, Ladakh, Kerala, Char Dham, Amarnath, Dubai, Singapore, the Maldives and booking tips.',
     'path' => '/blog', 'index' => hg_page_status('/blog') === 'approved',
     'breadcrumbs' => array(array('Home', '/'), array('Blog', null)),
+    'schema' => array(array('@type' => 'Blog', 'name' => 'Holiday Guru Travel blog', 'url' => hg_abs('/blog'),
+        'publisher' => array('@id' => HG_SITE_URL . '/#organization')), array('@type' => 'ItemList', 'itemListElement' => $list)),
 ));
 ?>
 <section class="hg-pagehead" aria-labelledby="page-title">
@@ -29,16 +28,38 @@ hg_layout_start(array(
     </div>
 </section>
 
-<section class="hg-section hg-section--tight" aria-labelledby="topics-title">
+<section class="hg-section hg-section--tight" aria-label="Featured guide">
     <div class="hg-container">
-        <?= hg_section_head('Guides', 'What we\'re writing', 'Our first guides are on the way. Until then, ask your travel expert — or read the <a href="/travel-guide/kashmir">Kashmir travel guide</a> and our <a href="/faqs">FAQs</a>.', null, 'topics-title') ?>
-        <div class="hg-grid hg-grid--3">
-<?php foreach ($topics as $t) { ?>
-            <article class="hg-card hg-accent-card hg-topic">
-                <p class="hg-topic__cat"><?= hg_e($t[0]) ?></p>
-                <h3><?= $t[3] !== '' ? '<a href="' . hg_e($t[3]) . '">' . hg_e($t[1]) . '</a>' : hg_e($t[1]) ?></h3>
-                <p><?= hg_e($t[2]) ?></p>
-                <?= $t[3] === '' ? '<p class="hg-topic__soon">Coming soon</p>' : '' ?>
+        <article class="hg-postfeature">
+            <div class="hg-postfeature__art" aria-hidden="true">
+                <svg viewBox="0 0 240 150" width="100%"><g fill="none" stroke="#F98400" stroke-width="3" stroke-linecap="round"><path d="M10 130 Q70 40 120 80 T230 30" stroke-dasharray="2 9"/></g><circle cx="10" cy="130" r="7" fill="#F98400"/><circle cx="230" cy="30" r="7" fill="#fff"/><text x="10" y="112" fill="#C9D0DF" font-size="13">DEL</text><text x="200" y="58" fill="#C9D0DF" font-size="13">DXB</text></svg>
+            </div>
+            <div class="hg-postfeature__body">
+                <p class="hg-topic__cat">Featured · <?= hg_e($featured['cat']) ?></p>
+                <h2 class="hg-h2"><a href="<?= hg_e($featured['url']) ?>"><?= hg_e($featured['title']) ?></a></h2>
+                <p><?= hg_e($featured['desc']) ?></p>
+                <p class="hg-post__cardmeta"><?= (int) $featured['read'] ?> min read</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="hg-section" aria-labelledby="all-title">
+    <div class="hg-container">
+        <?= hg_section_head('All guides', count($posts) . ' guides to plan your trip', '', null, 'all-title') ?>
+        <div class="hg-blogfilters" role="group" aria-label="Filter guides">
+            <button type="button" data-hg-blogf="all" aria-pressed="true">All</button>
+<?php foreach ($cats as $k => $c) { ?>
+            <button type="button" data-hg-blogf="<?= hg_e($k) ?>" aria-pressed="false"><?= hg_e($c) ?></button>
+<?php } ?>
+        </div>
+        <div class="hg-grid hg-grid--3" id="hg-blogposts">
+<?php foreach ($posts as $p) { ?>
+            <article class="hg-card hg-accent-card hg-topic" data-hg-blogc="<?= hg_e(hg_blog_cat_key($p['cat'])) ?>">
+                <p class="hg-topic__cat"><?= hg_e($p['cat']) ?></p>
+                <h3><a href="<?= hg_e($p['url']) ?>"><?= hg_e($p['title']) ?></a></h3>
+                <p><?= hg_e($p['desc']) ?></p>
+                <p class="hg-post__cardmeta"><?= (int) $p['read'] ?> min read</p>
             </article>
 <?php } ?>
         </div>
@@ -51,4 +72,16 @@ hg_layout_start(array(
         <p>Planning a trip and can't find an answer? Email <a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL_DISPLAY) ?></a> and we may write about it. We'll reply to your question either way.</p>
     </div>
 </section>
+<script>
+(function () {
+    var btns = document.querySelectorAll('[data-hg-blogf]'), posts = document.querySelectorAll('#hg-blogposts [data-hg-blogc]');
+    btns.forEach(function (b) {
+        b.addEventListener('click', function () {
+            var f = b.getAttribute('data-hg-blogf');
+            posts.forEach(function (p) { p.hidden = f !== 'all' && p.getAttribute('data-hg-blogc') !== f; });
+            btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        });
+    });
+})();
+</script>
 <?php hg_layout_end(); ?>

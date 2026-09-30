@@ -77,6 +77,10 @@ RewriteCond %{DOCUMENT_ROOT}/travel-guide/$1.php -f
 RewriteRule ^travel-guide/([a-z0-9-]+)$ travel-guide/$1.php [L]
 RewriteRule ^travel-guide/?$ - [R=404,L]
 
+# 0d. Blog articles: /blog/{slug} is served by blog-article.php (unknown slugs return the 404 page)
+RewriteRule ^blog/([a-z0-9-]+)/$ /blog/$1 [R=301,L]
+RewriteRule ^blog/([a-z0-9-]+)$ blog-article.php?slug=$1 [QSA,L]
+
 # 1. /index.php and /index -> /
 RewriteCond %{THE_REQUEST} \s/+index(\.php)?[\s?]
 RewriteRule ^index(\.php)?$ / [R=301,L]
