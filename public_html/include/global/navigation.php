@@ -2,7 +2,7 @@
 /**
  * GLOBAL COMPONENT: primary navigation (#hg-nav) and mobile drawer. Mega-menu panels: mega-menu.php.
  * Tabs: Domestic · International · Inbound Tours · Special Tours · Fixed Departure (mega menus), Customised Tours,
- * Offers, About Us (mega menu), Contact Us.
+ * Offers, About Us (mega menu), Enquire Now (opens the enquiry dialog; Contact is in About Us and the footer).
  * Behaviour: [data-hg-nav], [data-hg-mega], [data-hg-menu-*] in assets/js/hg-ui.js.
  */
 ?>
@@ -38,7 +38,7 @@
                 <button type="button" class="hg-nav__trigger" aria-expanded="false" aria-controls="mega-about" data-hg-mega>About Us<?= hg_icon('chevron') ?></button>
 <?php $hgMegaPanel = 'about'; include __DIR__ . '/mega-menu.php'; ?>
             </li>
-            <li class="hg-nav__item hg-nav__item--contact"><a class="hg-nav__link" href="/contact">Contact Us</a></li>
+            <li class="hg-nav__item hg-nav__item--enquire"><button type="button" class="hg-nav__link hg-nav__enquire" data-hg-enquiry-open aria-haspopup="dialog">Enquire Now</button></li>
         </ul>
         <div class="hg-nav__drawerfoot">
             <a class="hg-btn hg-btn--primary hg-btn--block" href="/customized-holidays">Enquire now</a>

@@ -393,6 +393,7 @@ if (!defined('HG_UI_CORE')) {
         include __DIR__ . '/../global/support-widget.php';
         include __DIR__ . '/../global/cookie-consent.php';
         include __DIR__ . '/../global/login-dialog.php';
+        include __DIR__ . '/../global/enquiry-dialog.php';
         echo '<script src="' . hg_e(hg_asset('/assets/js/hg-site.js')) . '" defer></script>' . "\n";
         echo '<script src="' . hg_e(hg_asset('/assets/js/hg-ui.js')) . '" defer></script>' . "\n";
         echo "</body>\n</html>\n";

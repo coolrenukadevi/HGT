@@ -20,3 +20,16 @@
         document.addEventListener('click', function (e) { if (!menu.contains(e.target)) set(false); });
         menu.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !list.hidden) { set(false); btn.focus(); } });
     });
+
+    /* ---------------- "Enquire Now" dialog (menu tab) ---------------- */
+    var enquiry = document.getElementById('hg-enquiry');
+    $$('[data-hg-enquiry-open]').forEach(function (b) {
+        b.addEventListener('click', function () {
+            if (!enquiry) return;
+            if (nav && nav.classList.contains('is-open')) setDrawer(false);
+            if (typeof enquiry.showModal === 'function') enquiry.showModal(); else enquiry.setAttribute('open', '');
+            var first = enquiry.querySelector('input:not([type="hidden"])');
+            if (first) first.focus();
+        });
+    });
+    if (enquiry) enquiry.addEventListener('click', function (e) { if (e.target === enquiry) enquiry.close(); });

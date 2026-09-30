@@ -75,3 +75,24 @@
 @media (max-width: 1023px) {
     .hg-nav .hg-nav__trigger { font-family: var(--hg-font-body); font-weight: 600; }
 }
+/* "Enquire Now" tab (owner request 2026-09-30, replaces "Contact Us"): a compact pill in the logo orange */
+@media (min-width: 1024px) {
+    .hg-nav .hg-nav__enquire { min-height: 28px; margin-left: 6px; padding: 0 14px; border-radius: 999px; background: #F98400; color: var(--hg-navy-dark); }
+    .hg-nav .hg-nav__enquire:hover, .hg-nav .hg-nav__enquire:focus-visible { background: #E07600; color: var(--hg-navy-dark); }
+}
+@media (max-width: 1023px) {
+    .hg-nav .hg-nav__enquire { color: #C96A00; }
+}
+/* Fit nine tabs with the wider "Enquire Now" pill: tighter spacing from 1280px; below 1200px the dropdown
+   arrows are hidden (the menus still open on click) instead of hiding a tab. */
+@media (min-width: 1280px) {
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { padding: 0 5.5px; }
+}
+@media (min-width: 1024px) {
+    .hg-nav .hg-nav__enquire { margin-left: 2px; padding: 0 11px; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hg-nav .hg-nav__trigger .hg-i { display: none; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { gap: 0; padding: 0 4px; }
+    .hg-nav .hg-nav__enquire { padding: 0 10px; }
+}

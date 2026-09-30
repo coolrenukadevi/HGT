@@ -561,6 +561,27 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
 @media (max-width: 1023px) {
     .hg-nav .hg-nav__trigger { font-family: var(--hg-font-body); font-weight: 600; }
 }
+/* "Enquire Now" tab (owner request 2026-09-30, replaces "Contact Us"): a compact pill in the logo orange */
+@media (min-width: 1024px) {
+    .hg-nav .hg-nav__enquire { min-height: 28px; margin-left: 6px; padding: 0 14px; border-radius: 999px; background: #F98400; color: var(--hg-navy-dark); }
+    .hg-nav .hg-nav__enquire:hover, .hg-nav .hg-nav__enquire:focus-visible { background: #E07600; color: var(--hg-navy-dark); }
+}
+@media (max-width: 1023px) {
+    .hg-nav .hg-nav__enquire { color: #C96A00; }
+}
+/* Fit nine tabs with the wider "Enquire Now" pill: tighter spacing from 1280px; below 1200px the dropdown
+   arrows are hidden (the menus still open on click) instead of hiding a tab. */
+@media (min-width: 1280px) {
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { padding: 0 5.5px; }
+}
+@media (min-width: 1024px) {
+    .hg-nav .hg-nav__enquire { margin-left: 2px; padding: 0 11px; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hg-nav .hg-nav__trigger .hg-i { display: none; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { gap: 0; padding: 0 4px; }
+    .hg-nav .hg-nav__enquire { padding: 0 10px; }
+}
 
 /* ===== src/components/mega-menu.css ===== */
 /* ---------- Mega menus (redesign 2026-09-30) ----------
@@ -720,6 +741,13 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
 .hg-dialog__title { font-size: 24px; margin-bottom: 16px; }
 .hg-dialog__alt { display: grid; gap: 10px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--hg-border); }
 .hg-login-btn { min-height: 28px; padding-top: 0; padding-bottom: 0; }
+/* "Enquire Now" dialog (owner request 2026-09-30): wider than the login dialog to fit the enquiry form */
+.hg-dialog--enquiry { width: min(680px, calc(100vw - 24px)); max-height: calc(100vh - 32px); overflow-y: auto; }
+.hg-dialog--enquiry .hg-eyebrow { margin-bottom: 4px; }
+.hg-dialog__lead { margin: -8px 0 16px; color: var(--hg-muted-2); font-size: 15px; }
+@media (max-width: 575px) {
+    .hg-dialog--enquiry { padding: 22px 18px; }
+}
 
 /* ===== src/pages/homepage.css ===== */
 /* ---------- Hero ---------- */
