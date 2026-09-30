@@ -217,3 +217,26 @@
     .hg-footer__logotag { gap: 4px; font-size: 9.5px; letter-spacing: .02em; }
     .hg-footer__logotag::before, .hg-footer__logotag::after { width: 10px; }
 }
+/* Owner request 2026-09-30: phone design on desktop too — badge, then "Holiday Guru Travel" on one line with the
+   tagline directly under it. The brand column is widened a little so both fit beside the badge. */
+@media (min-width: 992px) {
+    .hg-footer__grid { grid-template-columns: minmax(0, 2.3fr) minmax(0, 4.1fr) minmax(0, 1.55fr); }
+    .hg-footer .hg-footer__brand { flex-wrap: nowrap; }
+    .hg-footer__name { white-space: nowrap; font-size: 19px; }
+    .hg-footer__logotag { margin: 4px 0 0; font-size: 10px; letter-spacing: .04em; gap: 5px; }
+    .hg-footer__logotag::before, .hg-footer__logotag::after { width: 12px; }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+    .hg-footer__brand img { width: 64px; height: 64px; }
+    .hg-footer__name { font-size: 17px; }
+    .hg-footer__logotag { font-size: 9px; letter-spacing: .02em; gap: 4px; }
+    .hg-footer__logotag::before, .hg-footer__logotag::after { width: 9px; }
+}
+/* The tagline sits inside the name block again (directly under the name at every width). */
+.hg-footer__wordmark .hg-footer__logotag { flex-basis: auto; margin: 4px 0 0; }
+@media (max-width: 374px) {
+    .hg-footer__brand img { width: 64px; height: 64px; }
+    .hg-footer__name { font-size: 17px; }
+    .hg-footer__wordmark .hg-footer__logotag { font-size: 8.5px; letter-spacing: .02em; gap: 4px; }
+    .hg-footer__logotag::before, .hg-footer__logotag::after { width: 8px; }
+}
