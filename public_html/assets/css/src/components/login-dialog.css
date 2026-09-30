@@ -83,3 +83,8 @@
 @media (prefers-reduced-motion: reduce) {
     .hg-enq[open] { animation: none; }
 }
+/* The same Enquire Now form used inside pages (owner request 2026-09-30): no dialog frame, same fields and look. */
+.hg-enq.hg-enq--inline { width: auto; max-width: none; max-height: none; padding: 0; overflow: visible; border-radius: 0; background: transparent; box-shadow: none; }
+.hg-enq--inline .hg-enq__title { font-size: 24px; }
+.hg-enq--inline .hg-enq__submit { margin-top: 6px; }
+.hg-form--card > .hg-enq--inline { display: block; }

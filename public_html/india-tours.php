@@ -16,7 +16,7 @@ $faqs = array(
     array('Which airports do your tours start from?', '<p>Each itinerary starts where the tour begins — for example Srinagar for Kashmir, Leh for Ladakh, Cochin for Kerala, Bagdogra or New Jalpaiguri for Darjeeling and Sikkim, and Goa. Most international visitors fly into Delhi or Mumbai and connect by a domestic flight; we can quote domestic flights and trains.</p>'),
     array('What documents should I carry?', '<p>Your passport and valid Indian visa for every traveller — hotels in India register foreign guests using them.</p>'),
 );
-$country = '<div class="hg-field"><label for="enq-country">Country of residence</label><input id="enq-country" name="country" autocomplete="country-name" maxlength="80"></div>';
+$country = '<div class="hg-field hg-enq__f"><label for="enq-country">Country of residence</label><span class="hg-enq__in">' . hg_icon('globe') . '<input id="enq-country" name="country" autocomplete="country-name" maxlength="80" placeholder="e.g. United Kingdom"></span></div>';
 
 hg_layout_start(array(
     'title' => 'India Tour Packages for Foreign Travellers | Holiday Guru Travel',

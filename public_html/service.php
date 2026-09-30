@@ -57,7 +57,7 @@ hg_layout_start(array(
             <?= hg_faq($faqs) ?>
         </div>
         <aside class="hg-layout__side" id="rental-enquiry">
-            <div class="hg-sidecard"><?= hg_enquiry_form('rental-form', 'Get a rental quote', array('enquiry_type' => 'Car rental'), true) ?></div>
+            <div class="hg-sidecard"><?= hg_enquiry_form('rental-form', 'Get a rental quote', array('enquiry_type' => 'Car rental', '_service' => 'Car rental and transfers'), true) ?></div>
         </aside>
     </div>
 </section>

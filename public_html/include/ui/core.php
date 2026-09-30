@@ -547,38 +547,82 @@ if (!defined('HG_UI_CORE')) {
     }
 
     /**
-     * Enquiry form (posts to mail.php with the Phase 0 spam guards added by
-     * hg-ui.js). $context adds hidden fields such as package or destination.
+     * THE enquiry form, used everywhere (owner request 2026-09-30: every enquiry form is the "Enquire Now" form):
+     * the Enquire Now dialog, the homepage, tour itinerary pages, offers, India tours, contact, car rental and
+     * customised holidays. Same fields and design in every place; posts to mail.php (spam guards and sending in
+     * forms.js). No file upload anywhere.
+     *   $title    heading shown above the form ('' for none)
+     *   $context  hidden fields sent with the enquiry (enquiry_type, package details …). Special keys:
+     *               'destination' → pre-fills the visible Destination field instead of a hidden field
+     *               '_service'    → pre-selects the Service option
+     *               '_lead'       → short text under the heading
+     *   $compact  kept for compatibility (all forms are one column now)
+     *   $extraFields  extra field markup inserted before "Additional requirements" (e.g. country)
      */
     function hg_enquiry_form($id, $title, array $context = array(), $compact = false, $extraFields = '')
     {
-        static $n = 0;
-        $n++;
-        $p = 'enq' . $n . '-';
-        $S = hg_search_state();
-        $deps = array('' => 'Not decided', 'delhi' => 'Delhi', 'haridwar' => 'Haridwar', 'own' => 'I will reach the destination myself');
+        $p = preg_replace('/[^a-z0-9-]/i', '', $id) . '-';
+        $dest = isset($context['destination']) ? (string) $context['destination'] : '';
+        $service = isset($context['_service']) ? (string) $context['_service'] : 'Holiday package';
+        $lead = isset($context['_lead']) ? (string) $context['_lead'] : '';
+        unset($context['destination'], $context['_service'], $context['_lead']);
         $hidden = '';
         foreach ($context as $k => $v) {
             $hidden .= '<input type="hidden" name="' . hg_e($k) . '" value="' . hg_e($v) . '">';
         }
+        static $destList = null;
+        if ($destList === null) {
+            $destList = array();
+            $d = json_decode((string) @file_get_contents(dirname(__DIR__) . '/data/destinations.json'), true);
+            foreach ((isset($d['groups']) ? $d['groups'] : array()) as $g) {
+                if (!empty($g['name'])) $destList[] = $g['name'];
+            }
+        }
+        $services = array('Holiday package', 'Customised tour', 'Pilgrimage tour', 'Flights, trains or buses', 'Hotels and stays', 'Car rental and transfers', 'Visa, insurance or cruise', 'Other');
+        if (!in_array($service, $services, true)) $services[] = $service;
         ob_start(); ?>
-<form class="hg-form<?= $compact ? ' hg-form--compact' : '' ?>" id="<?= hg_e($id) ?>" data-hg-enquiry novalidate>
-    <?php if ($title) { ?><h2 class="hg-form__title"><?= hg_e($title) ?></h2><?php } ?>
+<div class="hg-enq hg-enq--inline">
+<?php if ($title !== '') { ?>    <span class="hg-enq__bar" aria-hidden="true"></span>
+    <h2 class="hg-enq__title"><?= hg_e($title) ?></h2>
+<?php } ?><?php if ($lead !== '') { ?>    <p class="hg-enq__lead"><?= hg_e($lead) ?></p>
+<?php } ?>
+<?= hg_enquire_form_markup($id, $p, $hidden, $dest, $service, $services, $destList, $extraFields) ?>
+</div>
+<?php
+        return ob_get_clean();
+    }
+
+    /** Form markup shared by hg_enquiry_form() and the Enquire Now dialog (include/global/enquiry-dialog.php). */
+    function hg_enquire_form_markup($id, $p, $hidden, $dest, $service, array $services, array $destList, $extraFields = '')
+    {
+        ob_start(); ?>
+<form class="hg-form hg-enq__form" id="<?= hg_e($id) ?>" data-hg-enquiry novalidate>
     <?= $hidden ?>
-    <div class="hg-form__grid">
-        <div class="hg-field"><label for="<?= $p ?>name">Full name</label><input id="<?= $p ?>name" name="name" autocomplete="name" required maxlength="100"></div>
-        <div class="hg-field"><label for="<?= $p ?>phone">Mobile number</label><input id="<?= $p ?>phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="20" pattern="[0-9+ ]{8,20}"></div>
-        <div class="hg-field"><label for="<?= $p ?>email">Email</label><input id="<?= $p ?>email" name="email" type="email" autocomplete="email" required maxlength="150"></div>
-        <div class="hg-field"><label for="<?= $p ?>date">Travel date <span class="hg-optional">(optional)</span></label><input id="<?= $p ?>date" name="travel_date" type="date" min="<?= date('Y-m-d') ?>" value="<?= hg_e($S['date']) ?>"></div>
-        <div class="hg-field"><label for="<?= $p ?>adults">Adults</label><select id="<?= $p ?>adults" name="adults"><?php for ($i = 1; $i <= 9; $i++) { ?><option<?= $i === $S['adults'] ? ' selected' : '' ?>><?= $i ?></option><?php } ?></select></div>
-        <div class="hg-field"><label for="<?= $p ?>children">Children</label><select id="<?= $p ?>children" name="children"><?php for ($i = 0; $i <= 6; $i++) { ?><option<?= $i === $S['children'] ? ' selected' : '' ?>><?= $i ?></option><?php } ?></select></div>
-        <div class="hg-field"><label for="<?= $p ?>dep">Departure city</label><select id="<?= $p ?>dep" name="departure_city"><?php foreach ($deps as $v => $l) { ?><option value="<?= hg_e($v === '' ? '' : $l) ?>"<?= $v !== '' && $v === $S['departure'] ? ' selected' : '' ?>><?= hg_e($l) ?></option><?php } ?></select></div>
+    <div class="hg-enq__fields">
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>name">Full name <span class="hg-enq__req" aria-hidden="true">*</span></label>
+            <span class="hg-enq__in"><?= hg_icon('user') ?><input id="<?= $p ?>name" name="name" autocomplete="name" required maxlength="100" placeholder="Enter your full name"></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>email">Email address <span class="hg-enq__req" aria-hidden="true">*</span></label>
+            <span class="hg-enq__in"><?= hg_icon('mail') ?><input id="<?= $p ?>email" name="email" type="email" autocomplete="email" required maxlength="150" placeholder="Enter your email address"></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>phone">Mobile number <span class="hg-enq__req" aria-hidden="true">*</span></label>
+            <span class="hg-enq__in"><?= hg_icon('phone') ?><input id="<?= $p ?>phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="20" pattern="[0-9+ ]{8,20}" placeholder="+91 98xxx xxxxx"></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>service">Service</label>
+            <span class="hg-enq__in"><?= hg_icon('ticket') ?><select id="<?= $p ?>service" name="service"><?php foreach ($services as $sv) { ?><option<?= $sv === $service ? ' selected' : '' ?>><?= hg_e($sv) ?></option><?php } ?></select></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>dest">Destination</label>
+            <span class="hg-enq__in"><?= hg_icon('pin') ?><input id="<?= $p ?>dest" name="destination" list="<?= $p ?>dest-list" maxlength="100" value="<?= hg_e($dest) ?>" placeholder="Where would you like to go?"></span>
+            <datalist id="<?= $p ?>dest-list"><?php foreach ($destList as $d) { ?><option value="<?= hg_e($d) ?>"></option><?php } ?></datalist></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>date">Travel date</label>
+            <span class="hg-enq__in"><?= hg_icon('calendar') ?><input id="<?= $p ?>date" name="travel_date" type="date" min="<?= date('Y-m-d') ?>"></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>trav">No. of travellers</label>
+            <span class="hg-enq__in"><?= hg_icon('users') ?><select id="<?= $p ?>trav" name="travellers"><option value="">Select travellers</option><?php for ($i = 1; $i <= 9; $i++) { ?><option><?= $i ?></option><?php } ?><option>10+</option></select></span></div>
+        <div class="hg-field hg-enq__f"><label for="<?= $p ?>budget">Budget per person <span class="hg-optional">(optional)</span></label>
+            <span class="hg-enq__in"><span class="hg-enq__rupee" aria-hidden="true">₹</span><input id="<?= $p ?>budget" name="budget" inputmode="numeric" maxlength="20" placeholder="e.g. 50,000"></span></div>
         <?= $extraFields ?>
-        <div class="hg-field hg-field--full"><label for="<?= $p ?>message">Anything we should know? <span class="hg-optional">(optional)</span></label><textarea id="<?= $p ?>message" name="message" rows="<?= $compact ? 2 : 3 ?>" maxlength="2000"></textarea></div>
+        <div class="hg-field hg-enq__f hg-enq__f--full"><label for="<?= $p ?>msg">Additional requirements <span class="hg-optional">(optional)</span></label>
+            <textarea id="<?= $p ?>msg" name="message" rows="3" maxlength="2000" placeholder="Tell us about your requirements, special requests, etc."></textarea></div>
     </div>
+    <label class="hg-enq__consent"><input type="checkbox" name="consent" value="yes" required> I agree that Holiday Guru Travel may contact me by phone, WhatsApp or email about this enquiry.</label>
     <p class="hg-form__status" role="status" aria-live="polite"></p>
-    <button class="hg-btn hg-btn--primary hg-btn--block" type="submit">Get my free quote</button>
-    <p class="hg-form__note">A travel expert replies by phone or WhatsApp. We do not share your details.</p>
+    <button class="hg-btn hg-enq__submit" type="submit"><?= hg_icon('plane') ?> Submit enquiry</button>
 </form>
 <?php
         return ob_get_clean();
