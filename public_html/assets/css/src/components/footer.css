@@ -179,3 +179,10 @@
 @media (min-width: 1024px) {
     .hg-footer .hg-footer__intro { font-size: 13.5px; }
 }
+/* Owner request 2026-09-30: policy links flush right. The fixed "Need help?" button (bottom-right) now clears
+   them by extra space below the copyright row instead of a 190px right-hand gap. */
+@media (min-width: 992px) {
+    .hg-body .hg-footer__bottom .container { padding-right: var(--hg-gutter); }
+    .hg-body .hg-footer__bottom { padding-bottom: 72px; }
+    .hg-footer__bottomlinks { margin-left: auto !important; justify-content: flex-end; }
+}
