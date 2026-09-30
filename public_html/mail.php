@@ -39,6 +39,7 @@ $optional = array(
     'departure_city' => 'Departure city',
     'budget'         => 'Budget per person',
     'holiday_type'   => 'Holiday type',
+    'service'        => 'Service',
     'hotel_category' => 'Hotel category',
     'duration'       => 'Trip length',
     'country'        => 'Country of residence',
