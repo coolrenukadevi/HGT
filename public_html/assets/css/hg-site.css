@@ -283,6 +283,17 @@
     .hg-consent__buttons { width: 100%; }
     .hg-consent__btn { flex: 1 1 auto; }
 }
+/* Owner request 2026-09-30: no banner on phones/tablets (analytics stays off there; "Cookie settings" in the footer
+   still opens the choices). Laptops/desktops: slim full-width bar along the bottom edge, text and buttons on one line. */
+@media (max-width: 1023px) {
+    .hg-consent { display: none !important; }
+}
+@media (min-width: 1024px) {
+    .hg-consent { left: 0; right: 0; bottom: 0; max-width: none; flex-wrap: nowrap; gap: 24px; padding: 8px 32px; border: 0; border-top: 3px solid var(--hg-orange); border-radius: 0; box-shadow: 0 -8px 24px rgba(10, 22, 61, .12); }
+    .hg-consent__text { flex: 1 1 auto; font-size: 13.5px; line-height: 1.4; }
+    .hg-consent__buttons { flex: none; flex-wrap: nowrap; gap: 6px; }
+    .hg-consent__btn { min-height: 34px; padding: 0 14px; font-size: 13.5px; white-space: nowrap; }
+}
 
 /* ===== src/components/footer.css ===== */
 .hg-footer-link {

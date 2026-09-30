@@ -64,8 +64,8 @@
 
     function setBannerOffset() {
         var h = banner && !banner.hidden ? banner.getBoundingClientRect().height : 0;
-        // On wide screens the banner is inset 16px from the bottom; add a 12px gap.
-        root.style.setProperty('--hg-consent-h', h ? Math.ceil(h + (window.innerWidth > 575 ? 16 : 0) + 12) + 'px' : '0px');
+        // The banner sits on the bottom edge (hidden below 1024px, so h is 0 there); add a 12px gap.
+        root.style.setProperty('--hg-consent-h', h ? Math.ceil(h + 12) + 'px' : '0px');
     }
 
     function showBanner() {
