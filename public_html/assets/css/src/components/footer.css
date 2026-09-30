@@ -195,3 +195,21 @@
 /* Footer name in the logo colours (owner request 2026-09-30): "Guru Travel" in the logo saffron; "Holiday" stays
    white because the logo navy would not show on the navy footer */
 .hg-footer__name b { color: var(--hg-orange); }
+/* Logo tagline under the footer name (owner request 2026-09-30), styled as on the logo: orange capitals between
+   short orange rules. */
+.hg-footer__logotag { display: flex; align-items: center; gap: 6px; margin-top: 4px; color: #F98400; font-size: 10.5px; font-weight: 700; letter-spacing: .06em; line-height: 1.2; text-transform: uppercase; white-space: nowrap; }
+.hg-footer__logotag::before, .hg-footer__logotag::after { content: ""; flex: none; width: 14px; height: 2px; border-radius: 2px; background: #F98400; }
+/* Tagline placement: its own row across the brand block, starting under the name on phones and tablets, and
+   under the logo from 992px where the column is narrow. The name and logo keep their row. */
+.hg-footer .hg-footer__brand { flex-wrap: wrap; row-gap: 0; }
+.hg-footer__wordmark { min-width: 0; flex: 1 1 0; }
+.hg-footer__logotag { flex-basis: 100%; margin: -18px 0 0 calc(84px + 12px); }
+@media (min-width: 992px) {
+    .hg-footer__logotag { margin: 10px 0 0; font-size: 11px; }
+}
+@media (max-width: 374px) {
+    .hg-footer__logotag { margin: 8px 0 0; }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+    .hg-footer__logotag { font-size: 10.5px; letter-spacing: .03em; }
+}

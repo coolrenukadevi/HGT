@@ -20,6 +20,7 @@ $hgFooterNav = hg_footer_nav();
                         <img src="/assets/brand/holiday-guru-travel-badge-anim-180.gif" alt="" width="80" height="80" loading="lazy" decoding="async">
                     </picture>
                     <span class="hg-footer__wordmark"><span class="hg-footer__name">Holiday <b>Guru Travel</b></span></span>
+                    <span class="hg-footer__logotag">Your Journey Our Expertise</span>
                 </a>
                 <p class="hg-footer__intro">Your trusted travel partner for holiday packages across India and abroad — day-by-day itineraries, customised trips and pilgrimage tours, planned by our team in Noida.</p>
                 <div class="hg-footer__social">
