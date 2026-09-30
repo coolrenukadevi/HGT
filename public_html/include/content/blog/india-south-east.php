@@ -13,9 +13,14 @@ return array(
         array('Drive times', '<p>The roads are winding hill roads, so distances look short but take time. Plan on around 4 hours from Cochin to Munnar, similar from Munnar to Thekkady, and 3–4 hours from Thekkady down to Alleppey.</p>'),
         array('When to go', '<p>September to March is the most comfortable, with cool hills and pleasant backwaters. April and May are hot on the coast. The south-west monsoon (roughly June to August) brings heavy rain; the hills are lush and prices lower, but some activities are limited.</p>'),
         array('What to pack', '<p>Light cottons, a warm layer for Munnar evenings, rain protection in the monsoon, and modest clothes for temples. Comfortable shoes help in the tea estates.</p>'),
+        array('A 5-day plan', '<ol><li>Arrive in Cochin and drive to Munnar; evening at leisure.</li><li>Munnar sightseeing: tea estates and the tea museum, Mattupetty dam, Echo Point and Eravikulam National Park (home of the Nilgiri tahr; the park closes for part of the year).</li><li>Munnar to Thekkady: spice plantations and the Periyar lake area.</li><li>Thekkady to Alleppey: board your houseboat around midday and cruise the backwaters.</li><li>Check out after breakfast and transfer to Cochin for your journey home.</li></ol><p>This is our 4-night Munnar Thekkady Alleppey tour.</p>'),
+        array('Adding the coast', '<p>With two more nights, continue from the houseboat to Kovalam for its crescent beaches and lighthouse, and take a day trip to Kanyakumari, India\'s southern tip, where the sunrise and sunset over the sea draw crowds. Fly out of Trivandrum (Thiruvananthapuram) instead of Cochin. Our 6-night tour follows this route.</p>'),
+        array('Food to try', '<p>Kerala meals are a highlight: appam with stew, puttu and kadala curry for breakfast, Kerala-style fish curry and karimeen (pearl spot) on the backwaters, and a traditional sadya served on a banana leaf. Vegetarian food is widely available and delicious.</p>'),
+        array('Who it suits', '<p>Kerala suits almost everyone: honeymooners (misty hills and a private houseboat), families (easy sightseeing, wildlife and beaches) and senior citizens (gentle pace, comfortable stays). The main challenge is winding hill roads, so tell us if anyone is prone to motion sickness and we can plan shorter driving days.</p>'),
     ),
     'faqs' => array(
-        array('Is 5 days enough for Kerala?', '<p>Yes for Munnar, Thekkady and a houseboat. Allow 6–7 days to add Kovalam and Kanyakumari.</p>'),
+        array('Is 5 days enough for Kerala?', '<p>Yes for Munnar, Thekkady and a houseboat. Allow 6–7 days to add Kovalam and Kanyakumari.</p>'),        array('Which is better, Alleppey or Kumarakom?', '<p>Both are on the same backwaters. Alleppey has the most houseboats and the classic canal cruises; Kumarakom, on Vembanad lake, is quieter with lakeside resorts. For a first trip, an Alleppey houseboat is the usual choice.</p>'),
+
     ),
 ),
 

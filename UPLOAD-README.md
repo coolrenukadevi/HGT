@@ -1,8 +1,18 @@
-# Holiday Guru Travel — site update v5 (30 Sep 2026)
+# Holiday Guru Travel — site update v6 (30 Sep 2026)
 
-Replaces v4 (and v3 with every patch before it). Upload the whole public_html again.
+Replaces v5 (and every earlier version). Upload the whole public_html again, including the .htaccess file.
 
-## New in v5
+## New in v6
+- Blog: 35 travel guides at /blog/{name} (India, pilgrimage, international, booking tips), live and indexed:
+  in the menu, footer and sitemap.xml. After uploading, submit https://holidaygurutravel.in/sitemap.xml in
+  Google Search Console.
+- One enquiry form everywhere: every form (Enquire Now window, homepage, tour itinerary pages, offers, India tours,
+  contact, car rental, customised holidays) is the Enquire Now form. No file upload anywhere.
+- "Need help?" → Enquire Now opens the Enquire Now window.
+- .htaccess updated (blog addresses) — upload it too; it is a hidden file, so make sure your FTP/File Manager
+  shows hidden files.
+
+## Already in v5 (included again)
 - Company pages from your page pack, built into the site design: Why Us (/why-us), Careers (/career),
   Blog (/blog, draft) and Disclaimer (/disclaimer, draft); About, Leadership, Our Team and Payment Policy updated.
   The pack's old company name, CIN and old phone number are not used anywhere.
@@ -13,7 +23,7 @@ Replaces v4 (and v3 with every patch before it). Upload the whole public_html ag
 - "Need help?" panel: Enquire Now, Chat with us, Email us, in the logo orange.
 - Header: larger text-only script logo. Footer: animated plane badge (133 KB), "Holiday Guru Travel" with
   "Your Journey Our Expertise" under it, the same on phone and desktop.
-- Draft pages (Blog, Disclaimer) are visible by direct link only: hidden from Google, the menu and the footer.
+- Draft pages (Disclaimer) are visible by direct link only: hidden from Google, the menu and the footer.
   To publish one, change 'draft' to 'approved' in public_html/include/data/page-status.php.
 
 ## Already in v4 (included again)
