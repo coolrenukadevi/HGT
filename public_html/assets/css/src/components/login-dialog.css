@@ -72,3 +72,14 @@
 .hg-enq .hg-enq__f label { margin-bottom: 4px; font-size: 13.5px; }
 .hg-enq .hg-enq__lead { margin-bottom: 14px; font-size: 14.5px; }
 .hg-enq .hg-enq__submit { min-height: 48px; font-size: 16px; }
+/* Owner request 2026-09-30: the window sits on the right side of the screen, full height, sliding in from the
+   right (no slide when the visitor asks for reduced motion). Phones keep the centred window. */
+@media (min-width: 640px) {
+    .hg-enq[open] { position: fixed; inset: 0 0 0 auto; margin: 0; height: 100vh; max-height: 100vh; border-radius: 18px 0 0 18px; animation: hg-enq-in .28s ease-out; }
+    .hg-enq .hg-enq__grid, .hg-enq .hg-enq__main { max-height: 100vh; height: 100%; }
+    .hg-enq .hg-enq__main { padding-top: 34px; }
+}
+@keyframes hg-enq-in { from { transform: translateX(100%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+    .hg-enq[open] { animation: none; }
+}
