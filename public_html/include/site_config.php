@@ -31,6 +31,12 @@ if (!defined('HG_SITE_CONFIG')) {
     // The previous entity name and its CIN were removed site-wide at the owner's request.
     define('HG_LEGAL_NAME', 'M/S Holiday Guru Travel');
     define('HG_COPYRIGHT_SINCE', 2014);
+    // Company bank account for customer payments (Payment policy page). Account name is HG_LEGAL_NAME.
+    // Leave empty until confirmed by the owner: the page then says the details come with the quote.
+    define('HG_BANK_NAME', '');      // bank name and branch
+    define('HG_BANK_ACCOUNT', '');   // account number
+    define('HG_BANK_IFSC', '');
+    define('HG_BANK_UPI', '');       // UPI ID
 
     // GA4 measurement ID. Loaded only after the visitor accepts analytics
     // cookies (see assets/js/hg-site.js). Empty string disables GA.

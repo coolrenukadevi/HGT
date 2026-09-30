@@ -25,6 +25,8 @@ RewriteEngine On
 RewriteBase /
 
 # 0. Consolidated pages (single 301 hop, also from the old .php URL)
+RewriteRule ^whyus(\.php)?/?$ /why-us [R=301,L]
+RewriteRule ^payment(\.php)?/?$ /payment-policy [R=301,L]
 RewriteRule ^kashmir-tour(\.php)?/?$ /tours/kashmir [R=301,L]
 # Old destination hub pages -> destination pages /tours/{key}
 RewriteRule ^amarnath-ji-yatra(\.php)?/?$ /tours/amarnath [R=301,L]

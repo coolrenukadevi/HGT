@@ -161,8 +161,10 @@ if ($hgMegaPanel === 'india') {
     $contact = '<ul class="hg-mega__contact"><li>' . hg_icon('phone') . '<a href="' . hg_e(hg_tel_href()) . '">' . hg_e(HG_PHONE_DISPLAY) . '</a></li>'
         . '<li>' . hg_icon('mail') . '<a href="' . hg_e(hg_mailto_href()) . '">' . hg_e(HG_EMAIL_DISPLAY) . '</a></li>'
         . '<li>' . hg_icon('pin') . '<span>' . hg_e(HG_ADDRESS_LINE1) . ', ' . hg_e(HG_ADDRESS_LINE2) . '</span></li></ul>';
+    // Pages still 'draft' in include/data/page-status.php stay out of the menu (same rule as the footer).
+    $live = function (array $links) { return array_values(array_filter($links, function ($l) { return hg_page_status($l[1]) === 'approved'; })); };
     echo $hgMega['cols']('about', array(
-        'Company' => array(array('About Holiday Guru Travel', '/about'), array('Leadership', '/leadership'), array('Our team', '/our-team'), array('Contact us', '/contact')),
-        'Help & policies' => array(array('FAQs', '/faqs'), array('Cancellation policy', '/cancellation-policy'), array('Refund policy', '/refund-policy'), array('Payment policy', '/payment-policy'), array('Grievance redress', '/grievance-redress')),
+        'Company' => $live(array(array('About Holiday Guru Travel', '/about'), array('Why choose us', '/why-us'), array('Leadership', '/leadership'), array('Our team', '/our-team'), array('Careers', '/career'), array('Blog', '/blog'), array('Contact us', '/contact'))),
+        'Help & policies' => $live(array(array('FAQs', '/faqs'), array('Cancellation policy', '/cancellation-policy'), array('Refund policy', '/refund-policy'), array('Payment policy', '/payment-policy'), array('Grievance redress', '/grievance-redress'), array('Disclaimer', '/disclaimer'))),
     ), $hgMega['feature']('Talk to a travel expert', 'Call or WhatsApp — the team that plans your trip answers.', array(array(hg_icon('whatsapp') . 'WhatsApp us', hg_whatsapp_href(), true, true)), $contact));
 }

@@ -16,4 +16,9 @@ return array(
     '/our-team'             => 'approved',   // photos, names and roles to be supplied by the owner
     '/grievance-redress'    => 'approved',   // officer details supplied by the owner
     '/offers'               => 'approved',   // offer details, prices and validity to be supplied by the owner
+    // Company pages from the owner's page pack (2026-09-30).
+    '/why-us'               => 'approved',   // owner's own wording
+    '/career'               => 'approved',   // owner's own wording; applications to the site email
+    '/blog'                 => 'draft',      // topics only until the first articles are written
+    '/disclaimer'           => 'draft',      // legal review requested in the pack (liability limit, jurisdiction)
 );

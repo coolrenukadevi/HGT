@@ -55,11 +55,11 @@ return array(
         'title' => 'Company',
         'items' => array(
             array('label' => 'About Us', 'url' => '/about'),
-            array('label' => 'Why Choose Us', 'url' => '/about#why-us', 'description' => 'The "Why choose us" section of the About page.'),
+            array('label' => 'Why Choose Us', 'url' => '/why-us'),
             array('label' => 'Leadership', 'url' => '/leadership'),
             array('label' => 'Our Team', 'url' => '/our-team'),
-            array('label' => 'Blog', 'url' => '', 'description' => 'No articles yet. Set a URL and remove status to show it.'),
-            array('label' => 'Career', 'url' => '', 'description' => 'Needs current openings from the owner.'),
+            array('label' => 'Blog', 'url' => '/blog'),
+            array('label' => 'Career', 'url' => '/career'),
         ),
     ),
     'support' => array(
@@ -71,7 +71,7 @@ return array(
             array('label' => 'Payment Policy', 'url' => '/payment-policy'),
             array('label' => 'Grievance Redress', 'url' => '/grievance-redress'),
             array('label' => 'Payment Link', 'url' => '', 'description' => 'Set to the payment page or gateway link once online payment is configured.'),
-            array('label' => 'Disclaimer', 'url' => '', 'description' => 'Needs disclaimer text (legal).'),
+            array('label' => 'Disclaimer', 'url' => '/disclaimer'),
         ),
     ),
 );

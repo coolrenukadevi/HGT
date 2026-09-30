@@ -1,0 +1,26 @@
+/* Company pages (About, Why us, Leadership, Our team, Careers, Blog, Disclaimer, Payment policy), integrated
+   from the owner's page pack 2026-09-30. Built on the site components (hg-card, hg-steps, hg-qf, hg-table,
+   hg-notice, hg-band); only the pieces below are new. Colours are the logo navy and orange. */
+.hg-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px !important; padding: 0 !important; list-style: none; }
+.hg-chips li { margin: 0; padding: 6px 14px; border: 1px solid #F3D3AE; border-radius: 999px; background: var(--hg-orange-50); color: var(--hg-navy); font-size: 14px; font-weight: 600; }
+.hg-chips-group h3 { margin: 0 0 10px; font-size: 16px; color: var(--hg-navy); }
+.hg-accent-card { border-top: 3px solid var(--hg-orange); }
+.hg-leaders { display: grid; gap: 20px; }
+.hg-leader { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 22px; align-items: start; padding: 24px; border: 1px solid var(--hg-border); border-top: 3px solid var(--hg-orange); border-radius: var(--hg-r-lg); background: #fff; }
+.hg-leader__avatar { display: flex; align-items: center; justify-content: center; width: 96px; height: 96px; overflow: hidden; border-radius: 50%; background: var(--hg-navy); color: #fff; font-family: var(--hg-font-head); font-size: 30px; font-weight: 800; box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--hg-orange); }
+.hg-leader__avatar img { width: 100%; height: 100%; object-fit: cover; }
+.hg-leader__name { margin: 0; font-size: 22px; color: var(--hg-navy); }
+.hg-leader__role { margin: 2px 0 10px !important; color: var(--hg-orange-text); font-weight: 700; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
+.hg-leader p { color: var(--hg-text); }
+.hg-topic { display: flex; flex-direction: column; gap: 6px; }
+.hg-topic__cat { margin: 0 !important; color: var(--hg-orange-text); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.hg-topic h3 { margin: 0; font-size: 18px; }
+.hg-topic__soon { align-self: flex-start; margin: 4px 0 0 !important; padding: 2px 10px; border-radius: 999px; background: #FFF4D1; color: #6B4E00; font-size: 12px; font-weight: 600; }
+.hg-band .hg-qf dt { color: #C9D0DF; }
+.hg-band .hg-qf dd, .hg-band .hg-qf dd a { color: #fff; }
+.hg-askus { margin: 0 !important; padding-left: 1.2em !important; }
+.hg-askus li { margin-bottom: 6px; }
+@media (max-width: 575px) {
+    .hg-leader { grid-template-columns: 1fr; }
+    .hg-leader__avatar { width: 80px; height: 80px; font-size: 26px; }
+}
