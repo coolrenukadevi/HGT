@@ -1,9 +1,22 @@
-# Holiday Guru Travel — site update v4 (30 Sep 2026)
+# Holiday Guru Travel — site update v5 (30 Sep 2026)
 
-Replaces v3 and every patch sent since (mail patch, header patches v1–v3, site patches v4–v7).
-Upload the whole public_html again.
+Replaces v4 (and v3 with every patch before it). Upload the whole public_html again.
 
-## New in v4
+## New in v5
+- Company pages from your page pack, built into the site design: Why Us (/why-us), Careers (/career),
+  Blog (/blog, draft) and Disclaimer (/disclaimer, draft); About, Leadership, Our Team and Payment Policy updated.
+  The pack's old company name, CIN and old phone number are not used anywhere.
+- Menu: "Enquire Now" (logo-orange pill) replaces "Contact Us" and opens an enquiry window on the right side of the
+  screen (30% of the width; full screen on phones). Contact Us stays in the About Us menu and the footer.
+- Homepage: title "Explore your Dream Destination with us" on one line; phones get an "Enquiry Now" button beside
+  "Where do you want to go?".
+- "Need help?" panel: Enquire Now, Chat with us, Email us, in the logo orange.
+- Header: larger text-only script logo. Footer: animated plane badge (133 KB), "Holiday Guru Travel" with
+  "Your Journey Our Expertise" under it, the same on phone and desktop.
+- Draft pages (Blog, Disclaimer) are visible by direct link only: hidden from Google, the menu and the footer.
+  To publish one, change 'draft' to 'approved' in public_html/include/data/page-status.php.
+
+## Already in v4 (included again)
 - Header: compact (87px instead of 127px); text-only "Holiday Guru Travel" script logo (larger on desktop,
   fills the header on phones); Call and WhatsApp as icons only; compact mega menus.
 - Top bar: "Secure SSL-encrypted website", 24×7 Support (WhatsApp) and a Login menu
@@ -33,5 +46,8 @@ Upload the whole public_html again.
 
 Not included, on purpose: the staging CMS (cms/), tests, any passwords or credentials.
 Still open (owner action): set a new, strong SMTP password (the earlier one was shared in chat).
-Still open: the "What our travellers say" section shows a development placeholder; send genuine reviews or ask
-for the section to be removed.
+Still open (owner):
+- Bank and UPI details for the Payment Policy page: HG_BANK_* in public_html/include/site_config.php.
+- Confirm leadership titles (Founder / Managing Director) and the founding year (2014 or 2015).
+- A privacy policy page (the enquiry forms collect personal details).
+- Legal review of the Disclaimer before approving it.
