@@ -98,3 +98,10 @@
     .hg-hero--slider { min-height: 380px; }
     .hg-hero__slides::after { background: linear-gradient(180deg, rgba(6, 14, 40, .55) 0%, rgba(6, 14, 40, .15) 50%, rgba(6, 14, 40, .35) 100%); }
 }
+/* Hero title (owner request 2026-09-30): "Your journey." saffron, "Our expertise." brand blue, as in the logo tagline */
+.hg-hero h1 .hg-hero__t1 { color: var(--hg-orange); }
+.hg-hero h1 .hg-hero__t2 { color: #2E9BEA; }
+.hg-hero__inner .hg-h1 { text-shadow: 0 1px 3px rgba(6, 14, 40, .55), 0 2px 18px rgba(6, 14, 40, .6); }
+@media (max-width: 767px) {
+    .hg-hero h1 .hg-hero__t1, .hg-hero h1 .hg-hero__t2 { display: block; }
+}

@@ -282,7 +282,7 @@ if (!defined('HG_UI_CORE')) {
             'legalName' => HG_LEGAL_NAME,
             'url' => HG_SITE_URL . '/',
             'logo' => HG_SITE_URL . '/assets/brand/holiday-guru-travel-logo-240.png',
-            'slogan' => 'Your journey. Your way.',
+            'slogan' => 'Your journey. Our expertise.',
             'telephone' => HG_PHONE_DISPLAY,
             'email' => HG_EMAIL,
             'address' => array(

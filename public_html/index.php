@@ -54,7 +54,7 @@ $heroSlides = array(
     </div>
     <div class="hg-container hg-hero__inner">
         <p class="hg-eyebrow">Holiday packages across India &amp; abroad</p>
-        <h1 class="hg-h1" id="hero-title">Your journey. <span>Your way.</span></h1>
+        <h1 class="hg-h1" id="hero-title"><span class="hg-hero__t1">Your journey.</span> <span class="hg-hero__t2">Our expertise.</span></h1>
     </div>
     <div class="hg-hero__controls" data-hg-slider-controls hidden>
         <button type="button" class="hg-hero__btn" data-hg-slide-prev aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
