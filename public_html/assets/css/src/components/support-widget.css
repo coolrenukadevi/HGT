@@ -154,3 +154,11 @@
 @media (max-width: 1023px) {
     .hg-body:has(.hg-bottombar) .hg-support { bottom: calc(80px + var(--hg-consent-h)); }
 }
+/* Owner request 2026-09-30: orange from the logo (#F98400) in the support widget. */
+.hg-support__toggle .hg-i { color: #F98400; }
+.hg-support__icon { background: #FFF1E0; color: #C96A00; }
+.hg-support__btn--primary { background: #F98400; border-color: #F98400; color: var(--hg-navy-dark); }
+.hg-support__btn--primary:hover { background: #E07600; border-color: #E07600; color: var(--hg-navy-dark); }
+.hg-support .hg-support__action { font-family: inherit; }
+.hg-support .hg-support__label { font-weight: 700; font-size: 15px; }
+.hg-support .hg-support__label small { font-weight: 400; }
