@@ -7,3 +7,29 @@
 .hg-utility .hg-i { width: 15px; height: 15px; }
 .hg-utility__tagline { margin: 0; color: #fff; font-weight: 600; letter-spacing: .04em; }
 .hg-utility .hg-soon { color: #C4CAD9; opacity: 1; }
+/* ---------- Utility bar (owner reference 2026-09-30): secure-site note left; 24x7 Support + Login menu right ---------- */
+.hg-utility { background: #0B2463; color: #E4E8F2; font-size: 13.5px; }
+.hg-utility__inner { min-height: 36px; }
+.hg-utility__secure { display: inline-flex; align-items: center; gap: 8px; margin: 0; min-width: 0; color: #E4E8F2; }
+.hg-body .hg-utility__secure { margin: 0; line-height: 1.2; }
+.hg-utility__secure span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hg-utility__short { display: none; }
+.hg-utility__secure .hg-i { flex: none; opacity: .85; }
+.hg-utility__right { flex: none; }
+.hg-utility a, .hg-umenu__btn { font-weight: 500; }
+.hg-umenu { position: relative; }
+.hg-umenu__btn { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0; border: 0; background: none; color: #fff; font: inherit; font-weight: 500; cursor: pointer; }
+.hg-umenu__btn:hover, .hg-umenu__btn[aria-expanded="true"] { color: var(--hg-yellow); }
+.hg-umenu__btn .hg-i { width: 14px; height: 14px; transition: transform .2s ease-out; }
+.hg-umenu__btn[aria-expanded="true"] .hg-i { transform: rotate(180deg); }
+.hg-utility .hg-umenu__list { position: absolute; right: 0; top: 100%; z-index: 1100; display: block; min-width: 210px; padding: 6px; background: #fff; border: 1px solid var(--hg-border); border-radius: var(--hg-r-md); box-shadow: var(--hg-sh-lg); }
+.hg-utility .hg-umenu__list[hidden] { display: none; }
+.hg-umenu__list a, .hg-umenu__list button { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 0 12px; border: 0; border-radius: var(--hg-r-sm); background: none; color: var(--hg-navy) !important; font: inherit; font-size: 14px; font-weight: 600; text-align: left; text-decoration: none; cursor: pointer; }
+.hg-umenu__list a:hover, .hg-umenu__list button:hover, .hg-umenu__list a:focus-visible, .hg-umenu__list button:focus-visible { background: var(--hg-surface); color: var(--hg-orange-text) !important; }
+.hg-umenu__list .hg-i { width: 16px; height: 16px; color: var(--hg-orange-text); }
+@media (max-width: 479px) {
+    .hg-utility { font-size: 12.5px; }
+    .hg-utility ul { gap: 14px; }
+    .hg-utility__long { display: none; }
+    .hg-utility__short { display: inline; }
+}
