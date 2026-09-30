@@ -42,7 +42,7 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-header__inner { gap: 20px; }
     .hg-hcontact span { display: flex; }
 }
-/* Header logo: text-only script wordmark (owner request 2026-09-30); 180px on desktop is set in mega-menu.css */
+/* Header logo: text-only script wordmark (owner request 2026-09-30); 232px on desktop is set in mega-menu.css */
 .hg-header__logo img { width: 170px; }
 @media (max-width: 1023px) {
     .hg-header__logo img { width: 150px; }
