@@ -13,7 +13,7 @@ $hgFooterNav = hg_footer_nav();
             <div class="hg-footer__top">
                 <a href="/" class="hg-footer__brand" aria-label="Holiday Guru Travel home">
                     <picture><source type="image/webp" srcset="/assets/brand/holiday-guru-travel-badge-160.webp 1x, /assets/brand/holiday-guru-travel-badge-320.webp 2x"><img src="/assets/brand/holiday-guru-travel-badge-160.webp" alt="" width="64" height="64" loading="lazy"></picture>
-                    <span class="hg-footer__wordmark"><span class="hg-footer__name">Holiday <b>Guru</b> Travel</span><span class="hg-footer__tag">Explore &bull; Experience &bull; Create Memories</span></span>
+                    <span class="hg-footer__wordmark"><span class="hg-footer__name">Holiday <b>Guru Travel</b></span><span class="hg-footer__tag">Explore &bull; Experience &bull; Create Memories</span></span>
                 </a>
                 <p class="hg-footer__intro">Your trusted travel partner for holiday packages across India and abroad — day-by-day itineraries, customised trips and pilgrimage tours, planned by our team in Noida.</p>
                 <div class="hg-footer__social">

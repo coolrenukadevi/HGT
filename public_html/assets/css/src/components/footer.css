@@ -192,3 +192,6 @@
     .hg-footer__brand img { width: 80px; height: 80px; }
 }
 .hg-footer__tag, .hg-footer__name { white-space: normal; } /* wrap beside the larger badge instead of overflowing */
+/* Footer name in the logo colours (owner request 2026-09-30): "Guru Travel" in the logo saffron; "Holiday" stays
+   white because the logo navy would not show on the navy footer */
+.hg-footer__name b { color: var(--hg-orange); }
