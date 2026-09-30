@@ -816,15 +816,16 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
 @media (max-width: 767px) {
     .hg-hero h1 .hg-hero__t1, .hg-hero h1 .hg-hero__t2 { display: block; }
 }
-/* Hero title (owner request 2026-09-30, second pass): "Our expertise." in the logo navy. Navy needs a light
-   backdrop, so the eyebrow and title sit on a frosted white panel over the photo. */
-.hg-hero__inner .hg-hero__title { display: inline-block; max-width: 100%; padding: 18px 26px 20px; border-radius: var(--hg-r-lg); background: rgba(255, 255, 255, .86); box-shadow: 0 10px 30px rgba(6, 14, 40, .18); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
-.hg-hero__title .hg-eyebrow { margin-bottom: 6px; color: var(--hg-orange-text); text-shadow: none; }
-.hg-hero__title .hg-h1 { margin: 0; text-shadow: none; }
+/* Hero title (owner request 2026-09-30, third pass): "Our expertise." in the logo navy. Navy needs a light
+   backdrop, so the photo is lightened with a white wash behind the title (strongest at the left/top, clear on
+   the right/bottom) instead of the dark shading; no panel. */
+.hg-hero__slides::after { background: linear-gradient(90deg, rgba(255, 255, 255, .88) 0%, rgba(255, 255, 255, .72) 34%, rgba(255, 255, 255, .25) 58%, rgba(255, 255, 255, 0) 76%); }
+.hg-hero__inner .hg-eyebrow { color: var(--hg-orange-text); }
+.hg-hero__inner .hg-h1, .hg-hero__inner .hg-eyebrow { text-shadow: 0 0 18px rgba(255, 255, 255, .7); }
 .hg-hero h1 .hg-hero__t1 { color: var(--hg-orange); }
 .hg-hero h1 .hg-hero__t2 { color: var(--hg-navy); }
-@media (max-width: 767px) {
-    .hg-hero__inner .hg-hero__title { padding: 14px 18px 16px; }
+@media (max-width: 1023px) {
+    .hg-hero__slides::after { background: linear-gradient(180deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .78) 38%, rgba(255, 255, 255, 0) 68%); }
 }
 
 /* ===== src/pages/search-results.css ===== */
