@@ -1,0 +1,102 @@
+# Holiday Guru Travel — public URL routing
+# Canonical page URLs are extensionless: /about serves about.php, /about.php 301s to /about.
+# Only root-level pages that exist as <name>.php are affected; assets, sub-folders,
+# PHPMailer, admin and the form endpoints (mail.php, mail1.php) are untouched.
+
+Options -MultiViews -Indexes
+AcceptPathInfo Off
+DirectoryIndex index.php
+ErrorDocument 404 /404.php
+
+# Security headers (Phase 0). Deliberately NOT set here yet:
+# - Strict-Transport-Security: needs HTTPS verified on the live host first.
+# - A full Content-Security-Policy: the site relies on inline scripts/styles; only
+#   frame-ancestors is set, which does not restrict scripts, styles or images.
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Content-Security-Policy "frame-ancestors 'self'"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# 0. Consolidated pages (single 301 hop, also from the old .php URL)
+RewriteRule ^kashmir-tour(\.php)?/?$ /tours/kashmir [R=301,L]
+# Old destination hub pages -> destination pages /tours/{key}
+RewriteRule ^amarnath-ji-yatra(\.php)?/?$ /tours/amarnath [R=301,L]
+RewriteRule ^amazing-goa(\.php)?/?$ /tours/goa [R=301,L]
+RewriteRule ^chardham-yatra(\.php)?/?$ /tours/char-dham [R=301,L]
+RewriteRule ^darjeeling-sikkim(\.php)?/?$ /tours/sikkim-darjeeling [R=301,L]
+RewriteRule ^delight-full-himachal(\.php)?/?$ /tours/himachal [R=301,L]
+RewriteRule ^dream-dubai(\.php)?/?$ /tours/dubai [R=301,L]
+RewriteRule ^exotic-kerala(\.php)?/?$ /tours/kerala [R=301,L]
+RewriteRule ^leh-ladakh(\.php)?/?$ /tours/ladakh [R=301,L]
+RewriteRule ^ooty-mysore-coorg(\.php)?/?$ /tours/south-india [R=301,L]
+RewriteRule ^sizzling-singapore(\.php)?/?$ /tours/singapore-malaysia [R=301,L]
+RewriteRule ^uttarakhand-tour(\.php)?/?$ /tours/uttarakhand [R=301,L]
+# Old theme and listing pages without their own content -> closest live page
+RewriteRule ^pilgrim-holidays(\.php)?/?$ /religious-tour [R=301,L]
+RewriteRule ^devotional-tours-domestic(\.php)?/?$ /religious-tour [R=301,L]
+RewriteRule ^beach-holiday(\.php)?/?$ /tours/goa [R=301,L]
+RewriteRule ^hill-station-holidays(\.php)?/?$ /domestic-holidays [R=301,L]
+RewriteRule ^family-holiday(\.php)?/?$ /customized-holidays [R=301,L]
+RewriteRule ^honeymoon-holiday(\.php)?/?$ /customized-holidays [R=301,L]
+RewriteRule ^adventure-holiday(\.php)?/?$ /customized-holidays [R=301,L]
+RewriteRule ^royal-rajasthan(\.php)?/?$ /domestic-holidays [R=301,L]
+RewriteRule ^thriller-thailand(\.php)?/?$ /tours/singapore-malaysia [R=301,L]
+RewriteRule ^index2(\.php)?/?$ / [R=301,L]
+RewriteRule ^pages-[123](\.php)?/?$ /domestic-holidays [R=301,L]
+# Database-driven legacy templates (removed; query strings dropped)
+RewriteRule ^destinations(\.php)?/?$ / [R=301,L,QSD]
+RewriteRule ^destination_detail(\.php)?/?$ /tours [R=301,L,QSD]
+RewriteRule ^packages(\.php)?/?$ /tours [R=301,L,QSD]
+RewriteRule ^package-details(\.php)?/?$ /tours [R=301,L,QSD]
+RewriteRule ^themes-packages(\.php)?/?$ /religious-tour [R=301,L,QSD]
+RewriteRule ^theme-package-details(\.php)?/?$ /religious-tour [R=301,L,QSD]
+# Stray duplicate copy that shipped with the original upload
+RewriteRule ^files/public_html/uttarakhand-tour(\.php)?/?$ /tours/uttarakhand [R=301,L]
+# Template demo pages that were never part of the site
+RewriteRule ^blog(-details)?\.html$ - [R=404,L]
+
+# 0b. Package search / destination results: /tours and /tours/{destination}
+RewriteRule ^tours/$ /tours [R=301,L]
+RewriteRule ^tours/([a-z0-9-]+)/$ /tours/$1 [R=301,L]
+RewriteRule ^tours/([a-z0-9-]+)$ tours.php?dest=$1 [QSA,L]
+
+# 0c. Travel guides: /travel-guide/{slug} serves travel-guide/{slug}.php
+RewriteCond %{THE_REQUEST} \s/+travel-guide/[^?\s]+\.php[\s?]
+RewriteRule ^travel-guide/([a-z0-9-]+)\.php$ /travel-guide/$1 [R=301,L]
+RewriteRule ^travel-guide/([a-z0-9-]+)/$ /travel-guide/$1 [R=301,L]
+RewriteCond %{DOCUMENT_ROOT}/travel-guide/$1.php -f
+RewriteRule ^travel-guide/([a-z0-9-]+)$ travel-guide/$1.php [L]
+RewriteRule ^travel-guide/?$ - [R=404,L]
+
+# 1. /index.php and /index -> /
+RewriteCond %{THE_REQUEST} \s/+index(\.php)?[\s?]
+RewriteRule ^index(\.php)?$ / [R=301,L]
+
+# 2. /page.php -> /page (only when the browser asked for .php; internal rewrites are skipped,
+#    so there is no loop). Query strings are kept. Form endpoints and the 404 page are excluded.
+RewriteCond %{THE_REQUEST} \s/+[^?\s]+\.php[\s?]
+RewriteCond $1 !^(mail|mail1|404)$ [NC]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^([^/]+)\.php$ /$1 [R=301,L]
+
+# 3. /page/ -> /page
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^/.]+)/$ /$1 [R=301,L]
+
+# 4. /page -> page.php (internal, no redirect)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(mail|mail1|404|index)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Anything else that does not exist gets the real 404 page above (no homepage fallback).
+</IfModule>

@@ -1,0 +1,5 @@
+# Real server config holds the SMTP password: never commit it
+hgt-config.php
+config/hgt-config.php
+.env*
+*.log
