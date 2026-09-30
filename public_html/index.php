@@ -130,7 +130,7 @@ $heroSlides = array(
                     <ul><li>Road distances and trek lengths in every itinerary</li><li>Pony, palki and doli options explained</li><li>Helicopter packages for Char Dham and Amarnath</li></ul>
                     <a class="hg-btn hg-btn--primary" href="/religious-tour">Explore pilgrimage tours</a>
                 </div>
-                <?= hg_img('assets/img/destination/chardham1.jpg', 'Char Dham pilgrimage in the Garhwal Himalaya', 600, 600) ?>
+                <?= hg_img('assets/img/destinations/char-dham.jpg', 'The four Char Dham temples: Yamunotri, Gangotri, Kedarnath and Badrinath', 600, 600) ?>
             </article>
             <div class="hg-card">
                 <h3>Plan on request</h3>
@@ -205,9 +205,9 @@ $heroSlides = array(
     <div class="hg-container">
         <?= hg_section_head('Travel inspiration', 'Plan with confidence', '', null, 'inspo-title') ?>
         <div class="hg-grid hg-grid--3">
-            <a class="hg-guide" href="/travel-guide/kashmir"><?= hg_img('assets/img/destination/SrinagarGulmargPahalgamTour2.jpg', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Travel guide</p><h3>Kashmir travel guide</h3><p>Seasons, how to reach, getting around, where to stay and practical tips.</p></div></a>
-            <a class="hg-guide" href="/religious-tour"><?= hg_img('assets/img/destination/chardham1.jpg', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Pilgrimage</p><h3>Planning Char Dham &amp; Amarnath</h3><p>Registration, routes, trek lengths and helicopter options explained.</p></div></a>
-            <a class="hg-guide" href="/india-tours"><?= hg_img('', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Visiting India</p><h3>India for international travellers</h3><p>Arrival, e-Visa, seasons and private tours for first-time visitors.</p></div></a>
+            <a class="hg-guide" href="/travel-guide/kashmir"><?= hg_img('assets/img/destinations/kashmir.jpg', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Travel guide</p><h3>Kashmir travel guide</h3><p>Seasons, how to reach, getting around, where to stay and practical tips.</p></div></a>
+            <a class="hg-guide" href="/religious-tour"><?= hg_img('assets/img/destinations/char-dham.jpg', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Pilgrimage</p><h3>Planning Char Dham &amp; Amarnath</h3><p>Registration, routes, trek lengths and helicopter options explained.</p></div></a>
+            <a class="hg-guide" href="/india-tours"><?= hg_img('assets/img/hero/taj-mahal-agra.jpg', '', 640, 360) ?><div class="hg-guide__body"><p class="hg-guide__kicker">Visiting India</p><h3>India for international travellers</h3><p>Arrival, e-Visa, seasons and private tours for first-time visitors.</p></div></a>
         </div>
     </div>
 </section>

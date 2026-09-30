@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Kerala',
-    'image' => '',
+    'image' => 'assets/img/destinations/kerala.jpg',
     'map_query' => 'Munnar, Kerala',
     'related' => array('south-india', 'goa', 'maldives', 'kashmir'),
     'frequent' => array(

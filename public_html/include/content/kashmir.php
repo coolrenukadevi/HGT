@@ -14,7 +14,7 @@ return array(
     'name' => 'Kashmir',
     'region_label' => 'India',
     'region_url' => '/domestic-holidays',
-    'image' => 'assets/img/destination/SrinagarGulmargPahalgamTour2.jpg',
+    'image' => 'assets/img/destinations/kashmir.jpg',
     'map_query' => 'Srinagar, Jammu and Kashmir',
     'related' => array('amarnath', 'ladakh', 'himachal', 'uttarakhand'),
     'frequent' => array(

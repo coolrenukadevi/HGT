@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Dubai',
-    'image' => '',
+    'image' => 'assets/img/destinations/dubai.jpg',
     'map_query' => 'Dubai, United Arab Emirates',
     'related' => array('singapore-malaysia', 'maldives', 'goa', 'kerala'),
     'frequent' => array(

@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Singapore & Malaysia',
-    'image' => '',
+    'image' => 'assets/img/destinations/singapore-malaysia.jpg',
     'map_query' => 'Singapore',
     'related' => array('dubai', 'maldives', 'goa', 'kerala'),
     'frequent' => array(

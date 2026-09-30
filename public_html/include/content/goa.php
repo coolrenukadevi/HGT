@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Goa',
-    'image' => '',
+    'image' => 'assets/img/destinations/goa.jpg',
     'map_query' => 'Goa, India',
     'related' => array('kerala', 'maldives', 'south-india', 'dubai'),
     'frequent' => array(

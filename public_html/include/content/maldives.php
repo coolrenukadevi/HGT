@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Maldives',
-    'image' => '',
+    'image' => 'assets/img/destinations/maldives.jpg',
     'map_query' => 'Maldives',
     'related' => array('dubai', 'singapore-malaysia', 'goa', 'kerala'),
     'frequent' => array(

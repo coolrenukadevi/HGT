@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Char Dham Yatra',
-    'image' => '',
+    'image' => 'assets/img/destinations/char-dham.jpg',
     'map_query' => 'Kedarnath, Uttarakhand',
     'related' => array('amarnath', 'uttarakhand', 'himachal', 'kashmir'),
     'frequent' => array(

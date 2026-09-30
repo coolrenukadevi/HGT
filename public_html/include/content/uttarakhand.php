@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Uttarakhand',
-    'image' => '',
+    'image' => 'assets/img/destinations/uttarakhand.jpg',
     'map_query' => 'Nainital, Uttarakhand',
     'related' => array('char-dham', 'himachal', 'kashmir', 'ladakh'),
     'frequent' => array(

@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Leh Ladakh',
-    'image' => '',
+    'image' => 'assets/img/destinations/ladakh.jpg',
     'map_query' => 'Leh, Ladakh',
     'related' => array('kashmir', 'himachal', 'amarnath', 'uttarakhand'),
     'frequent' => array(

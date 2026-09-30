@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Amarnath Yatra',
-    'image' => '',
+    'image' => 'assets/img/destinations/amarnath.jpg',
     'map_query' => 'Baltal, Jammu and Kashmir',
     'related' => array('kashmir', 'char-dham', 'ladakh', 'himachal'),
     'frequent' => array(

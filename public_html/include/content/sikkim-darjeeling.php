@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Darjeeling & Sikkim',
-    'image' => '',
+    'image' => 'assets/img/destinations/sikkim-darjeeling.jpg',
     'map_query' => 'Gangtok, Sikkim',
     'related' => array('kashmir', 'himachal', 'uttarakhand', 'kerala'),
     'frequent' => array(

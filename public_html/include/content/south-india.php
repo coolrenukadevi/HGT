@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Ooty, Mysore & Coorg',
-    'image' => '',
+    'image' => 'assets/img/destinations/south-india.jpg',
     'map_query' => 'Mysore, Karnataka',
     'related' => array('kerala', 'goa', 'sikkim-darjeeling', 'uttarakhand'),
     'frequent' => array(

@@ -37,7 +37,7 @@ hg_layout_start(array(
                 <a class="hg-btn hg-btn--outline" href="#amarnath">Amarnath Yatra packages</a>
             </div>
         </div>
-        <div class="hg-pagehead__media"><?= hg_img('assets/img/destination/chardham1.jpg', 'Kedarnath temple in the Garhwal Himalaya', 640, 440, '', true) ?></div>
+        <div class="hg-pagehead__media"><?= hg_img('assets/img/destinations/char-dham.jpg', 'The four Char Dham temples: Yamunotri, Gangotri, Kedarnath and Badrinath', 640, 440, '', true) ?></div>
     </div>
 </section>
 

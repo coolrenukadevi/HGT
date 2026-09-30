@@ -12,7 +12,7 @@ return array(
     'status' => 'review',
     'reviewed' => '2026-09-30',
     'name' => 'Himachal Pradesh',
-    'image' => '',
+    'image' => 'assets/img/destinations/himachal.jpg',
     'map_query' => 'Manali, Himachal Pradesh',
     'related' => array('uttarakhand', 'kashmir', 'ladakh', 'goa'),
     'frequent' => array(
