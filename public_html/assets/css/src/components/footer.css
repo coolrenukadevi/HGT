@@ -174,3 +174,8 @@
     .hg-footer .hg-footer__bottomlinks { gap: 0 18px; }
     .hg-footer__bottomlinks li + li::before { display: none; }
 }
+/* Owner request 2026-09-30: justified footer text (intro and the multi-line contact details) */
+.hg-footer .hg-footer__intro, .hg-footer__contact li > span { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+@media (min-width: 1024px) {
+    .hg-footer .hg-footer__intro { font-size: 13.5px; }
+}
