@@ -105,10 +105,10 @@
     .hg-hsearch__field--dest input { height: 36px; font-size: 14.5px; }
     .hg-hsearch__submit { width: 30px; min-height: 30px; height: 30px; margin-right: 4px; }
     .hg-hsearch__submit .hg-i { width: 15px; height: 15px; }
-    .hg-hcontact { gap: 8px; font-size: 12.5px; }
-    .hg-hcontact span { line-height: 1.15; }
-    .hg-hcontact strong { font-size: 13px; }
-    .hg-hcontact .hg-i { width: 16px; height: 16px; padding: 7px; }
+    /* Call and WhatsApp: icons only (owner request); the links keep their aria-label and title */
+    .hg-hcontact { padding: 0 2px; }
+    .hg-hcontact span { display: none; }
+    .hg-hcontact .hg-i { width: 18px; height: 18px; padding: 9px; }
     .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger, .hg-nav__item > .hg-soon { min-height: 36px; }
 }
 /* ---------- Compact mega menus (owner request 2026-09-30): tighter rows, smaller type, lower panels ---------- */
