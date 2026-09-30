@@ -186,3 +186,9 @@
     .hg-body .hg-footer__bottom { padding-bottom: 72px; }
     .hg-footer__bottomlinks { margin-left: auto !important; justify-content: flex-end; }
 }
+/* Footer badge (owner request 2026-09-30): the round logo shown larger now that the header logo is text-only */
+.hg-footer__brand img { width: 84px; height: 84px; }
+@media (min-width: 992px) {
+    .hg-footer__brand img { width: 80px; height: 80px; }
+}
+.hg-footer__tag, .hg-footer__name { white-space: normal; } /* wrap beside the larger badge instead of overflowing */

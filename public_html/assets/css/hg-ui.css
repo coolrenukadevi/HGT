@@ -407,6 +407,14 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-header__inner { gap: 20px; }
     .hg-hcontact span { display: flex; }
 }
+/* Header logo: text-only script wordmark (owner request 2026-09-30); 180px on desktop is set in mega-menu.css */
+.hg-header__logo img { width: 170px; }
+@media (max-width: 1023px) {
+    .hg-header__logo img { width: 150px; }
+}
+@media (max-width: 374px) {
+    .hg-header__logo img { width: 128px; }
+}
 
 /* ===== src/components/holiday-search.css ===== */
 .hg-hsearch { position: relative; flex: 1 1 auto; display: flex; align-items: stretch; max-width: 760px; margin: 0 auto; border: 1px solid #C9D2E0; border-radius: var(--hg-r-md); background: #fff; box-shadow: var(--hg-sh-sm); }
@@ -650,7 +658,7 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
    Header row 50px (logo, search pill, contacts) + 36px menu row. --hg-sticky in tokens.css matches. */
 @media (min-width: 1024px) {
     .hg-header__inner { gap: 20px; }
-    .hg-header__logo img { width: 86px; }
+    .hg-header__logo img { width: 180px; }
     .hg-hsearch { min-height: 38px; max-width: 560px; }
     .hg-hsearch__field.hg-hsearch__field--dest { padding-left: 42px; }
     .hg-hsearch__field--dest > .hg-i { left: 16px; width: 17px; height: 17px; }
