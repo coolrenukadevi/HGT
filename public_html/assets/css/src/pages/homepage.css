@@ -105,3 +105,13 @@
 @media (max-width: 767px) {
     .hg-hero h1 .hg-hero__t1, .hg-hero h1 .hg-hero__t2 { display: block; }
 }
+/* Hero title (owner request 2026-09-30, second pass): "Our expertise." in the logo navy. Navy needs a light
+   backdrop, so the eyebrow and title sit on a frosted white panel over the photo. */
+.hg-hero__inner .hg-hero__title { display: inline-block; max-width: 100%; padding: 18px 26px 20px; border-radius: var(--hg-r-lg); background: rgba(255, 255, 255, .86); box-shadow: 0 10px 30px rgba(6, 14, 40, .18); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+.hg-hero__title .hg-eyebrow { margin-bottom: 6px; color: var(--hg-orange-text); text-shadow: none; }
+.hg-hero__title .hg-h1 { margin: 0; text-shadow: none; }
+.hg-hero h1 .hg-hero__t1 { color: var(--hg-orange); }
+.hg-hero h1 .hg-hero__t2 { color: var(--hg-navy); }
+@media (max-width: 767px) {
+    .hg-hero__inner .hg-hero__title { padding: 14px 18px 16px; }
+}
