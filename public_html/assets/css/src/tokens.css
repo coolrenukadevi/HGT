@@ -26,8 +26,8 @@
     --hg-sh-lg: 0 18px 44px rgba(10, 22, 61, .14);
     --hg-container: 1240px;
     --hg-gutter: 24px;
-    --hg-header-h: 76px;
-    --hg-sticky: 128px; /* full sticky header height (header row + nav) */
+    --hg-header-h: 50px;
+    --hg-sticky: 88px; /* full sticky header height (header row + nav) */
 }
 @media (max-width: 1023px) {
     /* Mobile search editor: the same form as a full-screen sheet */

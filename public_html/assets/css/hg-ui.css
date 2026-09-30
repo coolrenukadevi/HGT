@@ -620,6 +620,56 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-mega__col a { margin: 0; padding: 0 4px; min-height: 44px; justify-content: center; }
     .hg-mega__feature { margin-top: 8px; padding: 18px; }
 }
+/* ---------- Compact desktop header (owner request 2026-09-30): about 88px instead of 128px ----------
+   Header row 50px (logo, search pill, contacts) + 36px menu row. --hg-sticky in tokens.css matches. */
+@media (min-width: 1024px) {
+    .hg-header__inner { gap: 20px; }
+    .hg-header__logo img { width: 86px; }
+    .hg-hsearch { min-height: 38px; max-width: 560px; }
+    .hg-hsearch__field.hg-hsearch__field--dest { padding-left: 42px; }
+    .hg-hsearch__field--dest > .hg-i { left: 16px; width: 17px; height: 17px; }
+    .hg-hsearch__field--dest input { height: 36px; font-size: 14.5px; }
+    .hg-hsearch__submit { width: 30px; min-height: 30px; height: 30px; margin-right: 4px; }
+    .hg-hsearch__submit .hg-i { width: 15px; height: 15px; }
+    .hg-hcontact { gap: 8px; font-size: 12.5px; }
+    .hg-hcontact span { line-height: 1.15; }
+    .hg-hcontact strong { font-size: 13px; }
+    .hg-hcontact .hg-i { width: 16px; height: 16px; padding: 7px; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger, .hg-nav__item > .hg-soon { min-height: 36px; }
+}
+/* ---------- Compact mega menus (owner request 2026-09-30): tighter rows, smaller type, lower panels ---------- */
+@media (min-width: 1024px) {
+    .hg-mega__top .hg-mega__inner { min-height: 40px; padding-top: 5px; padding-bottom: 5px; gap: 6px 20px; }
+    .hg-mega__toplabel { font-size: 13px; }
+    .hg-mega__top ul { gap: 2px 18px; }
+    .hg-mega__top a { font-size: 14px; }
+    .hg-mega__body { grid-template-columns: 236px minmax(0, 1fr); }
+    .hg-mega__rail { padding: 6px 0; }
+    .hg-mega__tab { min-height: 38px; padding-right: 14px; font-size: 14.5px; }
+    .hg-mega__panes { padding: 14px 0 12px 28px; max-height: min(58vh, 440px); }
+    .hg-mega__all { margin-bottom: 8px; font-size: 14.5px; }
+    .hg-mega__groups { columns: 4 150px; column-gap: 24px; }
+    .hg-mega__group { padding-bottom: 10px; }
+    .hg-mega__tab { line-height: 1.2; }
+    .hg-mega__gname { min-width: 130px; padding-bottom: 5px; margin-bottom: 3px; font-size: 14.5px; }
+    .hg-mega__places a { padding: 2px 0; font-size: 13.5px; line-height: 1.35; }
+    .hg-mega__rail { min-width: 0; }
+    .hg-mega__tab { white-space: nowrap; }
+    .hg-mega__note { margin-bottom: 8px; font-size: 13px; }
+    .hg-mega__foot .hg-mega__inner { min-height: 44px; padding-top: 6px; padding-bottom: 6px; font-size: 13px; }
+    .hg-mega__foot .hg-btn { min-height: 34px; padding-top: 0; padding-bottom: 0; font-size: 13.5px; }
+    .hg-mega__grid { grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; padding-top: 16px; padding-bottom: 18px; }
+    .hg-mega__cols { gap: 4px 28px; }
+    .hg-mega__head { margin-bottom: 4px; padding-bottom: 5px; font-size: 11.5px; }
+    .hg-mega__col a { padding: 4px 10px; font-size: 14px; }
+    .hg-mega__col a small { margin-top: 1px; font-size: 12px; }
+    .hg-mega__feature { padding: 16px 18px; }
+    .hg-mega__ftitle { font-size: 16px; margin-bottom: 4px !important; }
+    .hg-mega__feature p { margin-bottom: 0; font-size: 13px; line-height: 1.45; }
+    .hg-mega__factions { gap: 6px; margin-top: 10px; }
+    .hg-mega__factions .hg-btn { min-height: 36px; font-size: 13.5px; }
+    .hg-mega__contact { gap: 5px; margin-top: 8px !important; font-size: 13px; }
+}
 
 /* ===== src/components/login-dialog.css ===== */
 .hg-login-btn { display: inline-flex; align-items: center; gap: 7px; color: #fff; text-decoration: none; }
