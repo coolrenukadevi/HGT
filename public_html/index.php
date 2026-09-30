@@ -55,17 +55,6 @@ $heroSlides = array(
     <div class="hg-container hg-hero__inner">
         <p class="hg-eyebrow">Holiday packages across India &amp; abroad</p>
         <h1 class="hg-h1" id="hero-title">Your journey. <span>Your way.</span></h1>
-        <p class="hg-hero__sub">Day-by-day itineraries for Kashmir, Char Dham, Himachal, Uttarakhand, Kerala, Ladakh, Dubai and more — planned by the Holiday Guru Travel team from our office in Noida.</p>
-        <div class="hg-hero__ctas">
-            <a class="hg-btn hg-btn--primary" href="/tours">Explore holiday packages</a>
-            <a class="hg-btn hg-btn--light" href="/customized-holidays">Plan my trip</a>
-        </div>
-        <ul class="hg-hero__benefits">
-            <li><?= hg_icon('route') ?>Day-by-day itineraries</li>
-            <li><?= hg_icon('check') ?>Customize any package</li>
-            <li><?= hg_icon('whatsapp') ?>24×7 support on WhatsApp</li>
-            <li><?= hg_icon('pin') ?>Office in Noida</li>
-        </ul>
     </div>
     <div class="hg-hero__controls" data-hg-slider-controls hidden>
         <button type="button" class="hg-hero__btn" data-hg-slide-prev aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>

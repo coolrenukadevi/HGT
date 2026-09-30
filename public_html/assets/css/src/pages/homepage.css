@@ -89,3 +89,12 @@
     .hg-searchwidget__grid .hg-field:first-child, .hg-searchwidget__grid .hg-field:nth-child(2), .hg-searchwidget__grid .hg-btn { grid-column: 1 / -1; }
 }
 .hg-feature .hg-eyebrow { color: var(--hg-yellow); }
+/* Hero: title only (owner request 2026-09-30) - lighter shading so the photo shows; darkest just behind the title */
+.hg-hero__slides::after { background:
+    linear-gradient(90deg, rgba(6, 14, 40, .62) 0%, rgba(6, 14, 40, .34) 38%, rgba(6, 14, 40, 0) 68%),
+    linear-gradient(0deg, rgba(6, 14, 40, .30) 0%, rgba(6, 14, 40, 0) 30%); }
+.hg-hero__inner .hg-h1, .hg-hero__inner .hg-eyebrow { text-shadow: 0 2px 14px rgba(6, 14, 40, .45); }
+@media (max-width: 1023px) {
+    .hg-hero--slider { min-height: 380px; }
+    .hg-hero__slides::after { background: linear-gradient(180deg, rgba(6, 14, 40, .55) 0%, rgba(6, 14, 40, .15) 50%, rgba(6, 14, 40, .35) 100%); }
+}
