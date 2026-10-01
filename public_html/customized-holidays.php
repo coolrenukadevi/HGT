@@ -13,7 +13,7 @@ $faqs = array(
 );
 
 hg_layout_start(array(
-    'title' => 'Customized Holiday Packages — Plan Your Own Trip | Holiday Guru Travel',
+    'title' => 'Customized Holiday Packages | Holiday Guru Travel',
     'description' => 'Plan a customized holiday in India or abroad. Share your destination, dates, travellers and budget, and a Holiday Guru Travel expert builds your itinerary and quote.',
     'path' => '/customized-holidays',
     'index' => empty($_GET),

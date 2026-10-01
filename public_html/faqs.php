@@ -59,7 +59,7 @@ $all = array();
 foreach ($sections as $s) $all = array_merge($all, $s[1]);
 
 hg_layout_start(array(
-    'title' => 'FAQs — Booking, Payment, Cancellation and Travel | Holiday Guru Travel',
+    'title' => 'Booking, Payment & Cancellation FAQs | Holiday Guru Travel',
     'description' => 'Answers about booking a holiday with Holiday Guru Travel: advance and payment methods, GST, inclusions, cancellation and refunds, documents, permits and the best time to travel.',
     'path' => '/faqs', 'index' => $status === 'approved',
     'breadcrumbs' => array(array('Home', '/'), array('FAQs', null)),

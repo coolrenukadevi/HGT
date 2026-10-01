@@ -22,7 +22,7 @@ $pack = array(
 $toc = array(array('when', 'When to go'), array('reach', 'How to reach'), array('around', 'Getting around'), array('pack', 'What to pack'), array('plan', 'A 5-day plan'), array('stay', 'Where to stay'), array('food', 'Food & shopping'), array('tips', 'Practical tips'), array('gfaq', 'FAQs'));
 
 hg_layout_start(array(
-    'title' => 'Kashmir Travel Guide: When to Go, How to Reach, What to Pack | Holiday Guru Travel',
+    'title' => 'Kashmir Travel Guide: When to Go, How to Reach, What to Pack',
     'description' => 'Plan a Kashmir trip: the best months for sightseeing or snow, how to reach Srinagar, getting to Gulmarg, Pahalgam and Sonmarg, what to pack by season and practical tips.',
     'path' => '/travel-guide/kashmir', 'index' => $status === 'approved', 'type' => 'article',
     'image' => $c['image'],
