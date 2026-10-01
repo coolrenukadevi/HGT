@@ -20,6 +20,41 @@ ErrorDocument 404 /404.php
     Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
 </IfModule>
 
+# Compression and browser caching (Phase 1, owner approval 2026-10-01). Every block is inside <IfModule>,
+# so a host without the module simply skips it.
+# - Text responses (pages, CSS, JS, SVG, JSON, XML) are gzip-compressed.
+# - CSS and JS links carry ?v=<file time> (hg_asset in include/ui/core.php), so they are cached for a year and an
+#   upload still reaches visitors at once. Font files never change name: one year.
+# - Photos: 30 days. A photo replaced under the SAME file name can show the old copy for up to 30 days.
+# - Pages (HTML/PHP) are not cached, so content edits appear immediately.
+<IfModule mod_mime.c>
+    AddType image/avif .avif
+    AddType image/webp .webp
+    AddType font/woff2 .woff2
+    AddType application/manifest+json .webmanifest
+</IfModule>
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/xml application/xhtml+xml text/javascript application/javascript application/x-javascript application/json application/ld+json application/manifest+json image/svg+xml image/x-icon image/vnd.microsoft.icon
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType text/javascript "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType application/x-javascript "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType image/avif "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/gif "access plus 30 days"
+    ExpiresByType image/svg+xml "access plus 30 days"
+    ExpiresByType image/x-icon "access plus 30 days"
+    ExpiresByType image/vnd.microsoft.icon "access plus 30 days"
+    ExpiresByType application/manifest+json "access plus 1 day"
+</IfModule>
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
