@@ -60,9 +60,9 @@
     .hg-enq__helpicon .hg-i { width: 26px; height: 26px; color: #fff; }
     .hg-enq__main { max-height: calc(100vh - 24px); padding: 40px 40px 32px; }
 }
-/* Owner request 2026-09-30: the "Enquire Now" window is 30% of the screen width (never narrower than 420px or
+/* Owner request 2026-10-01 (Phase 1): the "Enquire Now" window is 25% of the screen width (never narrower than 400px or
    wider than the screen), form only in one column; the photo panel is no longer shown. */
-.hg-enq { width: min(max(30vw, 420px), calc(100vw - 24px)); }
+.hg-enq { width: min(max(25vw, 400px), calc(100vw - 24px)); }
 .hg-enq .hg-enq__grid { grid-template-columns: minmax(0, 1fr); }
 .hg-enq .hg-enq__side { display: none; }
 .hg-enq .hg-enq__fields { grid-template-columns: minmax(0, 1fr); gap: 12px; }
