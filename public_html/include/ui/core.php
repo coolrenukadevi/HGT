@@ -220,6 +220,10 @@ if (!defined('HG_UI_CORE')) {
     /* Images                                                              */
     /* ------------------------------------------------------------------ */
 
+    /** Wide high-density screens (retina laptops, large high-DPI monitors): the only place 2400px hero photos load. */
+    define('HG_HIDPI_MEDIA', '(min-width: 1024px) and (min-resolution: 2dppx), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)');
+    define('HG_LODPI_MEDIA', '(max-width: 1023px), (max-resolution: 1.99dppx), (-webkit-max-device-pixel-ratio: 1.99)');
+
     /**
      * <img> for a site image. If the file is missing (the image library is not
      * in this repository), render a neutral block instead of a broken image;
@@ -244,10 +248,16 @@ if (!defined('HG_UI_CORE')) {
                 . ' onload="this.classList.add(\'is-loaded\')" onerror="window.hgImgFail&amp;&amp;hgImgFail(this)">';
             $base = preg_replace('/\.[a-z0-9]+$/i', '', $path);
             // Owner decision 2026-10-01: package and destination photos are offered up to 960px only; their 1600px
-            // files stay on disk for a later decision. Hero photos keep 1600px.
+            // files stay on disk for a later decision. Full-width hero photos (sizes '100vw') also offer 2400px, but
+            // only on wide high-density screens (HG_HIDPI_MEDIA), so phones and ordinary desktops never load it.
             $widths = preg_match('#^assets/img/(packages|destinations)/#', $path) ? array(480, 960) : array(480, 960, 1600);
+            $hidpi = strpos($path, 'assets/img/hero/') === 0 && $sizes === '100vw';
             $sources = '';
             foreach (array('avif', 'webp') as $fmt) {
+                if ($hidpi && is_file(dirname(__DIR__, 2) . '/' . $base . '-2400.' . $fmt)) {
+                    $sources .= '<source media="' . HG_HIDPI_MEDIA . '" type="image/' . $fmt . '" srcset="'
+                        . hg_e('/' . $base . '-1600.' . $fmt . ' 1600w, /' . $base . '-2400.' . $fmt . ' 2400w') . '" sizes="100vw">';
+                }
                 $set = array();
                 foreach ($widths as $w) {
                     if (is_file(dirname(__DIR__, 2) . '/' . $base . '-' . $w . '.' . $fmt)) $set[] = '/' . $base . '-' . $w . '.' . $fmt . ' ' . $w . 'w';
@@ -274,11 +284,22 @@ if (!defined('HG_UI_CORE')) {
     function hg_img_preload($path, $sizes)
     {
         $base = preg_replace('/\.[a-z0-9]+$/i', '', ltrim((string) $path, '/'));
+        $dir = dirname(__DIR__, 2) . '/';
         $set = array();
         foreach (array(480, 960, 1600) as $w) {
-            if (is_file(dirname(__DIR__, 2) . '/' . $base . '-' . $w . '.avif')) $set[] = '/' . $base . '-' . $w . '.avif ' . $w . 'w';
+            if (is_file($dir . $base . '-' . $w . '.avif')) $set[] = '/' . $base . '-' . $w . '.avif ' . $w . 'w';
         }
-        return $set ? '    <link rel="preload" as="image" type="image/avif" imagesrcset="' . hg_e(implode(', ', $set)) . '" imagesizes="' . hg_e($sizes) . '" fetchpriority="high">' . "\n" : '';
+        if (!$set) return '';
+        $link = function ($media, array $s) use ($sizes) {
+            return '    <link rel="preload" as="image" type="image/avif"' . ($media !== '' ? ' media="' . $media . '"' : '')
+                . ' imagesrcset="' . hg_e(implode(', ', $s)) . '" imagesizes="' . hg_e($sizes) . '" fetchpriority="high">' . "\n";
+        };
+        // Same split as hg_img(): wide high-density screens preload the 1600/2400 pair, everything else 480-1600.
+        if ($sizes === '100vw' && is_file($dir . $base . '-2400.avif') && is_file($dir . $base . '-1600.avif')) {
+            return $link(HG_LODPI_MEDIA, $set)
+                . $link(HG_HIDPI_MEDIA, array('/' . $base . '-1600.avif 1600w', '/' . $base . '-2400.avif 2400w'));
+        }
+        return $link('', $set);
     }
 
     /* ------------------------------------------------------------------ */

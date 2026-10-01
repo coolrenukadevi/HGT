@@ -989,6 +989,27 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
 @media (min-width: 768px) and (max-width: 1023px) {
     .hg-hero__inner .hg-h1 { font-size: min(4.5vw, 44px); }
 }
+/* Hero photo clarity (owner request 2026-10-01: photo looked blue and blurry).
+   - Lighter white wash, only behind the title at the top; the rest of the photo shows at full colour and contrast.
+   - Crossfade: the outgoing slide stays fully visible underneath while the new one fades in on top, so the navy
+     background no longer shows through mid-change; light (not navy) behind the hero while a photo loads.
+   - No blur or zoom on hero photos (a plain fade). */
+.hg-hero--slider { background: #EEF2F8; }
+.hg-hero__slides::after { background: linear-gradient(180deg, rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .45) 30%, rgba(255, 255, 255, 0) 55%); }
+.hg-hero__slides { z-index: 0; }
+.hg-hero__slides::after { z-index: 2; }
+.hg-hero__slide { transition: opacity 0s linear .9s, visibility 0s linear .9s; }
+.hg-hero__slide.is-active { z-index: 1; transition: opacity .9s ease, visibility 0s; }
+.hg-hero__slide .hg-hero__img, .hg-hero__slide.is-active .hg-hero__img { transform: none; transition: none; }
+.hg-js .hg-hero .hg-frame--dark:has(img.hg-reveal:not(.is-loaded)) { background-color: #EEF2F8; }
+.hg-js .hg-frame--hero img.hg-reveal.is-loaded { animation-name: hg-hero-fade; }
+@keyframes hg-hero-fade { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 1023px) {
+    .hg-hero__slides::after { background: linear-gradient(180deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .8) 36%, rgba(255, 255, 255, .3) 46%, rgba(255, 255, 255, 0) 56%); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .hg-hero__slide, .hg-hero__slide.is-active { transition: none; }
+}
 
 /* ===== src/pages/search-results.css ===== */
 .hg-answer { padding: 40px 0; border-top: 1px solid var(--hg-border); scroll-margin-top: calc(var(--hg-sticky) + 64px); }
