@@ -998,10 +998,9 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-hero__inner .hg-h1 { font-size: 28px; }
 }
 /* Phones (owner request 2026-09-30): title on one line, sized to the screen width; "Enquiry Now" beside the
-   first search label, jumping to the homepage enquiry form (#enquire). Hidden from 768px up. */
+   first search label, opening the Enquire Now dialog (homepage form removed 2026-10-01). Hidden from 768px up. */
 .hg-sw-labelrow { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .hg-sw-enquire { display: none; }
-#enquire { scroll-margin-top: calc(var(--hg-sticky) + 16px); }
 @media (max-width: 767px) {
     .hg-hero h1 .hg-hero__t1, .hg-hero h1 .hg-hero__t2 { display: inline; }
     .hg-hero__inner .hg-h1 { font-size: min(6.2vw, 28px); white-space: nowrap; letter-spacing: -.02em; }

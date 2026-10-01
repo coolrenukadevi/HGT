@@ -75,7 +75,7 @@ $heroSlides = array(
                 <div class="hg-field">
                     <div class="hg-sw-labelrow">
                         <label for="sw-q">Where do you want to go?</label>
-                        <a class="hg-btn hg-btn--primary hg-sw-enquire" href="#enquire" data-hg-track="enquiry_start">Enquiry Now</a>
+                        <button type="button" class="hg-btn hg-btn--primary hg-sw-enquire" data-hg-enquiry-open aria-haspopup="dialog" data-hg-track="enquiry_start">Enquiry Now</button>
                     </div>
                     <input id="sw-q" name="destination" type="search" placeholder="Destination, city or package" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sw-q-list" data-hg-autocomplete data-hg-ac-fill>
                     <ul class="hg-ac" id="sw-q-list" role="listbox" aria-label="Suggestions" hidden></ul>
@@ -216,14 +216,9 @@ $heroSlides = array(
 </section>
 
 <section class="hg-section hg-section--tint" aria-labelledby="faq-title">
-    <div class="hg-container hg-layout">
-        <div>
-            <?= hg_section_head('FAQs', 'Questions travellers ask us', '', array('All FAQs', '/faqs'), 'faq-title') ?>
-            <?= hg_faq($faqs) ?>
-        </div>
-        <div class="hg-sidecard" id="enquire">
-            <?= hg_enquiry_form('home-enquiry', 'Get a free quote', array('enquiry_type' => 'Homepage enquiry'), true) ?>
-        </div>
+    <div class="hg-container">
+        <?= hg_section_head('FAQs', 'Questions travellers ask us', '', array('All FAQs', '/faqs'), 'faq-title') ?>
+        <?= hg_faq($faqs) ?>
     </div>
 </section>
 
