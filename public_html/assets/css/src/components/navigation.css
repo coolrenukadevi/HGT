@@ -96,3 +96,33 @@
     .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { gap: 0; padding: 0 4px; }
     .hg-nav .hg-nav__enquire { padding: 0 10px; }
 }
+/* "Pay Now" tab (owner request 2026-10-01): navy pill beside "Enquire Now", opens Razorpay in a new tab.
+   Phones/tablets: hidden in the menu list; a full-width button under "Enquire now" in the drawer instead. */
+@media (min-width: 1024px) {
+    .hg-nav .hg-nav__pay { gap: 5px; min-height: 28px; margin-left: 6px; padding: 0 11px; border-radius: 999px; background: var(--hg-navy); color: #fff; }
+    .hg-nav .hg-nav__pay:hover, .hg-nav .hg-nav__pay:focus-visible { background: var(--hg-navy-dark); color: #fff; }
+    .hg-nav .hg-nav__pay .hg-i { width: 14px; height: 14px; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hg-nav .hg-nav__pay { margin-left: 4px; padding: 0 9px; }
+}
+@media (max-width: 1023px) {
+    .hg-nav__item--pay { display: none; }
+    .hg-nav__drawerfoot .hg-nav__paybtn { margin-top: 10px; }
+}
+/* Ten tabs with "Pay Now" (2026-10-01): slightly smaller tabs so the row fits the container at every width. */
+@media (min-width: 1280px) {
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { padding: 0 4px; font-size: 14px; }
+    .hg-nav .hg-nav__trigger .hg-i { width: 13px; height: 13px; }
+    .hg-nav .hg-nav__pay { margin-left: 4px; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { padding: 0 3px; font-size: 13px; }
+    .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { padding: 0 8px; }
+    .hg-nav .hg-nav__pay .hg-i { display: none; }
+}
+@media (min-width: 1200px) and (max-width: 1279px) {
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { padding: 0 3px; font-size: 13.5px; }
+    .hg-nav .hg-nav__trigger .hg-i { width: 12px; height: 12px; }
+    .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { padding: 0 9px; }
+}

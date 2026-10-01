@@ -3,6 +3,8 @@
  * GLOBAL COMPONENT: primary navigation (#hg-nav) and mobile drawer. Mega-menu panels: mega-menu.php.
  * Tabs: Domestic · International · Inbound Tours · Special Tours · Fixed Departure (mega menus), Customised Tours,
  * Offers, About Us (mega menu), Enquire Now (opens the enquiry dialog; Contact is in About Us and the footer).
+ * Pay Now (owner request 2026-10-01): HG_PAY_LINK (Razorpay) in a new tab; in the phone drawer it is a button
+ * under "Enquire now". Hidden if HG_PAY_LINK is empty.
  * Behaviour: [data-hg-nav], [data-hg-mega], [data-hg-menu-*] in assets/js/hg-ui.js.
  */
 ?>
@@ -39,9 +41,15 @@
 <?php $hgMegaPanel = 'about'; include __DIR__ . '/mega-menu.php'; ?>
             </li>
             <li class="hg-nav__item hg-nav__item--enquire"><button type="button" class="hg-nav__link hg-nav__enquire" data-hg-enquiry-open aria-haspopup="dialog">Enquire Now</button></li>
+<?php if (HG_PAY_LINK !== '') { ?>
+            <li class="hg-nav__item hg-nav__item--pay"><a class="hg-nav__link hg-nav__pay" href="<?= hg_e(HG_PAY_LINK) ?>" target="_blank" rel="noopener" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a></li>
+<?php } ?>
         </ul>
         <div class="hg-nav__drawerfoot">
             <a class="hg-btn hg-btn--primary hg-btn--block" href="/customized-holidays">Enquire now</a>
+<?php if (HG_PAY_LINK !== '') { ?>
+            <a class="hg-btn hg-btn--navy hg-btn--block hg-nav__paybtn" href="<?= hg_e(HG_PAY_LINK) ?>" target="_blank" rel="noopener" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a>
+<?php } ?>
             <div class="hg-nav__quick">
                 <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_icon('phone') ?> Call</a>
                 <a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_icon('whatsapp') ?> WhatsApp</a>
