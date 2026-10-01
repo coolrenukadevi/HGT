@@ -558,6 +558,13 @@ $check = function ($name, $value, $label, $count, $checked) {
         <?= hg_tip('Travel tips from our team', '<ul>' . implode('', array_map(function ($t) { return '<li>' . hg_e($t) . '</li>'; }, $c['tips'])) . '</ul>') ?>
 
         <?php if (!empty($c['more_html'])) { ?><p><?= $c['more_html'] ?></p><?php } ?>
+
+        <?php require_once __DIR__ . '/include/content/blog/index.php'; $guides = hg_blog_guides_for_group($group['key']); if ($guides) { ?>
+        <section class="hg-answer" aria-labelledby="q-guides">
+            <h3 class="hg-h3" id="q-guides"><?= hg_e($name) ?> travel guides</h3>
+            <?= hg_blog_link_list($guides) ?>
+        </section>
+        <?php } ?>
     </div>
 </section>
 

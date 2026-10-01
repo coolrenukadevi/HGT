@@ -12,7 +12,7 @@ if (!$a) {
 }
 $path = $a['url'];
 $group = $a['group'] !== '' ? hg_group($a['group']) : null;
-$related = $a['group'] !== '' ? array_slice(hg_packages_in($a['group']), 0, 3) : array();
+$related = hg_blog_related_packages($a, 3);
 $more = array_slice(array_values(array_filter(hg_blog_posts(), function ($p) use ($a) { return $p['cat'] === $a['cat'] && $p['slug'] !== $a['slug']; })), 0, 3);
 $schema = array(array(
     '@type' => 'BlogPosting', 'headline' => $a['title'], 'description' => $a['desc'],

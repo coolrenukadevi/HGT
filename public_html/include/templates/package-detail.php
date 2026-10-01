@@ -374,6 +374,10 @@ if (!function_exists('hg_render_package')) {
             <p class="hg-summary"><strong>Best time:</strong> <?= hg_e($content['best_time_answer']) ?></p>
             <div class="hg-prose"><p><?= hg_e($content['transport']) ?></p></div>
             <p><a class="hg-link-arrow" href="<?= hg_e($g['hub_url']) ?>">All <?= hg_e($g['name']) ?> tour packages and travel advice <span aria-hidden="true">&rarr;</span></a></p>
+            <?php require_once dirname(__DIR__) . '/content/blog/index.php'; $guides = hg_blog_guides_for_package($p, 2); if ($guides) { ?>
+            <h3 class="hg-h3">Travel guides for this trip</h3>
+            <?= hg_blog_link_list($guides) ?>
+            <?php } ?>
         </section>
         <?php } ?>
     </div>
