@@ -124,7 +124,7 @@ hg_layout_start(array(
         <h2 class="hg-h3">Cancellations and refunds</h2>
         <p>If you cancel, charges depend on how close to departure you cancel and on each supplier's rules. Refunds are made to the account you paid from, after suppliers return the amounts to us. See our <a href="/cancellation-policy">cancellation policy</a>, <a href="/refund-policy">refund policy</a> and <a href="/payment-policy">payment policy</a>.</p>
         <p>Questions about a payment? Call <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a> or email <a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL) ?></a>.</p>
-        <p class="hg-muted" style="font-size:14px">Holiday Guru Travel is operated by <?= hg_e(HG_LEGAL_NAME) ?>.</p>
+        <p class="hg-muted" style="font-size:14px">Holiday Guru Travel is operated by <?= hg_e(HG_LEGAL_NAME) ?><?= HG_GSTIN !== '' ? ' (GST No. ' . hg_e(HG_GSTIN) . ')' : '' ?>.</p>
     </div>
 </section>
 <?php if ($bankReady) { ?>

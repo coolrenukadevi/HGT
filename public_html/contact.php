@@ -49,6 +49,7 @@ hg_layout_start(array(
         <h2 class="hg-h3" id="co-title">Company details</h2>
         <dl class="hg-qf">
             <div><dt>Legal name</dt><dd><?= hg_e(HG_LEGAL_NAME) ?></dd></div>
+            <?php if (HG_GSTIN !== '') { ?><div><dt>GST No.</dt><dd><?= hg_e(HG_GSTIN) ?></dd></div><?php } ?>
             <div><dt>Brand</dt><dd>Holiday Guru Travel</dd></div>
             <div><dt>Follow us</dt><dd><a href="<?= hg_e(HG_FACEBOOK_URL) ?>" target="_blank" rel="noopener">Facebook</a> · <a href="<?= hg_e(HG_INSTAGRAM_URL) ?>" target="_blank" rel="noopener">Instagram</a></dd></div>
         </dl>

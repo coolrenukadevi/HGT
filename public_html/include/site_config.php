@@ -33,6 +33,8 @@ if (!defined('HG_SITE_CONFIG')) {
     // The previous entity name and its CIN were removed site-wide at the owner's request.
     define('HG_LEGAL_NAME', 'M/S Holiday Guru Travel');
     define('HG_COPYRIGHT_SINCE', 2014);
+    // GST registration number (GSTIN) of HG_LEGAL_NAME (owner, 2026-10-01). Shown on Contact, About and Payment; '' hides it.
+    define('HG_GSTIN', '09GDJPS5583J2ZK');
     // ---- Payment settings (Payment page /payment and Payment policy page) -------------------------
     // Fill these in once; the pages update themselves. Leave a value '' and it is not shown.
     // Account holder and UPI payee name are always HG_LEGAL_NAME.

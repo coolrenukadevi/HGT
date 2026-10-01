@@ -318,6 +318,7 @@ if (!defined('HG_UI_CORE')) {
             '@id' => HG_SITE_URL . '/#organization',
             'name' => 'Holiday Guru Travel',
             'legalName' => HG_LEGAL_NAME,
+        ) + (HG_GSTIN !== '' ? array('taxID' => HG_GSTIN) : array()) + array(
             'url' => HG_SITE_URL . '/',
             'logo' => HG_SITE_URL . '/assets/brand/holiday-guru-travel-logo-240.png',
             'image' => HG_SITE_URL . '/assets/brand/holiday-guru-travel-logo-720.webp',
