@@ -22,7 +22,7 @@ if (!defined('HG_SITE_CONFIG')) {
     define('HG_EMAIL', 'info@holidaygurutravel.in');
 
     // Official office address (confirmed by the owner, 2026-09-29).
-    define('HG_ADDRESS_LINE1', '2nd floor, B6 Dharampali Palace');
+    define('HG_ADDRESS_LINE1', '2nd floor, B-8 Dharampali Palace');
     define('HG_ADDRESS_LINE2', 'Bhoja Market, Sector 27, Noida-201301 UP(IN)');
 
     // Official social profiles (both confirmed by the owner, 2026-09-29).
