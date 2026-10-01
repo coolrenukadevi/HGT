@@ -577,10 +577,10 @@ $check = function ($name, $value, $label, $count, $checked) {
 </section>
 <?php } ?>
 
-<div class="hg-bottombar" aria-label="Quick contact">
-    <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_icon('phone') ?>Call</a>
-    <a href="<?= hg_e(hg_whatsapp_href($name ? "Hi Holiday Guru Travel,\nI am looking for a " . $name . " holiday package." : '')) ?>" target="_blank" rel="noopener"><?= hg_icon('whatsapp') ?>WhatsApp</a>
-    <a class="is-primary" href="/customized-holidays<?= hg_e(hg_context_query($name ? array('destination' => $name) : array())) ?>"><?= hg_icon('mail') ?>Enquire</a>
-</div>
-
-<?php hg_layout_end(); ?>
+<?php
+$GLOBALS['hgMobileBar'] = array(
+    'whatsapp' => $name ? "Hi Holiday Guru Travel,\nI am looking for a " . $name . " holiday package." : '',
+    'enquire' => '/customized-holidays' . hg_context_query($name ? array('destination' => $name) : array()),
+    'track' => false,
+);
+hg_layout_end(); ?>

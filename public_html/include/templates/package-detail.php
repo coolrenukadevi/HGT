@@ -420,12 +420,8 @@ if (!function_exists('hg_render_package')) {
 </section>
 <?php } ?>
 
-<div class="hg-bottombar" aria-label="Quick contact">
-    <a href="<?= hg_e(hg_tel_href()) ?>" data-hg-track="call_click"><?= hg_icon('phone') ?>Call</a>
-    <a href="<?= hg_e(hg_whatsapp_href($wa)) ?>" target="_blank" rel="noopener" data-hg-track="whatsapp_click"><?= hg_icon('whatsapp') ?>WhatsApp</a>
-    <a class="is-primary" href="#enquiry-form" data-hg-track="enquiry_start"><?= hg_icon('mail') ?>Enquire</a>
-</div>
 <?php
+        $GLOBALS['hgMobileBar'] = array('whatsapp' => $wa, 'enquire' => '#enquiry-form');
         hg_layout_end();
     }
 }

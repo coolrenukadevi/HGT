@@ -405,6 +405,7 @@ if (!defined('HG_UI_CORE')) {
     {
         echo "</main>\n";
         include __DIR__ . '/../global/footer.php';
+        include __DIR__ . '/../global/mobile-bar.php';
         include __DIR__ . '/../global/support-widget.php';
         include __DIR__ . '/../global/cookie-consent.php';
         include __DIR__ . '/../global/login-dialog.php';

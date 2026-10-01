@@ -1,0 +1,14 @@
+/* Mobile sticky contact bar: Call · WhatsApp · Enquire on every page below 1024px (include/global/mobile-bar.php).
+   Enquire is a link where the page has its own form, otherwise a button that opens the Enquire Now dialog. */
+.hg-bottombar { display: none; }
+@media (max-width: 1023px) {
+    .hg-bottombar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1025; display: grid; grid-template-columns: 1fr 1fr 1.3fr; gap: 8px; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: #fff; border-top: 1px solid var(--hg-border); box-shadow: 0 -4px 16px rgba(10, 22, 61, .08); }
+    .hg-bottombar a, .hg-bottombar button { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 48px; margin: 0; padding: 0 8px; border: 1px solid var(--hg-navy); border-radius: var(--hg-r-sm); background: #fff; font-family: inherit; font-size: 15px; font-weight: 700; line-height: 1.2; text-decoration: none; color: var(--hg-navy); cursor: pointer; }
+    .hg-bottombar .hg-i { width: 18px; height: 18px; }
+    .hg-bottombar .is-primary { border-color: var(--hg-orange); background: var(--hg-orange); color: var(--hg-navy-dark); }
+    .hg-bottombar :focus-visible { outline: 3px solid var(--hg-navy); outline-offset: 2px; }
+    .hg-body:has(.hg-bottombar) { padding-bottom: 72px; }
+}
+@media print {
+    .hg-bottombar { display: none !important; }
+}
