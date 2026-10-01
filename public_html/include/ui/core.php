@@ -349,10 +349,22 @@ if (!defined('HG_UI_CORE')) {
         return is_file($f) ? $path . '?v=' . filemtime($f) : $path;
     }
 
+    /** Approved SEO title/description for a canonical path (include/data/seo-meta.php), or an empty array. */
+    function hg_seo_meta($path)
+    {
+        static $all = null;
+        if ($all === null) {
+            $f = dirname(__DIR__) . '/data/seo-meta.php';
+            $all = is_file($f) ? (array) include $f : array();
+        }
+        return isset($all[$path]) ? $all[$path] : array();
+    }
+
     function hg_head(array $meta)
     {
-        $title = $meta['title'];
-        $desc = $meta['description'];
+        $seo = hg_seo_meta(isset($meta['path']) ? $meta['path'] : '/');
+        $title = isset($seo['title']) ? $seo['title'] : $meta['title'];
+        $desc = isset($seo['description']) ? $seo['description'] : $meta['description'];
         $canonical = hg_abs(isset($meta['path']) ? $meta['path'] : '/');
         $image = hg_abs(isset($meta['image']) && $meta['image'] ? $meta['image'] : '/assets/brand/holiday-guru-travel-logo-720.webp');
         $index = !isset($meta['index']) || $meta['index'];
