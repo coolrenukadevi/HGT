@@ -56,7 +56,7 @@ return array(
     '/chardham-yatra-by-helicopter' => array('title' => 'Char Dham Yatra by Helicopter Tour – 5N/6D | Holiday Guru Travel'),
     '/chardham-yatra-from-haridwar-8n-9d' => array('title' => 'Char Dham Yatra from Haridwar | Holiday Guru Travel', 'description' => 'Char Dham Yatra from Haridwar covering Rishikesh, Barkot, Uttarkashi, Guptkashi and 4 more stops. Includes deluxe hotels, breakfast & dinner and private transfers.'),
     '/cochin-munnar-thekkedy-alleppey-06-days' => array('title' => 'Cochin Munnar Thekkady Alleppey | Holiday Guru Travel', 'description' => 'Cochin Munnar Thekkady Alleppey. Includes deluxe hotels, daily breakfast, private transfers and a houseboat stay.'),
-    '/contact' => array('description' => 'Call or WhatsApp +91 80066 92040, email info@holidaygurutravel.in, or visit our office at Bhoja Market, Sector 27, Noida.'),
+    '/contact' => array('description' => 'Call +91 80066 92040, WhatsApp +91 99717 54265, email info@holidaygurutravel.in, or visit our office at Bhoja Market, Sector 27, Noida.'),
     '/corbett-with-nainital-and-mussoorie-07-days' => array('title' => 'Corbett with Nainital and Mussoorie – 6N/7D | Holiday Guru Travel'),
     '/customized-holidays' => array('description' => 'Plan a customised holiday in India or abroad: share your destination, dates, travellers and budget, and a travel expert builds your itinerary and quote.'),
     '/darjeeling-and-gangtok-06-days' => array('title' => 'Darjeeling and Gangtok Tour | Holiday Guru Travel', 'description' => 'Darjeeling and Gangtok Tour, one of our Darjeeling & Sikkim tours. Day-by-day itinerary; quoted for your dates.'),

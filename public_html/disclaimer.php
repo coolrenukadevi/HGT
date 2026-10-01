@@ -47,7 +47,7 @@ ob_start(); ?>
 <p>Some activities, such as trekking, water sports, snow activities and high-altitude travel, carry risk. Please consult a doctor about fitness and vaccinations, follow local guides' instructions, and buy travel insurance that covers your planned activities.</p>
 
 <h2 class="hg-h3" id="d10">10. Complaints and contact</h2>
-<p>If you have a complaint, please follow our <a href="/grievance-redress">grievance redress</a> process, or email <a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL_DISPLAY) ?></a> with your booking reference and the details. Phone and WhatsApp: <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a>.</p>
+<p>If you have a complaint, please follow our <a href="/grievance-redress">grievance redress</a> process, or email <a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL_DISPLAY) ?></a> with your booking reference and the details. Phone: <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a>; WhatsApp: <a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></a>.</p>
 
 <h2 class="hg-h3" id="d11">11. Governing law</h2>
 <p>This disclaimer is governed by the laws of India. Any dispute is subject to the exclusive jurisdiction of the courts at Gautam Buddh Nagar (Noida), Uttar Pradesh.</p>

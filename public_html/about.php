@@ -79,7 +79,8 @@ hg_layout_start(array(
             <div><dt>Brand</dt><dd>Holiday Guru Travel</dd></div>
             <div><dt>Legal name</dt><dd><?= hg_e(HG_LEGAL_NAME) ?></dd></div>
             <div><dt>Office</dt><dd><?= hg_e(HG_ADDRESS_LINE1) ?>, <?= hg_e(HG_ADDRESS_LINE2) ?></dd></div>
-            <div><dt>Phone &amp; WhatsApp</dt><dd><a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a> (WhatsApp 24×7)</dd></div>
+            <div><dt>Phone</dt><dd><a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a></dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></a> (24×7)</dd></div>
             <div><dt>Email</dt><dd><a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL_DISPLAY) ?></a></dd></div>
             <div><dt>People</dt><dd><a href="/leadership">Leadership</a> · <a href="/our-team">Our team</a> · <a href="/career">Careers</a></dd></div>
         </dl>

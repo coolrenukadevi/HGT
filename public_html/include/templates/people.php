@@ -47,7 +47,7 @@ if (!function_exists('hg_render_people')) {
             <li><strong>Your enquiry</strong><span>A travel expert calls or WhatsApps you to understand your dates, travellers and budget.</span></li>
             <li><strong>Your itinerary</strong><span>We send a day-by-day plan with hotels, inclusions, exclusions and a quote.</span></li>
             <li><strong>Your booking</strong><span>A 35% advance confirms the trip; we issue your booking voucher once payment is received.</span></li>
-            <li><strong>On the trip</strong><span>Reach us on WhatsApp 24×7 at <?= hg_e(HG_PHONE_DISPLAY) ?>.</span></li>
+            <li><strong>On the trip</strong><span>Reach us on WhatsApp 24×7 at <?= hg_e(HG_WHATSAPP_DISPLAY) ?>.</span></li>
         </ol>
     </div>
 </section>

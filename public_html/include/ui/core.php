@@ -699,7 +699,7 @@ if (!defined('HG_UI_CORE')) {
     {
         return array(
             array('How do I book a holiday package with Holiday Guru Travel?',
-                '<p>Send an enquiry (or call or WhatsApp ' . hg_e(HG_PHONE_DISPLAY) . '). A travel expert confirms the itinerary, hotels and price with you. Our package booking terms ask for a <strong>35% advance</strong> to confirm, with the balance paid before departure. We issue a booking voucher once the payment is received.</p>'),
+                '<p>Send an enquiry (or call ' . hg_e(HG_PHONE_DISPLAY) . ' or WhatsApp ' . hg_e(HG_WHATSAPP_DISPLAY) . '). A travel expert confirms the itinerary, hotels and price with you. Our package booking terms ask for a <strong>35% advance</strong> to confirm, with the balance paid before departure. We issue a booking voucher once the payment is received.</p>'),
             array('Which payment methods do you accept?',
                 '<p>Net banking, IMPS, NEFT, cheque and UPI (including Google Pay, PhonePe, Paytm and scan-to-pay QR). We do not accept cash. Air and train tickets need full payment at the time of booking.</p>'),
             array('Can I change the itinerary or hotels in a package?',

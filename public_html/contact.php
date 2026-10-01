@@ -6,7 +6,7 @@ $mapsDir = 'https://www.google.com/maps/dir/?api=1&destination=' . rawurlencode(
 
 hg_layout_start(array(
     'title' => 'Contact Holiday Guru Travel | Travel Agency in Noida, Delhi NCR',
-    'description' => 'Contact Holiday Guru Travel for holiday packages and customized tours. Call or WhatsApp +91 80066 92040, email Info@holidaygurutravel.in, or visit our office at Bhoja Market, Sector 27, Noida.',
+    'description' => 'Contact Holiday Guru Travel for holiday packages and customized tours. Call +91 80066 92040, WhatsApp +91 99717 54265, email Info@holidaygurutravel.in, or visit our office at Bhoja Market, Sector 27, Noida.',
     'path' => '/contact',
     'breadcrumbs' => array(array('Home', '/'), array('Contact Us', null)),
     'schema' => array(array('@type' => 'ContactPage', 'name' => 'Contact Holiday Guru Travel', 'url' => hg_abs('/contact'), 'about' => array('@id' => HG_SITE_URL . '/#organization'))),
@@ -24,7 +24,7 @@ hg_layout_start(array(
     <div class="hg-container">
         <ul class="hg-contactcards">
             <li><?= hg_icon('phone') ?><div><h2>Call</h2><a href="<?= hg_e(hg_tel_href()) ?>" data-hg-track="call_click"><?= hg_e(HG_PHONE_DISPLAY) ?></a></div></li>
-            <li><?= hg_icon('whatsapp') ?><div><h2>WhatsApp · 24×7</h2><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener" data-hg-track="whatsapp_click"><?= hg_e(HG_PHONE_DISPLAY) ?></a></div></li>
+            <li><?= hg_icon('whatsapp') ?><div><h2>WhatsApp · 24×7</h2><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener" data-hg-track="whatsapp_click"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></a></div></li>
             <li><?= hg_icon('mail') ?><div><h2>Email</h2><a href="<?= hg_e(hg_mailto_href()) ?>" data-hg-track="email_click"><?= hg_e(HG_EMAIL_DISPLAY) ?></a></div></li>
             <li><?= hg_icon('pin') ?><div><h2>Office</h2><address><?= hg_e(HG_ADDRESS_LINE1) ?>,<br><?= hg_e(HG_ADDRESS_LINE2) ?></address><a href="<?= hg_e($mapsDir) ?>" target="_blank" rel="noopener">Get directions</a></div></li>
         </ul>

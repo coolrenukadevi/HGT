@@ -51,7 +51,7 @@ $sections = array(
         array('Do you plan trips for foreign visitors to India?', '<p>Yes — see <a href="/india-tours">India tours for foreign travellers</a>.</p>'),
     )),
     'support' => array('Support', array(
-        array('How do I reach you?', '<p>Call or WhatsApp <a href="' . hg_e(hg_tel_href()) . '">' . hg_e(HG_PHONE_DISPLAY) . '</a> (WhatsApp 24×7), email <a href="' . hg_e(hg_mailto_href()) . '">' . hg_e(HG_EMAIL_DISPLAY) . '</a>, or visit our office at ' . hg_e(HG_ADDRESS_LINE1) . ', ' . hg_e(HG_ADDRESS_LINE2) . '.</p>'),
+        array('How do I reach you?', '<p>Call <a href="' . hg_e(hg_tel_href()) . '">' . hg_e(HG_PHONE_DISPLAY) . '</a>, WhatsApp <a href="' . hg_e(hg_whatsapp_href()) . '" target="_blank" rel="noopener">' . hg_e(HG_WHATSAPP_DISPLAY) . '</a> (24×7), email <a href="' . hg_e(hg_mailto_href()) . '">' . hg_e(HG_EMAIL_DISPLAY) . '</a>, or visit our office at ' . hg_e(HG_ADDRESS_LINE1) . ', ' . hg_e(HG_ADDRESS_LINE2) . '.</p>'),
         array('Who operates Holiday Guru Travel?', '<p>Holiday Guru Travel is operated by ' . hg_e(HG_LEGAL_NAME) . ', from our office in Sector 27, Noida.</p>'),
     )),
 );
@@ -84,5 +84,5 @@ foreach ($sections as $k => $s) $nav[] = array($k, $s[0]);
     </div>
 </section>
 <?php } ?>
-<?= hg_cta_band('Still have a question?', 'Call or WhatsApp ' . HG_PHONE_DISPLAY . ' — a travel expert will help.') ?>
+<?= hg_cta_band('Still have a question?', 'Call ' . HG_PHONE_DISPLAY . ' or WhatsApp ' . HG_WHATSAPP_DISPLAY . ' — a travel expert will help.') ?>
 <?php hg_layout_end(); ?>

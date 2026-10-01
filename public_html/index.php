@@ -176,7 +176,7 @@ $heroSlides = array(
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('route') ?></span><h3>Read the plan first</h3><p>Every package page shows the route, day by day, before you share any details.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('temple') ?></span><h3>Pilgrimage know-how</h3><p>Char Dham, Do Dham and Amarnath itineraries with trek distances, altitudes and helicopter options.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('bed') ?></span><h3>One plan, end to end</h3><p>Hotels, private cab transfers and sightseeing in one itinerary, with inclusions listed line by line.</p></div>
-            <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('phone') ?></span><h3>Talk to a person</h3><p>Call or WhatsApp <?= hg_e(HG_PHONE_DISPLAY) ?> to speak with the team that plans your trip.</p></div>
+            <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('phone') ?></span><h3>Talk to a person</h3><p>Call <?= hg_e(HG_PHONE_DISPLAY) ?> or WhatsApp <?= hg_e(HG_WHATSAPP_DISPLAY) ?> to speak with the team that plans your trip.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('check') ?></span><h3>Clear booking terms</h3><p>35% advance to confirm, balance before departure, voucher on payment. No cash payments.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('shield') ?></span><h3>Who we are</h3><p>Holiday Guru Travel is operated by <?= hg_e(HG_LEGAL_NAME) ?> from our office in Sector 27, Noida.</p></div>
         </div>
@@ -189,7 +189,7 @@ $heroSlides = array(
         <div class="hg-stats">
             <div class="hg-stat"><span class="hg-stat__value">Day by day</span><span class="hg-stat__label">Every itinerary</span><span class="hg-stat__src">Inclusions &amp; exclusions listed</span></div>
             <div class="hg-stat"><span class="hg-stat__value">Your way</span><span class="hg-stat__label">Customize any tour</span><span class="hg-stat__src">Hotels, nights, sightseeing</span></div>
-            <div class="hg-stat"><span class="hg-stat__value">24×7</span><span class="hg-stat__label">WhatsApp support</span><span class="hg-stat__src"><?= hg_e(HG_PHONE_DISPLAY) ?></span></div>
+            <div class="hg-stat"><span class="hg-stat__value">24×7</span><span class="hg-stat__label">WhatsApp support</span><span class="hg-stat__src"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></span></div>
             <div class="hg-stat"><span class="hg-stat__value">Noida</span><span class="hg-stat__label">Office in Sector 27</span><span class="hg-stat__src"><a href="/contact">Address &amp; map</a></span></div>
         </div>
     </div>

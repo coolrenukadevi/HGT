@@ -45,7 +45,7 @@ hg_layout_start(array(
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('plane') ?></span><h3>From your arrival</h3><p>Packages start with pick-up at the arrival airport or station and end with drop-off for your onward journey.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('car') ?></span><h3>Private cab</h3><p>Transfers and sightseeing by private cab, with tolls, parking and driver allowance where the package lists them.</p></div>
             <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('bed') ?></span><h3>Hotels you choose</h3><p>Hotel category agreed with you; houseboat nights in Kashmir and Kerala on selected itineraries.</p></div>
-            <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('whatsapp') ?></span><h3>Support on WhatsApp</h3><p>Reach our team on <?= hg_e(HG_PHONE_DISPLAY) ?> before and during your trip.</p></div>
+            <div class="hg-card"><span class="hg-card__icon"><?= hg_icon('whatsapp') ?></span><h3>Support on WhatsApp</h3><p>Reach our team on <?= hg_e(HG_WHATSAPP_DISPLAY) ?> before and during your trip.</p></div>
         </div>
     </div>
 </section>

@@ -24,7 +24,7 @@ hg_layout_start(array(
     <div class="hg-container hg-narrow hg-prose hg-policy">
         <h2 class="hg-h3">How to raise a grievance</h2>
         <ol class="hg-steps hg-steps--list">
-            <li><strong>Contact us</strong><span>Email our Grievance Officer at <a href="mailto:<?= hg_e($officer['email']) ?>"><?= hg_e($officer['email']) ?></a>, call or WhatsApp <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a>, or write to our office.</span></li>
+            <li><strong>Contact us</strong><span>Email our Grievance Officer at <a href="mailto:<?= hg_e($officer['email']) ?>"><?= hg_e($officer['email']) ?></a>, call <a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a>, WhatsApp <a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></a>, or write to our office.</span></li>
             <li><strong>Share the details</strong><span>Your name, phone number, booking voucher or enquiry details, travel dates, and a short description of the issue, with any photos or documents.</span></li>
             <li><strong>We acknowledge and review</strong><span>Our team acknowledges your complaint, reviews it with the hotel, transport or other supplier involved, and contacts you with an update and resolution.</span></li>
         </ol>
@@ -34,7 +34,8 @@ hg_layout_start(array(
             <div><dt>Name</dt><dd><?= $officer['name'] !== '' ? hg_e($officer['name']) : '<span class="hg-muted">To be added</span>' ?></dd></div>
             <div><dt>Designation</dt><dd><?= hg_e($officer['designation']) ?></dd></div>
             <div><dt>Email</dt><dd><a href="mailto:<?= hg_e($officer['email']) ?>"><?= hg_e($officer['email']) ?></a></dd></div>
-            <div><dt>Phone / WhatsApp</dt><dd><a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a></dd></div>
+            <div><dt>Phone</dt><dd><a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a></dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_e(HG_WHATSAPP_DISPLAY) ?></a></dd></div>
             <div><dt>Address</dt><dd><?= hg_e(HG_ADDRESS_LINE1) ?>, <?= hg_e(HG_ADDRESS_LINE2) ?></dd></div>
             <div><dt>Company</dt><dd><?= hg_e(HG_LEGAL_NAME) ?></dd></div>
         </dl>

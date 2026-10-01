@@ -15,7 +15,9 @@ if (!defined('HG_SITE_CONFIG')) {
     // Official contact details (mobile and WhatsApp updated by the owner, 2026-09-30).
     define('HG_PHONE_DISPLAY', '+91 80066 92040');
     define('HG_PHONE_TEL', '+918006692040');
-    define('HG_WHATSAPP_NUMBER', '918006692040');
+    // WhatsApp (owner request 2026-10-01): its own number; calls stay on HG_PHONE_DISPLAY.
+    define('HG_WHATSAPP_NUMBER', '919971754265');
+    define('HG_WHATSAPP_DISPLAY', '+91 99717 54265');
     define('HG_EMAIL_DISPLAY', 'Info@holidaygurutravel.in');
     define('HG_EMAIL', 'info@holidaygurutravel.in');
 

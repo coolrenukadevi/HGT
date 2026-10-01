@@ -49,7 +49,7 @@ hg_layout_start(array(
         <?= hg_section_head('Contact', 'Reach the right person', '', null, 'reach-title') ?>
         <dl class="hg-qf hg-qf--3">
             <div><dt>New trip or quote</dt><dd><a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_e(HG_EMAIL_DISPLAY) ?></a></dd></div>
-            <div><dt>Existing booking</dt><dd><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener">WhatsApp <?= hg_e(HG_PHONE_DISPLAY) ?></a></dd></div>
+            <div><dt>Existing booking</dt><dd><a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener">WhatsApp <?= hg_e(HG_WHATSAPP_DISPLAY) ?></a></dd></div>
             <div><dt>Phone</dt><dd><a href="<?= hg_e(hg_tel_href()) ?>"><?= hg_e(HG_PHONE_DISPLAY) ?></a></dd></div>
         </dl>
         <p style="margin-top:20px">Want to join us? We hire holiday planners, operations staff and interns from time to time. See <a href="/career">careers</a> for how to apply.</p>
