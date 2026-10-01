@@ -216,7 +216,9 @@ if (!function_exists('hg_render_package')) {
         $crumbs[] = array($name, null);
 
         $trip = array(
-            '@type' => 'TouristTrip', 'name' => $name, 'description' => $p['description'], 'url' => hg_abs($url),
+            // Same description as the page's meta description (approved SEO description where one exists).
+            '@type' => 'TouristTrip', 'name' => $name, 'url' => hg_abs($url),
+            'description' => ($seo = hg_seo_meta($url)) && isset($seo['description']) ? $seo['description'] : $p['description'],
             'image' => hg_abs($p['image']), 'touristType' => array('Leisure'),
             'provider' => array('@id' => HG_SITE_URL . '/#organization'),
         );

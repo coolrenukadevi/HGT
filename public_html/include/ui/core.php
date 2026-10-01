@@ -320,6 +320,9 @@ if (!defined('HG_UI_CORE')) {
             'legalName' => HG_LEGAL_NAME,
             'url' => HG_SITE_URL . '/',
             'logo' => HG_SITE_URL . '/assets/brand/holiday-guru-travel-logo-240.png',
+            'image' => HG_SITE_URL . '/assets/brand/holiday-guru-travel-logo-720.webp',
+            // Same "Open in Google Maps" link the contact page shows for the office.
+            'hasMap' => 'https://www.google.com/maps/dir/?api=1&destination=' . rawurlencode('Dharampali Palace, Bhoja Market, Sector 27, Noida'),
             'slogan' => 'Your journey. Our expertise.',
             'telephone' => HG_PHONE_DISPLAY,
             'email' => HG_EMAIL,

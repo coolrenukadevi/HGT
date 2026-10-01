@@ -240,7 +240,10 @@ if ($group && $shown) {
     $schema[] = array('@type' => 'ItemList', 'name' => $h1, 'itemListElement' => $items);
 }
 if ($content) {
-    $schema[] = array('@type' => 'TouristDestination', 'name' => $name, 'description' => $content['intro'], 'url' => hg_abs($base));
+    $dest = array('@type' => 'TouristDestination', 'name' => $name, 'description' => $content['intro'], 'url' => hg_abs($base));
+    // The places listed on the page under "Which places do ... packages cover?".
+    if (!empty($content['places'])) $dest['containsPlace'] = array_map(function ($pl) { return array('@type' => 'Place', 'name' => $pl[0]); }, $content['places']);
+    $schema[] = $dest;
     $schema[] = hg_faq_schema($content['faqs']);
 }
 
