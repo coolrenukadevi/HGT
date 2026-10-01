@@ -222,4 +222,5 @@ $heroSlides = array(
     </div>
 </section>
 
+<?php include __DIR__ . '/include/global/trade-partners.php'; ?>
 <?php hg_layout_end(); ?>
