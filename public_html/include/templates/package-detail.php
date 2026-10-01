@@ -15,6 +15,59 @@
  */
 require_once __DIR__ . '/../ui/core.php';
 
+if (!function_exists('hg_package_in_short')) {
+    /**
+     * "In short" summary for a package page (Phase 2.3, AEO). Built only from package data: places, nights/days
+     * (left out for packages listed in include/data/duration-review.php), and what the visible inclusions and
+     * itinerary actually state. Returns '' when there is nothing verified to say beyond the name.
+     */
+    function hg_package_in_short(array $p, $name)
+    {
+        static $review = null;
+        if ($review === null) $review = (array) include dirname(__DIR__) . '/data/duration-review.php';
+        $list = function (array $x) { return count($x) > 1 ? implode(', ', array_slice($x, 0, -1)) . ' and ' . end($x) : (string) reset($x); };
+        $inc = mb_strtolower(implode(' ', $p['inclusions']));
+        $itn = mb_strtolower(implode(' ', array_map(function ($d) { return (isset($d['title']) ? $d['title'] : '') . ' ' . (isset($d['text']) ? $d['text'] : ''); }, $p['itinerary'])));
+        $both = $inc . ' ' . $itn;
+        $has = array();
+        if (strpos($inc, 'beach villa') !== false && strpos($inc, 'water villa') !== false) $has[] = 'beach and water villa stays';
+        elseif (strpos($inc, 'luxury') !== false) $has[] = 'luxury hotels';
+        elseif (strpos($inc, 'deluxe') !== false) $has[] = 'deluxe hotels';
+        if (strpos($inc, 'full board') !== false) $has[] = 'full-board meals';
+        elseif (strpos($inc, 'breakfast') !== false && strpos($inc, 'dinner') !== false && !preg_match('/cruise with dinner|safari with (bbq )?dinner/', $inc)) $has[] = 'breakfast & dinner';
+        elseif (strpos($inc, 'breakfast') !== false) $has[] = 'daily breakfast';
+        if (strpos($inc, 'seaplane') !== false) $has[] = 'seaplane, flight or speedboat transfers';
+        elseif (strpos($inc, 'seat in coach') !== false) $has[] = 'shared transfers';
+        elseif (preg_match('/private (cab|vehicle|basis|car)|pvt\.? cab|by private/', $inc)) $has[] = 'private transfers';
+        foreach (array('desert safari' => 'a desert safari', 'dhow cruise' => 'a dhow cruise', 'burj khalifa' => 'a Burj Khalifa visit',
+            'night safari' => 'the Night Safari', 'houseboat' => 'a houseboat stay', 'shikara' => 'a shikara ride',
+            'helicopter' => 'a helicopter option', 'volvo' => 'Volvo bus travel') as $k => $v) {
+            if (strpos($both, $k) !== false) $has[] = $v;
+        }
+        if (preg_match('/economy class airfare|airfare \(delhi/', $inc)) $has[] = 'return economy airfare from Delhi';
+        if (preg_match('/inner line permit|permit charges|permits? (to|for|included)/', $inc)) $has[] = 'permits';
+        // Places: only those the itinerary or inclusions actually mention (the places list has a few data errors),
+        // and not those already in the package name.
+        $nameLc = mb_strtolower($name . ' ' . $p['page_title']);
+        $places = array_values(array_filter($p['places'], function ($pl) use ($both, $nameLc) {
+            $lc = mb_strtolower($pl);
+            $words = explode(' ', $lc);
+            return $pl !== '' && (strpos($both, $lc) !== false || strpos($both, end($words)) !== false) && strpos($nameLc, $lc) === false;
+        }));
+        if (count($places) > 6) $places = array_merge(array_slice($places, 0, 6), array((count($places) - 6) . ' more stop' . (count($places) - 6 > 1 ? 's' : '')));
+        $durationKnown = !isset($review[$p['url']]) && $p['nights'] && $p['days'];
+        if (!$durationKnown && !$places && !$has) return '';
+        $from = $p['departure'] && stripos($name, ' from ') === false ? ' from ' . $p['departure'] : '';
+        if ($durationKnown) {
+            $s = $name . ' is a ' . $p['nights'] . '-night, ' . $p['days'] . '-day tour' . $from . ($places ? ' that also covers ' . $list($places) : '') . '.';
+        } else {
+            $s = $places ? $name . $from . ' also covers ' . $list($places) . '.' : ($from ? $name . ' starts' . $from . '.' : '');
+        }
+        if ($has) $s .= ($s === '' ? $name . ' includes ' : ' It includes ') . $list($has) . '.';
+        return trim($s . ' The itinerary can be customised.');
+    }
+}
+
 if (!function_exists('hg_render_package')) {
 
     /** Split "Day 3 : (Gulmarg)Srinagar to Gulmarg 56 Kms" into day, overnight place and heading. */
@@ -241,6 +294,7 @@ if (!function_exists('hg_render_package')) {
 
         <section class="hg-pkgsec" aria-labelledby="qf-title">
             <h2 class="hg-h2" id="qf-title">Quick facts</h2>
+            <?php $inShort = hg_package_in_short($p, $name); if ($inShort !== '') { ?><p class="hg-summary"><strong>In short:</strong> <?= hg_e($inShort) ?></p><?php } ?>
             <dl class="hg-qf">
                 <div><dt>Duration</dt><dd><?= hg_e($p['duration']) ?></dd></div>
                 <div><dt>Places</dt><dd><?= hg_e(implode(', ', $p['places'])) ?></dd></div>
