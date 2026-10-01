@@ -57,7 +57,11 @@ ob_start(); ?>
 </ol>
 
 <h2 class="hg-h3">Online payment</h2>
+<?php if (HG_PAY_LINK !== '') { ?>
+<p>You can also pay online on our secure <?= hg_e(HG_PAY_PROVIDER !== '' ? HG_PAY_PROVIDER : 'payment') ?> page from the <a href="/payment">Payment page</a>, after your travel expert confirms the amount. Customer accounts on this website are not available yet; your quote, payment request and voucher come by WhatsApp or email.</p>
+<?php } else { ?>
 <p>Online card payment and customer accounts on this website are not available yet. A travel expert shares your quote, payment request and voucher by WhatsApp or email. Keep your payment receipt until your booking voucher is issued.</p>
+<?php } ?>
 <p>Cancellations and refunds follow our <a href="/cancellation-policy">cancellation policy</a> and <a href="/refund-policy">refund policy</a>. See also our <a href="/disclaimer">disclaimer</a>.</p>
 <?php
 hg_render_policy(array(

@@ -267,7 +267,7 @@ if (!function_exists('hg_render_package')) {
                     <?php if ($payNow) { ?><a class="hg-btn hg-btn--primary" href="/pay?tour=<?= hg_e($p['slug']) ?>" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a><?php } else { ?><button type="button" class="hg-btn hg-btn--primary" disabled aria-describedby="paynow-note-top"><?= hg_icon('lock') ?>Pay Now</button><?php } ?>
                     <a class="hg-btn hg-btn--navy" href="#enquiry-form" data-hg-track="enquiry_start">Enquire Now</a>
                 </div>
-                <?php if (!$payNow) { ?><p class="hg-pkghead__paynote" id="paynow-note-top"><?= $rate ? 'Online payment is not available yet — enquire to book at this rate.' : 'Pay Now opens once a current rate is published and online payment is connected. Enquire for today’s price.' ?></p><?php } ?>
+                <?php if (!$payNow) { ?><p class="hg-pkghead__paynote" id="paynow-note-top"><?php if (HG_PAY_LINK !== '') { ?>Enquire for today’s price; once a travel expert confirms it, <a href="/payment">pay online, by UPI or bank transfer</a>.<?php } else { ?><?= $rate ? 'Online payment is not available yet — enquire to book at this rate.' : 'Pay Now opens once a current rate is published and online payment is connected. Enquire for today’s price.' ?><?php } ?></p><?php } ?>
             </div>
             <?php if ($ctx) { ?>
             <p class="hg-pkghead__ctx"><span>Your trip:</span> <?= hg_e(implode(' · ', $ctx)) ?> <a href="#hg-header-search" data-hg-search-open>Change</a></p>
@@ -448,7 +448,7 @@ if (!function_exists('hg_render_package')) {
                 <?php if ($payNow) { ?><a class="hg-btn hg-btn--primary hg-btn--block" href="/pay?tour=<?= hg_e($p['slug']) ?>" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a><?php } else { ?><button type="button" class="hg-btn hg-btn--primary hg-btn--block" disabled aria-describedby="paynow-note" data-hg-paynow><?= hg_icon('lock') ?>Pay Now</button><?php } ?>
                 <a class="hg-btn hg-btn--navy hg-btn--block" href="#enquiry-form" data-hg-track="enquiry_start">Enquire Now</a>
             </div>
-            <?php if (!$payNow) { ?><p class="hg-bookcard__note" id="paynow-note">Online payment isn’t available yet. Enquire and a travel expert will confirm the price, availability and payment options.</p><?php } ?>
+            <?php if (!$payNow) { ?><p class="hg-bookcard__note" id="paynow-note"><?php if (HG_PAY_LINK !== '') { ?>Enquire and a travel expert will confirm the price and availability; then <a href="/payment">pay online, by UPI or bank transfer</a>.<?php } else { ?>Online payment isn’t available yet. Enquire and a travel expert will confirm the price, availability and payment options.<?php } ?></p><?php } ?>
             <?= hg_enquiry_form('enquiry-form', 'Plan your trip', array(
                 'enquiry_type' => 'TOUR PACKAGE ENQUIRY',
                 'package_id' => $pkgId,

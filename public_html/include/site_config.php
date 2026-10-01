@@ -31,12 +31,22 @@ if (!defined('HG_SITE_CONFIG')) {
     // The previous entity name and its CIN were removed site-wide at the owner's request.
     define('HG_LEGAL_NAME', 'M/S Holiday Guru Travel');
     define('HG_COPYRIGHT_SINCE', 2014);
-    // Company bank account for customer payments (Payment policy page). Account name is HG_LEGAL_NAME.
-    // Leave empty until confirmed by the owner: the page then says the details come with the quote.
-    define('HG_BANK_NAME', '');      // bank name and branch
+    // ---- Payment settings (Payment page /payment and Payment policy page) -------------------------
+    // Fill these in once; the pages update themselves. Leave a value '' and it is not shown.
+    // Account holder and UPI payee name are always HG_LEGAL_NAME.
+    define('HG_BANK_NAME', '');      // bank name, e.g. 'ICICI Bank'
+    define('HG_BANK_BRANCH', '');    // e.g. 'Sector 18, Noida'
     define('HG_BANK_ACCOUNT', '');   // account number
     define('HG_BANK_IFSC', '');
-    define('HG_BANK_UPI', '');       // UPI ID
+    define('HG_BANK_ACC_TYPE', 'Current account');
+    define('HG_BANK_SWIFT', '');     // optional, for payments from abroad
+    define('HG_BANK_UPI', '');       // UPI ID, e.g. 'holidayguru@icici'
+    // UPI QR code image, path from the site root. Upload the image there and it replaces the placeholder.
+    define('HG_UPI_QR_IMAGE', '/assets/img/payment/upi-qr.png');
+    // Pay Now: link to the online payment page (Razorpay, PayU, Cashfree, CCAvenue or the bank's page).
+    // While empty, the Pay Now button is shown as not yet available.
+    define('HG_PAY_LINK', 'https://razorpay.me/@holidaygurutraveL'); // owner, 2026-10-01
+    define('HG_PAY_PROVIDER', 'Razorpay');   // shown under the button
 
     // GA4 measurement ID. Loaded only after the visitor accepts analytics
     // cookies (see assets/js/hg-site.js). Empty string disables GA.

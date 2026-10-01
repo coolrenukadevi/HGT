@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Same 177 URLs as before. lastmod = date of the last git commit to each page's content files (page file, its template and its content/data file). Image entries removed: they pointed to files that do not exist. -->
+<!-- 177 URLs from the Phase 2 sitemap plus /payment (added 2026-10-01). lastmod = date of the last git commit to each page's content files (page file, its template and its content/data file). Image entries removed: they pointed to files that do not exist. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -804,6 +804,12 @@
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/payment</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://holidaygurutravel.in/payment-policy</loc>

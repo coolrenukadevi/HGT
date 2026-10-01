@@ -12,6 +12,7 @@ return array(
     '/cancellation-policy'  => 'approved',
     '/refund-policy'        => 'approved',
     '/payment-policy'       => 'approved',
+    '/payment'              => 'approved',   // indexed (and to be added to sitemap.xml) once a Pay Now link or bank details are filled in
     '/leadership'           => 'approved',   // photos, names and roles to be supplied by the owner
     '/our-team'             => 'approved',   // photos, names and roles to be supplied by the owner
     '/grievance-redress'    => 'approved',   // officer details supplied by the owner

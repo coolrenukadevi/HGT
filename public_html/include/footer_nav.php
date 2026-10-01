@@ -70,7 +70,7 @@ return array(
             array('label' => 'Refund Policy', 'url' => '/refund-policy'),
             array('label' => 'Payment Policy', 'url' => '/payment-policy'),
             array('label' => 'Grievance Redress', 'url' => '/grievance-redress'),
-            array('label' => 'Payment Link', 'url' => '', 'description' => 'Set to the payment page or gateway link once online payment is configured.'),
+            array('label' => 'Payment Link', 'url' => '/payment'),
             array('label' => 'Disclaimer', 'url' => '/disclaimer'),
         ),
     ),
