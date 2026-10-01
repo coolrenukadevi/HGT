@@ -15,8 +15,8 @@ require_once __DIR__ . '/../ui/core.php';
         </button>
         <a class="hg-header__logo" href="/" aria-label="Holiday Guru Travel home">
             <picture>
-                <source type="image/webp" srcset="/assets/brand/holiday-guru-travel-wordmark-180.webp 1x, /assets/brand/holiday-guru-travel-wordmark-360.webp 2x, /assets/brand/holiday-guru-travel-wordmark-540.webp 3x">
-                <img src="/assets/brand/holiday-guru-travel-wordmark-360.png" alt="Holiday Guru Travel" width="232" height="41">
+                <source type="image/webp" srcset="/assets/brand/holiday-guru-travel-logo-script-270.webp 270w, /assets/brand/holiday-guru-travel-logo-script-540.webp 540w, /assets/brand/holiday-guru-travel-logo-script-810.webp 810w" sizes="(min-width: 1024px) 232px, 260px">
+                <img src="/assets/brand/holiday-guru-travel-logo-script-540.png" alt="Holiday Guru Travel" width="232" height="41">
             </picture>
         </a>
 <?php include __DIR__ . '/holiday-search.php'; ?>
