@@ -243,10 +243,13 @@ if (!defined('HG_UI_CORE')) {
                 . '" height="' . (int) $height . '"' . ($eager === 'low' ? ' fetchpriority="low"' : ($eager ? ' fetchpriority="high"' : ' loading="lazy"')) . ' decoding="async"'
                 . ' onload="this.classList.add(\'is-loaded\')" onerror="window.hgImgFail&amp;&amp;hgImgFail(this)">';
             $base = preg_replace('/\.[a-z0-9]+$/i', '', $path);
+            // Owner decision 2026-10-01: package and destination photos are offered up to 960px only; their 1600px
+            // files stay on disk for a later decision. Hero photos keep 1600px.
+            $widths = preg_match('#^assets/img/(packages|destinations)/#', $path) ? array(480, 960) : array(480, 960, 1600);
             $sources = '';
             foreach (array('avif', 'webp') as $fmt) {
                 $set = array();
-                foreach (array(480, 960, 1600) as $w) {
+                foreach ($widths as $w) {
                     if (is_file(dirname(__DIR__, 2) . '/' . $base . '-' . $w . '.' . $fmt)) $set[] = '/' . $base . '-' . $w . '.' . $fmt . ' ' . $w . 'w';
                 }
                 if ($set) {
