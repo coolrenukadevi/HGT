@@ -605,6 +605,8 @@
     /* ---------------- Homepage hero photo slider ---------------- */
     // Crossfade every 6 s. Pauses on hover, keyboard focus, hidden tab and the pause button (WCAG 2.2.2);
     // no autoplay with prefers-reduced-motion. Without JS the first photo simply stays.
+    // Slides 2-4 arrive with data-hg-src/data-hg-srcset (see index.php) so only the first photo downloads with the
+    // page; load() swaps them in just before a slide is shown, and the next slide is fetched after page load.
     (function () {
         var root = $('[data-hg-slider]');
         if (!root) return;
@@ -614,8 +616,14 @@
         var hero = root.parentNode, cur = 0, timer = null, userPaused = false, hover = false, focus = false;
         var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         ctrl.hidden = false;
+        function load(n) {
+            var s = slides[(n + slides.length) % slides.length];
+            $$('[data-hg-srcset]', s).forEach(function (el) { el.setAttribute('srcset', el.getAttribute('data-hg-srcset')); el.removeAttribute('data-hg-srcset'); });
+            $$('[data-hg-src]', s).forEach(function (el) { el.setAttribute('src', el.getAttribute('data-hg-src')); el.removeAttribute('data-hg-src'); });
+        }
         function show(n) {
             cur = (n + slides.length) % slides.length;
+            load(cur); load(cur + 1);
             slides.forEach(function (s, i) {
                 var on = i === cur;
                 s.classList.toggle('is-active', on);
@@ -655,6 +663,7 @@
             var dx = e.changedTouches[0].clientX - x0; x0 = null;
             if (Math.abs(dx) > 40) { show(cur + (dx < 0 ? 1 : -1)); schedule(); }
         }, { passive: true });
+        if (document.readyState === 'complete') load(1); else window.addEventListener('load', function () { load(1); });
         schedule();
     })();
 })();

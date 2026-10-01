@@ -264,6 +264,20 @@ if (!defined('HG_UI_CORE')) {
             . $label . '</div>';
     }
 
+    /**
+     * <link rel="preload"> for the page's main (LCP) photo: the AVIF variants hg_img() offers, so the browser
+     * starts that download before the stylesheets finish. Browsers without AVIF ignore it (type attribute).
+     */
+    function hg_img_preload($path, $sizes)
+    {
+        $base = preg_replace('/\.[a-z0-9]+$/i', '', ltrim((string) $path, '/'));
+        $set = array();
+        foreach (array(480, 960, 1600) as $w) {
+            if (is_file(dirname(__DIR__, 2) . '/' . $base . '-' . $w . '.avif')) $set[] = '/' . $base . '-' . $w . '.avif ' . $w . 'w';
+        }
+        return $set ? '    <link rel="preload" as="image" type="image/avif" imagesrcset="' . hg_e(implode(', ', $set)) . '" imagesizes="' . hg_e($sizes) . '" fetchpriority="high">' . "\n" : '';
+    }
+
     /* ------------------------------------------------------------------ */
     /* SEO head + structured data                                          */
     /* ------------------------------------------------------------------ */
@@ -299,7 +313,7 @@ if (!defined('HG_UI_CORE')) {
 
     /**
      * $meta keys: title, description, path (canonical path), image, type,
-     * index (bool), breadcrumbs [[label, path|null], ...], schema [ ... ]
+     * index (bool), breadcrumbs [[label, path|null], ...], schema [ ... ], preload_image [path, sizes] (LCP photo)
      */
     /**
      * Versioned URL for a site asset: /assets/css/hg-ui.css?v=<file time>. After an upload the URL changes,
@@ -366,6 +380,7 @@ if (!defined('HG_UI_CORE')) {
     <link rel="preload" href="/assets/fonts/hg/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/hg/plus-jakarta-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/hg/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<?= !empty($meta['preload_image']) ? hg_img_preload($meta['preload_image'][0], $meta['preload_image'][1]) : '' ?>
     <link rel="stylesheet" href="<?= hg_e(hg_asset('/assets/css/hg-site.css')) ?>">
     <link rel="stylesheet" href="<?= hg_e(hg_asset('/assets/css/hg-ui.css')) ?>">
     <script type="application/ld+json"><?= $json ?></script>

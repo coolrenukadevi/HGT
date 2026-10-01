@@ -29,13 +29,15 @@ hg_layout_start(array(
     'description' => 'Holiday packages for Kashmir, Char Dham, Himachal, Uttarakhand, Kerala, Ladakh, Dubai and more, with day-by-day itineraries. Plan and book with our Noida-based travel team.',
     'path' => '/',
     'image' => '/assets/brand/holiday-guru-travel-logo-720.webp',
+    'preload_image' => array('assets/img/hero/taj-mahal-agra.jpg', '100vw'),
     'schema' => array(hg_faq_schema($faqs)),
 ));
 ?>
 
 <?php
 // Homepage hero slider: owner-supplied photos (assets/img/hero, metadata stripped). Captions link only where
-// packages exist; the first slide loads with priority, the rest with low priority.
+// packages exist. The first slide loads with priority (and is preloaded in <head>); slides 2-4 keep their photo
+// addresses in data-hg-src/data-hg-srcset and the slider script loads each one just before it is shown.
 $heroSlides = array(
     array('assets/img/hero/taj-mahal-agra.jpg', 'The Taj Mahal in Agra seen across its long water channel and gardens', 'Taj Mahal, Agra', '', '50% 60%'),
     array('assets/img/hero/kerala-backwaters.jpg', 'A houseboat among palm trees and pink water lilies on the Kerala backwaters', 'Kerala backwaters', '/tours/kerala', '50% 55%'),
@@ -47,7 +49,8 @@ $heroSlides = array(
     <div class="hg-hero__slides" data-hg-slider aria-roledescription="carousel" aria-label="Destination photos">
         <?php foreach ($heroSlides as $i => $sl) { ?>
         <figure class="hg-hero__slide hg-frame hg-frame--hero hg-frame--dark<?= $i === 0 ? ' is-active' : '' ?>" data-hg-slide role="group" aria-roledescription="slide" aria-label="<?= $i + 1 ?> of <?= count($heroSlides) ?>: <?= hg_e($sl[2]) ?>"<?= $i === 0 ? '' : ' aria-hidden="true"' ?> style="--hg-focus: <?= hg_e($sl[4]) ?>">
-            <?= hg_img($sl[0], $sl[1], 2400, 1350, 'hg-hero__img', $i === 0 ? true : 'low', '100vw') ?>
+            <?= $i === 0 ? hg_img($sl[0], $sl[1], 2400, 1350, 'hg-hero__img', true, '100vw')
+                : preg_replace('/\s(src|srcset)="/', ' data-hg-$1="', hg_img($sl[0], $sl[1], 2400, 1350, 'hg-hero__img', 'low', '100vw')) ?>
             <figcaption class="hg-hero__place"><?= hg_icon('pin') ?><?php if ($sl[3]) { ?><a href="<?= hg_e($sl[3]) ?>"<?= $i === 0 ? '' : ' tabindex="-1"' ?>><?= hg_e($sl[2]) ?></a><?php } else { ?><span><?= hg_e($sl[2]) ?></span><?php } ?></figcaption>
         </figure>
         <?php } ?>
