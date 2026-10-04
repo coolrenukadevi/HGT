@@ -148,6 +148,62 @@ if (!function_exists('hg_render_package')) {
         return $out;
     }
 
+    /**
+     * Related packages (Phase 9.8 internal linking), chosen by relevance, not list order:
+     * same destination, shared places (overlap of the packages' own place lists), similar length (only when
+     * neither duration is disputed), pilgrimage type and departure city. Packages from another destination
+     * qualify only when they share places. Among equally relevant packages (same score to 0.5), the one
+     * fewer packages already link to comes first, so links spread across the catalogue. Deterministic.
+     */
+    function hg_related_packages($slug, $n = 3)
+    {
+        static $picks = null;
+        if ($picks === null) {
+            $all = array_values(hg_packages());
+            $placeSet = function ($x) { return array_values(array_unique(array_map('mb_strtolower', array_filter($x['places'])))); };
+            $rel = function ($a, $b) use ($placeSet) {
+                $pa = $placeSet($a); $pb = $placeSet($b);
+                $shared = count(array_intersect($pa, $pb));
+                $same = $a['group'] !== '' && $a['group'] === $b['group'];
+                if (!$same && !$shared) return 0;
+                $score = ($same ? 4 : 0) + ($pa && $pb ? 4 * $shared / count(array_unique(array_merge($pa, $pb))) : 0);
+                if (!hg_package_duration_disputed($a) && !hg_package_duration_disputed($b)) {
+                    $diff = abs((int) $a['days'] - (int) $b['days']);
+                    $score += $diff <= 1 ? 1.5 : ($diff <= 2 ? 0.75 : 0);
+                }
+                if (!empty($a['pilgrimage']) && !empty($b['pilgrimage'])) $score += 1;
+                if ($a['departure'] && $a['departure'] === $b['departure']) $score += 0.5;
+                return $score;
+            };
+            $incoming = array();
+            $picks = array();
+            foreach ($all as $a) {
+                $cand = array();
+                foreach ($all as $b) {
+                    if ($b['slug'] === $a['slug']) continue;
+                    $r = $rel($a, $b);
+                    if ($r > 0) $cand[] = array('slug' => $b['slug'], 'bucket' => floor($r * 2) / 2);
+                }
+                usort($cand, function ($x, $y) use (&$incoming) {
+                    if ($x['bucket'] != $y['bucket']) return $y['bucket'] <=> $x['bucket'];
+                    $ix = isset($incoming[$x['slug']]) ? $incoming[$x['slug']] : 0;
+                    $iy = isset($incoming[$y['slug']]) ? $incoming[$y['slug']] : 0;
+                    return $ix !== $iy ? $ix <=> $iy : strcmp($x['slug'], $y['slug']);
+                });
+                $picks[$a['slug']] = array();
+                foreach (array_slice($cand, 0, 6) as $c) {   // keep a few spares for callers asking for more
+                    $picks[$a['slug']][] = $c['slug'];
+                }
+                foreach (array_slice($picks[$a['slug']], 0, 3) as $s) $incoming[$s] = (isset($incoming[$s]) ? $incoming[$s] : 0) + 1;
+            }
+        }
+        $out = array();
+        foreach (isset($picks[$slug]) ? array_slice($picks[$slug], 0, $n) : array() as $s) {
+            if ($x = hg_package($s)) $out[] = $x;
+        }
+        return $out;
+    }
+
     /** External travel (tickets) included in this package, from its own inclusions. */
     function hg_external_travel(array $p)
     {
@@ -283,7 +339,8 @@ if (!function_exists('hg_render_package')) {
         $custPlaces = array_slice($routeKnown ? $route : $p['places'], 0, 3);
         $faqs[] = array('Can this itinerary be customized?', '<p>Yes. You can change hotels, add nights' . ($custPlaces ? ' in ' . hg_e($list($custPlaces)) : '') . ', add sightseeing, or combine it with another ' . ($g ? hg_e($g['name']) . ' ' : '') . 'trip. Tell us in the enquiry form or on WhatsApp.</p>');
 
-        $similar = array_slice(array_values(array_filter(hg_packages_in($p['group']), function ($x) use ($p) { return $x['slug'] !== $p['slug']; })), 0, 3);
+        $similar = hg_related_packages($p['slug'], 3);
+        $similarSameGroup = !array_filter($similar, function ($x) use ($p) { return $x['group'] !== $p['group']; });
 
         $crumbs = array(array('Home', '/'));
         if ($g) {
@@ -508,7 +565,11 @@ if (!function_exists('hg_render_package')) {
             <p class="hg-summary"><strong>Best time:</strong> <?= hg_e($content['best_time_answer']) ?></p>
             <div class="hg-prose"><p><?= hg_e($content['transport']) ?></p></div>
             <p><a class="hg-link-arrow" href="<?= hg_e($g['hub_url']) ?>">All <?= hg_e($g['name']) ?> tour packages and travel advice <span aria-hidden="true">&rarr;</span></a></p>
-            <?php require_once dirname(__DIR__) . '/content/blog/index.php'; $guides = hg_blog_guides_for_package($p, 2); if ($guides) { ?>
+            <?php require_once dirname(__DIR__) . '/content/blog/index.php'; $guides = hg_blog_guides_for_package($p, 2);
+            // The destination's own travel guide (/travel-guide/{destination}) leads the list when it exists and is approved.
+            $tgPath = '/travel-guide/' . basename($g['key']);
+            if (is_file(dirname(__DIR__, 2) . $tgPath . '.php') && hg_page_status($tgPath) === 'approved') array_unshift($guides, array('url' => $tgPath, 'title' => $g['name'] . ' travel guide'));
+            if ($guides) { ?>
             <h3 class="hg-h3">Travel guides for this trip</h3>
             <?= hg_blog_link_list($guides) ?>
             <?php } ?>
@@ -552,7 +613,7 @@ if (!function_exists('hg_render_package')) {
 <?php if ($similar) { ?>
 <section class="hg-section hg-section--tint" id="similar" aria-labelledby="sim-title">
     <div class="hg-container">
-        <?= hg_section_head('You may also like', 'Similar ' . ($g ? $g['name'] . ' ' : '') . 'packages', '', $g ? array('View all', $g['hub_url']) : null, 'sim-title') ?>
+        <?= hg_section_head('You may also like', $similarSameGroup ? 'Similar ' . ($g ? $g['name'] . ' ' : '') . 'packages' : 'Related packages', '', $g ? array('View all', $g['hub_url']) : null, 'sim-title') ?>
         <?= hg_package_grid($similar) ?>
     </div>
 </section>
