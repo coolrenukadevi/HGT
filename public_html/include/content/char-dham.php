@@ -66,7 +66,7 @@ return array(
         array(
             '5 days',
             'Do Dham — Kedarnath and Badrinath from Haridwar',
-            'do-dham-kedar–badri-from-haridwar-4n-5d',
+            'do-dham-kedar-badri-from-haridwar-4n-5d',
         ),
         array('6 days', 'Char Dham by helicopter', 'chardham-yatra-by-helicopter'),
         array('9 days', 'Char Dham from Haridwar', 'chardham-yatra-from-haridwar-8n-9d'),
