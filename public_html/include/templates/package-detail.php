@@ -63,6 +63,8 @@ if (!function_exists('hg_package_in_short')) {
         } else {
             $s = $places ? $name . $from . ' also covers ' . $list($places) . '.' : ($from ? $name . ' starts' . $from . '.' : '');
         }
+        $ends = function_exists('hg_package_endpoints') ? hg_package_endpoints($p) : array('start' => '', 'end' => '');
+        if ($ends['start'] !== '' && $s !== '') $s .= ' It starts in ' . $ends['start'] . ($ends['end'] !== '' ? ' and ends in ' . $ends['end'] : '') . '.';
         if ($has) $s .= ($s === '' ? $name . ' includes ' : ' It includes ') . $list($has) . '.';
         return trim($s . ' The itinerary can be customised.');
     }
@@ -87,6 +89,63 @@ if (!function_exists('hg_render_package')) {
         }
         $heading = preg_replace('/(\d)\s*Kms\b/i', '$1 km', $heading);
         return array('n' => $i + 1, 'heading' => $heading !== '' ? $heading : 'Day ' . ($i + 1), 'stay' => $stay, 'text' => trim($d['text']));
+    }
+
+    /** True when the package's duration is disputed (include/data/duration-review.php): leave it out of AEO text. */
+    function hg_package_duration_disputed(array $p)
+    {
+        static $review = null;
+        if ($review === null) $review = (array) include dirname(__DIR__) . '/data/duration-review.php';
+        return isset($review[$p['url']]) || !$p['nights'] || !$p['days'];
+    }
+
+    /**
+     * Where the tour starts and ends, read only from the itinerary's own Day 1 and last-day headings
+     * ("Arrive Cochin to Munnar", "Delhi to Shimla", "Alleppey to Cochin Departure", "Departure from Leh").
+     * Not from the places list. A side is '' when the heading does not say it clearly; the end is only read
+     * from a complete itinerary, and neither is read while the package's duration is under review.
+     */
+    function hg_package_endpoints(array $p)
+    {
+        $out = array('start' => '', 'end' => '');
+        if (!$p['itinerary'] || hg_package_duration_disputed($p)) return $out;
+        $fix = array('Trivandum' => 'Trivandrum', 'Trivandru' => 'Trivandrum', 'Phalgam' => 'Pahalgam', 'Banglore' => 'Bangalore');
+        $stop = '/^(and|at|in|to|the|day|local|transfer|departure|arrival|leisure|tour|end|hotel|sightseeing|drop|airport)$/i';
+        $place = function ($s) use ($fix, $stop) {
+            // A place name: one or two capitalised words; "Srinagar Airport" → "Srinagar".
+            if (!preg_match('/^([A-Z][a-z]+)(?:\s+([A-Z][a-z]+))?/u', trim($s), $m) || preg_match($stop, $m[1])) return '';
+            $n = $m[1] . (isset($m[2]) && !preg_match($stop, $m[2]) && $m[2] !== 'New' ? ' ' . $m[2] : '');
+            return isset($fix[$n]) ? $fix[$n] : $n;
+        };
+        // "Bangalore Drop / Coimbatore Drop" → "Bangalore or Coimbatore".
+        $alts = function ($s) use ($place) {
+            $names = array();
+            foreach (preg_split('#\s*/\s*#', $s) as $part) {
+                $part = preg_replace('/^(?:[A-Z][a-z]+\s+to\s+)+/', '', trim($part));   // "Rudraprayag to Rishikesh to Haridwar" → "Haridwar"
+                if (($n = $place($part)) !== '' && !in_array($n, $names, true)) $names[] = $n;
+            }
+            return implode(' or ', $names);
+        };
+        $head = function ($d) { return trim(preg_replace('/^(?:DAY\s+)?Day\s*\d+\s*[:|\-–]?\s*/iu', '', preg_replace('/^\(([^)0-9]+)\)\s*/u', '', trim(preg_replace('/^Day\s*\d+\s*[:|\-–]?\s*/iu', '', $d['title']))))); };
+        $h = $head($p['itinerary'][0]);
+        if (preg_match('/^Arriv(?:e|al)\b(?:\s*[-–]\s*|\s+)(?:(?:at|in)\s+)?(.+)$/iu', $h, $m)) {
+            $out['start'] = $alts(preg_split('/\s+(?:to|&|-|–)\s+/u', $m[1])[0]);
+        } elseif (preg_match('/^([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s+Arri\w+/u', $h, $m)) {
+            $out['start'] = $place($m[1]);
+        } elseif (preg_match('/^([A-Z][a-z]+(?:\s+Airport)?)\s*(?:to|-|–)\s+[A-Z]/u', $h, $m)) {
+            $out['start'] = $place($m[1]);
+        }
+        if (count($p['itinerary']) === (int) $p['days']) {
+            $l = $head(end($p['itinerary']));
+            $l = preg_replace('/\s*\(.*$/u', '', $l);                                    // drop "(230 km, 6 Hours)"
+            if (preg_match('/^Departure\s+from\s+(.+)$/iu', $l, $m)) $out['end'] = $alts($m[1]);
+            elseif (preg_match('/^(?:Return|Back)\s+to\s+(.+)$/iu', $l, $m)) $out['end'] = $alts($m[1]);
+            elseif (preg_match('/^Departure\s*[-–]\s*(.+)$/iu', $l, $m) && preg_match('/\bto\s+(.+?)(?:\s*[-–]\s*.*)?$/u', $m[1], $n)) $out['end'] = $alts($n[1]);
+            elseif (preg_match('/\bto\s+([^–-]+?)(?:\s+(?:Drop|Departure))?(?:\s*[-–]\s*Departure)?\s*$/u', $l)) {
+                $out['end'] = $alts(preg_replace('/\s+(?:Drop|Departure)\b/u', '', $l));
+            } elseif (preg_match('/^([A-Z][a-z]+(?:\s+Airport)?)\s*(?:[-–]\s*)?(?:Departure|Arrival|for Onward)/u', $l, $m)) $out['end'] = $place($m[1]);
+        }
+        return $out;
     }
 
     /** External travel (tickets) included in this package, from its own inclusions. */
@@ -191,20 +250,38 @@ if (!function_exists('hg_render_package')) {
         foreach ($ctx as $k => $v) $wa .= "\n" . $k . ":\n" . $v . "\n";
         $wa .= "\nPlease share the current rate, inclusions, exclusions and availability.";
 
-        $faqs = array(
-            array('What is included in the ' . $name . '?', '<ul>' . implode('', array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . '</ul>'),
-            array('Are flights or train tickets included?', $external
-                ? '<p>This package includes: ' . hg_e(implode('; ', $external)) . '. Anything not listed in the inclusions is not included.</p>'
-                : '<p>No. The package starts ' . ($p['departure'] ? 'from ' . hg_e($p['departure']) : ($days && $days[0]['stay'] ? 'on arrival in ' . hg_e($days[0]['stay']) : 'at the destination')) . ' and the standard package cost excludes airfare, train fare and bus fare. We can quote tickets separately.</p>'),
-        );
+        // FAQs (Phase 9.8 AEO): package-specific questions built only from this package's verified data;
+        // the two policy answers quote the package's own booking terms. Visible FAQ and FAQPage schema share $faqs.
+        $durationDisputed = hg_package_duration_disputed($p);
+        $ends = hg_package_endpoints($p);
+        $list = function (array $x) { return count($x) > 1 ? implode(', ', array_slice($x, 0, -1)) . ' and ' . end($x) : (string) reset($x); };
+        $faqs = array();
+        if ($p['inclusions']) $faqs[] = array('What is included in the ' . $name . '?', '<ul>' . implode('', array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . '</ul>');
+        if ($route) {
+            $nightsSum = array_sum(array_map(function ($st) { return $st['nights']; }, $stays));
+            $split = (!$durationDisputed && $stays && $nightsSum === (int) $p['nights'])
+                ? ' Overnight stays: ' . $list(array_map(function ($st) { return $st['nights'] . ' night' . ($st['nights'] > 1 ? 's' : '') . ' in ' . $st['place']; }, $stays)) . '.'
+                : '';
+            $faqs[] = array('Which places does this tour cover?', '<p>' . ($routeKnown
+                ? 'The route is ' . hg_e(implode(' → ', $route)) . '.' . hg_e($split)
+                : 'It covers ' . hg_e($list($route)) . '.') . '</p>');
+        }
+        if (!$durationDisputed) $faqs[] = array('How long is the ' . $name . '?', '<p>' . (int) $p['nights'] . ' nights and ' . (int) $p['days'] . ' days (' . hg_e($p['duration']) . ').' . ($days && count($days) === (int) $p['days'] ? ' The day-by-day plan above covers every day.' : '') . '</p>');
+        if ($ends['start'] !== '') $faqs[] = array('Where does the tour start and end?', '<p>It starts in ' . hg_e($ends['start']) . ($ends['end'] !== '' ? ' and ends in ' . hg_e($ends['end']) : '') . ', as shown in the day-by-day itinerary.</p>');
+        $faqs[] = array('Are flights or train tickets included?', $external
+            ? '<p>This package includes: ' . hg_e(implode('; ', $external)) . '. Anything not listed in the inclusions is not included.</p>'
+            : '<p>No. The package starts ' . ($p['departure'] ? 'from ' . hg_e($p['departure']) : ($ends['start'] !== '' ? 'in ' . hg_e($ends['start']) : 'at the destination')) . ' and the standard package cost excludes airfare, train fare and bus fare. We can quote tickets separately.</p>');
         if ($p['hotel']) $faqs[] = array('Which hotels are used?', '<p>' . hg_e($p['hotel']) . ' category hotels' . ($houseboat ? ', with ' . $hbText : '') . '. ' . hg_e($hotelNote) . '</p>');
+        if ($p['meals']) $faqs[] = array('Which meals are included?', '<p>' . hg_e($p['meals']) . '. The inclusions above list every meal this package covers.</p>');
+        if ($p['transfers']) $faqs[] = array('How do we travel between places?', '<p>By ' . hg_e(mb_strtolower($p['transfers'])) . ' for transfers and sightseeing' . ($routeKnown ? ' on the route ' . hg_e(implode(' → ', $route)) : '') . '.</p>');
         foreach ($p['booking'] as $t) {
             if (stripos($t, 'advance') !== false) { $faqs[] = array('How do I book this package?', '<p>' . hg_e(ltrim($t, '# ')) . ' A booking voucher is issued once payment is received.</p>'); break; }
         }
         foreach ($p['terms'] as $t) {
             if (stripos($t, 'extra adult') !== false) { $faqs[] = array('How are extra adults and children charged?', '<p>' . hg_e($t) . '</p>'); break; }
         }
-        $faqs[] = array('Can this itinerary be customized?', '<p>Yes. You can change hotels, add nights or sightseeing, or combine it with another destination. Tell us in the enquiry form or on WhatsApp.</p>');
+        $custPlaces = array_slice($routeKnown ? $route : $p['places'], 0, 3);
+        $faqs[] = array('Can this itinerary be customized?', '<p>Yes. You can change hotels, add nights' . ($custPlaces ? ' in ' . hg_e($list($custPlaces)) : '') . ', add sightseeing, or combine it with another ' . ($g ? hg_e($g['name']) . ' ' : '') . 'trip. Tell us in the enquiry form or on WhatsApp.</p>');
 
         $similar = array_slice(array_values(array_filter(hg_packages_in($p['group']), function ($x) use ($p) { return $x['slug'] !== $p['slug']; })), 0, 3);
 
@@ -298,9 +375,10 @@ if (!function_exists('hg_render_package')) {
             <h2 class="hg-h2" id="qf-title">Quick facts</h2>
             <?php $inShort = hg_package_in_short($p, $name); if ($inShort !== '') { ?><p class="hg-summary"><strong>In short:</strong> <?= hg_e($inShort) ?></p><?php } ?>
             <dl class="hg-qf">
-                <div><dt>Duration</dt><dd><?= hg_e($p['duration']) ?></dd></div>
+                <?php if (!$durationDisputed) { ?><div><dt>Duration</dt><dd><?= hg_e($p['duration']) ?></dd></div><?php } ?>
                 <div><dt>Places</dt><dd><?= hg_e(implode(', ', $p['places'])) ?></dd></div>
-                <?php if ($days && $days[0]['stay']) { ?><div><dt>Starts / ends</dt><dd><?= hg_e($days[0]['stay']) ?> / <?= hg_e(end($days)['stay'] ?: $days[0]['stay']) ?></dd></div><?php } ?>
+                <?php if ($ends['start'] !== '') { ?><div><dt>Starts</dt><dd><?= hg_e($ends['start']) ?></dd></div><?php } ?>
+                <?php if ($ends['end'] !== '') { ?><div><dt>Ends</dt><dd><?= hg_e($ends['end']) ?></dd></div><?php } ?>
                 <?php if ($p['hotel']) { ?><div><dt>Stay</dt><dd><?= hg_e($p['hotel']) ?> category, twin sharing<?= $houseboat ? '; ' . hg_e($hbText) : '' ?></dd></div><?php } ?>
                 <?php if ($p['meals']) { ?><div><dt>Meals</dt><dd><?= hg_e($p['meals']) ?></dd></div><?php } ?>
                 <?php if ($p['transfers']) { ?><div><dt>Transport</dt><dd><?= hg_e($p['transfers']) ?></dd></div><?php } ?>
