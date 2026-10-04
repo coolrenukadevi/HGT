@@ -18,7 +18,15 @@ hg_layout_start(array(
     'path' => '/customized-holidays',
     'index' => empty($_GET),
     'breadcrumbs' => array(array('Home', '/'), array('Customized Holidays', null)),
-    'schema' => array(hg_faq_schema($faqs)),
+    'schema' => array(hg_faq_schema($faqs), array(
+        // The service this page offers (Phase 9.8 schema). Visible facts only; quotes are made per trip, so no Offer.
+        '@type' => 'Service', '@id' => hg_abs('/customized-holidays') . '#service', 'name' => 'Customized holiday planning',
+        'serviceType' => 'Customized holiday packages in India and abroad',
+        'description' => 'Tell us where, when and who is travelling. A travel expert designs the itinerary, hotels and transfers around you.',
+        'provider' => array('@id' => HG_SITE_URL . '/#organization'), 'url' => hg_abs('/customized-holidays'),
+        'availableChannel' => array('@type' => 'ServiceChannel', 'serviceUrl' => hg_abs('/customized-holidays'),
+            'servicePhone' => array('@type' => 'ContactPoint', 'telephone' => HG_PHONE_DISPLAY)),
+    )),
 ));
 ?>
 <section class="hg-pagehead" aria-labelledby="page-title">

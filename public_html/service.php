@@ -24,7 +24,15 @@ hg_layout_start(array(
     'description' => 'Hire a car, SUV, tempo traveller or bus with driver from Delhi and Haridwar for local use, airport transfers, Himachal trips and the Char Dham Yatra. Ask for the current rate.',
     'path' => '/service',
     'breadcrumbs' => array(array('Home', '/'), array('Car rental', null)),
-    'schema' => array(hg_faq_schema($faqs)),
+    'schema' => array(hg_faq_schema($faqs), array(
+        // The service this page offers (Phase 9.8 schema). Visible facts only; rates are on request, so no Offer.
+        '@type' => 'Service', '@id' => hg_abs('/service') . '#service', 'name' => 'Car rental with driver',
+        'serviceType' => 'Car, SUV, tempo traveller and bus rental with driver',
+        'description' => 'Sedans, SUVs, tempo travellers and buses with driver for airport and station pick-ups, local use, and outstation trips from Delhi and Haridwar to Himachal and the Char Dham Yatra.',
+        'provider' => array('@id' => HG_SITE_URL . '/#organization'), 'url' => hg_abs('/service'),
+        'availableChannel' => array('@type' => 'ServiceChannel', 'serviceUrl' => hg_abs('/service'),
+            'servicePhone' => array('@type' => 'ContactPoint', 'telephone' => HG_PHONE_DISPLAY)),
+    )),
 ));
 ?>
 <section class="hg-pagehead" aria-labelledby="page-title">

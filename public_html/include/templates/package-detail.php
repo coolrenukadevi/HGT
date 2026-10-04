@@ -312,7 +312,8 @@ if (!function_exists('hg_render_package')) {
         $ends = hg_package_endpoints($p);
         $list = function (array $x) { return count($x) > 1 ? implode(', ', array_slice($x, 0, -1)) . ' and ' . end($x) : (string) reset($x); };
         $faqs = array();
-        if ($p['inclusions']) $faqs[] = array('What is included in the ' . $name . '?', '<ul>' . implode('', array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . '</ul>');
+        // One item per line, so the FAQPage answer text (tags stripped) keeps the items apart like the visible list.
+        if ($p['inclusions']) $faqs[] = array('What is included in the ' . $name . '?', "<ul>\n" . implode("\n", array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . "\n</ul>");
         if ($route) {
             $nightsSum = array_sum(array_map(function ($st) { return $st['nights']; }, $stays));
             $split = (!$durationDisputed && $stays && $nightsSum === (int) $p['nights'])
@@ -351,7 +352,7 @@ if (!function_exists('hg_render_package')) {
 
         $trip = array(
             // Same description as the page's meta description (approved SEO description where one exists).
-            '@type' => 'TouristTrip', 'name' => $name, 'url' => hg_abs($url),
+            '@type' => 'TouristTrip', '@id' => hg_abs($url) . '#trip', 'name' => $name, 'url' => hg_abs($url),
             'description' => ($seo = hg_seo_meta($url)) && isset($seo['description']) ? $seo['description'] : $p['description'],
             'image' => hg_abs($p['image']), 'touristType' => array('Leisure'),
             'provider' => array('@id' => HG_SITE_URL . '/#organization'),

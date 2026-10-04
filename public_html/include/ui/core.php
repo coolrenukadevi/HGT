@@ -565,7 +565,8 @@ if (!defined('HG_UI_CORE')) {
         $items = array();
         foreach ($faqs as $f) {
             $items[] = array('@type' => 'Question', 'name' => $f[0],
-                'acceptedAnswer' => array('@type' => 'Answer', 'text' => trim(strip_tags($f[1]))));
+                // Same text as the visible answer: tags removed and entities decoded ("&amp;" → "&").
+                'acceptedAnswer' => array('@type' => 'Answer', 'text' => trim(html_entity_decode(strip_tags($f[1]), ENT_QUOTES | ENT_HTML5, 'UTF-8'))));
         }
         return array('@type' => 'FAQPage', 'mainEntity' => $items);
     }
