@@ -13672,5 +13672,2172 @@
   "end": "Haridwar",
   "itinerary_source": "standard",
   "special_notes": "Registration with Uttarakhand Tourism is compulsory for every pilgrim. Badrinath temple is open only from about April/May to October/November; the dates are announced each year."
+ },
+ {
+  "slug": "char-dham-haridwar-barkot-uttarkashi",
+  "url": "/char-dham-haridwar-barkot-uttarkashi",
+  "title": "Do Dham Yatra: Yamunotri and Gangotri from Haridwar",
+  "name": "Do Dham Yatra: Yamunotri and Gangotri from Haridwar",
+  "page_title": "Do Dham Yatra: Yamunotri and Gangotri from Haridwar – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days for the two western dhams: Yamunotri from Barkot and Gangotri from Uttarkashi, ending with the Ganga aarti in Rishikesh.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Haridwar - Barkot - Yamunotri - Uttarkashi - Gangotri - Rishikesh",
+  "image": "assets/img/destinations/char-dham.jpg",
+  "group": "char-dham",
+  "departure": "Haridwar",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Barkot)Haridwar to Barkot",
+    "text": "After breakfast, drive from Haridwar to Barkot (about 210 km, 7–8 hours) by way of Mussoorie, with a stop at Kempty Falls. Overnight stay in Barkot.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Barkot)Yamunotri darshan",
+    "text": "Early in the morning, drive to Janki Chatti (about 45 km) and walk up to Yamunotri (about 6 km), or go by pony or palki (paid locally). Bathe at the hot spring, offer prayers at the Divya Shila and Surya Kund, and have darshan at the Yamunotri temple. Walk down and drive back to Barkot. Overnight stay in Barkot.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Uttarkashi)Barkot to Uttarkashi",
+    "text": "After breakfast, drive to Uttarkashi (about 100 km, 4 hours) on the Bhagirathi. Visit the Kashi Vishwanath temple in the evening. Overnight stay in Uttarkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Uttarkashi)Gangotri darshan",
+    "text": "Early in the morning, drive to Gangotri (about 100 km, 3–4 hours) through Harsil and past the hot springs at Gangnani. Bathe in the Bhagirathi, have darshan at the Gangotri temple and drive back to Uttarkashi. Overnight stay in Uttarkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Rishikesh)Uttarkashi to Rishikesh",
+    "text": "After breakfast, drive down to Rishikesh (about 150 km, 5–6 hours) through Chamba. In the evening, attend the Ganga aarti at Triveni Ghat. Overnight stay in Rishikesh.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Rishikesh to Haridwar",
+    "text": "After breakfast, drive to Haridwar (about 25 km) for your onward journey. The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Haridwar",
+   "Barkot",
+   "Yamunotri",
+   "Uttarkashi",
+   "Gangotri",
+   "Rishikesh"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Haridwar",
+  "end": "Haridwar",
+  "itinerary_source": "standard",
+  "special_notes": "Registration with Uttarakhand Tourism is compulsory for every pilgrim. The temples are open only from about April/May to October/November; the dates are announced each year."
+ },
+ {
+  "slug": "char-dham-delhi-guptkashi-kedarnath-badrinath",
+  "url": "/char-dham-delhi-guptkashi-kedarnath-badrinath",
+  "title": "Do Dham Yatra: Kedarnath and Badrinath from Delhi",
+  "name": "Do Dham Yatra: Kedarnath and Badrinath from Delhi",
+  "page_title": "Do Dham Yatra: Kedarnath and Badrinath from Delhi – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from Delhi for the two Shiva and Vishnu dhams: Kedarnath with a night at the temple, and Badrinath with Mana village.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Haridwar - Guptkashi - Kedarnath - Badrinath - Mana - Rudraprayag",
+  "image": "assets/img/packages/char-dham-yatra-from-delhi-10n-11d.jpg",
+  "group": "char-dham",
+  "departure": "Delhi",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Haridwar)Delhi to Haridwar",
+    "text": "Our representative meets you in Delhi for the drive to Haridwar (about 230 km, 6–7 hours). In the evening, attend the Ganga aarti at Har Ki Pauri. Overnight stay in Haridwar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Guptkashi)Haridwar to Guptkashi",
+    "text": "After an early breakfast, drive to Guptkashi (about 210 km, 8–9 hours) by way of Devprayag and Rudraprayag. Overnight stay in Guptkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kedarnath)Gaurikund to Kedarnath",
+    "text": "Very early, drive to Sonprayag and take the local shared jeep to Gaurikund (paid locally). Walk the trail to Kedarnath (about 16 km), or go by pony, palki or doli (paid locally); helicopter seats from Phata, Sersi or Guptkashi are booked separately on the official portal. Darshan and evening aarti at the Kedarnath temple. Overnight stay at Kedarnath.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Guptkashi)Kedarnath to Guptkashi",
+    "text": "Morning darshan at Kedarnath, then walk down to Gaurikund and drive back to Guptkashi. Overnight stay in Guptkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Badrinath)Guptkashi to Badrinath",
+    "text": "After breakfast, drive from Guptkashi to Badrinath (about 200 km, 7–8 hours) by way of Chamoli and Joshimath. Bathe at the Tapt Kund and attend the evening aarti at the Badrinath temple. Overnight stay in Badrinath.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Rudraprayag)Badrinath and Mana – Rudraprayag",
+    "text": "Early morning darshan at Badrinath, then visit Mana village (about 3 km) with the Vyas Gufa and Bhim Pul. Drive back to Rudraprayag (about 160 km). Overnight stay in Rudraprayag.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Rudraprayag to Delhi",
+    "text": "After an early breakfast, drive to Delhi (about 390 km, 11–12 hours) by way of Rishikesh and Haridwar, arriving late in the evening. The yatra ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Haridwar",
+   "Guptkashi",
+   "Kedarnath",
+   "Badrinath",
+   "Mana",
+   "Rudraprayag"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Registration with Uttarakhand Tourism is compulsory for every pilgrim. The temples are open only from about April/May to October/November; the dates are announced each year. The night at Kedarnath is in basic guest houses or camps."
+ },
+ {
+  "slug": "char-dham-yatra-from-dehradun",
+  "url": "/char-dham-yatra-from-dehradun",
+  "title": "Char Dham Yatra from Dehradun",
+  "name": "Char Dham Yatra from Dehradun",
+  "page_title": "Char Dham Yatra from Dehradun – 9 Nights / 10 Days | Holiday Guru Travel",
+  "description": "Ten days for all four dhams — Yamunotri, Gangotri, Kedarnath and Badrinath — starting and ending at Dehradun, with a night at Kedarnath.",
+  "duration": "9 Nights / 10 Days",
+  "nights": 9,
+  "days": 10,
+  "cities": "Barkot - Yamunotri - Uttarkashi - Gangotri - Guptkashi - Kedarnath - Badrinath - Rudraprayag",
+  "image": "assets/img/packages/chardham-yatra-from-haridwar-8n-9d.jpg",
+  "group": "char-dham",
+  "departure": "Dehradun",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Barkot)Dehradun to Barkot",
+    "text": "After breakfast, drive from Dehradun to Barkot (about 140 km, 5–6 hours) by way of Mussoorie, with a stop at Kempty Falls. Overnight stay in Barkot.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Barkot)Yamunotri darshan",
+    "text": "Early in the morning, drive to Janki Chatti (about 45 km) and walk up to Yamunotri (about 6 km), or go by pony or palki (paid locally). Bathe at the hot spring, offer prayers at the Divya Shila and Surya Kund, and have darshan at the Yamunotri temple. Walk down and drive back to Barkot. Overnight stay in Barkot.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Uttarkashi)Barkot to Uttarkashi",
+    "text": "After breakfast, drive to Uttarkashi (about 100 km, 4 hours) on the Bhagirathi. Visit the Kashi Vishwanath temple in the evening. Overnight stay in Uttarkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Uttarkashi)Gangotri darshan",
+    "text": "Early in the morning, drive to Gangotri (about 100 km, 3–4 hours) through Harsil and past the hot springs at Gangnani. Bathe in the Bhagirathi, have darshan at the Gangotri temple and drive back to Uttarkashi. Overnight stay in Uttarkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Guptkashi)Uttarkashi to Guptkashi",
+    "text": "After breakfast, drive to Guptkashi (about 220 km, 8–9 hours) by way of Tehri and Srinagar (Garhwal). Overnight stay in Guptkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Kedarnath)Gaurikund to Kedarnath",
+    "text": "Very early, drive to Sonprayag and take the local shared jeep to Gaurikund (paid locally). Walk the trail to Kedarnath (about 16 km), or go by pony, palki or doli (paid locally); helicopter seats from Phata, Sersi or Guptkashi are booked separately on the official portal. Darshan and evening aarti at the Kedarnath temple. Overnight stay at Kedarnath.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Guptkashi)Kedarnath to Guptkashi",
+    "text": "Morning darshan at Kedarnath, then walk down to Gaurikund and drive back to Guptkashi. Overnight stay in Guptkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Badrinath)Guptkashi to Badrinath",
+    "text": "After breakfast, drive from Guptkashi to Badrinath (about 200 km, 7–8 hours) by way of Chamoli and Joshimath. Bathe at the Tapt Kund and attend the evening aarti at the Badrinath temple. Overnight stay in Badrinath.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : (Rudraprayag)Badrinath and Mana – Rudraprayag",
+    "text": "Early morning darshan at Badrinath, then visit Mana village (about 3 km) with the Vyas Gufa and Bhim Pul. Drive back to Rudraprayag (about 160 km). Overnight stay in Rudraprayag.",
+    "generated": true
+   },
+   {
+    "title": "Day 10 : Rudraprayag to Dehradun",
+    "text": "After breakfast, drive to Dehradun (about 180 km, 6–7 hours) for your onward journey. The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Barkot",
+   "Yamunotri",
+   "Uttarkashi",
+   "Gangotri",
+   "Guptkashi",
+   "Kedarnath",
+   "Badrinath",
+   "Rudraprayag"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Dehradun",
+  "end": "Dehradun",
+  "itinerary_source": "standard",
+  "special_notes": "Registration with Uttarakhand Tourism is compulsory for every pilgrim. The temples are open only from about April/May to October/November; the dates are announced each year. The night at Kedarnath is in basic guest houses or camps."
+ },
+ {
+  "slug": "char-dham-delhi-guptkashi-kedarnath",
+  "url": "/char-dham-delhi-guptkashi-kedarnath",
+  "title": "Ek Dham Yatra: Kedarnath from Delhi",
+  "name": "Ek Dham Yatra: Kedarnath from Delhi",
+  "page_title": "Ek Dham Yatra: Kedarnath from Delhi – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days from Delhi to Kedarnath, with the Ganga aarti at Haridwar and a night at the temple for evening aarti and morning darshan.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Haridwar - Guptkashi - Kedarnath - Rudraprayag",
+  "image": "assets/img/destinations/char-dham.jpg",
+  "group": "char-dham",
+  "departure": "Delhi",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Haridwar)Delhi to Haridwar",
+    "text": "Our representative meets you in Delhi for the drive to Haridwar (about 230 km, 6–7 hours). In the evening, attend the Ganga aarti at Har Ki Pauri. Overnight stay in Haridwar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Guptkashi)Haridwar to Guptkashi",
+    "text": "After an early breakfast, drive to Guptkashi (about 210 km, 8–9 hours) along the Ganga, Alaknanda and Mandakini. Overnight stay in Guptkashi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kedarnath)Gaurikund to Kedarnath",
+    "text": "Very early, drive to Sonprayag and take the local shared jeep to Gaurikund (paid locally). Walk the trail to Kedarnath (about 16 km), or go by pony, palki or doli (paid locally); helicopter seats from Phata, Sersi or Guptkashi are booked separately on the official portal. Darshan and evening aarti at the Kedarnath temple. Overnight stay at Kedarnath.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Rudraprayag)Kedarnath to Rudraprayag",
+    "text": "Morning darshan at Kedarnath, then walk down to Gaurikund and drive to Rudraprayag (about 75 km from Sonprayag). Overnight stay in Rudraprayag.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Rudraprayag to Delhi",
+    "text": "After an early breakfast, drive to Delhi (about 390 km, 11–12 hours), arriving late in the evening. The yatra ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Haridwar",
+   "Guptkashi",
+   "Kedarnath",
+   "Rudraprayag"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Registration with Uttarakhand Tourism is compulsory for every pilgrim. The temples are open only from about April/May to October/November; the dates are announced each year. The night at Kedarnath is in basic guest houses or camps."
+ },
+ {
+  "slug": "sikkim-gangtok",
+  "url": "/sikkim-gangtok",
+  "title": "Gangtok and Tsomgo Lake Tour",
+  "name": "Gangtok and Tsomgo Lake Tour",
+  "page_title": "Gangtok and Tsomgo Lake Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in Sikkim's capital: a day at Tsomgo Lake and Baba Mandir, and Gangtok's monasteries, viewpoints and ropeway.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Gangtok - Tsomgo Lake - Rumtek",
+  "image": "assets/img/packages/darjeeling-gangtok-05-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Gangtok)Tsomgo Lake and Baba Mandir",
+    "text": "After breakfast, drive to Tsomgo Lake (about 38 km, 2 hours), a glacial lake at about 3,750 m, and the Baba Harbhajan Singh memorial temple. Nathu La can be added at extra cost (Indian nationals only; permit required). Return to Gangtok. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Gangtok)Gangtok sightseeing",
+    "text": "After breakfast, see Gangtok: the Rumtek monastery, Enchey monastery, Do Drul Chorten, the Namgyal Institute of Tibetology and the Ganesh Tok and Tashi viewpoints. Ride the Gangtok ropeway if you wish (paid locally). Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Gangtok to Bagdogra",
+    "text": "After breakfast, drive from Gangtok to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Tsomgo Lake",
+   "Rumtek"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only."
+ },
+ {
+  "slug": "darjeeling-holiday",
+  "url": "/darjeeling-holiday",
+  "title": "Darjeeling Holiday",
+  "name": "Darjeeling Holiday",
+  "page_title": "Darjeeling Holiday – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in Darjeeling: sunrise on Kanchenjunga from Tiger Hill, the toy train to Ghoom, tea gardens and the Mountaineering Institute.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Darjeeling - Tiger Hill - Ghoom",
+  "image": "assets/img/packages/gangtok-with-lachung-pelling-and-darjeeling-08-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Darjeeling)Arrive – drive to Darjeeling",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station and drive up to Darjeeling (about 70 km, 3 hours) through tea gardens. Evening on the Mall and Chowrasta. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Darjeeling)Tiger Hill and Darjeeling sightseeing",
+    "text": "Very early, drive to Tiger Hill (about 11 km) to watch the sunrise on Kanchenjunga, weather permitting. On the way back, visit the Ghoom monastery and the Batasia Loop war memorial. After breakfast, see the Himalayan Mountaineering Institute, the Padmaja Naidu zoo and the Tibetan Refugee Self Help Centre. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Darjeeling)Toy train and tea garden",
+    "text": "After breakfast, ride the Darjeeling Himalayan Railway toy train joy ride to Ghoom and back, a UNESCO World Heritage line (tickets paid locally). Later, visit the Happy Valley tea estate and the Japanese Peace Pagoda. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Darjeeling to Bagdogra",
+    "text": "After breakfast, drive from Darjeeling to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Darjeeling",
+   "Tiger Hill",
+   "Ghoom"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "sikkim-gangtok-lachung",
+  "url": "/sikkim-gangtok-lachung",
+  "title": "Gangtok and Lachung with Yumthang Valley",
+  "name": "Gangtok and Lachung with Yumthang Valley",
+  "page_title": "Gangtok and Lachung with Yumthang Valley – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in Sikkim with two nights at Lachung for the Yumthang valley, plus Tsomgo Lake and Gangtok.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Gangtok - Lachung - Yumthang - Tsomgo Lake",
+  "image": "assets/img/packages/darjeeling-with-lachung-and-gangtok-08-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Lachung)Gangtok to Lachung",
+    "text": "After breakfast, drive to Lachung in North Sikkim (about 120 km, 6–7 hours) by way of Mangan and Chungthang, stopping at the Seven Sisters waterfall. Overnight stay in Lachung.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Lachung)Yumthang valley",
+    "text": "Early in the morning, drive to Yumthang valley (about 24 km), the valley of flowers, with its hot spring and rhododendrons in spring. Zero Point beyond can be added (paid locally, road permitting). Return to Lachung. Overnight stay in Lachung.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Gangtok)Lachung to Gangtok",
+    "text": "After breakfast, drive back to Gangtok (about 120 km, 6–7 hours). Evening at leisure on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Gangtok)Tsomgo Lake and Gangtok",
+    "text": "After breakfast, drive to Tsomgo Lake and the Baba Harbhajan Singh memorial temple. In the afternoon, visit the Do Drul Chorten and the Namgyal Institute of Tibetology. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Gangtok to Bagdogra",
+    "text": "After breakfast, drive from Gangtok to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Lachung",
+   "Yumthang",
+   "Tsomgo Lake"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only."
+ },
+ {
+  "slug": "sikkim-gangtok-lachen-lachung-pelling",
+  "url": "/sikkim-gangtok-lachen-lachung-pelling",
+  "title": "North Sikkim and Pelling Tour",
+  "name": "North Sikkim and Pelling Tour",
+  "page_title": "North Sikkim and Pelling Tour – 8 Nights / 9 Days | Holiday Guru Travel",
+  "description": "Nine days from the high lakes of North Sikkim — Gurudongmar and Yumthang — to Pelling and Yuksom in the west, facing Kanchenjunga.",
+  "duration": "8 Nights / 9 Days",
+  "nights": 8,
+  "days": 9,
+  "cities": "Gangtok - Lachen - Gurudongmar Lake - Lachung - Yumthang - Pelling - Yuksom",
+  "image": "assets/img/packages/darjeeling-and-gangtok-06-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Gangtok)Tsomgo Lake and Gangtok",
+    "text": "After breakfast, drive to Tsomgo Lake and Baba Mandir; in the afternoon, visit the Enchey monastery and the Tashi viewpoint. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Lachen)Gangtok to Lachen",
+    "text": "After breakfast, drive to Lachen (about 125 km, 6–7 hours) by way of Mangan and Chungthang. Overnight stay in Lachen.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Lachung)Gurudongmar Lake – Lachung",
+    "text": "Before dawn, drive to Gurudongmar Lake (about 5,150 m), one of the highest lakes in the world and sacred to Buddhists and Sikhs. Return to Lachen for breakfast and drive on to Lachung. Overnight stay in Lachung.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Gangtok)Yumthang valley – Gangtok",
+    "text": "Early in the morning, visit the Yumthang valley (about 24 km from Lachung), then drive back to Gangtok. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Pelling)Gangtok to Pelling",
+    "text": "After breakfast, drive to Pelling in West Sikkim (about 130 km, 5 hours), with Kanchenjunga close across the valley on a clear day. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Pelling)Pelling sightseeing",
+    "text": "After breakfast, see Pelling: the Pemayangtse monastery, the ruins of Rabdentse, the old Sikkim capital, the Sky Walk and Chenrezig statue, and the Kanchenjunga falls. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Pelling)Khecheopalri Lake and Yuksom",
+    "text": "After breakfast, visit the Khecheopalri Lake, sacred to Buddhists and Hindus, and Yuksom, the first capital of Sikkim, with the Norbugang coronation throne and the Dubdi monastery above the village. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : Pelling to Bagdogra",
+    "text": "After breakfast, drive from Pelling to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Lachen",
+   "Gurudongmar Lake",
+   "Lachung",
+   "Yumthang",
+   "Pelling",
+   "Yuksom"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only. Gurudongmar is at about 5,150 m; it is not advised for very young children, elderly travellers or anyone with heart or breathing conditions."
+ },
+ {
+  "slug": "darjeeling-mirik",
+  "url": "/darjeeling-mirik",
+  "title": "Darjeeling and Mirik Tour",
+  "name": "Darjeeling and Mirik Tour",
+  "page_title": "Darjeeling and Mirik Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in the Darjeeling hills: three nights in Darjeeling with Tiger Hill and the toy train, and a quiet night at Mirik's lake among the tea gardens.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Darjeeling - Tiger Hill - Mirik",
+  "image": "assets/img/packages/darjeeling-with-pelling-and-gangtok-06-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Darjeeling)Arrive – drive to Darjeeling",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station and drive up to Darjeeling (about 70 km, 3 hours) through tea gardens. Evening on the Mall and Chowrasta. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Darjeeling)Tiger Hill and Darjeeling sightseeing",
+    "text": "Very early, drive to Tiger Hill (about 11 km) to watch the sunrise on Kanchenjunga, weather permitting. On the way back, visit the Ghoom monastery and the Batasia Loop war memorial. After breakfast, see the Himalayan Mountaineering Institute, the Padmaja Naidu zoo and the Tibetan Refugee Self Help Centre. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Darjeeling)Toy train and tea garden",
+    "text": "After breakfast, ride the Darjeeling Himalayan Railway toy train joy ride to Ghoom and back, a UNESCO World Heritage line (tickets paid locally). Later, visit the Happy Valley tea estate and the Japanese Peace Pagoda. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Mirik)Darjeeling to Mirik",
+    "text": "After breakfast, drive to Mirik (about 50 km, 2 hours) through tea gardens and orange orchards. Walk around Sumendu Lake and across its footbridge, and visit the Bokar monastery. The Pashupati market on the Nepal border is nearby. Overnight stay in Mirik.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Mirik to Bagdogra",
+    "text": "After breakfast, drive from Mirik to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Darjeeling",
+   "Tiger Hill",
+   "Mirik"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "sikkim-gangtok-ravangla-pelling",
+  "url": "/sikkim-gangtok-ravangla-pelling",
+  "title": "Gangtok, Ravangla and Pelling Tour",
+  "name": "Gangtok, Ravangla and Pelling Tour",
+  "page_title": "Gangtok, Ravangla and Pelling Tour – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days across East, South and West Sikkim: Gangtok and Tsomgo Lake, the Buddha Park at Ravangla, Namchi's Char Dham, and Pelling.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Gangtok - Tsomgo Lake - Ravangla - Namchi - Pelling",
+  "image": "assets/img/packages/darjeeling-gangtok-04-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Gangtok)Tsomgo Lake and Baba Mandir",
+    "text": "After breakfast, drive to Tsomgo Lake (about 38 km, 2 hours), a glacial lake at about 3,750 m, and the Baba Harbhajan Singh memorial temple. Nathu La can be added at extra cost (Indian nationals only; permit required). Return to Gangtok. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Gangtok)Gangtok sightseeing",
+    "text": "After breakfast, see Gangtok: the Rumtek monastery, Enchey monastery, Do Drul Chorten, the Namgyal Institute of Tibetology and the Ganesh Tok and Tashi viewpoints. Ride the Gangtok ropeway if you wish (paid locally). Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ravangla)Gangtok to Ravangla",
+    "text": "After breakfast, drive to Ravangla in South Sikkim (about 65 km, 3 hours) by way of the Temi tea garden. Visit the Buddha Park, with its large statue of the Buddha facing the snow peaks, and the Ralang monastery. Overnight stay in Ravangla.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Pelling)Namchi – Pelling",
+    "text": "After breakfast, visit Namchi's Char Dham complex and the Samdruptse statue of Guru Padmasambhava, then drive to Pelling. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Pelling)Pelling sightseeing",
+    "text": "After breakfast, see Pelling: the Pemayangtse monastery, the ruins of Rabdentse, the old Sikkim capital, the Sky Walk and Chenrezig statue, and the Kanchenjunga falls. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Pelling to Bagdogra",
+    "text": "After breakfast, drive from Pelling to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Tsomgo Lake",
+   "Ravangla",
+   "Namchi",
+   "Pelling"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only."
+ },
+ {
+  "slug": "sikkim-gangtok-zuluk-silk-route",
+  "url": "/sikkim-gangtok-zuluk-silk-route",
+  "title": "Gangtok and Zuluk: Old Silk Route",
+  "name": "Gangtok and Zuluk: Old Silk Route",
+  "page_title": "Gangtok and Zuluk: Old Silk Route – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in East Sikkim: Gangtok and Tsomgo Lake, then a night at Zuluk on the old Silk Route for sunrise at Thambi and the Nathang valley.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Gangtok - Tsomgo Lake - Zuluk - Thambi - Nathang",
+  "image": "assets/img/packages/gangtok-pelling-tour-05-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Gangtok)Tsomgo Lake and Baba Mandir",
+    "text": "After breakfast, drive to Tsomgo Lake (about 38 km, 2 hours), a glacial lake at about 3,750 m, and the Baba Harbhajan Singh memorial temple. Nathu La can be added at extra cost (Indian nationals only; permit required). Return to Gangtok. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Gangtok)Gangtok sightseeing",
+    "text": "After breakfast, see Gangtok: the Rumtek monastery, Enchey monastery, Do Drul Chorten, the Namgyal Institute of Tibetology and the Ganesh Tok and Tashi viewpoints. Ride the Gangtok ropeway if you wish (paid locally). Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Zuluk)Gangtok to Zuluk",
+    "text": "After breakfast, drive to Zuluk on the old Silk Route to Tibet (about 90 km, 4–5 hours) by way of Rongli, where the permit is checked. Zuluk is a small village above the famous zigzag road. Overnight stay in a homestay at Zuluk.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Gangtok)Thambi sunrise and Nathang – Gangtok",
+    "text": "Before dawn, drive to the Thambi viewpoint to watch the sunrise on Kanchenjunga above the zigzag road, then continue to the Nathang valley. Return through Zuluk and Rongli to Gangtok. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Gangtok to Bagdogra",
+    "text": "After breakfast, drive from Gangtok to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Tsomgo Lake",
+   "Zuluk",
+   "Thambi",
+   "Nathang"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only. Zuluk has only basic homestays; the Silk Route can be closed by snow in winter."
+ },
+ {
+  "slug": "sikkim-pelling-darjeeling",
+  "url": "/sikkim-pelling-darjeeling",
+  "title": "Pelling and Darjeeling Tour",
+  "name": "Pelling and Darjeeling Tour",
+  "page_title": "Pelling and Darjeeling Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days facing Kanchenjunga: two nights in Pelling with Pemayangtse and Khecheopalri Lake, and three in Darjeeling with Tiger Hill and the toy train.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Pelling - Khecheopalri Lake - Darjeeling - Tiger Hill",
+  "image": "assets/img/packages/darjeeling-with-kalimpong-and-gangtok-06-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Pelling)Arrive – drive to Pelling",
+    "text": "Arrive at Bagdogra airport or NJP railway station and drive to Pelling in West Sikkim (about 140 km, 5–6 hours) by way of Jorethang. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Pelling)Pelling sightseeing",
+    "text": "After breakfast, see Pelling: the Pemayangtse monastery, the ruins of Rabdentse, the old Sikkim capital, the Sky Walk and Chenrezig statue, and the Kanchenjunga falls. Later, visit the Khecheopalri Lake. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Darjeeling)Pelling to Darjeeling",
+    "text": "After breakfast, drive to Darjeeling (about 75 km, 4 hours) by way of Jorethang. Evening on the Mall and Chowrasta. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Darjeeling)Tiger Hill and Darjeeling sightseeing",
+    "text": "Very early, drive to Tiger Hill (about 11 km) to watch the sunrise on Kanchenjunga, weather permitting. On the way back, visit the Ghoom monastery and the Batasia Loop war memorial. After breakfast, see the Himalayan Mountaineering Institute, the Padmaja Naidu zoo and the Tibetan Refugee Self Help Centre. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Darjeeling)Toy train and tea garden",
+    "text": "After breakfast, ride the Darjeeling Himalayan Railway toy train joy ride to Ghoom and back, a UNESCO World Heritage line (tickets paid locally). Later, visit the Happy Valley tea estate and the Japanese Peace Pagoda. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Darjeeling to Bagdogra",
+    "text": "After breakfast, drive from Darjeeling to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Pelling",
+   "Khecheopalri Lake",
+   "Darjeeling",
+   "Tiger Hill"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "darjeeling-kalimpong-mirik",
+  "url": "/darjeeling-kalimpong-mirik",
+  "title": "Kalimpong, Darjeeling and Mirik Tour",
+  "name": "Kalimpong, Darjeeling and Mirik Tour",
+  "page_title": "Kalimpong, Darjeeling and Mirik Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in the Darjeeling hills: Kalimpong's Deolo Hill and monasteries, three nights in Darjeeling, and a night at Mirik's lake.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Kalimpong - Darjeeling - Tiger Hill - Mirik",
+  "image": "assets/img/packages/darjeeling-kalimpong-04-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Kalimpong)Arrive – drive to Kalimpong",
+    "text": "Arrive at Bagdogra airport or NJP railway station and drive to Kalimpong (about 70 km, 3 hours) along the Teesta. Overnight stay in Kalimpong.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Darjeeling)Kalimpong sightseeing – Darjeeling",
+    "text": "After breakfast, see Kalimpong: Deolo Hill, the Durpin monastery, Dr. Graham's Homes and a cactus nursery. Then drive to Darjeeling (about 50 km, 2.5 hours). Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Darjeeling)Tiger Hill and Darjeeling sightseeing",
+    "text": "Very early, drive to Tiger Hill (about 11 km) to watch the sunrise on Kanchenjunga, weather permitting. On the way back, visit the Ghoom monastery and the Batasia Loop war memorial. After breakfast, see the Himalayan Mountaineering Institute, the Padmaja Naidu zoo and the Tibetan Refugee Self Help Centre. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Darjeeling)Toy train and tea garden",
+    "text": "After breakfast, ride the Darjeeling Himalayan Railway toy train joy ride to Ghoom and back, a UNESCO World Heritage line (tickets paid locally). Later, visit the Happy Valley tea estate and the Japanese Peace Pagoda. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Mirik)Darjeeling to Mirik",
+    "text": "After breakfast, drive to Mirik (about 50 km, 2 hours) and spend the afternoon by Sumendu Lake and at the Bokar monastery. Overnight stay in Mirik.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Mirik to Bagdogra",
+    "text": "After breakfast, drive from Mirik to Bagdogra airport or NJP railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kalimpong",
+   "Darjeeling",
+   "Tiger Hill",
+   "Mirik"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "sikkim-gangtok-lachung-ravangla-pelling-darjeeling",
+  "url": "/sikkim-gangtok-lachung-ravangla-pelling-darjeeling",
+  "title": "Grand Sikkim and Darjeeling Tour",
+  "name": "Grand Sikkim and Darjeeling Tour",
+  "page_title": "Grand Sikkim and Darjeeling Tour – 10 Nights / 11 Days | Holiday Guru Travel",
+  "description": "Eleven days across Sikkim and Darjeeling: Gangtok and Tsomgo, Lachung and Yumthang, Ravangla's Buddha Park, Pelling, and Darjeeling's Tiger Hill.",
+  "duration": "10 Nights / 11 Days",
+  "nights": 10,
+  "days": 11,
+  "cities": "Gangtok - Lachung - Yumthang - Ravangla - Pelling - Darjeeling",
+  "image": "assets/img/packages/gangtok-with-pelling-and-kalimpong-tour-07-days.jpg",
+  "group": "sikkim-darjeeling",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Gangtok)Arrive – drive to Gangtok",
+    "text": "Arrive at Bagdogra airport or New Jalpaiguri (NJP) railway station, where our representative meets you, and drive to Gangtok (about 125 km, 4–5 hours) along the Teesta river. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Gangtok)Tsomgo Lake and Gangtok",
+    "text": "After breakfast, drive to Tsomgo Lake and Baba Mandir; in the afternoon, visit Rumtek monastery. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Lachung)Gangtok to Lachung",
+    "text": "After breakfast, drive to Lachung in North Sikkim (about 120 km, 6–7 hours) by way of Mangan and Chungthang, stopping at the Seven Sisters waterfall. Overnight stay in Lachung.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Lachung)Yumthang valley",
+    "text": "Early in the morning, drive to Yumthang valley (about 24 km), the valley of flowers, with its hot spring and rhododendrons in spring. Zero Point beyond can be added (paid locally, road permitting). Return to Lachung. Overnight stay in Lachung.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Gangtok)Lachung to Gangtok",
+    "text": "After breakfast, drive back to Gangtok. Evening on MG Marg. Overnight stay in Gangtok.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Ravangla)Gangtok to Ravangla",
+    "text": "After breakfast, drive to Ravangla (about 65 km) by way of the Temi tea garden and visit the Buddha Park. Overnight stay in Ravangla.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Pelling)Ravangla to Pelling",
+    "text": "After breakfast, drive to Pelling (about 45 km) and visit the Pemayangtse monastery. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Pelling)Pelling sightseeing",
+    "text": "After breakfast, see the Rabdentse ruins, the Sky Walk and Chenrezig statue, the Khecheopalri Lake and the Kanchenjunga falls. Overnight stay in Pelling.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : (Darjeeling)Pelling to Darjeeling",
+    "text": "After breakfast, drive to Darjeeling (about 75 km, 4 hours). Evening on the Mall. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 10 : (Darjeeling)Tiger Hill and Darjeeling sightseeing",
+    "text": "Very early, drive to Tiger Hill (about 11 km) to watch the sunrise on Kanchenjunga, weather permitting. On the way back, visit the Ghoom monastery and the Batasia Loop war memorial. After breakfast, see the Himalayan Mountaineering Institute, the Padmaja Naidu zoo and the Tibetan Refugee Self Help Centre. Overnight stay in Darjeeling.",
+    "generated": true
+   },
+   {
+    "title": "Day 11 : Darjeeling to Bagdogra",
+    "text": "After breakfast, take the toy train joy ride if time allows (paid locally), then drive to Bagdogra or NJP for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Gangtok",
+   "Lachung",
+   "Yumthang",
+   "Ravangla",
+   "Pelling",
+   "Darjeeling"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bagdogra",
+  "end": "Bagdogra",
+  "itinerary_source": "standard",
+  "special_notes": "Tsomgo Lake, North Sikkim (Lachen, Lachung) and the Silk Route need protected-area permits, arranged locally with photo ID and passport-size photos. Nathu La is optional at extra cost and open to Indian nationals only."
+ },
+ {
+  "slug": "kerala-cochin-munnar",
+  "url": "/kerala-cochin-munnar",
+  "title": "Munnar Weekend from Cochin",
+  "name": "Munnar Weekend from Cochin",
+  "page_title": "Munnar Weekend from Cochin – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day Munnar break from Cochin: waterfalls on the way up, Eravikulam National Park, the tea museum and Mattupetty dam.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Cochin - Munnar",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-06-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Munnar)Cochin to Munnar",
+    "text": "Arrive at Cochin airport or Ernakulam railway station, where our representative meets you, and drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Munnar to Cochin",
+    "text": "After breakfast, drive back to Cochin (about 130 km). If time allows before your departure, see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town. The tour ends in Cochin.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Cochin",
+   "Munnar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "kerala-munnar-thekkady-kumarakom",
+  "url": "/kerala-munnar-thekkady-kumarakom",
+  "title": "Munnar, Thekkady and Kumarakom Tour",
+  "name": "Munnar, Thekkady and Kumarakom Tour",
+  "page_title": "Munnar, Thekkady and Kumarakom Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days from the tea hills to the lake: Munnar, the spice hills and Periyar Lake at Thekkady, and two quiet nights at Kumarakom on Vembanad Lake.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Munnar - Thekkady - Kumarakom",
+  "image": "assets/img/packages/munnar-thekkady-tour-package-4-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Munnar)Cochin to Munnar",
+    "text": "Arrive at Cochin airport or Ernakulam railway station, where our representative meets you, and drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Thekkady)Munnar to Thekkady",
+    "text": "After breakfast, drive to Thekkady (about 90 km, 3–4 hours) through cardamom hills. In the afternoon, take a guided walk through a spice plantation (paid locally) and, in the evening, watch a Kathakali or Kalaripayattu show if you wish (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kumarakom)Periyar Lake – Kumarakom",
+    "text": "Early in the morning, take the boat ride on Periyar Lake inside the tiger reserve (tickets paid locally), watching for elephants, bison and birds along the shore. Then drive to Kumarakom on Vembanad Lake (about 115 km, 4 hours). Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kumarakom)Kumarakom",
+    "text": "A relaxed day at Kumarakom on Vembanad Lake: visit the Kumarakom bird sanctuary early in the morning, and take a boat out on the lake in the afternoon (paid locally). Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Kumarakom to Cochin",
+    "text": "After breakfast, drive from Kumarakom to Cochin airport or Ernakulam railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Munnar",
+   "Thekkady",
+   "Kumarakom"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-munnar-thekkady-alleppey-kumarakom",
+  "url": "/kerala-munnar-thekkady-alleppey-kumarakom",
+  "title": "Munnar, Thekkady, Alleppey and Kumarakom",
+  "name": "Munnar, Thekkady, Alleppey and Kumarakom",
+  "page_title": "Munnar, Thekkady, Alleppey and Kumarakom – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days through Kerala's hills and backwaters: Munnar, Thekkady, a night at Alleppey, two at Kumarakom, and Fort Kochi on the way out.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Cochin - Munnar - Thekkady - Alleppey - Kumarakom",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-06-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Munnar)Cochin to Munnar",
+    "text": "Arrive at Cochin airport or Ernakulam railway station, where our representative meets you, and drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Thekkady)Munnar to Thekkady",
+    "text": "After breakfast, drive to Thekkady (about 90 km, 3–4 hours) through cardamom hills. In the afternoon, take a guided walk through a spice plantation (paid locally) and, in the evening, watch a Kathakali or Kalaripayattu show if you wish (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Alleppey)Periyar Lake – Alleppey",
+    "text": "Early in the morning, take the boat ride on Periyar Lake inside the tiger reserve (tickets paid locally), watching for elephants, bison and birds along the shore. Then drive to Alleppey (about 140 km, 4 hours). Evening at Alleppey beach. Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kumarakom)Alleppey backwaters – Kumarakom",
+    "text": "In the morning, take a country-boat ride through Alleppey's canals and paddy fields (paid locally), then drive to Kumarakom (about 35 km). Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Kumarakom)Kumarakom",
+    "text": "A relaxed day at Kumarakom on Vembanad Lake: visit the Kumarakom bird sanctuary early in the morning, and take a boat out on the lake in the afternoon (paid locally). Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Kumarakom – Fort Kochi – departure",
+    "text": "After breakfast, drive to Cochin (about 55 km) and see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town before your departure. The tour ends in Cochin.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Cochin",
+   "Munnar",
+   "Thekkady",
+   "Alleppey",
+   "Kumarakom"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-varkala-kovalam",
+  "url": "/kerala-varkala-kovalam",
+  "title": "Varkala and Kovalam Beach Holiday",
+  "name": "Varkala and Kovalam Beach Holiday",
+  "page_title": "Varkala and Kovalam Beach Holiday – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days on Kerala's southern coast: the red cliffs of Varkala, Trivandrum's Padmanabhaswamy temple, and the beaches of Kovalam and Poovar.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Trivandrum - Varkala - Kovalam - Poovar",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-05-days.jpg",
+  "group": "kerala",
+  "departure": "Trivandrum",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varkala)Trivandrum to Varkala",
+    "text": "Arrive at Trivandrum airport or railway station and drive to Varkala (about 50 km, 1.5 hours). Spend the evening on the North Cliff above the beach. Overnight stay in Varkala.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varkala)Varkala",
+    "text": "A day in Varkala: the Papanasam beach, the 2,000-year-old Janardana Swamy temple, the Sivagiri Mutt of Sree Narayana Guru, and Kappil Lake where the backwater meets the sea. Overnight stay in Varkala.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kovalam)Varkala to Kovalam via Trivandrum",
+    "text": "After breakfast, drive to Kovalam (about 55 km), stopping in Trivandrum for the Sree Padmanabhaswamy temple (dress code applies) and the Napier museum. Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kovalam)Kovalam and Poovar",
+    "text": "A beach day at Kovalam's Lighthouse and Hawa beaches, with an optional boat trip through the Poovar estuary to the golden sand bar (paid locally). Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Kovalam to Trivandrum",
+    "text": "After breakfast, drive to Trivandrum (about 16 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Trivandrum",
+   "Varkala",
+   "Kovalam",
+   "Poovar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Trivandrum",
+  "end": "Trivandrum",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "kerala-wayanad-kozhikode",
+  "url": "/kerala-wayanad-kozhikode",
+  "title": "Wayanad and Kozhikode Tour",
+  "name": "Wayanad and Kozhikode Tour",
+  "page_title": "Wayanad and Kozhikode Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in north Kerala: three nights in green Wayanad with the Edakkal Caves and Banasura Sagar, and a night on the Kozhikode coast.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Kozhikode - Wayanad - Edakkal Caves - Banasura Sagar",
+  "image": "assets/img/packages/mysore-wayand-04-days.jpg",
+  "group": "kerala",
+  "departure": "Kozhikode",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Wayanad)Kozhikode to Wayanad",
+    "text": "Arrive at Kozhikode (Calicut) airport or railway station and drive up the Thamarassery ghat to Wayanad (about 85 km, 3 hours), stopping at the Lakkidi viewpoint. Overnight stay in Wayanad.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Wayanad)Edakkal Caves and Banasura Sagar",
+    "text": "After breakfast, walk up to the Edakkal Caves, with rock carvings thousands of years old (entry paid locally; closed on Mondays). In the afternoon, visit the Banasura Sagar dam, the largest earth dam in India. Overnight stay in Wayanad.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Wayanad)Pookode Lake and Soochipara",
+    "text": "After breakfast, visit the Pookode Lake in the forest and the Soochipara waterfall (entry paid locally). Overnight stay in Wayanad.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kozhikode)Wayanad to Kozhikode",
+    "text": "After breakfast, drive down to Kozhikode. Visit Kappad beach, where Vasco da Gama landed in 1498, and spend the evening on Kozhikode beach and SM Street. Overnight stay in Kozhikode.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Kozhikode",
+    "text": "After breakfast, transfer to Kozhikode airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kozhikode",
+   "Wayanad",
+   "Edakkal Caves",
+   "Banasura Sagar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Kozhikode",
+  "end": "Kozhikode",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "kerala-athirappilly-munnar",
+  "url": "/kerala-athirappilly-munnar",
+  "title": "Athirappilly Falls and Munnar Tour",
+  "name": "Athirappilly Falls and Munnar Tour",
+  "page_title": "Athirappilly Falls and Munnar Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days pairing Kerala's biggest waterfall, Athirappilly, with three nights in Munnar's tea hills and Top Station.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Athirappilly - Munnar - Top Station",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-06-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Athirappilly)Cochin to Athirappilly",
+    "text": "Arrive at Cochin airport, where our representative meets you, and drive to Athirappilly (about 55 km, 1.5 hours). See the Athirappilly falls on the Chalakudy river, the largest in Kerala, and the Vazhachal falls nearby. Overnight stay at Athirappilly.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Athirappilly to Munnar",
+    "text": "After breakfast, drive to Munnar (about 150 km, 4–5 hours) by way of Kothamangalam, stopping at the Cheeyappara falls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Munnar)Top Station and Kundala Lake",
+    "text": "After breakfast, drive to Top Station (about 35 km) on the Kerala–Tamil Nadu border for its view over the Western Ghats, stopping at Kundala Lake and Echo Point. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Munnar to Cochin",
+    "text": "After breakfast, drive back to Cochin (about 130 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Athirappilly",
+   "Munnar",
+   "Top Station"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "kerala-cochin-munnar-thekkady-alleppey-kovalam-varkala",
+  "url": "/kerala-cochin-munnar-thekkady-alleppey-kovalam-varkala",
+  "title": "Grand Kerala Tour",
+  "name": "Grand Kerala Tour",
+  "page_title": "Grand Kerala Tour – 9 Nights / 10 Days | Holiday Guru Travel",
+  "description": "Ten days across Kerala from Cochin to Trivandrum: Fort Kochi, Munnar, Thekkady, the Alleppey backwaters, Kovalam and the cliffs of Varkala.",
+  "duration": "9 Nights / 10 Days",
+  "nights": 9,
+  "days": 10,
+  "cities": "Cochin - Munnar - Thekkady - Alleppey - Kovalam - Trivandrum - Varkala",
+  "image": "assets/img/packages/munnar-thekkady-tour-package-4-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Cochin)Arrive Cochin – Fort Kochi",
+    "text": "Arrive in Cochin, where our representative meets you. In the afternoon, see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town. Overnight stay in Cochin.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Cochin to Munnar",
+    "text": "After breakfast, drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Thekkady)Munnar to Thekkady",
+    "text": "After breakfast, drive to Thekkady (about 90 km, 3–4 hours) through cardamom hills. In the afternoon, take a guided walk through a spice plantation (paid locally) and, in the evening, watch a Kathakali or Kalaripayattu show if you wish (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Alleppey)Periyar Lake – Alleppey",
+    "text": "Early in the morning, take the boat ride on Periyar Lake inside the tiger reserve (tickets paid locally), watching for elephants, bison and birds along the shore. Then drive to Alleppey (about 140 km). Evening at Alleppey beach. Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Kovalam)Alleppey backwaters – Kovalam",
+    "text": "In the morning, take a country-boat ride through the canals (paid locally), then drive south to Kovalam (about 160 km, 4–5 hours). Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Kovalam)Trivandrum and Kovalam",
+    "text": "After breakfast, visit Trivandrum: the Sree Padmanabhaswamy temple (dress code applies), the Napier museum and the Kuthiramalika palace. Return to Kovalam for the evening on the Lighthouse beach. Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Varkala)Kovalam to Varkala",
+    "text": "After breakfast, drive to Varkala (about 55 km). Spend the afternoon on the North Cliff and at the Papanasam beach. Overnight stay in Varkala.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : (Varkala)Varkala",
+    "text": "A free day at Varkala: the Janardana Swamy temple, the Sivagiri Mutt and Kappil Lake. Overnight stay in Varkala.",
+    "generated": true
+   },
+   {
+    "title": "Day 10 : Varkala to Trivandrum",
+    "text": "After breakfast, drive to Trivandrum (about 50 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Cochin",
+   "Munnar",
+   "Thekkady",
+   "Alleppey",
+   "Kovalam",
+   "Trivandrum",
+   "Varkala"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Trivandrum",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-cochin-alleppey-kovalam",
+  "url": "/kerala-cochin-alleppey-kovalam",
+  "title": "Cochin, Alleppey and Kovalam Tour",
+  "name": "Cochin, Alleppey and Kovalam Tour",
+  "page_title": "Cochin, Alleppey and Kovalam Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days of backwaters and beach: Fort Kochi, two nights at Alleppey with Marari beach, and two at Kovalam with Trivandrum.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Cochin - Alleppey - Marari - Kovalam - Trivandrum",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-05-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Cochin)Arrive Cochin – Fort Kochi",
+    "text": "Arrive in Cochin, where our representative meets you. In the afternoon, see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town. Overnight stay in Cochin.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Alleppey)Cochin to Alleppey",
+    "text": "After breakfast, drive to Alleppey (about 55 km, 1.5 hours). In the afternoon, take a country-boat ride through the canals and paddy fields (paid locally). Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Alleppey)Marari beach and Ambalapuzha",
+    "text": "A slow day: the quiet Marari beach, the Ambalapuzha Sri Krishna temple, known for its palpayasam, and the evening at Alleppey beach. Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kovalam)Alleppey to Kovalam",
+    "text": "After breakfast, drive south to Kovalam (about 160 km, 4–5 hours). Evening on the Lighthouse beach. Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kovalam)Trivandrum and Kovalam",
+    "text": "After breakfast, visit Trivandrum: the Sree Padmanabhaswamy temple (dress code applies), the Napier museum and the Kuthiramalika palace. Return to Kovalam for the evening on the Lighthouse beach. Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Kovalam to Trivandrum",
+    "text": "After breakfast, drive to Trivandrum (about 16 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Cochin",
+   "Alleppey",
+   "Marari",
+   "Kovalam",
+   "Trivandrum"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Trivandrum",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-munnar-kumarakom",
+  "url": "/kerala-munnar-kumarakom",
+  "title": "Munnar and Kumarakom Tour",
+  "name": "Munnar and Kumarakom Tour",
+  "page_title": "Munnar and Kumarakom Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days from Munnar's tea hills to the calm of Kumarakom on Vembanad Lake, with Fort Kochi on the way out.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Munnar - Kumarakom - Cochin",
+  "image": "assets/img/packages/munnar-thekkady-tour-package-4-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Munnar)Cochin to Munnar",
+    "text": "Arrive at Cochin airport or Ernakulam railway station, where our representative meets you, and drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Munnar sightseeing",
+    "text": "After breakfast, visit Eravikulam National Park, home of the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March), the Tata tea museum, Mattupetty dam and Echo Point among the tea estates. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kumarakom)Munnar to Kumarakom",
+    "text": "After breakfast, drive down from the hills to Kumarakom on Vembanad Lake (about 140 km, 4–5 hours). Evening by the lake. Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kumarakom)Kumarakom",
+    "text": "A relaxed day at Kumarakom on Vembanad Lake: visit the Kumarakom bird sanctuary early in the morning, and take a boat out on the lake in the afternoon (paid locally). Overnight stay in Kumarakom.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Kumarakom – Fort Kochi – departure",
+    "text": "After breakfast, drive to Cochin (about 55 km) and see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town before your departure. The tour ends in Cochin.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Munnar",
+   "Kumarakom",
+   "Cochin"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-thekkady-alleppey",
+  "url": "/kerala-thekkady-alleppey",
+  "title": "Thekkady and Alleppey Tour",
+  "name": "Thekkady and Alleppey Tour",
+  "page_title": "Thekkady and Alleppey Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days for spices and backwaters: Periyar Lake and the spice gardens at Thekkady, then a night by the canals at Alleppey.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Thekkady - Periyar - Alleppey",
+  "image": "assets/img/packages/munnar-thekkady-tour-package-4-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Thekkady)Cochin to Thekkady",
+    "text": "Arrive at Cochin airport, where our representative meets you, and drive to Thekkady (about 165 km, 5 hours) through rubber and cardamom estates. Evening Kathakali or Kalaripayattu show if you wish (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Thekkady)Periyar Lake and spice plantation",
+    "text": "Early in the morning, take the boat ride on Periyar Lake inside the tiger reserve (tickets paid locally), watching for elephants, bison and birds along the shore. In the afternoon, take a guided spice plantation walk (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Alleppey)Thekkady to Alleppey",
+    "text": "After breakfast, drive to Alleppey (about 140 km, 4 hours). In the afternoon, take a country-boat ride through the canals (paid locally). Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Alleppey to Cochin",
+    "text": "After breakfast, drive to Cochin (about 55 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Thekkady",
+   "Periyar",
+   "Alleppey"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-cochin-alleppey",
+  "url": "/kerala-cochin-alleppey",
+  "title": "Cochin and Alleppey Backwaters Break",
+  "name": "Cochin and Alleppey Backwaters Break",
+  "page_title": "Cochin and Alleppey Backwaters Break – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day break: Fort Kochi's fishing nets and old quarters, then a night at Alleppey with a country-boat ride on the backwaters.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Cochin - Alleppey",
+  "image": "assets/img/packages/munnar-thekkady-tour-package-4-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Cochin)Arrive Cochin – Fort Kochi",
+    "text": "Arrive in Cochin, where our representative meets you. In the afternoon, see Fort Kochi: the Chinese fishing nets, St. Francis Church, the Santa Cruz Basilica, the Mattancherry (Dutch) Palace and the Paradesi Synagogue in Jew Town. Overnight stay in Cochin.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Alleppey)Cochin to Alleppey",
+    "text": "After breakfast, drive to Alleppey (about 55 km) for the backwaters: a country-boat ride through the narrow canals and paddy fields (paid locally), and the evening at Alleppey beach. Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Alleppey to Cochin",
+    "text": "After breakfast, drive back to Cochin (about 55 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 3, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Cochin",
+   "Alleppey"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Cochin",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
  }
 ]

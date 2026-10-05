@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -1233,6 +1233,156 @@
   {
    "package_id": "0157",
    "slug": "char-dham-haridwar-joshimath-badrinath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0158",
+   "slug": "char-dham-haridwar-barkot-uttarkashi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0159",
+   "slug": "char-dham-delhi-guptkashi-kedarnath-badrinath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0160",
+   "slug": "char-dham-yatra-from-dehradun",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0161",
+   "slug": "char-dham-delhi-guptkashi-kedarnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0162",
+   "slug": "sikkim-gangtok",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0163",
+   "slug": "darjeeling-holiday",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0164",
+   "slug": "sikkim-gangtok-lachung",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0165",
+   "slug": "sikkim-gangtok-lachen-lachung-pelling",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0166",
+   "slug": "darjeeling-mirik",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0167",
+   "slug": "sikkim-gangtok-ravangla-pelling",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0168",
+   "slug": "sikkim-gangtok-zuluk-silk-route",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0169",
+   "slug": "sikkim-pelling-darjeeling",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0170",
+   "slug": "darjeeling-kalimpong-mirik",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0171",
+   "slug": "sikkim-gangtok-lachung-ravangla-pelling-darjeeling",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0172",
+   "slug": "kerala-cochin-munnar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0173",
+   "slug": "kerala-munnar-thekkady-kumarakom",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0174",
+   "slug": "kerala-munnar-thekkady-alleppey-kumarakom",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0175",
+   "slug": "kerala-varkala-kovalam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0176",
+   "slug": "kerala-wayanad-kozhikode",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0177",
+   "slug": "kerala-athirappilly-munnar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0178",
+   "slug": "kerala-cochin-munnar-thekkady-alleppey-kovalam-varkala",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0179",
+   "slug": "kerala-cochin-alleppey-kovalam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0180",
+   "slug": "kerala-munnar-kumarakom",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0181",
+   "slug": "kerala-thekkady-alleppey",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0182",
+   "slug": "kerala-cochin-alleppey",
    "internal_key": "",
    "status": "approved"
   }
