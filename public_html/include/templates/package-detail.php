@@ -9,11 +9,12 @@
  * Everything shown comes from the package's own page data (include/data/packages.json)
  * and, for destination context, include/content/{destination}.php.
  * Package ID, rate and Pay Now come from include/package_registry.php:
- *   - Package ID shows only in the itinerary header, once approved (docs/package-registry/PACKAGE-ID-MAPPING.md)
+ *   - Package ID (approved IDs only) shows in the hero badges, Quick Facts and the itinerary header (owner, 2026-10-04)
  *   - the rate shows only while an approved rate version is valid; otherwise "Price on request"
  *   - Pay Now is active only with a current rate AND a connected payment gateway
  */
 require_once __DIR__ . '/../ui/core.php';
+require_once __DIR__ . '/../package_resolve.php';
 
 if (!function_exists('hg_package_in_short')) {
     /**
@@ -77,7 +78,8 @@ if (!function_exists('hg_render_package')) {
     {
         $title = trim($d['title']);
         $stay = '';
-        $heading = trim(preg_replace('/^Day\s*\d+\s*[:|\-–]?\s*/iu', '', $title));
+        // "Day 3 : …", "DAY 03 …", "DAY DAY 04 …", "DAY Day 10: …", "Day 01| …" → the heading after the day number.
+        $heading = trim(preg_replace('/^(?:DAY\s+)?Day\s*\d+\s*[:|\-–]?\s*/iu', '', $title));
         // "(Srinagar)Arrival…": a leading bracket without digits names the overnight place.
         // Brackets with digits ("(3hrs/4-5kms)", "( 56 Kms )") are details and stay in the heading.
         if (preg_match('/^\(([^)0-9]+)\)\s*/u', $heading, $m)) {
@@ -109,6 +111,8 @@ if (!function_exists('hg_render_package')) {
     {
         $out = array('start' => '', 'end' => '');
         if (!$p['itinerary'] || hg_package_duration_disputed($p)) return $out;
+        // Explicit start/end fields (set from the route and the itinerary text, owner directive 2026-10-04) win.
+        $explicit = array('start' => isset($p['start']) ? (string) $p['start'] : '', 'end' => isset($p['end']) ? (string) $p['end'] : '');
         $fix = array('Trivandum' => 'Trivandrum', 'Trivandru' => 'Trivandrum', 'Phalgam' => 'Pahalgam', 'Banglore' => 'Bangalore');
         $stop = '/^(and|at|in|to|the|day|local|transfer|departure|arrival|leisure|tour|end|hotel|sightseeing|drop|airport)$/i';
         $place = function ($s) use ($fix, $stop) {
@@ -135,6 +139,10 @@ if (!function_exists('hg_render_package')) {
         } elseif (preg_match('/^([A-Z][a-z]+(?:\s+Airport)?)\s*(?:to|-|–)\s+[A-Z]/u', $h, $m)) {
             $out['start'] = $place($m[1]);
         }
+        // A bare "Arrival" / "Arrival and North Goa Exploration" (no "transfer to" another place): the tour starts
+        // where Day 1's overnight place is.
+        $d1 = hg_itinerary_day($p['itinerary'][0], 0, $p['places']);
+        if ($out['start'] === '' && $d1['stay'] !== '' && preg_match('/^Arriv(?:e|al)\b(?!.*\b(?:transfer|to)\b)/iu', $h)) $out['start'] = ucfirst($d1['stay']);
         if (count($p['itinerary']) === (int) $p['days']) {
             $l = $head(end($p['itinerary']));
             $l = preg_replace('/\s*\(.*$/u', '', $l);                                    // drop "(230 km, 6 Hours)"
@@ -144,7 +152,17 @@ if (!function_exists('hg_render_package')) {
             elseif (preg_match('/\bto\s+([^–-]+?)(?:\s+(?:Drop|Departure))?(?:\s*[-–]\s*Departure)?\s*$/u', $l)) {
                 $out['end'] = $alts(preg_replace('/\s+(?:Drop|Departure)\b/u', '', $l));
             } elseif (preg_match('/^([A-Z][a-z]+(?:\s+Airport)?)\s*(?:[-–]\s*)?(?:Departure|Arrival|for Onward)/u', $l, $m)) $out['end'] = $place($m[1]);
+            elseif (preg_match('/^Departure\.?$/iu', $l) && count($p['itinerary']) > 1) {
+                // A bare "Departure": the tour ends where the previous night was spent, provided that day's heading
+                // names no other place (a heading such as "Bangkok sightseeing" under "(Singapore)" is left alone).
+                $n = count($p['itinerary']);
+                $prev = hg_itinerary_day($p['itinerary'][$n - 2], $n - 2, $p['places']);
+                $last = hg_itinerary_day($p['itinerary'][$n - 1], $n - 1, $p['places']);
+                $other = array_filter($p['places'], function ($pl) use ($prev) { return stripos($prev['heading'], $pl) !== false && strcasecmp($pl, $prev['stay']) !== 0; });
+                if ($prev['stay'] !== '' && ($last['stay'] === '' || strcasecmp($last['stay'], $prev['stay']) === 0) && !$other) $out['end'] = ucfirst($prev['stay']);
+            }
         }
+        foreach ($explicit as $k => $v) if ($v !== '') $out[$k] = $v;
         return $out;
     }
 
@@ -191,10 +209,34 @@ if (!function_exists('hg_render_package')) {
                     return $ix !== $iy ? $ix <=> $iy : strcmp($x['slug'], $y['slug']);
                 });
                 $picks[$a['slug']] = array();
-                foreach (array_slice($cand, 0, 6) as $c) {   // keep a few spares for callers asking for more
+                foreach (array_slice($cand, 0, 8) as $c) {   // spares: callers asking for more, and the coverage pass
                     $picks[$a['slug']][] = $c['slug'];
                 }
                 foreach (array_slice($picks[$a['slug']], 0, 3) as $s) $incoming[$s] = (isset($incoming[$s]) ? $incoming[$s] : 0) + 1;
+            }
+            // Coverage pass: every package should appear in at least 3 "Similar packages" lists. A page may swap its
+            // pick for an under-linked package only if that package is among its own 8 most relevant, and only
+            // when the link it drops keeps 3+ other incoming links. Relevance order otherwise stays as computed.
+            for ($round = 0; $round < 6; $round++) {
+                $moved = false;
+                foreach ($picks as $from => $list) {
+                    $shown = array_slice($list, 0, 3);
+                    if (count($shown) < 3) continue;
+                    foreach (array_slice($list, 3) as $spare) {
+                        $need = isset($incoming[$spare]) ? $incoming[$spare] : 0;
+                        if ($need >= 3) continue;
+                        // drop the shown pick with the most incoming links, if it can spare one
+                        $drop = null;
+                        foreach (array_reverse($shown) as $sh) if ((isset($incoming[$sh]) ? $incoming[$sh] : 0) > 3 && ($drop === null || $incoming[$sh] > $incoming[$drop])) $drop = $sh;
+                        if ($drop === null) continue;
+                        $i = array_search($drop, $list, true); $j = array_search($spare, $list, true);
+                        $list[$i] = $spare; $list[$j] = $drop;
+                        $incoming[$drop]--; $incoming[$spare] = $need + 1;
+                        $picks[$from] = $list; $moved = true;
+                        break;
+                    }
+                }
+                if (!$moved) break;
             }
         }
         $out = array();
@@ -245,6 +287,15 @@ if (!function_exists('hg_render_package')) {
     function hg_render_package($slug)
     {
         $p = hg_package($slug);
+        // Content hierarchy (owner directive, 2026-10-04): CRM CUSTOM > PACKAGE OVERRIDE > GLOBAL STANDARD > fallback,
+        // resolved in include/package_resolve.php. Public pages have no CRM layer; only the winning value is shown.
+        if ($p) $p = hg_package_resolve($p);
+        $stdIncl = $p && $p['_src']['inclusions'] === 'standard';
+        $stdExcl = $p && $p['_src']['exclusions'] === 'standard';
+        $stdHotel = $p && $p['_src']['hotel'] === 'standard';
+        $stdMeals = $p && $p['_src']['meals'] === 'standard';
+        // The suggested-plan note shows only for the STANDARD itinerary source (days completed from standard circuits).
+        $suggested = $p && $p['suggested_note'] !== '';
         if (!$p) {
             http_response_code(404);
             include dirname(__DIR__, 2) . '/404.php';
@@ -313,24 +364,39 @@ if (!function_exists('hg_render_package')) {
         $list = function (array $x) { return count($x) > 1 ? implode(', ', array_slice($x, 0, -1)) . ' and ' . end($x) : (string) reset($x); };
         $faqs = array();
         // One item per line, so the FAQPage answer text (tags stripped) keeps the items apart like the visible list.
-        if ($p['inclusions']) $faqs[] = array('What is included in the ' . $name . '?', "<ul>\n" . implode("\n", array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . "\n</ul>");
+        $nN = (int) $p['nights']; $nTxt = (!$durationDisputed && $nN > 0) ? $nN . '-night ' : '';
+        $placesTxt = $list($routeKnown ? $route : $p['places']);
+        if ($p['inclusions']) $faqs[] = array('What is included in the ' . $name . '?', '<p>For this ' . hg_e($nTxt) . 'tour of ' . hg_e($placesTxt) . ':</p>' . "<ul>\n" . implode("\n", array_map(function ($i) { return '<li>' . hg_e($i) . '</li>'; }, $p['inclusions'])) . "\n</ul>");
         if ($route) {
             $nightsSum = array_sum(array_map(function ($st) { return $st['nights']; }, $stays));
             $split = (!$durationDisputed && $stays && $nightsSum === (int) $p['nights'])
                 ? ' Overnight stays: ' . $list(array_map(function ($st) { return $st['nights'] . ' night' . ($st['nights'] > 1 ? 's' : '') . ' in ' . $st['place']; }, $stays)) . '.'
                 : '';
-            $faqs[] = array('Which places does this tour cover?', '<p>' . ($routeKnown
+            $faqs[] = array('Which places does the ' . $name . ' cover?', '<p>' . ($routeKnown
                 ? 'The route is ' . hg_e(implode(' → ', $route)) . '.' . hg_e($split)
-                : 'It covers ' . hg_e($list($route)) . '.') . '</p>');
+                : 'It covers ' . hg_e($list($route)) . (count($route) === 1 && $nTxt !== '' ? ', with all ' . $nN . ' night' . ($nN > 1 ? 's' : '') . ' in ' . hg_e($route[0]) : '') . '.') . '</p>');
         }
-        if (!$durationDisputed) $faqs[] = array('How long is the ' . $name . '?', '<p>' . (int) $p['nights'] . ' nights and ' . (int) $p['days'] . ' days (' . hg_e($p['duration']) . ').' . ($days && count($days) === (int) $p['days'] ? ' The day-by-day plan above covers every day.' : '') . '</p>');
-        if ($ends['start'] !== '') $faqs[] = array('Where does the tour start and end?', '<p>It starts in ' . hg_e($ends['start']) . ($ends['end'] !== '' ? ' and ends in ' . hg_e($ends['end']) : '') . ', as shown in the day-by-day itinerary.</p>');
-        $faqs[] = array('Are flights or train tickets included?', $external
-            ? '<p>This package includes: ' . hg_e(implode('; ', $external)) . '. Anything not listed in the inclusions is not included.</p>'
-            : '<p>No. The package starts ' . ($p['departure'] ? 'from ' . hg_e($p['departure']) : ($ends['start'] !== '' ? 'in ' . hg_e($ends['start']) : 'at the destination')) . ' and the standard package cost excludes airfare, train fare and bus fare. We can quote tickets separately.</p>');
-        if ($p['hotel']) $faqs[] = array('Which hotels are used?', '<p>' . hg_e($p['hotel']) . ' category hotels' . ($houseboat ? ', with ' . $hbText : '') . '. ' . hg_e($hotelNote) . '</p>');
-        if ($p['meals']) $faqs[] = array('Which meals are included?', '<p>' . hg_e($p['meals']) . '. The inclusions above list every meal this package covers.</p>');
-        if ($p['transfers']) $faqs[] = array('How do we travel between places?', '<p>By ' . hg_e(mb_strtolower($p['transfers'])) . ' for transfers and sightseeing' . ($routeKnown ? ' on the route ' . hg_e(implode(' → ', $route)) : '') . '.</p>');
+        $firstDay = $days ? $days[0]['heading'] : '';
+        $lastDay = ($days && count($days) > 1) ? $days[count($days) - 1]['heading'] : '';
+        $endsTxt = $ends['start'] !== '' ? 'It starts in ' . hg_e($ends['start']) . ($firstDay !== '' ? ' (Day 1: ' . hg_e($firstDay) . ')' : '')
+            . ($ends['end'] !== '' ? ' and ends in ' . hg_e($ends['end']) . ($lastDay !== '' ? ' (Day ' . count($days) . ': ' . hg_e($lastDay) . ')' : '') : '') . '.' : '';
+        if (!$durationDisputed) $faqs[] = array('How long is the ' . $name . ', and where does it start and end?', '<p>' . (int) $p['nights'] . ' nights and ' . (int) $p['days'] . ' days (' . hg_e($p['duration']) . ').' . ($endsTxt !== '' ? ' ' . $endsTxt : '') . '</p>');
+        elseif ($endsTxt !== '') $faqs[] = array('Where does the tour start and end?', '<p>' . $endsTxt . '</p>');
+        $faqs[] = array('Are flights or train tickets included in the ' . $name . '?', $external
+            ? '<p>The ' . hg_e($name) . ' includes: ' . hg_e(implode('; ', $external)) . '. Anything not listed in the inclusions is not included.</p>'
+            : '<p>No. The ' . hg_e($name) . ' starts ' . ($p['departure'] ? 'from ' . hg_e($p['departure']) : ($ends['start'] !== '' ? 'in ' . hg_e($ends['start']) : 'at the destination')) . ($ends['end'] !== '' ? ' and ends in ' . hg_e($ends['end']) . ', so plan your arrival and return tickets for those points' : '') . '. The standard package cost excludes airfare, train fare and bus fare. We can quote tickets separately.'
+              . (($fareLine = current(preg_grep('/air\s*\/?\s*train|airfare|air fare|train fare|flight/i', $p['exclusions']) ?: array(''))) !== '' ? ' This package’s exclusions say: “' . hg_e(trim($fareLine)) . '”' : '') . '</p>');
+        $namedHotels = hg_package_named_hotels($p);
+        $namedList = array_map(function ($h) { return $h['hotel'] . ', ' . $h['place'] . ' (' . $h['nights'] . ' night' . ($h['nights'] > 1 ? 's' : '') . ')'; }, $namedHotels);
+        $nightsTxt = (!$durationDisputed && (int) $p['nights'] > 0) ? ' This applies to all ' . (int) $p['nights'] . ' night' . ((int) $p['nights'] > 1 ? 's' : '') . ' of the tour.' : '';
+        if ($stdHotel) $faqs[] = array('Which hotels are used on the ' . $name . '?', '<p>On this tour you ' . hg_e(lcfirst(rtrim($p['accommodation'], '.'))) . ($stays ? ' in ' . hg_e($list(array_map(function ($st) { return $st['place']; }, $stays))) : '') . '.' . ($houseboat ? ' Includes ' . hg_e($hbText) . '.' : '') . hg_e($nightsTxt) . ' ' . hg_e($hotelNote) . '</p>');
+        elseif ($p['hotel']) $faqs[] = array('Which hotels are used on the ' . $name . '?', '<p>' . hg_e($p['hotel']) . ' category hotels' . ($stays ? ' in ' . hg_e($list(array_map(function ($st) { return $st['place']; }, $stays))) : '') . ($houseboat ? ', with ' . $hbText : '') . '.' . hg_e($nightsTxt) . ' ' . hg_e($hotelNote) . '</p>');
+        elseif ($namedHotels) $faqs[] = array('Which hotels are used on the ' . $name . '?', '<p>' . hg_e($list($namedList)) . ', as listed in the inclusions.' . ($similarHotel ? ' If a listed hotel is unavailable, a hotel of similar standard is arranged.' : '') . '</p>');
+        // Meals: the plan, then this package's own inclusion lines that state it (quoted, not reworded).
+        $mealLines = array_values(preg_grep('/breakfast|dinner|lunch|meal/i', $p['inclusions']));
+        if ($stdMeals) $faqs[] = array('Which meals are included on the ' . $name . '?', '<p>Breakfast, as per the package plan' . ($nTxt !== '' ? ': breakfast at your hotel' . ($stays ? ' in ' . hg_e($list(array_map(function ($st) { return $st['place']; }, $stays))) : '') . ' each morning after an overnight stay, so ' . $nN . ' breakfast' . ($nN > 1 ? 's' : '') . ' (Day 2' . ($nN > 1 ? ' to Day ' . ($nN + 1) : '') . ')' : '') . '. Other meals are included only where specifically stated; lunch and dinner are otherwise at your own cost.</p>');
+        elseif ($p['meals']) $faqs[] = array('Which meals are included on the ' . $name . '?', '<p>' . hg_e($p['meals']) . ($nTxt !== '' ? ' on this ' . $nN . '-night tour' : '') . '.' . ($mealLines ? ' The inclusions list: ' . implode('; ', array_map(function ($x) { return '“' . hg_e(trim($x)) . '”'; }, array_slice($mealLines, 0, 3))) . '.' : ' The inclusions above list every meal this package covers.') . '</p>');
+        if ($p['transfers']) $faqs[] = array('How do we travel on the ' . $name . '?', '<p>By ' . hg_e(mb_strtolower($p['transfers'])) . ' for transfers and sightseeing' . ($routeKnown ? ' on the route ' . hg_e(implode(' → ', $route)) : ($p['places'] ? ' in ' . hg_e($list($p['places'])) : '')) . '.</p>');
         foreach ($p['booking'] as $t) {
             if (stripos($t, 'advance') !== false) { $faqs[] = array('How do I book this package?', '<p>' . hg_e(ltrim($t, '# ')) . ' A booking voucher is issued once payment is received.</p>'); break; }
         }
@@ -338,7 +404,7 @@ if (!function_exists('hg_render_package')) {
             if (stripos($t, 'extra adult') !== false) { $faqs[] = array('How are extra adults and children charged?', '<p>' . hg_e($t) . '</p>'); break; }
         }
         $custPlaces = array_slice($routeKnown ? $route : $p['places'], 0, 3);
-        $faqs[] = array('Can this itinerary be customized?', '<p>Yes. You can change hotels, add nights' . ($custPlaces ? ' in ' . hg_e($list($custPlaces)) : '') . ', add sightseeing, or combine it with another ' . ($g ? hg_e($g['name']) . ' ' : '') . 'trip. Tell us in the enquiry form or on WhatsApp.</p>');
+        $faqs[] = array('Can the ' . $name . ' itinerary be customized?', '<p>Yes. You can ' . ($nTxt !== '' ? 'extend this ' . hg_e($nTxt) . 'trip, ' : '') . 'change hotels, add nights' . ($custPlaces ? ' in ' . hg_e($list($custPlaces)) : '') . ', add sightseeing, or combine it with another ' . ($g ? hg_e($g['name']) . ' ' : '') . 'trip. Tell us in the enquiry form or on WhatsApp.</p>');
 
         $similar = hg_related_packages($p['slug'], 3);
         $similarSameGroup = !array_filter($similar, function ($x) use ($p) { return $x['group'] !== $p['group']; });
@@ -386,11 +452,11 @@ if (!function_exists('hg_render_package')) {
             <?= hg_img($p['image'], $name, 760, 480, 'hg-pkghead__img', true, '(max-width: 1023px) 100vw, 640px') ?>
         </div>
         <div class="hg-pkghead__summary">
-            <?php if ($p['features']) { ?><p class="hg-pkghead__badges"><?php foreach (array_slice($p['features'], 0, 2) as $f) { ?><span><?= hg_e($f) ?></span><?php } ?></p><?php } ?>
+            <?php $showId = $pkgId && !hg_package_id_is_proposed($p['slug']); if ($p['features'] || $showId) { ?><p class="hg-pkghead__badges"><?php if ($showId) { ?><span class="hg-pkghead__id">Package ID <?= hg_e($pkgId) ?></span><?php } ?><?php foreach (array_slice($p['features'], 0, 2) as $f) { ?><span><?= hg_e($f) ?></span><?php } ?></p><?php } ?>
             <h1 class="hg-pkghead__title" id="pkg-title"><?= hg_e($name) ?></h1>
             <p class="hg-pkghead__meta"><strong><?= hg_e($p['duration']) ?></strong><?php if ($route) { ?> <span aria-hidden="true">·</span> <?= hg_e(implode($routeKnown ? ' – ' : ', ', $route)) ?><?php } ?></p>
             <ul class="hg-pkghead__facts">
-                <?php if ($p['hotel']) { ?><li><?= hg_icon('bed') ?><?= hg_e($p['hotel']) ?> hotels<?= $houseboat ? ' + ' . hg_e($hbText) : '' ?></li><?php } ?>
+                <?php if ($p['hotel']) { ?><li><?= hg_icon('bed') ?><?= hg_e($p['hotel']) ?> <?= $stdHotel ? 'stay' : 'hotels' ?><?= $houseboat ? ' + ' . hg_e($hbText) : '' ?></li><?php } ?>
                 <?php if ($p['meals']) { ?><li><?= hg_icon('meal') ?><?= hg_e($p['meals']) ?></li><?php } ?>
                 <?php if ($p['transfers']) { ?><li><?= hg_icon('car') ?><?= hg_e($p['transfers']) ?> transfers &amp; sightseeing</li><?php } ?>
                 <li><?= hg_icon('route') ?>Customizable itinerary</li>
@@ -433,11 +499,12 @@ if (!function_exists('hg_render_package')) {
             <h2 class="hg-h2" id="qf-title">Quick facts</h2>
             <?php $inShort = hg_package_in_short($p, $name); if ($inShort !== '') { ?><p class="hg-summary"><strong>In short:</strong> <?= hg_e($inShort) ?></p><?php } ?>
             <dl class="hg-qf">
+                <?php if ($pkgId && !hg_package_id_is_proposed($p['slug'])) { ?><div><dt>Package ID</dt><dd><?= hg_e($pkgId) ?></dd></div><?php } ?>
                 <?php if (!$durationDisputed) { ?><div><dt>Duration</dt><dd><?= hg_e($p['duration']) ?></dd></div><?php } ?>
                 <div><dt>Places</dt><dd><?= hg_e(implode(', ', $p['places'])) ?></dd></div>
                 <?php if ($ends['start'] !== '') { ?><div><dt>Starts</dt><dd><?= hg_e($ends['start']) ?></dd></div><?php } ?>
                 <?php if ($ends['end'] !== '') { ?><div><dt>Ends</dt><dd><?= hg_e($ends['end']) ?></dd></div><?php } ?>
-                <?php if ($p['hotel']) { ?><div><dt>Stay</dt><dd><?= hg_e($p['hotel']) ?> category, twin sharing<?= $houseboat ? '; ' . hg_e($hbText) : '' ?></dd></div><?php } ?>
+                <?php if ($stdHotel) { ?><div><dt>Stay</dt><dd><?= hg_e(rtrim($p['accommodation'], '.')) ?><?= $houseboat ? '; ' . hg_e($hbText) : '' ?></dd></div><?php } elseif ($p['hotel']) { ?><div><dt>Stay</dt><dd><?= hg_e($p['hotel']) ?> category, twin sharing<?= $houseboat ? '; ' . hg_e($hbText) : '' ?></dd></div><?php } elseif ($namedList) { ?><div><dt>Stay</dt><dd><?= hg_e(implode('; ', $namedList)) ?></dd></div><?php } ?>
                 <?php if ($p['meals']) { ?><div><dt>Meals</dt><dd><?= hg_e($p['meals']) ?></dd></div><?php } ?>
                 <?php if ($p['transfers']) { ?><div><dt>Transport</dt><dd><?= hg_e($p['transfers']) ?></dd></div><?php } ?>
                 <?php if ($content) { ?><div><dt>Best time</dt><dd><?= hg_e($content['best_time_answer']) ?></dd></div><?php } ?>
@@ -456,11 +523,13 @@ if (!function_exists('hg_render_package')) {
                 <?php if ($rate) { ?><div><dt>Rate valid</dt><dd><?= hg_e($rateValid) ?></dd></div><?php } ?>
             </dl>
             <?php if ($days) { ?>
+            <?php if ($suggested) { ?><p class="hg-muted" role="note"><?= hg_e($p['suggested_note']) ?></p><?php } ?>
+            <?php if (trim((string) $p['special_notes']) !== '') { ?><p class="hg-notice" role="note"><?= hg_e($p['special_notes']) ?></p><?php } ?>
             <ol class="hg-timeline hg-timeline--pkg">
                 <?php foreach ($days as $d) { ?>
                 <li>
                     <span class="hg-timeline__day" aria-hidden="true"><?= (int) $d['n'] ?></span>
-                    <h3><span class="hg-sr">Day <?= (int) $d['n'] ?>: </span><?= hg_e($d['heading']) ?></h3>
+                    <h3>Day <?= (int) $d['n'] ?> — <?= hg_e($d['heading']) ?></h3>
                     <?php if ($d['text'] !== '') { ?><p><?= hg_e($d['text']) ?></p><?php } else { ?><p class="hg-muted"><em>Day details are confirmed with your itinerary — ask our team for the plan for this day.</em></p><?php } ?>
                     <?php if ($d['stay'] && $d['n'] <= $p['nights']) { ?><p class="hg-timeline__stay"><?= hg_icon('bed') ?>Overnight: <?= hg_e($d['stay']) ?><?= stripos($d['text'], 'overnight at houseboat') !== false ? ' (houseboat)' : '' ?></p><?php } ?>
                 </li>
@@ -488,8 +557,8 @@ if (!function_exists('hg_render_package')) {
         <section class="hg-pkgsec" id="inclusions" aria-labelledby="inc-title">
             <h2 class="hg-h2" id="inc-title">Inclusions &amp; exclusions</h2>
             <div class="hg-incl">
-                <div><h3><?= hg_icon('check') ?>Included</h3><?php if ($p['inclusions']) { ?><ul class="hg-checks"><?php foreach ($p['inclusions'] as $i) { ?><li><?= hg_e($i) ?></li><?php } ?></ul><?php } else { ?><p class="hg-muted">Shared with your quote.</p><?php } ?></div>
-                <div><h3><?= hg_icon('x') ?>Not included</h3><?php if ($p['exclusions']) { ?><ul class="hg-checks hg-checks--no"><?php foreach ($p['exclusions'] as $i) { ?><li><?= hg_e($i) ?></li><?php } ?></ul><?php } else { ?><p class="hg-muted">Shared with your quote.</p><?php } ?></div>
+                <div><h3><?= hg_icon('check') ?>Included<?= $stdIncl ? ' <small class="hg-muted">(standard)</small>' : '' ?></h3><?php if ($p['inclusions']) { ?><ul class="hg-checks"><?php foreach ($p['inclusions'] as $i) { ?><li><?= hg_e($i) ?></li><?php } ?></ul><?php } else { ?><p class="hg-muted">Shared with your quote.</p><?php } ?></div>
+                <div><h3><?= hg_icon('x') ?>Not included<?= $stdExcl ? ' <small class="hg-muted">(standard)</small>' : '' ?></h3><?php if ($p['exclusions']) { ?><ul class="hg-checks hg-checks--no"><?php foreach ($p['exclusions'] as $i) { ?><li><?= hg_e($i) ?></li><?php } ?></ul><?php } else { ?><p class="hg-muted">Shared with your quote.</p><?php } ?></div>
             </div>
             <div class="hg-travelnote" role="note">
                 <?= hg_icon('ticket') ?>
@@ -513,7 +582,7 @@ if (!function_exists('hg_render_package')) {
             <h2 class="hg-h2" id="ho-title">Where you stay</h2>
             <?php if ($stays) { ?>
             <div class="hg-tablewrap" tabindex="0" role="region" aria-label="Table"><table class="hg-table"><thead><tr><th scope="col">Nights</th><th scope="col">Place</th><th scope="col">Stay</th></tr></thead><tbody>
-            <?php foreach ($stays as $st) { ?><tr><td><?= $st['nights'] > 1 ? 'Nights ' . $st['from'] . '–' . ($st['from'] + $st['nights'] - 1) : 'Night ' . $st['from'] ?></td><td><?= hg_e($st['place']) ?></td><td><?= $p['hotel'] ? hg_e($p['hotel']) . ' category' : 'Hotel as per your quote' ?><?= ($houseboat && $st['hb']) ? ' — includes ' . hg_e($hbText) : '' ?></td></tr><?php } ?>
+            <?php foreach ($stays as $st) { ?><tr><td><?= $st['nights'] > 1 ? 'Nights ' . $st['from'] . '–' . ($st['from'] + $st['nights'] - 1) : 'Night ' . $st['from'] ?></td><td><?= hg_e($st['place']) ?></td><td><?= $p['hotel'] ? hg_e($p['hotel']) . ($stdHotel ? '' : ' category') : 'Hotel as per your quote' ?><?= ($houseboat && $st['hb']) ? ' — includes ' . hg_e($hbText) : '' ?></td></tr><?php } ?>
             </tbody></table></div>
             <?php } ?>
             <p class="hg-muted"><?= hg_e($hotelNote) ?> Ask us to upgrade any night.</p>

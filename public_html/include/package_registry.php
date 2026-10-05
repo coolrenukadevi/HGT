@@ -14,7 +14,7 @@
  *   include/data/rates.json             one row per price version (manually maintained)
  *   include/data/curation.json          internal merchandising (priority_rank 1–500 etc.) — never shown publicly
  *
- * Owner rule: the Package ID is shown on the website only in the itinerary header, and is carried
+ * Owner rule (updated 2026-10-04): the Package ID is shown in the package hero, Quick Facts and itinerary header, and is carried
  * in enquiries, WhatsApp messages and CRM/quotation records. Only 'approved' (or 'retired', for
  * history) IDs are shown; 'proposed' IDs appear only on local test servers with the preview switch on.
  */

@@ -18,6 +18,7 @@
 .hg-pkghead__img { width: 100%; aspect-ratio: 19 / 12; object-fit: cover; }
 .hg-pkghead__badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px !important; }
 .hg-pkghead__badges span { padding: 4px 10px; border-radius: 6px; background: var(--hg-orange-50); color: #9A4505; font-size: 12.5px; font-weight: 700; }
+.hg-pkghead__badges .hg-pkghead__id { background: var(--hg-blue-50); color: #0B4F82; font-variant-numeric: tabular-nums; }
 .hg-body .hg-pkghead__title { margin: 0 0 8px; font-size: clamp(26px, 3vw, 36px); font-weight: 800; }
 .hg-pkghead__meta { margin: 0 0 16px !important; font-size: 16px; color: var(--hg-muted-2); }
 .hg-pkghead__meta strong { color: var(--hg-text); }
