@@ -612,6 +612,32 @@ html.hg-sheet-open .hg-bottombar, html.hg-sheet-open .hg-support { display: none
     .hg-nav .hg-nav__trigger .hg-i { width: 12px; height: 12px; }
     .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { padding: 0 9px; }
 }
+/* Even spacing (owner request 2026-10-05): the tabs spread across the full container so the gaps between them
+   are equal and the row lines up with the logo on the left and the call/WhatsApp icons on the right.
+   Enquire Now and Pay Now share one list item with a fixed 10px gap, and the pills are shorter than the
+   row so they have breathing room above and below. */
+@media (min-width: 1024px) {
+    .hg-body .hg-nav__list { justify-content: space-between; gap: 12px; min-height: 52px; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { gap: 4px; min-height: 52px; padding: 0; font-size: 13.5px; white-space: nowrap; }
+    .hg-nav .hg-nav__trigger .hg-i { width: 12px; height: 12px; }
+    .hg-nav__item--cta { display: flex; align-items: center; gap: 10px; }
+    .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { min-height: 36px; height: 36px; margin-left: 0; padding: 0 13px; border-radius: 999px; font-size: 13.5px; box-shadow: 0 2px 6px rgba(10, 22, 61, .12); }
+    .hg-nav .hg-nav__pay { gap: 6px; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .hg-body .hg-nav__list { gap: 10px; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { font-size: 13px; }
+    .hg-nav__item--cta { gap: 8px; }
+    .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { padding: 0 12px; font-size: 13px; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hg-body .hg-nav__list { gap: 8px; }
+    .hg-nav .hg-nav__link, .hg-nav .hg-nav__trigger { font-size: 12.5px; }
+    .hg-nav .hg-nav__enquire, .hg-nav .hg-nav__pay { padding: 0 10px; font-size: 12.5px; }
+}
+@media (max-width: 1023px) {
+    .hg-nav__item--cta .hg-nav__pay { display: none; }
+}
 
 /* ===== src/components/mega-menu.css ===== */
 /* ---------- Mega menus (redesign 2026-09-30) ----------

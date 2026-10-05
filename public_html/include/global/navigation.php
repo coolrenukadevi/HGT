@@ -4,7 +4,8 @@
  * Tabs: Domestic · International · Inbound Tours · Special Tours · Fixed Departure (mega menus), Customised Tours,
  * Offers, About Us (mega menu), Enquire Now (opens the enquiry dialog; Contact is in About Us and the footer).
  * Pay Now (owner request 2026-10-01): HG_PAY_LINK (Razorpay) in a new tab; in the phone drawer it is a button
- * under "Enquire now". Hidden if HG_PAY_LINK is empty.
+ * under "Enquire now". Hidden if HG_PAY_LINK is empty. Enquire Now and Pay Now share one list item so they
+ * stay together at the right end of the menu row with a fixed gap (2026-10-05).
  * Behaviour: [data-hg-nav], [data-hg-mega], [data-hg-menu-*] in assets/js/hg-ui.js.
  */
 ?>
@@ -40,10 +41,12 @@
                 <button type="button" class="hg-nav__trigger" aria-expanded="false" aria-controls="mega-about" data-hg-mega>About Us<?= hg_icon('chevron') ?></button>
 <?php $hgMegaPanel = 'about'; include __DIR__ . '/mega-menu.php'; ?>
             </li>
-            <li class="hg-nav__item hg-nav__item--enquire"><button type="button" class="hg-nav__link hg-nav__enquire" data-hg-enquiry-open aria-haspopup="dialog">Enquire Now</button></li>
+            <li class="hg-nav__item hg-nav__item--cta">
+                <button type="button" class="hg-nav__link hg-nav__enquire" data-hg-enquiry-open aria-haspopup="dialog">Enquire Now</button>
 <?php if (HG_PAY_LINK !== '') { ?>
-            <li class="hg-nav__item hg-nav__item--pay"><a class="hg-nav__link hg-nav__pay" href="<?= hg_e(HG_PAY_LINK) ?>" target="_blank" rel="noopener" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a></li>
+                <a class="hg-nav__link hg-nav__pay" href="<?= hg_e(HG_PAY_LINK) ?>" target="_blank" rel="noopener" data-hg-track="paynow_start"><?= hg_icon('lock') ?>Pay Now</a>
 <?php } ?>
+            </li>
         </ul>
         <div class="hg-nav__drawerfoot">
             <a class="hg-btn hg-btn--primary hg-btn--block" href="/customized-holidays">Enquire now</a>
