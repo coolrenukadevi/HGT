@@ -32,7 +32,7 @@ $sections = array(
         array('Can I change a package?', '<p>Yes — hotels, nights, sightseeing or destinations. Use the enquiry form on any package, or plan a <a href="/customized-holidays">customised tour</a>.</p>'),
     )),
     'cancel' => array('Changes, cancellation and refunds', array(
-        array('How are cancellation charges calculated?', '<p>On the gross tour cost, depending on the date of departure and the date of cancellation. Where a package lists a schedule, it is 25% of booking value at least 21 days before departure, 50% at 8–20 days, and 100% at 7 days or less. See the <a href="/cancellation-policy">cancellation policy</a>.</p>'),
+        array('How are cancellation charges calculated?', '<p>On the gross tour cost, depending on the date of departure and the date of cancellation. 30 days or more before departure: the non-refundable deposit (25% of the total package); 29–20 days: deposit + 25% of the holiday cost; 19–14 days: deposit + 50%; 13–8 days: deposit + 75%; 7 days or less: 100%. See the <a href="/cancellation-policy">cancellation policy</a>.</p>'),
         array('What about air, train or bus tickets?', '<p>Cancellation charges for tickets follow the rules of the airline, railway or operator.</p>'),
         array('When is a refund paid?', '<p>Any refund due is paid after we receive the refund from the respective suppliers, and processing charges are deducted. See the <a href="/refund-policy">refund policy</a>.</p>'),
         array('What if weather changes the plan?', '<p>Snow, rain and road closures can change sightseeing on the day; the driver follows what is open. Costs caused by such changes are listed as excluded on most packages.</p>'),
