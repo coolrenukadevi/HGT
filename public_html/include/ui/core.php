@@ -360,6 +360,11 @@ if (!defined('HG_UI_CORE')) {
         if ($all === null) {
             $f = dirname(__DIR__) . '/data/seo-meta.php';
             $all = is_file($f) ? (array) include $f : array();
+            // Titles/descriptions edited and published in the CMS (include/data/cms-seo.json) win for their path.
+            $cms = json_decode((string) @file_get_contents(dirname(__DIR__) . '/data/cms-seo.json'), true);
+            if (is_array($cms) && isset($cms['pages']) && is_array($cms['pages'])) {
+                foreach ($cms['pages'] as $path => $m) if (is_array($m)) $all[$path] = array_merge(isset($all[$path]) ? $all[$path] : array(), array_intersect_key($m, array('title' => 1, 'description' => 1)));
+            }
         }
         return isset($all[$path]) ? $all[$path] : array();
     }

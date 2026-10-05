@@ -3,3 +3,9 @@ hgt-config.php
 config/hgt-config.php
 .env*
 *.log
+
+# Tour Package CMS (cms/): real config and staging data/uploads/logins are never committed
+cms/config.php
+cms/storage/*
+!cms/storage/.gitkeep
+!cms/storage/.htaccess
