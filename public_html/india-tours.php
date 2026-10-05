@@ -4,7 +4,7 @@
 require __DIR__ . '/include/ui/core.php';
 
 $status = hg_page_status('/india-tours');
-$firstTrips = array_values(array_filter(array_map('hg_package', array('srinagar-gulmarg-pahalgam-tour-package-5-days', 'munnar-thekkady-alleppey-05-days', 'shimla-manali-tour-06-days', 'jewels-of-leh-ladakh-package-5n6d', 'haridwar-rishikesh-tour-03-days', 'delightful-goa-tour-3n-4d'))));
+$firstTrips = array_values(array_filter(array_map('hg_package', array('srinagar-gulmarg-pahalgam-tour-package', 'munnar-thekkady-alleppey', 'shimla-manali-tour', 'jewels-of-leh-ladakh-package', 'haridwar-rishikesh-tour', 'delightful-goa-tour'))));
 $picks = array('kashmir', 'kerala', 'himachal', 'uttarakhand', 'ladakh', 'goa', 'south-india', 'sikkim-darjeeling');
 $groups = array_values(array_filter(array_map('hg_group', $picks), function ($g) { return $g && $g['count'] > 0; }));
 

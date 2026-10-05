@@ -16,7 +16,7 @@ return array(
     'map_query' => 'Goa, India',
     'related' => array('kerala', 'maldives', 'south-india', 'dubai'),
     'frequent' => array(
-        array('4-day Delightful Goa itinerary', '/delightful-goa-tour-3n-4d'),
+        array('4-day Delightful Goa itinerary', '/delightful-goa-tour'),
         array('Goa with Dudhsagar jeep safari', '/sun-kissed-goa-escape'),
     ),
     'intro' => 'Goa tour packages are 3-night, 4-day beach holidays with North and South Goa sightseeing, hotel stays with breakfast, and airport or station transfers; one itinerary adds a jeep safari to Dudhsagar Falls and a Panaji city tour.',
@@ -46,8 +46,8 @@ return array(
     'best_time_answer' => 'November to February is the best time for a Goa beach holiday; the monsoon (June–September) is green and quieter.',
     'days_answer' => 'Our Goa packages are 3 nights and 4 days, enough for North and South Goa sightseeing and time on the beach; add nights for a slower holiday.',
     'days_rows' => array(
-        array('4 days', 'North Goa and a relaxed day in South Goa', 'delightful-goa-tour-3n-4d'),
-        array('4 days', 'Full-day North and South Goa sightseeing', 'enticing-tour-to-goa-3n-4d'),
+        array('4 days', 'North Goa and a relaxed day in South Goa', 'delightful-goa-tour'),
+        array('4 days', 'Full-day North and South Goa sightseeing', 'enticing-tour-to-goa'),
         array('4 days', 'Dudhsagar jeep safari and Panaji city tour', 'sun-kissed-goa-escape'),
     ),
     'cost_answer' => 'The cost of a Goa package depends mainly on the hotel, the season and the number of travellers. We quote each trip for your dates; flights or trains to Goa are extra.',

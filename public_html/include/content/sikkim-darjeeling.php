@@ -16,8 +16,8 @@ return array(
     'map_query' => 'Gangtok, Sikkim',
     'related' => array('kashmir', 'himachal', 'uttarakhand', 'kerala'),
     'frequent' => array(
-        array('4-day Darjeeling Gangtok itinerary', '/darjeeling-gangtok-04-days'),
-        array('6-day Gangtok with Lachen and Lachung', '/gangtok-with-lachen-and-lachung-07-days'),
+        array('4-day Darjeeling Gangtok itinerary', '/darjeeling-gangtok'),
+        array('6-day Gangtok with Lachen and Lachung', '/gangtok-with-lachen-and-lachung'),
     ),
     'intro' => 'Darjeeling and Sikkim tour packages combine Gangtok, Darjeeling, Pelling and Kalimpong with high-altitude excursions to Tsomgo Lake, Lachung, Yumthang and Gurudongmar Lake. Our itineraries run 4 to 10 days, starting and ending at Siliguri (Bagdogra airport or New Jalpaiguri station).',
     'why' => array(
@@ -56,17 +56,17 @@ return array(
     'best_time_answer' => 'March to May and October to December are the best times to visit Darjeeling and Sikkim.',
     'days_answer' => 'Four days covers Darjeeling and Gangtok; allow 6–8 days to add Pelling, Kalimpong or North Sikkim (Lachung and Lachen), and 10 days for the full circuit.',
     'days_rows' => array(
-        array('4 days', 'Darjeeling and Gangtok', 'darjeeling-gangtok-04-days'),
-        array('5 days', 'Pelling and Gangtok with Tsomgo Lake', 'gangtok-pelling-tour-05-days'),
+        array('4 days', 'Darjeeling and Gangtok', 'darjeeling-gangtok'),
+        array('5 days', 'Pelling and Gangtok with Tsomgo Lake', 'gangtok-pelling-tour'),
         array(
             '6 days',
             'Gangtok with Lachen, Lachung, Gurudongmar and Yumthang',
-            'gangtok-with-lachen-and-lachung-07-days',
+            'gangtok-with-lachen-and-lachung',
         ),
         array(
             '10 days',
             'Gangtok, Lachung, Pelling, Kalimpong and Darjeeling',
-            'darjeeling-with-kalimpong-pelling-lachung-and-gangtok-10-days',
+            'darjeeling-with-kalimpong-pelling-lachung-and-gangtok',
         ),
     ),
     'cost_answer' => 'The cost of a Darjeeling and Sikkim tour depends on the number of nights, hotel category, season and whether you include North Sikkim. We quote each trip for your dates.',

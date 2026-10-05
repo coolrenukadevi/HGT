@@ -16,7 +16,7 @@ return array(
     'map_query' => 'Mysore, Karnataka',
     'related' => array('kerala', 'goa', 'sikkim-darjeeling', 'uttarakhand'),
     'frequent' => array(
-        array('5-day Bangalore, Mysore and Ooty itinerary', '/bangalore-mysore-ooty-tour-05-days'),
+        array('5-day Bangalore, Mysore and Ooty itinerary', '/bangalore-mysore-ooty-tour'),
         array('Kerala tour packages', '/tours/kerala'),
     ),
     'intro' => 'Ooty, Mysore and Coorg tour packages start in Bangalore and combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg, Wayanad or Kodaikanal. Our itineraries run 4 to 6 days by private cab.',
@@ -41,10 +41,10 @@ return array(
     'best_time_answer' => 'October to March is the best time to visit Mysore and Coorg; April to June is peak season in Ooty.',
     'days_answer' => 'Four days covers Mysore with Coorg or Wayanad; allow 5 days for Mysore and Ooty, and 6 days to add Kodaikanal.',
     'days_rows' => array(
-        array('4 days', 'Mysore and Coorg', 'mysore-coorg-04-days'),
-        array('4 days', 'Mysore and Wayanad', 'south-india-mysore-wayanad-3n-4d'),
-        array('5 days', 'Bangalore, Mysore and Ooty', 'bangalore-mysore-ooty-tour-05-days'),
-        array('6 days', 'Mysore, Ooty and Kodaikanal', 'mysore-ooty-kodaikanal-06-days'),
+        array('4 days', 'Mysore and Coorg', 'mysore-coorg'),
+        array('4 days', 'Mysore and Wayanad', 'south-india-mysore-wayanad'),
+        array('5 days', 'Bangalore, Mysore and Ooty', 'bangalore-mysore-ooty-tour'),
+        array('6 days', 'Mysore, Ooty and Kodaikanal', 'mysore-ooty-kodaikanal'),
     ),
     'cost_answer' => 'The cost depends on the number of nights, hotel category and season. We quote each trip for your dates.',
     'cost_factors' => array(

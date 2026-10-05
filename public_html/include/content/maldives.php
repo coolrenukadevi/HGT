@@ -16,7 +16,7 @@ return array(
     'map_query' => 'Maldives',
     'related' => array('dubai', 'singapore-malaysia', 'goa', 'kerala'),
     'frequent' => array(
-        array('5-day Maldives beach and water villa', '/maldives-05-days'),
+        array('5-day Maldives beach and water villa', '/maldives-holiday'),
     ),
     'intro' => 'Our Maldives package is a 4-night, 5-day resort holiday with two nights in a beach villa and two in a water villa, full-board meals, and seaplane, domestic flight or speedboat transfers as set by the resort, with Maldivian taxes and green tax included.',
     'why' => array(
@@ -32,7 +32,7 @@ return array(
     'best_time_answer' => 'December to April is the best time for the Maldives; May to November is wetter but good value.',
     'days_answer' => 'Four nights is ideal for a Maldives resort stay, splitting time between a beach villa and a water villa.',
     'days_rows' => array(
-        array('5 days', '2 nights beach villa + 2 nights water villa, full board', 'maldives-05-days'),
+        array('5 days', '2 nights beach villa + 2 nights water villa, full board', 'maldives-holiday'),
     ),
     'cost_answer' => 'The cost of a Maldives holiday depends mainly on the resort, the villa type, the transfer mode and the dates. We quote each stay for your dates; international flights are extra.',
     'cost_factors' => array(

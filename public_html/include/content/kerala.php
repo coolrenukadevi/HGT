@@ -16,8 +16,8 @@ return array(
     'map_query' => 'Munnar, Kerala',
     'related' => array('south-india', 'goa', 'maldives', 'kashmir'),
     'frequent' => array(
-        array('4-day Munnar Alleppey itinerary', '/munnar-alleppey-tour-package-04-days'),
-        array('5-day Munnar, Thekkady and Alleppey', '/munnar-thekkady-alleppey-05-days'),
+        array('4-day Munnar Alleppey itinerary', '/munnar-alleppey-tour-package'),
+        array('5-day Munnar, Thekkady and Alleppey', '/munnar-thekkady-alleppey'),
     ),
     'intro' => 'Kerala tour packages combine the tea hills of Munnar, the Periyar forests at Thekkady and a houseboat night on the Alleppey backwaters, with Kovalam and Kanyakumari on the longer trips. Our Kerala itineraries run 4 to 7 days from Cochin or Trivandrum, by private cab.',
     'why' => array(
@@ -41,14 +41,14 @@ return array(
     'best_time_answer' => 'September to March is the best time for a Kerala tour; the monsoon (June–August) is green and quieter.',
     'days_answer' => 'Four days covers Munnar and an Alleppey houseboat; 5–6 days adds Thekkady; allow 7 days to include Kovalam and Trivandrum or Kanyakumari.',
     'days_rows' => array(
-        array('4 days', 'Munnar and Alleppey houseboat', 'munnar-alleppey-tour-package-04-days'),
-        array('4 days', 'Munnar and Thekkady', 'munnar-thekkady-tour-package-4-days'),
-        array('5 days', 'Munnar, Thekkady and Alleppey houseboat', 'munnar-thekkady-alleppey-05-days'),
-        array('6 days', 'Cochin, Munnar, Thekkady and Alleppey', 'kerala-cochin-munnar-thekkady-alleppey-5n-6d'),
+        array('4 days', 'Munnar and Alleppey houseboat', 'munnar-alleppey-tour-package'),
+        array('4 days', 'Munnar and Thekkady', 'munnar-thekkady-tour-package'),
+        array('5 days', 'Munnar, Thekkady and Alleppey houseboat', 'munnar-thekkady-alleppey'),
+        array('6 days', 'Cochin, Munnar, Thekkady and Alleppey', 'kerala-cochin-munnar-thekkady-alleppey'),
         array(
             '7 days',
             'Munnar, Thekkady, Alleppey, Kovalam and Trivandrum',
-            'kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d',
+            'kerala-munnar-thekkady-alleppey-kovalam-trivandrum',
         ),
     ),
     'cost_answer' => 'The cost of a Kerala tour depends on the number of nights, hotel and houseboat category, and the season. We quote each trip for your dates.',

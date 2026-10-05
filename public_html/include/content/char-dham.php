@@ -66,12 +66,12 @@ return array(
         array(
             '5 days',
             'Do Dham — Kedarnath and Badrinath from Haridwar',
-            'do-dham-kedar-badri-from-haridwar-4n-5d',
+            'do-dham-kedar-badri-from-haridwar',
         ),
         array('6 days', 'Char Dham by helicopter', 'chardham-yatra-by-helicopter'),
-        array('9 days', 'Char Dham from Haridwar', 'chardham-yatra-from-haridwar-8n-9d'),
-        array('10 days', 'Char Dham from Haridwar', 'char-dham-yatra-from-haridwar-9n-10d'),
-        array('11 days', 'Char Dham from Delhi', 'char-dham-yatra-from-delhi-10n-11d'),
+        array('9 days', 'Char Dham from Haridwar', 'chardham-yatra-from-haridwar'),
+        array('10 days', 'Char Dham from Haridwar', 'char-dham-yatra-from-haridwar'),
+        array('11 days', 'Char Dham from Delhi', 'char-dham-yatra-from-delhi'),
     ),
     'cost_answer' => 'The cost of a Char Dham Yatra depends on the number of days, starting city, hotel category and whether you add helicopter tickets or ponies. We quote each yatra for your dates.',
     'cost_factors' => array(

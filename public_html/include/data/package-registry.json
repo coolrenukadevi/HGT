@@ -1,78 +1,114 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
    "package_id": "0001",
-   "slug": "srinagar-gulmarg-tour-03nt04dy",
+   "slug": "srinagar-gulmarg-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-gulmarg-tour-03nt04dy"
+   ]
   },
   {
    "package_id": "0002",
-   "slug": "srinagar-gulmarg-pahalgam-tour-package-5-days",
+   "slug": "srinagar-gulmarg-pahalgam-tour-package",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-gulmarg-pahalgam-tour-package-5-days"
+   ]
   },
   {
    "package_id": "0003",
-   "slug": "srinagar-gulmarg-sonmarg-day-trip-tour-package-5-days",
+   "slug": "srinagar-gulmarg-sonmarg-day-trip-tour-package",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-gulmarg-sonmarg-day-trip-tour-package-5-days"
+   ]
   },
   {
    "package_id": "0004",
-   "slug": "srinagar-pahalgam-gulmarg-sonmarg-package-6-days",
+   "slug": "srinagar-pahalgam-gulmarg-sonmarg-package",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-pahalgam-gulmarg-sonmarg-package-6-days"
+   ]
   },
   {
    "package_id": "0005",
-   "slug": "srinagar-gulmarg-pahalgam-tour-package-7-days",
+   "slug": "srinagar-gulmarg-pahalgam-extended-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-gulmarg-pahalgam-tour-package-7-days"
+   ]
   },
   {
    "package_id": "0006",
-   "slug": "srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package-8-days",
+   "slug": "srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package-8-days"
+   ]
   },
   {
    "package_id": "0007",
-   "slug": "breathtaking-leh-ladakh-tour-3n-4d",
+   "slug": "breathtaking-leh-ladakh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "breathtaking-leh-ladakh-tour-3n-4d"
+   ]
   },
   {
    "package_id": "0008",
-   "slug": "special-leh-ladakh-tour-4n-5d",
+   "slug": "special-leh-ladakh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "special-leh-ladakh-tour-4n-5d"
+   ]
   },
   {
    "package_id": "0009",
-   "slug": "jewels-of-leh-ladakh-package-5n6d",
+   "slug": "jewels-of-leh-ladakh-package",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "jewels-of-leh-ladakh-package-5n6d"
+   ]
   },
   {
    "package_id": "0010",
-   "slug": "panorama-ladakh-tour-6n7d",
+   "slug": "panorama-ladakh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "panorama-ladakh-tour-6n7d"
+   ]
   },
   {
    "package_id": "0011",
-   "slug": "serene-leh-ladakh-tour-7n-8d",
+   "slug": "serene-leh-ladakh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "serene-leh-ladakh-tour-7n-8d"
+   ]
   },
   {
    "package_id": "0012",
-   "slug": "discover-leh-ladakh-tour-8n-9d",
+   "slug": "discover-leh-ladakh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "discover-leh-ladakh-tour-8n-9d"
+   ]
   },
   {
    "package_id": "0013",
@@ -88,23 +124,30 @@
   },
   {
    "package_id": "0015",
-   "slug": "amritsar-with-dalhousie-dharamshala-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0016",
-   "slug": "blissful-tour-to-himachal-pradesh-4n-5d",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0017",
-   "slug": "himachal-manali-kullu-volvo-4n-5d",
+   "slug": "amritsar-with-dalhousie-dharamshala",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "manali-volvo-vrip-weekend"
+    "amritsar-with-dalhousie-dharamshala-05-days"
+   ]
+  },
+  {
+   "package_id": "0016",
+   "slug": "blissful-tour-to-himachal-pradesh",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "blissful-tour-to-himachal-pradesh-4n-5d"
+   ]
+  },
+  {
+   "package_id": "0017",
+   "slug": "himachal-manali-kullu-volvo",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "manali-volvo-vrip-weekend",
+    "himachal-manali-kullu-volvo-4n-5d"
    ]
   },
   {
@@ -115,11 +158,12 @@
   },
   {
    "package_id": "0019",
-   "slug": "himachal-amritsar-dharamshala-dalhousie-5n-6d",
+   "slug": "himachal-amritsar-dharamshala-dalhousie",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "amrirsar-with-dalhousie-and-dharamshala-06-days"
+    "amrirsar-with-dalhousie-and-dharamshala-06-days",
+    "himachal-amritsar-dharamshala-dalhousie-5n-6d"
    ]
   },
   {
@@ -130,27 +174,39 @@
   },
   {
    "package_id": "0021",
-   "slug": "manali-with-dharamshala-and-amritsar-06-days",
+   "slug": "manali-with-dharamshala-and-amritsar",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "manali-with-dharamshala-and-amritsar-06-days"
+   ]
   },
   {
    "package_id": "0022",
-   "slug": "shimla-manali-tour-06-days",
+   "slug": "shimla-manali-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "shimla-manali-tour-06-days"
+   ]
   },
   {
    "package_id": "0023",
-   "slug": "shimla-manali-with-chandigarh-06-days",
+   "slug": "shimla-manali-with-chandigarh",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "shimla-manali-with-chandigarh-06-days"
+   ]
   },
   {
    "package_id": "0024",
-   "slug": "amritsar-with-dalhousie-dharamshala-and-chandigarh-07-days",
+   "slug": "amritsar-with-dalhousie-dharamshala-and-chandigarh",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "amritsar-with-dalhousie-dharamshala-and-chandigarh-07-days"
+   ]
   },
   {
    "package_id": "0025",
@@ -160,45 +216,59 @@
   },
   {
    "package_id": "0026",
-   "slug": "shimla-manali-with-dalhousie-amritsar-08-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0027",
-   "slug": "himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d",
+   "slug": "shimla-manali-with-dalhousie-amritsar",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days"
+    "shimla-manali-with-dalhousie-amritsar-08-days"
+   ]
+  },
+  {
+   "package_id": "0027",
+   "slug": "himachal-shimla-manali-dharamshala-dalhousie-amritsar",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days",
+    "himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d"
    ]
   },
   {
    "package_id": "0028",
-   "slug": "himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d",
+   "slug": "himachal-shimla-manali-dharamshala-vaishno-devi",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "grand-himachal-with-mata-vaishno-devi--tour-13-days"
+    "grand-himachal-with-mata-vaishno-devi--tour-13-days",
+    "himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d"
    ]
   },
   {
    "package_id": "0029",
-   "slug": "haridwar-rishikesh-tour-03-days",
+   "slug": "haridwar-rishikesh-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "haridwar-rishikesh-tour-03-days"
+   ]
   },
   {
    "package_id": "0030",
-   "slug": "mussoorie-tour-03-days",
+   "slug": "mussoorie-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "mussoorie-tour-03-days"
+   ]
   },
   {
    "package_id": "0031",
-   "slug": "nainital-tour-03-days",
+   "slug": "nainital-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-tour-03-days"
+   ]
   },
   {
    "package_id": "0032",
@@ -208,132 +278,186 @@
   },
   {
    "package_id": "0033",
-   "slug": "corbett-with-nainital-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0034",
-   "slug": "haridwar-rishikesh-mussoorie-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0035",
-   "slug": "mussoorie-with-jim-corbett-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0036",
-   "slug": "haridwar-with-mussoorie-and-jim-corbett-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0037",
-   "slug": "nainital-with-almora-and-jim-corbett-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0038",
-   "slug": "nainital-with-kausani-and-jim-corbett-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0039",
-   "slug": "uttarakhand-nainital-ranikhet-corbett-4n-5d",
+   "slug": "corbett-with-nainital",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "nainital-with-ranikhet--jim-corbett"
+    "corbett-with-nainital-04-days"
+   ]
+  },
+  {
+   "package_id": "0034",
+   "slug": "haridwar-rishikesh-mussoorie",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "haridwar-rishikesh-mussoorie-04-days"
+   ]
+  },
+  {
+   "package_id": "0035",
+   "slug": "mussoorie-with-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "mussoorie-with-jim-corbett-04-days"
+   ]
+  },
+  {
+   "package_id": "0036",
+   "slug": "haridwar-with-mussoorie-and-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "haridwar-with-mussoorie-and-jim-corbett-05-days"
+   ]
+  },
+  {
+   "package_id": "0037",
+   "slug": "nainital-with-almora-and-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-almora-and-jim-corbett-05-days"
+   ]
+  },
+  {
+   "package_id": "0038",
+   "slug": "nainital-with-kausani-and-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-kausani-and-jim-corbett-05-days"
+   ]
+  },
+  {
+   "package_id": "0039",
+   "slug": "uttarakhand-nainital-ranikhet-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-ranikhet--jim-corbett",
+    "uttarakhand-nainital-ranikhet-corbett-4n-5d"
    ]
   },
   {
    "package_id": "0040",
-   "slug": "uttarakhand-haridwar-mussoorie-corbett-5n-6d",
+   "slug": "uttarakhand-haridwar-mussoorie-corbett",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "haridwar--with-mussoorie-and-corbett-06-days"
+    "haridwar--with-mussoorie-and-corbett-06-days",
+    "uttarakhand-haridwar-mussoorie-corbett-5n-6d"
    ]
   },
   {
    "package_id": "0041",
-   "slug": "mussoorie-with-nainital-and-jim-corbett-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0042",
-   "slug": "nainital-with-kausani-and-jim-corbett-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0043",
-   "slug": "nainital-with-ranikhet-and-jim-corbett-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0044",
-   "slug": "corbett-with-nainital-and-mussoorie-07-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0045",
-   "slug": "haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett-07-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0046",
-   "slug": "uttarakhand-mussoorie-corbett-almora-nainital-6n-7d",
+   "slug": "mussoorie-with-nainital-and-jim-corbett",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "mussoorie-with-nainital-almora-and-jim-corbett--07-days"
+    "mussoorie-with-nainital-and-jim-corbett-06-days"
+   ]
+  },
+  {
+   "package_id": "0042",
+   "slug": "nainital-with-kausani-and-jim-corbett-jeep-safari",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-kausani-and-jim-corbett-06-days"
+   ]
+  },
+  {
+   "package_id": "0043",
+   "slug": "nainital-with-ranikhet-and-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-ranikhet-and-jim-corbett-06-days"
+   ]
+  },
+  {
+   "package_id": "0044",
+   "slug": "corbett-with-nainital-and-mussoorie",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "corbett-with-nainital-and-mussoorie-07-days"
+   ]
+  },
+  {
+   "package_id": "0045",
+   "slug": "haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett-07-days"
+   ]
+  },
+  {
+   "package_id": "0046",
+   "slug": "uttarakhand-mussoorie-corbett-almora-nainital",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "mussoorie-with-nainital-almora-and-jim-corbett--07-days",
+    "uttarakhand-mussoorie-corbett-almora-nainital-6n-7d"
    ]
   },
   {
    "package_id": "0047",
-   "slug": "nainital-with-ranikhet-kausani-and-jim-corbett-07-days",
+   "slug": "nainital-with-ranikhet-kausani-and-jim-corbett",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-ranikhet-kausani-and-jim-corbett-07-days"
+   ]
   },
   {
    "package_id": "0048",
-   "slug": "haridwar-with-mussoorie-corbett-kausani-and-nainital-08-days",
+   "slug": "haridwar-with-mussoorie-corbett-kausani-and-nainital",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "haridwar-with-mussoorie-corbett-kausani-and-nainital-08-days"
+   ]
   },
   {
    "package_id": "0049",
-   "slug": "mussoorie-with-corbett-ranikhet-kausani-and-nainital-08-days",
+   "slug": "mussoorie-with-corbett-ranikhet-kausani-and-nainital",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "mussoorie-with-corbett-ranikhet-kausani-and-nainital-08-days"
+   ]
   },
   {
    "package_id": "0050",
-   "slug": "nainital-with-ranikhet-kausani-jim-corbett-and-haridwar-08-days",
+   "slug": "nainital-with-ranikhet-kausani-jim-corbett-and-haridwar",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "nainital-with-ranikhet-kausani-jim-corbett-and-haridwar-08-days"
+   ]
   },
   {
    "package_id": "0051",
-   "slug": "do-dham-kedar-badri-from-haridwar-4n-5d",
+   "slug": "do-dham-kedar-badri-from-haridwar",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "do-dham-kedar-badri-from-haridwar-4n-5d"
+   ]
   },
   {
    "package_id": "0052",
-   "slug": "do-dham-kedar-badri-from-haridwar-5n-6d",
+   "slug": "do-dham-kedar-badri-from-haridwar-with-kedarnath-night",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "do-dham-kedar-badri-from-haridwar-5n-6d"
+   ]
   },
   {
    "package_id": "0053",
@@ -343,33 +467,48 @@
   },
   {
    "package_id": "0054",
-   "slug": "char-dham-yatra-from-delhi-11n-12d",
+   "slug": "char-dham-yatra-from-delhi-with-kedarnath-night",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "char-dham-yatra-from-delhi-11n-12d"
+   ]
   },
   {
    "package_id": "0055",
-   "slug": "chardham-yatra-from-haridwar-8n-9d",
+   "slug": "chardham-yatra-from-haridwar",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "chardham-yatra-from-haridwar-8n-9d"
+   ]
   },
   {
    "package_id": "0056",
-   "slug": "char-dham-yatra-from-haridwar-9n-10d",
+   "slug": "char-dham-yatra-from-haridwar",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "char-dham-yatra-from-haridwar-9n-10d"
+   ]
   },
   {
    "package_id": "0057",
-   "slug": "yamunotri-gangotri-do-dham-from-delhi-6n-7d",
+   "slug": "yamunotri-gangotri-do-dham-from-delhi",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "yamunotri-gangotri-do-dham-from-delhi-6n-7d"
+   ]
   },
   {
    "package_id": "0058",
-   "slug": "char-dham-yatra-from-delhi-10n-11d",
+   "slug": "char-dham-yatra-from-delhi",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "char-dham-yatra-from-delhi-10n-11d"
+   ]
   },
   {
    "package_id": "0059",
@@ -379,234 +518,332 @@
   },
   {
    "package_id": "0060",
-   "slug": "amarnath-ji-yatra-by-helicopter-2n-3d",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0061",
-   "slug": "amarnath-ji-yatra-by-helicopter-3n-4d",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0062",
-   "slug": "amarnath-ji-yatra-with-srinagar-4n-5d",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0063",
-   "slug": "amarnath-ji-yatra-via-pahalgam-5n-6d",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0064",
-   "slug": "darjeeling-gangtok-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0065",
-   "slug": "darjeeling-kalimpong-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0066",
-   "slug": "darjeeling-and-gangtok-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0067",
-   "slug": "darjeeling-gangtok-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0068",
-   "slug": "gangtok-pelling-tour-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0069",
-   "slug": "darjeeling-with-kalimpong-and-gangtok-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0070",
-   "slug": "darjeeling-with-pelling-and-gangtok-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0071",
-   "slug": "gangtok-with-lachen-and-lachung-07-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0072",
-   "slug": "gangtok-with-pelling-and-kalimpong-tour-07-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0073",
-   "slug": "darjeeling-with-lachung-and-gangtok-08-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0074",
-   "slug": "gangtok-with-lachung-pelling-and-darjeeling-08-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0075",
-   "slug": "kalimpong-with-gangtok-pelling-and-darjeeling-08-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0076",
-   "slug": "darjeeling-with-kalimpong-pelling-lachung-and-gangtok-10-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0077",
-   "slug": "kovalam-kanyakumari-tour-4-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0078",
-   "slug": "munnar-alleppey-tour-package-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0079",
-   "slug": "munnar-thekkady-tour-package-4-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0080",
-   "slug": "munnar-alleppey-kovalam-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0081",
-   "slug": "munnar-thekkady-alleppey-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0082",
-   "slug": "kerala-cochin-munnar-thekkady-alleppey-5n-6d",
+   "slug": "amarnath-ji-yatra-by-helicopter",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "cochin-munnar-thekkedy-alleppey-06-days"
+    "amarnath-ji-yatra-by-helicopter-2n-3d"
+   ]
+  },
+  {
+   "package_id": "0061",
+   "slug": "amarnath-ji-yatra-by-helicopter-with-srinagar-tour",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "amarnath-ji-yatra-by-helicopter-3n-4d"
+   ]
+  },
+  {
+   "package_id": "0062",
+   "slug": "amarnath-ji-yatra-with-srinagar",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "amarnath-ji-yatra-with-srinagar-4n-5d"
+   ]
+  },
+  {
+   "package_id": "0063",
+   "slug": "amarnath-ji-yatra-via-pahalgam",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "amarnath-ji-yatra-via-pahalgam-5n-6d"
+   ]
+  },
+  {
+   "package_id": "0064",
+   "slug": "darjeeling-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-gangtok-04-days"
+   ]
+  },
+  {
+   "package_id": "0065",
+   "slug": "darjeeling-kalimpong",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-kalimpong-04-days"
+   ]
+  },
+  {
+   "package_id": "0066",
+   "slug": "darjeeling-and-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-and-gangtok-06-days"
+   ]
+  },
+  {
+   "package_id": "0067",
+   "slug": "darjeeling-gangtok-tsomgo-lake",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-gangtok-05-days"
+   ]
+  },
+  {
+   "package_id": "0068",
+   "slug": "gangtok-pelling-tour",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "gangtok-pelling-tour-05-days"
+   ]
+  },
+  {
+   "package_id": "0069",
+   "slug": "darjeeling-with-kalimpong-and-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-with-kalimpong-and-gangtok-06-days"
+   ]
+  },
+  {
+   "package_id": "0070",
+   "slug": "darjeeling-with-pelling-and-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-with-pelling-and-gangtok-06-days"
+   ]
+  },
+  {
+   "package_id": "0071",
+   "slug": "gangtok-with-lachen-and-lachung",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "gangtok-with-lachen-and-lachung-07-days"
+   ]
+  },
+  {
+   "package_id": "0072",
+   "slug": "gangtok-with-pelling-and-kalimpong-tour",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "gangtok-with-pelling-and-kalimpong-tour-07-days"
+   ]
+  },
+  {
+   "package_id": "0073",
+   "slug": "darjeeling-with-lachung-and-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-with-lachung-and-gangtok-08-days"
+   ]
+  },
+  {
+   "package_id": "0074",
+   "slug": "gangtok-with-lachung-pelling-and-darjeeling",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "gangtok-with-lachung-pelling-and-darjeeling-08-days"
+   ]
+  },
+  {
+   "package_id": "0075",
+   "slug": "kalimpong-with-gangtok-pelling-and-darjeeling",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "kalimpong-with-gangtok-pelling-and-darjeeling-08-days"
+   ]
+  },
+  {
+   "package_id": "0076",
+   "slug": "darjeeling-with-kalimpong-pelling-lachung-and-gangtok",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "darjeeling-with-kalimpong-pelling-lachung-and-gangtok-10-days"
+   ]
+  },
+  {
+   "package_id": "0077",
+   "slug": "kovalam-kanyakumari-tour",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "kovalam-kanyakumari-tour-4-days"
+   ]
+  },
+  {
+   "package_id": "0078",
+   "slug": "munnar-alleppey-tour-package",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "munnar-alleppey-tour-package-04-days"
+   ]
+  },
+  {
+   "package_id": "0079",
+   "slug": "munnar-thekkady-tour-package",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "munnar-thekkady-tour-package-4-days"
+   ]
+  },
+  {
+   "package_id": "0080",
+   "slug": "munnar-alleppey-kovalam",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "munnar-alleppey-kovalam-05-days"
+   ]
+  },
+  {
+   "package_id": "0081",
+   "slug": "munnar-thekkady-alleppey",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "munnar-thekkady-alleppey-05-days"
+   ]
+  },
+  {
+   "package_id": "0082",
+   "slug": "kerala-cochin-munnar-thekkady-alleppey",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "cochin-munnar-thekkedy-alleppey-06-days",
+    "kerala-cochin-munnar-thekkady-alleppey-5n-6d"
    ]
   },
   {
    "package_id": "0083",
-   "slug": "munnar-alleppey-kovalam-06-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0084",
-   "slug": "kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d",
+   "slug": "munnar-alleppey-houseboat-kovalam",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "munnar-thekkady-alleppey-kovalam-trivandurum-07-days"
+    "munnar-alleppey-kovalam-06-days"
+   ]
+  },
+  {
+   "package_id": "0084",
+   "slug": "kerala-munnar-thekkady-alleppey-kovalam-trivandrum",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "munnar-thekkady-alleppey-kovalam-trivandurum-07-days",
+    "kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d"
    ]
   },
   {
    "package_id": "0085",
-   "slug": "kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d",
+   "slug": "kerala-munnar-thekkady-alleppey-kovalam-kanyakumari",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "munnar-thekkady-alleppey--kovalam-kanyakumari-07-days"
+    "munnar-thekkady-alleppey--kovalam-kanyakumari-07-days",
+    "kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d"
    ]
   },
   {
    "package_id": "0086",
-   "slug": "mysore-coorg-04-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0087",
-   "slug": "south-india-mysore-wayanad-3n-4d",
+   "slug": "mysore-coorg",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "mysore-wayand-04-days"
+    "mysore-coorg-04-days"
+   ]
+  },
+  {
+   "package_id": "0087",
+   "slug": "south-india-mysore-wayanad",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "mysore-wayand-04-days",
+    "south-india-mysore-wayanad-3n-4d"
    ]
   },
   {
    "package_id": "0088",
-   "slug": "bangalore-mysore-ooty-tour-05-days",
-   "internal_key": "",
-   "status": "approved"
-  },
-  {
-   "package_id": "0089",
-   "slug": "south-india-bangalore-mysore-coorg-4n-5d",
+   "slug": "bangalore-mysore-ooty-tour",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "banglore-mysore-coorg--tour-05-days"
+    "bangalore-mysore-ooty-tour-05-days"
+   ]
+  },
+  {
+   "package_id": "0089",
+   "slug": "south-india-bangalore-mysore-coorg",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "banglore-mysore-coorg--tour-05-days",
+    "south-india-bangalore-mysore-coorg-4n-5d"
    ]
   },
   {
    "package_id": "0090",
-   "slug": "mysore-ooty-kodaikanal-06-days",
+   "slug": "mysore-ooty-kodaikanal",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "mysore-ooty-kodaikanal-06-days"
+   ]
   },
   {
    "package_id": "0091",
-   "slug": "ooty-mysore-04-days",
+   "slug": "ooty-mysore",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "ooty-mysore-04-days"
+   ]
   },
   {
    "package_id": "0092",
-   "slug": "delightful-goa-tour-3n-4d",
+   "slug": "delightful-goa-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "delightful-goa-tour-3n-4d"
+   ]
   },
   {
    "package_id": "0093",
-   "slug": "enticing-tour-to-goa-3n-4d",
+   "slug": "enticing-tour-to-goa",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "enticing-tour-to-goa-3n-4d"
+   ]
   },
   {
    "package_id": "0094",
-   "slug": "exclusive-goa-tour-3n-4d",
+   "slug": "exclusive-goa-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "exclusive-goa-tour-3n-4d"
+   ]
   },
   {
    "package_id": "0095",
-   "slug": "fascinating-tour-to-goa-3n-4d",
+   "slug": "fascinating-tour-to-goa",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "fascinating-tour-to-goa-3n-4d"
+   ]
   },
   {
    "package_id": "0096",
@@ -640,21 +877,30 @@
   },
   {
    "package_id": "0101",
-   "slug": "deluxe-tour-to-dubai-4n5d",
+   "slug": "deluxe-tour-to-dubai",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "deluxe-tour-to-dubai-4n5d"
+   ]
   },
   {
    "package_id": "0102",
-   "slug": "standard-tour-to-dubai-4n5d",
+   "slug": "standard-tour-to-dubai",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "standard-tour-to-dubai-4n5d"
+   ]
   },
   {
    "package_id": "0103",
-   "slug": "singapore-and-kuala-lumpur-tour-4n-5d",
+   "slug": "singapore-and-kuala-lumpur-tour",
    "internal_key": "",
-   "status": "approved"
+   "status": "approved",
+   "previous_slugs": [
+    "singapore-and-kuala-lumpur-tour-4n-5d"
+   ]
   },
   {
    "package_id": "0104",
@@ -664,22 +910,329 @@
   },
   {
    "package_id": "0105",
-   "slug": "singapore-kuala-lumpur-phuket-bangkok-8n-9d",
+   "slug": "singapore-kuala-lumpur-phuket-bangkok",
    "internal_key": "",
    "status": "approved",
    "previous_slugs": [
-    "serene-tour-to-singapore-with-thailand--8n-9d"
+    "serene-tour-to-singapore-with-thailand--8n-9d",
+    "singapore-kuala-lumpur-phuket-bangkok-8n-9d"
    ]
   },
   {
    "package_id": "0106",
-   "slug": "the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour-8n-9d",
+   "slug": "the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour-8n-9d"
+   ]
+  },
+  {
+   "package_id": "0107",
+   "slug": "maldives-holiday",
+   "internal_key": "",
+   "status": "approved",
+   "previous_slugs": [
+    "maldives-05-days"
+   ]
+  },
+  {
+   "package_id": "0108",
+   "slug": "kashmir-srinagar-pahalgam",
    "internal_key": "",
    "status": "approved"
   },
   {
-   "package_id": "0107",
-   "slug": "maldives-05-days",
+   "package_id": "0109",
+   "slug": "kashmir-srinagar-sonmarg",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0110",
+   "slug": "kashmir-srinagar-pahalgam-sonmarg",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0111",
+   "slug": "kashmir-srinagar-gulmarg-pahalgam-classic",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0112",
+   "slug": "kashmir-srinagar-gulmarg-doodhpathri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0113",
+   "slug": "kashmir-srinagar-yusmarg-gulmarg",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0114",
+   "slug": "kashmir-srinagar-weekend",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0115",
+   "slug": "kashmir-grand-srinagar-sonmarg-doodhpathri-gulmarg-pahalgam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0116",
+   "slug": "kashmir-jammu-patnitop-srinagar-gulmarg-pahalgam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0117",
+   "slug": "kashmir-vaishno-devi-patnitop-srinagar-gulmarg-pahalgam-sonmarg",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0118",
+   "slug": "kashmir-srinagar-sonmarg-gulmarg-pahalgam-leisure",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0119",
+   "slug": "kashmir-pahalgam-valleys-aru-betaab",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0120",
+   "slug": "ladakh-leh-nubra-turtuk",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0121",
+   "slug": "ladakh-leh-pangong-tso-moriri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0122",
+   "slug": "ladakh-leh-alchi-lamayuru",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0123",
+   "slug": "ladakh-leh-nubra-short",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0124",
+   "slug": "ladakh-srinagar-kargil-leh-nubra-pangong",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0125",
+   "slug": "ladakh-manali-jispa-leh-nubra-pangong",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0126",
+   "slug": "ladakh-srinagar-leh-manali-circuit",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0127",
+   "slug": "ladakh-grand-nubra-turtuk-pangong-tso-moriri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0128",
+   "slug": "amarnath-yatra-helicopter-pahalgam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0129",
+   "slug": "amarnath-yatra-with-vaishno-devi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0130",
+   "slug": "amarnath-yatra-with-kashmir-sightseeing",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0131",
+   "slug": "amarnath-yatra-trek-from-jammu-via-pahalgam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0132",
+   "slug": "himachal-manali-solang-sissu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0133",
+   "slug": "himachal-kasol-manikaran",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0134",
+   "slug": "himachal-shimla-kalpa-kaza-chandratal-manali",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0135",
+   "slug": "himachal-shimla-sangla-chitkul-kalpa",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0136",
+   "slug": "himachal-dharamshala-mcleod-ganj",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0137",
+   "slug": "himachal-dalhousie-khajjiar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0138",
+   "slug": "himachal-shimla-chail-kasauli",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0139",
+   "slug": "himachal-bir-dharamshala",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0140",
+   "slug": "himachal-tirthan-jibhi-manali",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0141",
+   "slug": "himachal-shimla-manali-kasol",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0142",
+   "slug": "himachal-shimla-manali-dharamshala-dalhousie",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0143",
+   "slug": "himachal-chamba-dalhousie-khajjiar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0144",
+   "slug": "himachal-shimla-manali-from-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0145",
+   "slug": "himachal-manali-solang-kullu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0146",
+   "slug": "uttarakhand-auli-joshimath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0147",
+   "slug": "uttarakhand-chopta-tungnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0148",
+   "slug": "uttarakhand-mussoorie-dhanaulti",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0149",
+   "slug": "uttarakhand-lansdowne",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0150",
+   "slug": "uttarakhand-kausani-binsar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0151",
+   "slug": "uttarakhand-munsiyari-chaukori",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0152",
+   "slug": "uttarakhand-nainital-mukteshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0153",
+   "slug": "uttarakhand-haridwar-rishikesh-mussoorie-dhanaulti",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0154",
+   "slug": "uttarakhand-jim-corbett-weekend",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0155",
+   "slug": "uttarakhand-rishikesh-auli-chopta",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0156",
+   "slug": "char-dham-haridwar-guptkashi-kedarnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0157",
+   "slug": "char-dham-haridwar-joshimath-badrinath",
    "internal_key": "",
    "status": "approved"
   }

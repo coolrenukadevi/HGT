@@ -16,8 +16,8 @@ return array(
     'map_query' => 'Manali, Himachal Pradesh',
     'related' => array('uttarakhand', 'kashmir', 'ladakh', 'goa'),
     'frequent' => array(
-        array('6-day Shimla Manali itinerary', '/shimla-manali-tour-06-days'),
-        array('Manali Volvo weekend trip', '/himachal-manali-kullu-volvo-4n-5d'),
+        array('6-day Shimla Manali itinerary', '/shimla-manali-tour'),
+        array('Manali Volvo weekend trip', '/himachal-manali-kullu-volvo'),
     ),
     'intro' => 'Himachal tour packages combine Shimla and Manali with Kullu, Dharamshala, Dalhousie and, on several itineraries, Amritsar and Chandigarh. Our Himachal itineraries run 3 to 13 days, by private cab or by overnight Volvo from Delhi.',
     'why' => array(
@@ -60,13 +60,13 @@ return array(
     'days_answer' => 'Five to six days covers Shimla and Manali; allow 7–9 days to add Dharamshala, Dalhousie and Amritsar.',
     'days_rows' => array(
         array('4 days', 'Shimla (Volvo from Delhi)', 'best-of-shimla'),
-        array('5 days', 'Manali by overnight Volvo', 'himachal-manali-kullu-volvo-4n-5d'),
-        array('6 days', 'Shimla and Manali', 'shimla-manali-tour-06-days'),
-        array('8 days', 'Shimla, Manali, Dalhousie and Amritsar', 'shimla-manali-with-dalhousie-amritsar-08-days'),
+        array('5 days', 'Manali by overnight Volvo', 'himachal-manali-kullu-volvo'),
+        array('6 days', 'Shimla and Manali', 'shimla-manali-tour'),
+        array('8 days', 'Shimla, Manali, Dalhousie and Amritsar', 'shimla-manali-with-dalhousie-amritsar'),
         array(
             '13 days',
             'Grand Himachal with Mata Vaishno Devi',
-            'himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d',
+            'himachal-shimla-manali-dharamshala-vaishno-devi',
         ),
     ),
     'cost_answer' => 'The cost of a Himachal tour depends on the number of nights, hotel category, season and whether you travel by private cab or Volvo. We quote each trip for your dates.',

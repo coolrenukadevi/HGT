@@ -9,9 +9,9 @@ $allPackages = hg_packages();
 // Editor-selected packages (real itineraries with complete data). Rename the
 // section "Most Loved" only once enquiry/booking data supports that claim.
 $featured = array();
-foreach (array('srinagar-gulmarg-pahalgam-tour-package-5-days', 'char-dham-yatra-from-haridwar-9n-10d', 'shimla-manali-tour-06-days',
-    'haridwar-with-mussoorie-and-jim-corbett-05-days', 'munnar-thekkady-alleppey-05-days', 'darjeeling-and-gangtok-06-days',
-    'serene-leh-ladakh-tour-7n-8d', 'deluxe-tour-to-dubai-4n5d') as $slug) {
+foreach (array('srinagar-gulmarg-pahalgam-tour-package', 'char-dham-yatra-from-haridwar', 'shimla-manali-tour',
+    'haridwar-with-mussoorie-and-jim-corbett', 'munnar-thekkady-alleppey', 'darjeeling-and-gangtok',
+    'serene-leh-ladakh-tour', 'deluxe-tour-to-dubai') as $slug) {
     if ($p = hg_package($slug)) $featured[] = $p;
 }
 // Internal curation (include/data/curation.json): tours marked homepage_featured replace the

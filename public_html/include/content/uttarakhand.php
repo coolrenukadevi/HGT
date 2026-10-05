@@ -17,7 +17,7 @@ return array(
     'related' => array('char-dham', 'himachal', 'kashmir', 'ladakh'),
     'frequent' => array(
         array('Char Dham Yatra packages', '/tours/char-dham'),
-        array('4-day Corbett with Nainital itinerary', '/corbett-with-nainital-04-days'),
+        array('4-day Corbett with Nainital itinerary', '/corbett-with-nainital'),
     ),
     'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Our Uttarakhand itineraries run 3 to 8 days by private cab.',
     'why' => array(
@@ -60,18 +60,18 @@ return array(
     'best_time_answer' => 'March to June and October to November are the best times for Uttarakhand hill stations; October to June suits a Corbett safari.',
     'days_answer' => 'Three days is enough for one hill station such as Nainital or Mussoorie; allow 5–6 days to combine Nainital with Jim Corbett and Kausani or Ranikhet, and 7–8 days for a wider Kumaon and Garhwal circuit.',
     'days_rows' => array(
-        array('3 days', 'Nainital', 'nainital-tour-03-days'),
-        array('4 days', 'Jim Corbett and Nainital', 'corbett-with-nainital-04-days'),
-        array('5 days', 'Nainital, Kausani and Jim Corbett', 'nainital-with-kausani-and-jim-corbett-05-days'),
+        array('3 days', 'Nainital', 'nainital-tour'),
+        array('4 days', 'Jim Corbett and Nainital', 'corbett-with-nainital'),
+        array('5 days', 'Nainital, Kausani and Jim Corbett', 'nainital-with-kausani-and-jim-corbett'),
         array(
             '7 days',
             'Haridwar, Rishikesh, Mussoorie, Nainital and Corbett',
-            'haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett-07-days',
+            'haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett',
         ),
         array(
             '8 days',
             'Mussoorie, Corbett, Ranikhet, Kausani and Nainital',
-            'mussoorie-with-corbett-ranikhet-kausani-and-nainital-08-days',
+            'mussoorie-with-corbett-ranikhet-kausani-and-nainital',
         ),
     ),
     'cost_answer' => 'The cost of an Uttarakhand tour depends on the number of nights, hotel category, season and whether you add a Corbett safari. We quote each trip for your dates.',

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 190 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-05: 13 destination guides, URL migrations, 2 retired duplicates removed. -->
+<!-- 240 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-05: 13 destination guides, URL migrations, 2 retired duplicates removed; 50 new domestic packages (batches 1–2, IDs 0108–0157). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -68,19 +68,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/shimla-manali-tour-06-days</loc>
+    <loc>https://holidaygurutravel.in/shimla-manali-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/shimla-manali-with-dalhousie-amritsar-08-days</loc>
+    <loc>https://holidaygurutravel.in/shimla-manali-with-dalhousie-amritsar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d</loc>
+    <loc>https://holidaygurutravel.in/himachal-shimla-manali-dharamshala-dalhousie-amritsar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -92,7 +92,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/shimla-manali-with-chandigarh-06-days</loc>
+    <loc>https://holidaygurutravel.in/shimla-manali-with-chandigarh</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -110,37 +110,37 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/blissful-tour-to-himachal-pradesh-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/blissful-tour-to-himachal-pradesh</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/himachal-amritsar-dharamshala-dalhousie-5n-6d</loc>
+    <loc>https://holidaygurutravel.in/himachal-amritsar-dharamshala-dalhousie</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/manali-with-dharamshala-and-amritsar-06-days</loc>
+    <loc>https://holidaygurutravel.in/manali-with-dharamshala-and-amritsar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d</loc>
+    <loc>https://holidaygurutravel.in/himachal-shimla-manali-dharamshala-vaishno-devi</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amritsar-with-dalhousie-dharamshala-and-chandigarh-07-days</loc>
+    <loc>https://holidaygurutravel.in/amritsar-with-dalhousie-dharamshala-and-chandigarh</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amritsar-with-dalhousie-dharamshala-05-days</loc>
+    <loc>https://holidaygurutravel.in/amritsar-with-dalhousie-dharamshala</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -158,7 +158,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/himachal-manali-kullu-volvo-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/himachal-manali-kullu-volvo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -170,31 +170,31 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/deluxe-tour-to-dubai-4n5d</loc>
+    <loc>https://holidaygurutravel.in/deluxe-tour-to-dubai</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/maldives-05-days</loc>
+    <loc>https://holidaygurutravel.in/maldives-holiday</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour-8n-9d</loc>
+    <loc>https://holidaygurutravel.in/the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d</loc>
+    <loc>https://holidaygurutravel.in/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/kerala-cochin-munnar-thekkady-alleppey-5n-6d</loc>
+    <loc>https://holidaygurutravel.in/kerala-cochin-munnar-thekkady-alleppey</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -206,259 +206,259 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/breathtaking-leh-ladakh-tour-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/breathtaking-leh-ladakh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/jewels-of-leh-ladakh-package-5n6d</loc>
+    <loc>https://holidaygurutravel.in/jewels-of-leh-ladakh-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/discover-leh-ladakh-tour-8n-9d</loc>
+    <loc>https://holidaygurutravel.in/discover-leh-ladakh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/serene-leh-ladakh-tour-7n-8d</loc>
+    <loc>https://holidaygurutravel.in/serene-leh-ladakh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/special-leh-ladakh-tour-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/special-leh-ladakh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/panorama-ladakh-tour-6n7d</loc>
+    <loc>https://holidaygurutravel.in/panorama-ladakh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/munnar-thekkady-alleppey-05-days</loc>
+    <loc>https://holidaygurutravel.in/munnar-thekkady-alleppey</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d</loc>
+    <loc>https://holidaygurutravel.in/kerala-munnar-thekkady-alleppey-kovalam-trivandrum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/munnar-thekkady-tour-package-4-days</loc>
+    <loc>https://holidaygurutravel.in/munnar-thekkady-tour-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/munnar-alleppey-kovalam-06-days</loc>
+    <loc>https://holidaygurutravel.in/munnar-alleppey-houseboat-kovalam</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/munnar-alleppey-tour-package-04-days</loc>
+    <loc>https://holidaygurutravel.in/munnar-alleppey-tour-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/munnar-alleppey-kovalam-05-days</loc>
+    <loc>https://holidaygurutravel.in/munnar-alleppey-kovalam</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-gulmarg-tour-03nt04dy</loc>
+    <loc>https://holidaygurutravel.in/srinagar-gulmarg-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package-8-days</loc>
+    <loc>https://holidaygurutravel.in/srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/kovalam-kanyakumari-tour-4-days</loc>
+    <loc>https://holidaygurutravel.in/kovalam-kanyakumari-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-gulmarg-pahalgam-tour-package-7-days</loc>
+    <loc>https://holidaygurutravel.in/srinagar-gulmarg-pahalgam-extended-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-gulmarg-sonmarg-day-trip-tour-package-5-days</loc>
+    <loc>https://holidaygurutravel.in/srinagar-gulmarg-sonmarg-day-trip-tour-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-pahalgam-gulmarg-sonmarg-package-6-days</loc>
+    <loc>https://holidaygurutravel.in/srinagar-pahalgam-gulmarg-sonmarg-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/srinagar-gulmarg-pahalgam-tour-package-5-days</loc>
+    <loc>https://holidaygurutravel.in/srinagar-gulmarg-pahalgam-tour-package</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/exclusive-goa-tour-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/exclusive-goa-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/fascinating-tour-to-goa-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/fascinating-tour-to-goa</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/delightful-goa-tour-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/delightful-goa-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/enticing-tour-to-goa-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/enticing-tour-to-goa</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-kausani-and-jim-corbett-07-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-kausani-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-and-jim-corbett-06-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/haridwar-rishikesh-mussoorie-04-days</loc>
+    <loc>https://holidaygurutravel.in/haridwar-rishikesh-mussoorie</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/haridwar-rishikesh-tour-03-days</loc>
+    <loc>https://holidaygurutravel.in/haridwar-rishikesh-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mussoorie-tour-03-days</loc>
+    <loc>https://holidaygurutravel.in/mussoorie-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mussoorie-with-jim-corbett-04-days</loc>
+    <loc>https://holidaygurutravel.in/mussoorie-with-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mussoorie-with-nainital-and-jim-corbett-06-days</loc>
+    <loc>https://holidaygurutravel.in/mussoorie-with-nainital-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/uttarakhand-haridwar-mussoorie-corbett-5n-6d</loc>
+    <loc>https://holidaygurutravel.in/uttarakhand-haridwar-mussoorie-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett-07-days</loc>
+    <loc>https://holidaygurutravel.in/haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-kausani-jim-corbett-and-haridwar-08-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-ranikhet-kausani-jim-corbett-and-haridwar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/uttarakhand-nainital-ranikhet-corbett-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/uttarakhand-nainital-ranikhet-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-kausani-and-jim-corbett-06-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-kausani-and-jim-corbett-jeep-safari</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/uttarakhand-mussoorie-corbett-almora-nainital-6n-7d</loc>
+    <loc>https://holidaygurutravel.in/uttarakhand-mussoorie-corbett-almora-nainital</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-kausani-and-jim-corbett-05-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-kausani-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/corbett-with-nainital-and-mussoorie-07-days</loc>
+    <loc>https://holidaygurutravel.in/corbett-with-nainital-and-mussoorie</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/corbett-with-nainital-04-days</loc>
+    <loc>https://holidaygurutravel.in/corbett-with-nainital</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-tour-03-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/haridwar-with-mussoorie-corbett-kausani-and-nainital-08-days</loc>
+    <loc>https://holidaygurutravel.in/haridwar-with-mussoorie-corbett-kausani-and-nainital</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mussoorie-with-corbett-ranikhet-kausani-and-nainital-08-days</loc>
+    <loc>https://holidaygurutravel.in/mussoorie-with-corbett-ranikhet-kausani-and-nainital</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/nainital-with-almora-and-jim-corbett-05-days</loc>
+    <loc>https://holidaygurutravel.in/nainital-with-almora-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -470,7 +470,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/haridwar-with-mussoorie-and-jim-corbett-05-days</loc>
+    <loc>https://holidaygurutravel.in/haridwar-with-mussoorie-and-jim-corbett</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -482,79 +482,79 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/kalimpong-with-gangtok-pelling-and-darjeeling-08-days</loc>
+    <loc>https://holidaygurutravel.in/kalimpong-with-gangtok-pelling-and-darjeeling</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-kalimpong-04-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-kalimpong</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-with-kalimpong-and-gangtok-06-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-with-kalimpong-and-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/gangtok-with-lachen-and-lachung-07-days</loc>
+    <loc>https://holidaygurutravel.in/gangtok-with-lachen-and-lachung</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/gangtok-pelling-tour-05-days</loc>
+    <loc>https://holidaygurutravel.in/gangtok-pelling-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-with-lachung-and-gangtok-08-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-with-lachung-and-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-and-gangtok-06-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-and-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/gangtok-with-lachung-pelling-and-darjeeling-08-days</loc>
+    <loc>https://holidaygurutravel.in/gangtok-with-lachung-pelling-and-darjeeling</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-gangtok-04-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-with-kalimpong-pelling-lachung-and-gangtok-10-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-with-kalimpong-pelling-lachung-and-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-gangtok-05-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-gangtok-tsomgo-lake</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/gangtok-with-pelling-and-kalimpong-tour-07-days</loc>
+    <loc>https://holidaygurutravel.in/gangtok-with-pelling-and-kalimpong-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/darjeeling-with-pelling-and-gangtok-06-days</loc>
+    <loc>https://holidaygurutravel.in/darjeeling-with-pelling-and-gangtok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -566,73 +566,73 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/singapore-kuala-lumpur-phuket-bangkok-8n-9d</loc>
+    <loc>https://holidaygurutravel.in/singapore-kuala-lumpur-phuket-bangkok</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/ooty-mysore-04-days</loc>
+    <loc>https://holidaygurutravel.in/ooty-mysore</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/south-india-mysore-wayanad-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/south-india-mysore-wayanad</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/bangalore-mysore-ooty-tour-05-days</loc>
+    <loc>https://holidaygurutravel.in/bangalore-mysore-ooty-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mysore-coorg-04-days</loc>
+    <loc>https://holidaygurutravel.in/mysore-coorg</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/singapore-and-kuala-lumpur-tour-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/singapore-and-kuala-lumpur-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/south-india-bangalore-mysore-coorg-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/south-india-bangalore-mysore-coorg</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/mysore-ooty-kodaikanal-06-days</loc>
+    <loc>https://holidaygurutravel.in/mysore-ooty-kodaikanal</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-with-srinagar-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-with-srinagar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-by-helicopter-3n-4d</loc>
+    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-by-helicopter-with-srinagar-tour</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-by-helicopter-2n-3d</loc>
+    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-by-helicopter</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-via-pahalgam-5n-6d</loc>
+    <loc>https://holidaygurutravel.in/amarnath-ji-yatra-via-pahalgam</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -722,37 +722,37 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/char-dham-yatra-from-delhi-10n-11d</loc>
+    <loc>https://holidaygurutravel.in/char-dham-yatra-from-delhi</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/char-dham-yatra-from-haridwar-9n-10d</loc>
+    <loc>https://holidaygurutravel.in/char-dham-yatra-from-haridwar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/chardham-yatra-from-haridwar-8n-9d</loc>
+    <loc>https://holidaygurutravel.in/chardham-yatra-from-haridwar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/do-dham-kedar-badri-from-haridwar-4n-5d</loc>
+    <loc>https://holidaygurutravel.in/do-dham-kedar-badri-from-haridwar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/do-dham-kedar-badri-from-haridwar-5n-6d</loc>
+    <loc>https://holidaygurutravel.in/do-dham-kedar-badri-from-haridwar-with-kedarnath-night</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/yamunotri-gangotri-do-dham-from-delhi-6n-7d</loc>
+    <loc>https://holidaygurutravel.in/yamunotri-gangotri-do-dham-from-delhi</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -1130,13 +1130,313 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/char-dham-yatra-from-delhi-11n-12d</loc>
+    <loc>https://holidaygurutravel.in/char-dham-yatra-from-delhi-with-kedarnath-night</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://holidaygurutravel.in/standard-tour-to-dubai-4n5d</loc>
+    <loc>https://holidaygurutravel.in/standard-tour-to-dubai</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-pahalgam</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-sonmarg</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-pahalgam-sonmarg</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-gulmarg-pahalgam-classic</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-gulmarg-doodhpathri</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-yusmarg-gulmarg</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-weekend</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-grand-srinagar-sonmarg-doodhpathri-gulmarg-pahalgam</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-jammu-patnitop-srinagar-gulmarg-pahalgam</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-vaishno-devi-patnitop-srinagar-gulmarg-pahalgam-sonmarg</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-srinagar-sonmarg-gulmarg-pahalgam-leisure</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/kashmir-pahalgam-valleys-aru-betaab</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-leh-nubra-turtuk</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-leh-pangong-tso-moriri</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-leh-alchi-lamayuru</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-leh-nubra-short</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-srinagar-kargil-leh-nubra-pangong</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-manali-jispa-leh-nubra-pangong</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-srinagar-leh-manali-circuit</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ladakh-grand-nubra-turtuk-pangong-tso-moriri</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/amarnath-yatra-helicopter-pahalgam</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/amarnath-yatra-with-vaishno-devi</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/amarnath-yatra-with-kashmir-sightseeing</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/amarnath-yatra-trek-from-jammu-via-pahalgam</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-manali-solang-sissu</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-kasol-manikaran</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-kalpa-kaza-chandratal-manali</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-sangla-chitkul-kalpa</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-dharamshala-mcleod-ganj</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-dalhousie-khajjiar</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-chail-kasauli</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-bir-dharamshala</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-tirthan-jibhi-manali</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-manali-kasol</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-manali-dharamshala-dalhousie</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-chamba-dalhousie-khajjiar</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-shimla-manali-from-delhi</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/himachal-manali-solang-kullu</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-auli-joshimath</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-chopta-tungnath</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-mussoorie-dhanaulti</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-lansdowne</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-kausani-binsar</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-munsiyari-chaukori</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-nainital-mukteshwar</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-haridwar-rishikesh-mussoorie-dhanaulti</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-jim-corbett-weekend</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uttarakhand-rishikesh-auli-chopta</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/char-dham-haridwar-guptkashi-kedarnath</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/char-dham-haridwar-joshimath-badrinath</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

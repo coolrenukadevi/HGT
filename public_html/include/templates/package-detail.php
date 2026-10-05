@@ -2,9 +2,9 @@
 /**
  * Package detail page.
  *
- * Usage (from a package page, e.g. /srinagar-gulmarg-pahalgam-tour-package-5-days):
+ * Usage (from a package page, e.g. /srinagar-gulmarg-pahalgam-tour-package):
  *     require __DIR__ . '/include/templates/package-detail.php';
- *     hg_render_package('srinagar-gulmarg-pahalgam-tour-package-5-days');
+ *     hg_render_package('srinagar-gulmarg-pahalgam-tour-package');
  *
  * Everything shown comes from the package's own page data (include/data/packages.json)
  * and, for destination context, include/content/{destination}.php.
@@ -209,13 +209,13 @@ if (!function_exists('hg_render_package')) {
                     return $ix !== $iy ? $ix <=> $iy : strcmp($x['slug'], $y['slug']);
                 });
                 $picks[$a['slug']] = array();
-                foreach (array_slice($cand, 0, 8) as $c) {   // spares: callers asking for more, and the coverage pass
+                foreach (array_slice($cand, 0, 16) as $c) {   // spares: callers asking for more, and the coverage pass (16: groups now hold 30+ packages)
                     $picks[$a['slug']][] = $c['slug'];
                 }
                 foreach (array_slice($picks[$a['slug']], 0, 3) as $s) $incoming[$s] = (isset($incoming[$s]) ? $incoming[$s] : 0) + 1;
             }
             // Coverage pass: every package should appear in at least 3 "Similar packages" lists. A page may swap its
-            // pick for an under-linked package only if that package is among its own 8 most relevant, and only
+            // pick for an under-linked package only if that package is among its own 16 most relevant, and only
             // when the link it drops keeps 3+ other incoming links. Relevance order otherwise stays as computed.
             for ($round = 0; $round < 6; $round++) {
                 $moved = false;

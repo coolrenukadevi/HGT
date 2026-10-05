@@ -18,7 +18,7 @@ return array(
     'map_query' => 'Srinagar, Jammu and Kashmir',
     'related' => array('amarnath', 'ladakh', 'himachal', 'uttarakhand'),
     'frequent' => array(
-        array('5-day Srinagar, Gulmarg & Pahalgam itinerary', '/srinagar-gulmarg-pahalgam-tour-package-5-days'),
+        array('5-day Srinagar, Gulmarg & Pahalgam itinerary', '/srinagar-gulmarg-pahalgam-tour-package'),
         array('Kashmir travel guide', '/travel-guide/kashmir'),
         array('Amarnath Yatra packages', '/tours/amarnath'),
     ),
@@ -43,11 +43,11 @@ return array(
 
     'days_answer' => 'Five days is enough for a first Kashmir trip covering Srinagar, Gulmarg and Pahalgam; allow 6–7 days to add Sonmarg, and 8 days if you also want to visit Mata Vaishno Devi at Katra.',
     'days_rows' => array(
-        array('4 days', 'Srinagar and Gulmarg', 'srinagar-gulmarg-tour-03nt04dy'),
-        array('5 days', 'Srinagar, Gulmarg and Pahalgam, with a houseboat night', 'srinagar-gulmarg-pahalgam-tour-package-5-days'),
-        array('5 days', 'Srinagar with day trips to Gulmarg and Sonmarg', 'srinagar-gulmarg-sonmarg-day-trip-tour-package-5-days'),
-        array('6 days', 'Srinagar, Gulmarg, Pahalgam and Sonmarg', 'srinagar-pahalgam-gulmarg-sonmarg-package-6-days'),
-        array('8 days', 'Kashmir valley plus Katra and Mata Vaishno Devi, ending in Jammu', 'srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package-8-days'),
+        array('4 days', 'Srinagar and Gulmarg', 'srinagar-gulmarg-tour'),
+        array('5 days', 'Srinagar, Gulmarg and Pahalgam, with a houseboat night', 'srinagar-gulmarg-pahalgam-tour-package'),
+        array('5 days', 'Srinagar with day trips to Gulmarg and Sonmarg', 'srinagar-gulmarg-sonmarg-day-trip-tour-package'),
+        array('6 days', 'Srinagar, Gulmarg, Pahalgam and Sonmarg', 'srinagar-pahalgam-gulmarg-sonmarg-package'),
+        array('8 days', 'Kashmir valley plus Katra and Mata Vaishno Devi, ending in Jammu', 'srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package'),
     ),
 
     'cost_answer' => 'The cost of a Kashmir tour depends mainly on the number of nights, hotel category, travel season and group size. We quote each trip for your dates; air or train fare to Srinagar is usually extra.',

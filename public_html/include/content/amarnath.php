@@ -46,10 +46,10 @@ return array(
     'best_time_answer' => 'The Amarnath Yatra takes place in July–August; dates are announced each year by the Shri Amarnathji Shrine Board.',
     'days_answer' => 'Allow 3–4 days for a helicopter yatra from Srinagar, and 5–6 days for the trek route via Pahalgam.',
     'days_rows' => array(
-        array('3 days', 'By helicopter', 'amarnath-ji-yatra-by-helicopter-2n-3d'),
-        array('4 days', 'By helicopter, with a Srinagar tour', 'amarnath-ji-yatra-by-helicopter-3n-4d'),
-        array('5 days', 'Yatra with Srinagar', 'amarnath-ji-yatra-with-srinagar-4n-5d'),
-        array('6 days', 'Trek route via Pahalgam', 'amarnath-ji-yatra-via-pahalgam-5n-6d'),
+        array('3 days', 'By helicopter', 'amarnath-ji-yatra-by-helicopter'),
+        array('4 days', 'By helicopter, with a Srinagar tour', 'amarnath-ji-yatra-by-helicopter-with-srinagar-tour'),
+        array('5 days', 'Yatra with Srinagar', 'amarnath-ji-yatra-with-srinagar'),
+        array('6 days', 'Trek route via Pahalgam', 'amarnath-ji-yatra-via-pahalgam'),
     ),
     'cost_answer' => 'The cost of an Amarnath Yatra package depends on the route (helicopter or trek), number of days, hotel category and dates. We quote each yatra for your dates.',
     'cost_factors' => array(

@@ -1,16 +1,109 @@
 Package ID,Old URL,New URL,Reason,Redirect,Approved
-0051,/do-dham-kedar–badri-from-haridwar-4n-5d,/do-dham-kedar-badri-from-haridwar-4n-5d,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
-0052,/do-dham-kedar–badri-from-haridwar-5n-6d,/do-dham-kedar-badri-from-haridwar-5n-6d,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
-0019,/amrirsar-with-dalhousie-and-dharamshala-06-days,/himachal-amritsar-dharamshala-dalhousie-5n-6d,"D — typo ""amrirsar"" in URL",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0089,/banglore-mysore-coorg--tour-05-days,/south-india-bangalore-mysore-coorg-4n-5d,"C+D — double hyphen and typo ""banglore""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0082,/cochin-munnar-thekkedy-alleppey-06-days,/kerala-cochin-munnar-thekkady-alleppey-5n-6d,"D — typo ""thekkedy""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0028,/grand-himachal-with-mata-vaishno-devi--tour-13-days,/himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0040,/haridwar--with-mussoorie-and-corbett-06-days,/uttarakhand-haridwar-mussoorie-corbett-5n-6d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0017,/manali-volvo-vrip-weekend,/himachal-manali-kullu-volvo-4n-5d,"D — typo ""vrip""; no duration in URL",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0085,/munnar-thekkady-alleppey--kovalam-kanyakumari-07-days,/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0084,/munnar-thekkady-alleppey-kovalam-trivandurum-07-days,/kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d,"D — typo ""trivandurum""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0046,/mussoorie-with-nainital-almora-and-jim-corbett--07-days,/uttarakhand-mussoorie-corbett-almora-nainital-6n-7d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0087,/mysore-wayand-04-days,/south-india-mysore-wayanad-3n-4d,"D — typo ""wayand""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0039,/nainital-with-ranikhet--jim-corbett,/uttarakhand-nainital-ranikhet-corbett-4n-5d,C — double hyphen; no duration in URL,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0105,/serene-tour-to-singapore-with-thailand--8n-9d,/singapore-kuala-lumpur-phuket-bangkok-8n-9d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
-0027,/shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days,/himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d,"D — typo ""dharmshala""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0051,/do-dham-kedar–badri-from-haridwar-4n-5d,/do-dham-kedar-badri-from-haridwar,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
+0052,/do-dham-kedar–badri-from-haridwar-5n-6d,/do-dham-kedar-badri-from-haridwar-with-kedarnath-night,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
+0019,/amrirsar-with-dalhousie-and-dharamshala-06-days,/himachal-amritsar-dharamshala-dalhousie,"D — typo ""amrirsar"" in URL",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0089,/banglore-mysore-coorg--tour-05-days,/south-india-bangalore-mysore-coorg,"C+D — double hyphen and typo ""banglore""",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0082,/cochin-munnar-thekkedy-alleppey-06-days,/kerala-cochin-munnar-thekkady-alleppey,"D — typo ""thekkedy""",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0028,/grand-himachal-with-mata-vaishno-devi--tour-13-days,/himachal-shimla-manali-dharamshala-vaishno-devi,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0040,/haridwar--with-mussoorie-and-corbett-06-days,/uttarakhand-haridwar-mussoorie-corbett,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0017,/manali-volvo-vrip-weekend,/himachal-manali-kullu-volvo,"D — typo ""vrip""; no duration in URL",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0085,/munnar-thekkady-alleppey--kovalam-kanyakumari-07-days,/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0084,/munnar-thekkady-alleppey-kovalam-trivandurum-07-days,/kerala-munnar-thekkady-alleppey-kovalam-trivandrum,"D — typo ""trivandurum""",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0046,/mussoorie-with-nainital-almora-and-jim-corbett--07-days,/uttarakhand-mussoorie-corbett-almora-nainital,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0087,/mysore-wayand-04-days,/south-india-mysore-wayanad,"D — typo ""wayand""",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0039,/nainital-with-ranikhet--jim-corbett,/uttarakhand-nainital-ranikhet-corbett,C — double hyphen; no duration in URL,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0105,/serene-tour-to-singapore-with-thailand--8n-9d,/singapore-kuala-lumpur-phuket-bangkok,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0027,/shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days,/himachal-shimla-manali-dharamshala-dalhousie-amritsar,"D — typo ""dharmshala""",301,"owner 2026-10-05 (premium URL standard, class C/D; no night/day numbers per owner)"
+0017,/himachal-manali-kullu-volvo-4n-5d,/himachal-manali-kullu-volvo,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0019,/himachal-amritsar-dharamshala-dalhousie-5n-6d,/himachal-amritsar-dharamshala-dalhousie,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0027,/himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d,/himachal-shimla-manali-dharamshala-dalhousie-amritsar,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0028,/himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d,/himachal-shimla-manali-dharamshala-vaishno-devi,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0039,/uttarakhand-nainital-ranikhet-corbett-4n-5d,/uttarakhand-nainital-ranikhet-corbett,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0040,/uttarakhand-haridwar-mussoorie-corbett-5n-6d,/uttarakhand-haridwar-mussoorie-corbett,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0046,/uttarakhand-mussoorie-corbett-almora-nainital-6n-7d,/uttarakhand-mussoorie-corbett-almora-nainital,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0082,/kerala-cochin-munnar-thekkady-alleppey-5n-6d,/kerala-cochin-munnar-thekkady-alleppey,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0084,/kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d,/kerala-munnar-thekkady-alleppey-kovalam-trivandrum,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0085,/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d,/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0087,/south-india-mysore-wayanad-3n-4d,/south-india-mysore-wayanad,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0089,/south-india-bangalore-mysore-coorg-4n-5d,/south-india-bangalore-mysore-coorg,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0105,/singapore-kuala-lumpur-phuket-bangkok-8n-9d,/singapore-kuala-lumpur-phuket-bangkok,no night/day numbers in package URLs (interim URL from the same day),301,owner 2026-10-05
+0001,/srinagar-gulmarg-tour-03nt04dy,/srinagar-gulmarg-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0002,/srinagar-gulmarg-pahalgam-tour-package-5-days,/srinagar-gulmarg-pahalgam-tour-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0003,/srinagar-gulmarg-sonmarg-day-trip-tour-package-5-days,/srinagar-gulmarg-sonmarg-day-trip-tour-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0004,/srinagar-pahalgam-gulmarg-sonmarg-package-6-days,/srinagar-pahalgam-gulmarg-sonmarg-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0005,/srinagar-gulmarg-pahalgam-tour-package-7-days,/srinagar-gulmarg-pahalgam-extended-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0006,/srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package-8-days,/srinagar-gulmarg-sonmarg-pahalgam-katra-tour-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0007,/breathtaking-leh-ladakh-tour-3n-4d,/breathtaking-leh-ladakh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0008,/special-leh-ladakh-tour-4n-5d,/special-leh-ladakh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0009,/jewels-of-leh-ladakh-package-5n6d,/jewels-of-leh-ladakh-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0010,/panorama-ladakh-tour-6n7d,/panorama-ladakh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0011,/serene-leh-ladakh-tour-7n-8d,/serene-leh-ladakh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0012,/discover-leh-ladakh-tour-8n-9d,/discover-leh-ladakh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0015,/amritsar-with-dalhousie-dharamshala-05-days,/amritsar-with-dalhousie-dharamshala,no night/day numbers in package URLs,301,owner 2026-10-05
+0016,/blissful-tour-to-himachal-pradesh-4n-5d,/blissful-tour-to-himachal-pradesh,no night/day numbers in package URLs,301,owner 2026-10-05
+0021,/manali-with-dharamshala-and-amritsar-06-days,/manali-with-dharamshala-and-amritsar,no night/day numbers in package URLs,301,owner 2026-10-05
+0022,/shimla-manali-tour-06-days,/shimla-manali-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0023,/shimla-manali-with-chandigarh-06-days,/shimla-manali-with-chandigarh,no night/day numbers in package URLs,301,owner 2026-10-05
+0024,/amritsar-with-dalhousie-dharamshala-and-chandigarh-07-days,/amritsar-with-dalhousie-dharamshala-and-chandigarh,no night/day numbers in package URLs,301,owner 2026-10-05
+0026,/shimla-manali-with-dalhousie-amritsar-08-days,/shimla-manali-with-dalhousie-amritsar,no night/day numbers in package URLs,301,owner 2026-10-05
+0029,/haridwar-rishikesh-tour-03-days,/haridwar-rishikesh-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0030,/mussoorie-tour-03-days,/mussoorie-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0031,/nainital-tour-03-days,/nainital-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0033,/corbett-with-nainital-04-days,/corbett-with-nainital,no night/day numbers in package URLs,301,owner 2026-10-05
+0034,/haridwar-rishikesh-mussoorie-04-days,/haridwar-rishikesh-mussoorie,no night/day numbers in package URLs,301,owner 2026-10-05
+0035,/mussoorie-with-jim-corbett-04-days,/mussoorie-with-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0036,/haridwar-with-mussoorie-and-jim-corbett-05-days,/haridwar-with-mussoorie-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0037,/nainital-with-almora-and-jim-corbett-05-days,/nainital-with-almora-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0038,/nainital-with-kausani-and-jim-corbett-05-days,/nainital-with-kausani-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0041,/mussoorie-with-nainital-and-jim-corbett-06-days,/mussoorie-with-nainital-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0042,/nainital-with-kausani-and-jim-corbett-06-days,/nainital-with-kausani-and-jim-corbett-jeep-safari,no night/day numbers in package URLs,301,owner 2026-10-05
+0043,/nainital-with-ranikhet-and-jim-corbett-06-days,/nainital-with-ranikhet-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0044,/corbett-with-nainital-and-mussoorie-07-days,/corbett-with-nainital-and-mussoorie,no night/day numbers in package URLs,301,owner 2026-10-05
+0045,/haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett-07-days,/haridwar-with-rishikesh-mussoorie-nainital-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0047,/nainital-with-ranikhet-kausani-and-jim-corbett-07-days,/nainital-with-ranikhet-kausani-and-jim-corbett,no night/day numbers in package URLs,301,owner 2026-10-05
+0048,/haridwar-with-mussoorie-corbett-kausani-and-nainital-08-days,/haridwar-with-mussoorie-corbett-kausani-and-nainital,no night/day numbers in package URLs,301,owner 2026-10-05
+0049,/mussoorie-with-corbett-ranikhet-kausani-and-nainital-08-days,/mussoorie-with-corbett-ranikhet-kausani-and-nainital,no night/day numbers in package URLs,301,owner 2026-10-05
+0050,/nainital-with-ranikhet-kausani-jim-corbett-and-haridwar-08-days,/nainital-with-ranikhet-kausani-jim-corbett-and-haridwar,no night/day numbers in package URLs,301,owner 2026-10-05
+0051,/do-dham-kedar-badri-from-haridwar-4n-5d,/do-dham-kedar-badri-from-haridwar,no night/day numbers in package URLs,301,owner 2026-10-05
+0052,/do-dham-kedar-badri-from-haridwar-5n-6d,/do-dham-kedar-badri-from-haridwar-with-kedarnath-night,no night/day numbers in package URLs,301,owner 2026-10-05
+0054,/char-dham-yatra-from-delhi-11n-12d,/char-dham-yatra-from-delhi-with-kedarnath-night,no night/day numbers in package URLs,301,owner 2026-10-05
+0055,/chardham-yatra-from-haridwar-8n-9d,/chardham-yatra-from-haridwar,no night/day numbers in package URLs,301,owner 2026-10-05
+0056,/char-dham-yatra-from-haridwar-9n-10d,/char-dham-yatra-from-haridwar,no night/day numbers in package URLs,301,owner 2026-10-05
+0057,/yamunotri-gangotri-do-dham-from-delhi-6n-7d,/yamunotri-gangotri-do-dham-from-delhi,no night/day numbers in package URLs,301,owner 2026-10-05
+0058,/char-dham-yatra-from-delhi-10n-11d,/char-dham-yatra-from-delhi,no night/day numbers in package URLs,301,owner 2026-10-05
+0060,/amarnath-ji-yatra-by-helicopter-2n-3d,/amarnath-ji-yatra-by-helicopter,no night/day numbers in package URLs,301,owner 2026-10-05
+0061,/amarnath-ji-yatra-by-helicopter-3n-4d,/amarnath-ji-yatra-by-helicopter-with-srinagar-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0062,/amarnath-ji-yatra-with-srinagar-4n-5d,/amarnath-ji-yatra-with-srinagar,no night/day numbers in package URLs,301,owner 2026-10-05
+0063,/amarnath-ji-yatra-via-pahalgam-5n-6d,/amarnath-ji-yatra-via-pahalgam,no night/day numbers in package URLs,301,owner 2026-10-05
+0064,/darjeeling-gangtok-04-days,/darjeeling-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0065,/darjeeling-kalimpong-04-days,/darjeeling-kalimpong,no night/day numbers in package URLs,301,owner 2026-10-05
+0066,/darjeeling-and-gangtok-06-days,/darjeeling-and-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0067,/darjeeling-gangtok-05-days,/darjeeling-gangtok-tsomgo-lake,no night/day numbers in package URLs,301,owner 2026-10-05
+0068,/gangtok-pelling-tour-05-days,/gangtok-pelling-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0069,/darjeeling-with-kalimpong-and-gangtok-06-days,/darjeeling-with-kalimpong-and-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0070,/darjeeling-with-pelling-and-gangtok-06-days,/darjeeling-with-pelling-and-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0071,/gangtok-with-lachen-and-lachung-07-days,/gangtok-with-lachen-and-lachung,no night/day numbers in package URLs,301,owner 2026-10-05
+0072,/gangtok-with-pelling-and-kalimpong-tour-07-days,/gangtok-with-pelling-and-kalimpong-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0073,/darjeeling-with-lachung-and-gangtok-08-days,/darjeeling-with-lachung-and-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0074,/gangtok-with-lachung-pelling-and-darjeeling-08-days,/gangtok-with-lachung-pelling-and-darjeeling,no night/day numbers in package URLs,301,owner 2026-10-05
+0075,/kalimpong-with-gangtok-pelling-and-darjeeling-08-days,/kalimpong-with-gangtok-pelling-and-darjeeling,no night/day numbers in package URLs,301,owner 2026-10-05
+0076,/darjeeling-with-kalimpong-pelling-lachung-and-gangtok-10-days,/darjeeling-with-kalimpong-pelling-lachung-and-gangtok,no night/day numbers in package URLs,301,owner 2026-10-05
+0077,/kovalam-kanyakumari-tour-4-days,/kovalam-kanyakumari-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0078,/munnar-alleppey-tour-package-04-days,/munnar-alleppey-tour-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0079,/munnar-thekkady-tour-package-4-days,/munnar-thekkady-tour-package,no night/day numbers in package URLs,301,owner 2026-10-05
+0080,/munnar-alleppey-kovalam-05-days,/munnar-alleppey-kovalam,no night/day numbers in package URLs,301,owner 2026-10-05
+0081,/munnar-thekkady-alleppey-05-days,/munnar-thekkady-alleppey,no night/day numbers in package URLs,301,owner 2026-10-05
+0083,/munnar-alleppey-kovalam-06-days,/munnar-alleppey-houseboat-kovalam,no night/day numbers in package URLs,301,owner 2026-10-05
+0086,/mysore-coorg-04-days,/mysore-coorg,no night/day numbers in package URLs,301,owner 2026-10-05
+0088,/bangalore-mysore-ooty-tour-05-days,/bangalore-mysore-ooty-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0090,/mysore-ooty-kodaikanal-06-days,/mysore-ooty-kodaikanal,no night/day numbers in package URLs,301,owner 2026-10-05
+0091,/ooty-mysore-04-days,/ooty-mysore,no night/day numbers in package URLs,301,owner 2026-10-05
+0092,/delightful-goa-tour-3n-4d,/delightful-goa-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0093,/enticing-tour-to-goa-3n-4d,/enticing-tour-to-goa,no night/day numbers in package URLs,301,owner 2026-10-05
+0094,/exclusive-goa-tour-3n-4d,/exclusive-goa-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0095,/fascinating-tour-to-goa-3n-4d,/fascinating-tour-to-goa,no night/day numbers in package URLs,301,owner 2026-10-05
+0101,/deluxe-tour-to-dubai-4n5d,/deluxe-tour-to-dubai,no night/day numbers in package URLs,301,owner 2026-10-05
+0102,/standard-tour-to-dubai-4n5d,/standard-tour-to-dubai,no night/day numbers in package URLs,301,owner 2026-10-05
+0103,/singapore-and-kuala-lumpur-tour-4n-5d,/singapore-and-kuala-lumpur-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0106,/the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour-8n-9d,/the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour,no night/day numbers in package URLs,301,owner 2026-10-05
+0107,/maldives-05-days,/maldives-holiday,no night/day numbers in package URLs,301,owner 2026-10-05

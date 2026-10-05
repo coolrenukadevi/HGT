@@ -16,7 +16,7 @@ return array(
     'map_query' => 'Singapore',
     'related' => array('dubai', 'maldives', 'goa', 'kerala'),
     'frequent' => array(
-        array('5-day Singapore and Kuala Lumpur', '/singapore-and-kuala-lumpur-tour-4n-5d'),
+        array('5-day Singapore and Kuala Lumpur', '/singapore-and-kuala-lumpur-tour'),
         array('The Magical Tour to Singapore', '/the-magical-tour-to-singapore'),
     ),
     'intro' => 'Singapore and Malaysia tour packages combine Singapore with Kuala Lumpur, and on the 9-day itineraries continue to Thailand (Pattaya, Phuket and Bangkok). Hotels are named on each package, with return airport transfers and sightseeing on a shared basis. Our itineraries run 5 or 9 days.',
@@ -52,17 +52,17 @@ return array(
         array(
             '5 days',
             'Singapore and Kuala Lumpur, with Universal Studios',
-            'singapore-and-kuala-lumpur-tour-4n-5d',
+            'singapore-and-kuala-lumpur-tour',
         ),
         array(
             '9 days',
             'Singapore, Kuala Lumpur, Pattaya and Bangkok',
-            'the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour-8n-9d',
+            'the-best-of-singapore-and-kuala-lumpur-with-pattaya-tour',
         ),
         array(
             '9 days',
             'Singapore, Kuala Lumpur, Phuket and Bangkok',
-            'singapore-kuala-lumpur-phuket-bangkok-8n-9d',
+            'singapore-kuala-lumpur-phuket-bangkok',
         ),
     ),
     'cost_answer' => 'The cost depends on the hotels, the number of countries, the season and the attractions you add. We quote each trip for your dates; flights and visas are extra unless listed.',

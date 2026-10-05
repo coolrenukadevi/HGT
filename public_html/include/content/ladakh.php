@@ -16,7 +16,7 @@ return array(
     'map_query' => 'Leh, Ladakh',
     'related' => array('kashmir', 'himachal', 'amarnath', 'uttarakhand'),
     'frequent' => array(
-        array('6-day Jewels of Leh Ladakh itinerary', '/jewels-of-leh-ladakh-package-5n6d'),
+        array('6-day Jewels of Leh Ladakh itinerary', '/jewels-of-leh-ladakh-package'),
         array('Kashmir tour packages', '/tours/kashmir'),
     ),
     'intro' => 'Leh Ladakh tour packages start in Leh and cover the Nubra Valley over Khardung La and the high-altitude Pangong Lake, with a private vehicle, permits, and breakfast and dinner included. Our Ladakh itineraries run 4 to 9 days; the longer ones add Tso Moriri and Tso Kar.',
@@ -63,15 +63,15 @@ return array(
     'best_time_answer' => 'May to September is the best time for a Ladakh tour, when the roads to Nubra and Pangong are open.',
     'days_answer' => 'Allow at least 5–6 days for Leh, Nubra Valley and Pangong Lake, including a first day to acclimatise; choose 8–9 days to add Tso Moriri and Tso Kar.',
     'days_rows' => array(
-        array('4 days', 'Leh, its monasteries and Khardung La', 'breathtaking-leh-ladakh-tour-3n-4d'),
-        array('5 days', 'Leh, Pangong Lake, Khardung La and Sham Valley', 'special-leh-ladakh-tour-4n-5d'),
-        array('6 days', 'Leh, Sham Valley, Nubra Valley and Pangong Lake', 'jewels-of-leh-ladakh-package-5n6d'),
+        array('4 days', 'Leh, its monasteries and Khardung La', 'breathtaking-leh-ladakh-tour'),
+        array('5 days', 'Leh, Pangong Lake, Khardung La and Sham Valley', 'special-leh-ladakh-tour'),
+        array('6 days', 'Leh, Sham Valley, Nubra Valley and Pangong Lake', 'jewels-of-leh-ladakh-package'),
         array(
             '8 days',
             'Leh, Nubra, Pangong and Sham Valley, with a rest day in Leh',
-            'serene-leh-ladakh-tour-7n-8d',
+            'serene-leh-ladakh-tour',
         ),
-        array('9 days', 'Adds Tso Moriri and Tso Kar', 'discover-leh-ladakh-tour-8n-9d'),
+        array('9 days', 'Adds Tso Moriri and Tso Kar', 'discover-leh-ladakh-tour'),
     ),
     'cost_answer' => 'A Ladakh tour costs more per day than most Indian hill holidays because of the private vehicle over long mountain roads and the short season. We quote each trip for your dates; flights to Leh are extra.',
     'cost_factors' => array(

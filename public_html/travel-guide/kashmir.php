@@ -13,7 +13,7 @@ $gfaqs = array(
 );
 // The six destination questions every guide answers (from data), then the Kashmir-specific ones above.
 $gfaqs = array_merge(hg_guide_faqs('kashmir'), $gfaqs);
-$sample = hg_package('srinagar-gulmarg-pahalgam-tour-package-5-days');
+$sample = hg_package('srinagar-gulmarg-pahalgam-tour-package');
 $pack = array(
     array('March – May', 'Light woollens and a jacket; rain layer; comfortable walking shoes.'),
     array('June – August', 'Cotton clothes for the day, a fleece or jacket for evenings and for Gulmarg and Sonmarg; sunscreen and sunglasses.'),
