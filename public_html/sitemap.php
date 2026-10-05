@@ -8,7 +8,7 @@ $main = array(
     array('India tours for foreign travellers', '/india-tours'), array('Pilgrimage tours', '/religious-tour'), array('Customised tours', '/customized-holidays'),
     array('Search all packages', '/tours'), array('Car rental', '/service'), array('About us', '/about'), array('Contact us', '/contact'),
 );
-$help = array(array('FAQs', '/faqs'), array('Kashmir travel guide', '/travel-guide/kashmir'), array('Cancellation policy', '/cancellation-policy'), array('Refund policy', '/refund-policy'), array('Payment policy', '/payment-policy'));
+$help = array(array('FAQs', '/faqs'), array('Cancellation policy', '/cancellation-policy'), array('Refund policy', '/refund-policy'), array('Payment policy', '/payment-policy'));
 $link = function ($l) { return hg_page_exists($l[1]) && hg_page_status($l[1]) === 'approved' ? '<li><a href="' . hg_e($l[1]) . '">' . hg_e($l[0]) . '</a></li>' : ''; };
 
 hg_layout_start(array(
@@ -26,6 +26,7 @@ hg_layout_start(array(
         <div class="hg-grid hg-grid--3">
             <div><h2 class="hg-h3">Main pages</h2><ul class="hg-linklist"><?= implode('', array_map($link, $main)) ?></ul></div>
             <div><h2 class="hg-h3">Destinations</h2><ul class="hg-linklist"><?php foreach ($groups as $g) { ?><li><a href="<?= hg_e($g['hub_url']) ?>"><?= hg_e($g['name']) ?></a></li><?php } ?></ul></div>
+            <div><h2 class="hg-h3">Travel guides</h2><ul class="hg-linklist"><?php foreach ($groups as $g) { $tg = '/travel-guide/' . $g['key']; if (is_file(__DIR__ . $tg . '.php') && hg_page_status($tg) === 'approved') { ?><li><a href="<?= hg_e($tg) ?>"><?= hg_e($g['name']) ?> travel guide</a></li><?php } } ?></ul></div>
             <div><h2 class="hg-h3">Help &amp; policies</h2><ul class="hg-linklist"><?= implode('', array_map($link, $help)) ?></ul></div>
         </div>
         <h2 class="hg-h2" style="margin-top:48px">Holiday packages</h2>

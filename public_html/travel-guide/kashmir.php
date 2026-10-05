@@ -1,7 +1,7 @@
 <?php
-// Kashmir travel guide (Article). Practical advice; the package list lives on
-// /tours/kashmir. STATUS: draft — noindex until the owner approves.
-require __DIR__ . '/../include/ui/core.php';
+// Kashmir travel guide. Hand-written practical sections plus the shared destination-guide sections
+// (include/templates/destination-guide.php): quick facts, places, routes, all Kashmir packages, related reading.
+require __DIR__ . '/../include/templates/destination-guide.php';
 
 $c = include __DIR__ . '/../include/content/kashmir.php';
 $status = hg_page_status('/travel-guide/kashmir');
@@ -10,8 +10,9 @@ $gfaqs = array(
     array('How far is Gulmarg from Srinagar?', '<p>About 56 km. Pahalgam is roughly a 186 km round trip and Sonmarg roughly 196 km round trip from Srinagar.</p>'),
     array('Do mobile phones work in Kashmir?', '<p>Prepaid SIMs issued outside Jammu &amp; Kashmir generally do not work there; postpaid connections usually do.</p>'),
     array('Is the Gulmarg Gondola included in packages?', '<p>No — Gondola tickets are paid locally, like pony rides and shikara extensions.</p>'),
-    array('What should I buy in Kashmir?', '<p>Pashmina shawls, papier-mâché, walnut-wood carvings, carpets, dry fruits and Kashmiri saffron — buy from government emporiums or trusted shops.</p>'),
 );
+// The six destination questions every guide answers (from data), then the Kashmir-specific ones above.
+$gfaqs = array_merge(hg_guide_faqs('kashmir'), $gfaqs);
 $sample = hg_package('srinagar-gulmarg-pahalgam-tour-package-5-days');
 $pack = array(
     array('March – May', 'Light woollens and a jacket; rain layer; comfortable walking shoes.'),
@@ -19,7 +20,7 @@ $pack = array(
     array('September – November', 'Layers — warm sweater and jacket for cool mornings and evenings.'),
     array('December – February', 'Heavy winter wear: thermal layers, down jacket, gloves, cap and waterproof boots for snow.'),
 );
-$toc = array(array('when', 'When to go'), array('reach', 'How to reach'), array('around', 'Getting around'), array('pack', 'What to pack'), array('plan', 'A 5-day plan'), array('stay', 'Where to stay'), array('food', 'Food & shopping'), array('tips', 'Practical tips'), array('gfaq', 'FAQs'));
+$toc = array(array('facts', 'Quick facts'), array('when', 'When to go'), array('reach', 'How to reach'), array('around', 'Getting around'), array('pack', 'What to pack'), array('plan', 'A 5-day plan'), array('stay', 'Where to stay'), array('food', 'Food & shopping'), array('tips', 'Practical tips'), array('places', 'Places'), array('routes', 'Routes'), array('gfaq', 'FAQs'), array('packages', 'Packages'), array('more', 'Related reading'));
 
 hg_layout_start(array(
     'title' => 'Kashmir Travel Guide: When to Go, How to Reach, What to Pack',
@@ -27,11 +28,7 @@ hg_layout_start(array(
     'path' => '/travel-guide/kashmir', 'index' => $status === 'approved', 'type' => 'article',
     'image' => $c['image'],
     'breadcrumbs' => array(array('Home', '/'), array('Kashmir', '/tours/kashmir'), array('Kashmir travel guide', null)),
-    'schema' => array(hg_faq_schema($gfaqs), array(
-        '@type' => 'Article', 'headline' => 'Kashmir travel guide', 'description' => 'When to go, how to reach, getting around and what to pack for Kashmir.',
-        'author' => array('@id' => HG_SITE_URL . '/#organization'), 'publisher' => array('@id' => HG_SITE_URL . '/#organization'),
-        'dateModified' => $c['reviewed'], 'mainEntityOfPage' => hg_abs('/travel-guide/kashmir'), 'image' => hg_abs($c['image']),
-    )),
+    'schema' => hg_guide_schema('kashmir', $gfaqs, 'Kashmir travel guide', 'When to go, how to reach, getting around and what to pack for Kashmir.'),
 ));
 ?>
 <article class="hg-guidepage">
@@ -45,7 +42,9 @@ hg_layout_start(array(
 </header>
 
 <div class="hg-container hg-narrow">
+    <p class="hg-summary"><strong>In short:</strong> <?= hg_e(strip_tags($gfaqs[0][1])) ?> <?= hg_e($c['best_time_answer']) ?></p>
     <nav class="hg-toc" aria-label="In this guide"><p>In this guide</p><ol><?php foreach ($toc as $t) { ?><li><a href="#<?= $t[0] ?>"><?= hg_e($t[1]) ?></a></li><?php } ?></ol></nav>
+    <?= hg_guide_sections('kashmir', array('places', 'days', 'when', 'routes', 'consider', 'faq', 'packages', 'more')) ?>
 
     <section class="hg-answer" id="when" aria-labelledby="g-when">
         <h2 class="hg-h2" id="g-when">When to go</h2>
@@ -117,10 +116,7 @@ hg_layout_start(array(
         <h2 class="hg-h2" id="g-tips">Practical tips</h2>
         <ul class="hg-checks hg-checks--info"><?php foreach ($c['tips'] as $t) { ?><li><?= hg_e($t) ?></li><?php } ?></ul>
     </section>
-    <section class="hg-answer" id="gfaq" aria-labelledby="g-faq">
-        <h2 class="hg-h2" id="g-faq">Kashmir travel questions</h2>
-        <?= hg_faq($gfaqs, 'g') ?>
-    </section>
+    <?= hg_guide_sections('kashmir', array('facts', 'days', 'when', 'consider'), $gfaqs) ?>
 </div>
 </article>
 

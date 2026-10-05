@@ -562,7 +562,11 @@ $check = function ($name, $value, $label, $count, $checked) {
 
         <?php if (!empty($c['more_html'])) { ?><p><?= $c['more_html'] ?></p><?php } ?>
 
-        <?php require_once __DIR__ . '/include/content/blog/index.php'; $guides = hg_blog_guides_for_group($group['key']); if ($guides) { ?>
+        <?php require_once __DIR__ . '/include/content/blog/index.php'; $guides = hg_blog_guides_for_group($group['key']);
+        // The destination travel guide (/travel-guide/{key}) leads the list when it exists and is approved.
+        $tgPath = '/travel-guide/' . basename($group['key']);
+        if (is_file(__DIR__ . $tgPath . '.php') && hg_page_status($tgPath) === 'approved') array_unshift($guides, array('url' => $tgPath, 'title' => $name . ' travel guide'));
+        if ($guides) { ?>
         <section class="hg-answer" aria-labelledby="q-guides">
             <h3 class="hg-h3" id="q-guides"><?= hg_e($name) ?> travel guides</h3>
             <?= hg_blog_link_list($guides) ?>
