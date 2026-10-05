@@ -2,4 +2,4 @@
 // Package detail page (Phase 1 template). Content comes from this package's
 // data in include/data/packages.json; original page kept in tools/package-sources/.
 require __DIR__ . '/include/templates/package-detail.php';
-hg_render_package('amrirsar-with-dalhousie-and-dharamshala-06-days');
+hg_render_package('uttarakhand-mussoorie-corbett-almora-nainital-6n-7d');

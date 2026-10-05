@@ -2,4 +2,4 @@
 // Package detail page (Phase 1 template). Content comes from this package's
 // data in include/data/packages.json; original page kept in tools/package-sources/.
 require __DIR__ . '/include/templates/package-detail.php';
-hg_render_package('haridwar--with-mussoorie-and-corbett-06-days');
+hg_render_package('kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d');

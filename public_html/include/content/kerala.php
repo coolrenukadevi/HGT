@@ -44,11 +44,11 @@ return array(
         array('4 days', 'Munnar and Alleppey houseboat', 'munnar-alleppey-tour-package-04-days'),
         array('4 days', 'Munnar and Thekkady', 'munnar-thekkady-tour-package-4-days'),
         array('5 days', 'Munnar, Thekkady and Alleppey houseboat', 'munnar-thekkady-alleppey-05-days'),
-        array('6 days', 'Cochin, Munnar, Thekkady and Alleppey', 'cochin-munnar-thekkedy-alleppey-06-days'),
+        array('6 days', 'Cochin, Munnar, Thekkady and Alleppey', 'kerala-cochin-munnar-thekkady-alleppey-5n-6d'),
         array(
             '7 days',
             'Munnar, Thekkady, Alleppey, Kovalam and Trivandrum',
-            'munnar-thekkady-alleppey-kovalam-trivandurum-07-days',
+            'kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d',
         ),
     ),
     'cost_answer' => 'The cost of a Kerala tour depends on the number of nights, hotel and houseboat category, and the season. We quote each trip for your dates.',

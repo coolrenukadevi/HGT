@@ -1,3 +1,16 @@
-old_url,new_url,package_id,status,approved,reason
-/do-dham-kedar–badri-from-haridwar-4n-5d,/do-dham-kedar-badri-from-haridwar-4n-5d,0051,301,owner 2026-10-04,non-ASCII en dash in URL (percent-encoded in sitemap and shared links)
-/do-dham-kedar–badri-from-haridwar-5n-6d,/do-dham-kedar-badri-from-haridwar-5n-6d,0052,301,owner 2026-10-04,non-ASCII en dash in URL (percent-encoded in sitemap and shared links)
+Package ID,Old URL,New URL,Reason,Redirect,Approved
+0051,/do-dham-kedar–badri-from-haridwar-4n-5d,/do-dham-kedar-badri-from-haridwar-4n-5d,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
+0052,/do-dham-kedar–badri-from-haridwar-5n-6d,/do-dham-kedar-badri-from-haridwar-5n-6d,non-ASCII en dash in URL (percent-encoded in sitemap and shared links),301,owner 2026-10-04
+0019,/amrirsar-with-dalhousie-and-dharamshala-06-days,/himachal-amritsar-dharamshala-dalhousie-5n-6d,"D — typo ""amrirsar"" in URL",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0089,/banglore-mysore-coorg--tour-05-days,/south-india-bangalore-mysore-coorg-4n-5d,"C+D — double hyphen and typo ""banglore""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0082,/cochin-munnar-thekkedy-alleppey-06-days,/kerala-cochin-munnar-thekkady-alleppey-5n-6d,"D — typo ""thekkedy""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0028,/grand-himachal-with-mata-vaishno-devi--tour-13-days,/himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0040,/haridwar--with-mussoorie-and-corbett-06-days,/uttarakhand-haridwar-mussoorie-corbett-5n-6d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0017,/manali-volvo-vrip-weekend,/himachal-manali-kullu-volvo-4n-5d,"D — typo ""vrip""; no duration in URL",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0085,/munnar-thekkady-alleppey--kovalam-kanyakumari-07-days,/kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0084,/munnar-thekkady-alleppey-kovalam-trivandurum-07-days,/kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d,"D — typo ""trivandurum""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0046,/mussoorie-with-nainital-almora-and-jim-corbett--07-days,/uttarakhand-mussoorie-corbett-almora-nainital-6n-7d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0087,/mysore-wayand-04-days,/south-india-mysore-wayanad-3n-4d,"D — typo ""wayand""",301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0039,/nainital-with-ranikhet--jim-corbett,/uttarakhand-nainital-ranikhet-corbett-4n-5d,C — double hyphen; no duration in URL,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0105,/serene-tour-to-singapore-with-thailand--8n-9d,/singapore-kuala-lumpur-phuket-bangkok-8n-9d,C — double hyphen,301,"owner 2026-10-05 (premium URL standard, class C/D)"
+0027,/shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days,/himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d,"D — typo ""dharmshala""",301,"owner 2026-10-05 (premium URL standard, class C/D)"

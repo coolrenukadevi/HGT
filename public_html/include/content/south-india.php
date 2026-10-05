@@ -42,7 +42,7 @@ return array(
     'days_answer' => 'Four days covers Mysore with Coorg or Wayanad; allow 5 days for Mysore and Ooty, and 6 days to add Kodaikanal.',
     'days_rows' => array(
         array('4 days', 'Mysore and Coorg', 'mysore-coorg-04-days'),
-        array('4 days', 'Mysore and Wayanad', 'mysore-wayand-04-days'),
+        array('4 days', 'Mysore and Wayanad', 'south-india-mysore-wayanad-3n-4d'),
         array('5 days', 'Bangalore, Mysore and Ooty', 'bangalore-mysore-ooty-tour-05-days'),
         array('6 days', 'Mysore, Ooty and Kodaikanal', 'mysore-ooty-kodaikanal-06-days'),
     ),

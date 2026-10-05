@@ -2,4 +2,4 @@
 // Package detail page (Phase 1 template). Content comes from this package's
 // data in include/data/packages.json; original page kept in tools/package-sources/.
 require __DIR__ . '/include/templates/package-detail.php';
-hg_render_package('mussoorie-with-nainital-almora-and-jim-corbett--07-days');
+hg_render_package('singapore-kuala-lumpur-phuket-bangkok-8n-9d');

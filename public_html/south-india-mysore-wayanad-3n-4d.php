@@ -2,4 +2,4 @@
 // Package detail page (Phase 1 template). Content comes from this package's
 // data in include/data/packages.json; original page kept in tools/package-sources/.
 require __DIR__ . '/include/templates/package-detail.php';
-hg_render_package('manali-volvo-vrip-weekend');
+hg_render_package('south-india-mysore-wayanad-3n-4d');

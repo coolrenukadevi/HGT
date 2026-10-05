@@ -62,7 +62,7 @@ return array(
         array(
             '9 days',
             'Singapore, Kuala Lumpur, Phuket and Bangkok',
-            'serene-tour-to-singapore-with-thailand--8n-9d',
+            'singapore-kuala-lumpur-phuket-bangkok-8n-9d',
         ),
     ),
     'cost_answer' => 'The cost depends on the hotels, the number of countries, the season and the attractions you add. We quote each trip for your dates; flights and visas are extra unless listed.',

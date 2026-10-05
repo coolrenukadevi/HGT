@@ -2,4 +2,4 @@
 // Package detail page (Phase 1 template). Content comes from this package's
 // data in include/data/packages.json; original page kept in tools/package-sources/.
 require __DIR__ . '/include/templates/package-detail.php';
-hg_render_package('munnar-thekkady-alleppey--kovalam-kanyakumari-07-days');
+hg_render_package('himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d');

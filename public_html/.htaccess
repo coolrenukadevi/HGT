@@ -66,6 +66,21 @@ RewriteRule ^kashmir-tour(\.php)?/?$ /tours/kashmir [R=301,L]
 # and trailing-slash forms. The pattern holds the literal en dash (UTF-8); Apache/LiteSpeed match the decoded path.
 # Mapping: docs/url-migrations.csv
 RewriteRule ^do-dham-kedar–badri-from-haridwar-(4n-5d|5n-6d)(\.php)?/?$ /do-dham-kedar-badri-from-haridwar-$1 [R=301,L]
+# Premium URL standard migrations (owner, 2026-10-05): typos / double hyphens. One 301 hop, also from .php and
+# trailing-slash forms. Mapping: docs/url-migrations.csv
+RewriteRule ^amrirsar-with-dalhousie-and-dharamshala-06-days(\.php)?/?$ /himachal-amritsar-dharamshala-dalhousie-5n-6d [R=301,L]
+RewriteRule ^banglore-mysore-coorg--tour-05-days(\.php)?/?$ /south-india-bangalore-mysore-coorg-4n-5d [R=301,L]
+RewriteRule ^cochin-munnar-thekkedy-alleppey-06-days(\.php)?/?$ /kerala-cochin-munnar-thekkady-alleppey-5n-6d [R=301,L]
+RewriteRule ^grand-himachal-with-mata-vaishno-devi--tour-13-days(\.php)?/?$ /himachal-shimla-manali-dharamshala-vaishno-devi-12n-13d [R=301,L]
+RewriteRule ^haridwar--with-mussoorie-and-corbett-06-days(\.php)?/?$ /uttarakhand-haridwar-mussoorie-corbett-5n-6d [R=301,L]
+RewriteRule ^manali-volvo-vrip-weekend(\.php)?/?$ /himachal-manali-kullu-volvo-4n-5d [R=301,L]
+RewriteRule ^munnar-thekkady-alleppey--kovalam-kanyakumari-07-days(\.php)?/?$ /kerala-munnar-thekkady-alleppey-kovalam-kanyakumari-6n-7d [R=301,L]
+RewriteRule ^munnar-thekkady-alleppey-kovalam-trivandurum-07-days(\.php)?/?$ /kerala-munnar-thekkady-alleppey-kovalam-trivandrum-6n-7d [R=301,L]
+RewriteRule ^mussoorie-with-nainital-almora-and-jim-corbett--07-days(\.php)?/?$ /uttarakhand-mussoorie-corbett-almora-nainital-6n-7d [R=301,L]
+RewriteRule ^mysore-wayand-04-days(\.php)?/?$ /south-india-mysore-wayanad-3n-4d [R=301,L]
+RewriteRule ^nainital-with-ranikhet--jim-corbett(\.php)?/?$ /uttarakhand-nainital-ranikhet-corbett-4n-5d [R=301,L]
+RewriteRule ^serene-tour-to-singapore-with-thailand--8n-9d(\.php)?/?$ /singapore-kuala-lumpur-phuket-bangkok-8n-9d [R=301,L]
+RewriteRule ^shimla-manali-with-dharmshala-dalhousie-and-amritsar-09-days(\.php)?/?$ /himachal-shimla-manali-dharamshala-dalhousie-amritsar-8n-9d [R=301,L]
 # Old destination hub pages -> destination pages /tours/{key}
 RewriteRule ^amarnath-ji-yatra(\.php)?/?$ /tours/amarnath [R=301,L]
 RewriteRule ^amazing-goa(\.php)?/?$ /tours/goa [R=301,L]

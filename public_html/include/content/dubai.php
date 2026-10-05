@@ -17,9 +17,10 @@ return array(
     'related' => array('singapore-malaysia', 'maldives', 'goa', 'kerala'),
     'frequent' => array(
         array('4-day Best Dubai Tour', '/best-dubai-tour'),
-        array('5-day Dubai with airfare from Delhi', '/standard-tour-to-dubai-4n5d'),
+        array('5-day Standard Dubai with flights from Delhi', '/standard-tour-to-dubai-4n5d'),
+        array('5-day Deluxe Dubai with airfare from Delhi', '/deluxe-tour-to-dubai-4n5d'),
     ),
-    'intro' => 'Dubai tour packages include hotel stays with breakfast, a Dubai city tour with Burj Khalifa, a dhow cruise with dinner and a desert safari with BBQ dinner, with airport transfers. Our Dubai itineraries run 3 to 5 days; two of them include economy airfare from Delhi.',
+    'intro' => 'Dubai tour packages include hotel stays with breakfast, a Dubai city tour with Burj Khalifa, a dhow cruise with dinner and a desert safari with BBQ dinner, with airport transfers. Our Dubai itineraries run 3 to 5 days; two of them (Standard and Deluxe) include economy airfare from Delhi.',
     'why' => array(
         array(
             'Burj Khalifa',
@@ -44,7 +45,7 @@ return array(
     'days_rows' => array(
         array('3 days', 'City tour with Burj Khalifa and dhow cruise', 'best-of-dubai-tour'),
         array('4 days', 'City tour, dhow cruise and desert safari', 'best-dubai-tour'),
-        array('5 days', 'With economy airfare from Delhi', 'standard-tour-to-dubai-4n5d'),
+        array('5 days', 'Standard hotels, with economy airfare from Delhi', 'standard-tour-to-dubai-4n5d'),
         array('5 days', 'Deluxe, with economy airfare from Delhi', 'deluxe-tour-to-dubai-4n5d'),
     ),
     'cost_answer' => 'The cost of a Dubai package depends on the hotel, dates, whether flights are included and which activities you choose. We quote each trip for your dates.',
