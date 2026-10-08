@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Char Dham Yatra',
     'image' => 'assets/img/destinations/char-dham.jpg',
     'map_query' => 'Kedarnath, Uttarakhand',
@@ -19,7 +19,7 @@ return array(
         array('All pilgrimage tours', '/religious-tour'),
         array('Char Dham Yatra by helicopter', '/chardham-yatra-by-helicopter'),
     ),
-    'intro' => 'Char Dham Yatra packages cover Yamunotri, Gangotri, Kedarnath and Badrinath in the Garhwal Himalaya, by road from Haridwar or Delhi or by helicopter. We also offer Do Dham packages for Kedarnath and Badrinath, and a Yamunotri–Gangotri Do Dham. Our yatra itineraries run 5 to 12 days.',
+    'intro' => 'Char Dham Yatra packages cover Yamunotri, Gangotri, Kedarnath and Badrinath in the Garhwal Himalaya, by road from Haridwar or Delhi or by helicopter. We also offer Do Dham packages for Kedarnath and Badrinath, and a Yamunotri–Gangotri Do Dham. Ek Dham packages cover Kedarnath or Badrinath alone. Our yatra itineraries run 4 to 12 days, from Haridwar, Dehradun or Delhi.',
     'why' => array(
         array(
             'All four dhams in one trip',
@@ -27,7 +27,7 @@ return array(
         ),
         array(
             'Choose your pace',
-            'Road packages of 9–12 days, a 5–6 day Do Dham, or a helicopter yatra for less walking.',
+            'Road packages of 9–12 days, a 5–7 day Do Dham, a 4–5 day Ek Dham, or a helicopter yatra for less walking.',
         ),
         array(
             'Planned around the treks',
@@ -61,7 +61,7 @@ return array(
         ),
     ),
     'best_time_answer' => 'May–June and September–October are the best times for the Char Dham Yatra; the shrines are closed in winter.',
-    'days_answer' => 'A road Char Dham Yatra takes 9–11 days from Haridwar and 11–12 days from Delhi; a Do Dham (Kedarnath and Badrinath) takes 5–6 days from Haridwar.',
+    'days_answer' => 'A road Char Dham Yatra takes 9–11 days from Haridwar and 11–12 days from Delhi; a Do Dham takes 5–7 days, and an Ek Dham (Kedarnath or Badrinath) 4–5 days.',
     'days_rows' => array(
         array(
             '5 days',
@@ -76,7 +76,7 @@ return array(
     'cost_answer' => 'The cost of a Char Dham Yatra depends on the number of days, starting city, hotel category and whether you add helicopter tickets or ponies. We quote each yatra for your dates.',
     'cost_factors' => array(
         'Road yatra from Haridwar or Delhi, or a helicopter package',
-        'Hotel category (deluxe on twin sharing in most packages)',
+        'Hotel category (standard / 3-star equivalent, or deluxe on many packages)',
         'Kedarnath helicopter tickets — not included in road packages',
         'Ponies, palki or doli, paid locally',
         'Season and dates',
@@ -105,8 +105,8 @@ return array(
         'Take a pony, palki or helicopter to Kedarnath if walking is difficult',
         'See the Bhagirathi valley on the road to Gangotri',
     ),
-    'stay' => 'Our Char Dham packages use deluxe category hotels on twin sharing in most itineraries, with breakfast and dinner. Hotels near the shrines are simpler than in the towns.',
-    'transport' => 'Road packages include a private cab for the whole yatra, with pick-up and drop at Haridwar (or Delhi on Delhi packages). Kedarnath is reached by trek, pony, palki or helicopter; helicopter tickets are not included in road packages.',
+    'stay' => 'Our Char Dham packages use standard / 3-star equivalent or deluxe hotels as listed on each package, with breakfast (dinner where listed). Hotels near the shrines are simpler than in the towns.',
+    'transport' => 'Road packages include transfers for the yatra as specified, with pick-up and drop at Haridwar, Dehradun or Delhi; many use a private cab. Kedarnath is reached by trek, pony, palki or helicopter; helicopter tickets are not included in road packages.',
     'who_title' => 'Who the yatra suits',
     'who' => array(
         array(
@@ -128,7 +128,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Char Dham packages?',
-            '<p>Hotel stays (deluxe category on twin sharing in most packages), breakfast and dinner, a private cab for all transfers and sightseeing, and applicable taxes. Each package lists its exact inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions. Ponies, palkis, shared jeeps and helicopter seats are not included.</p>',
         ),
         array(
             'How many days does the Char Dham Yatra take?',

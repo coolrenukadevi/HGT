@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Ooty, Mysore & Coorg',
     'image' => 'assets/img/destinations/south-india.jpg',
     'map_query' => 'Mysore, Karnataka',
@@ -19,14 +19,14 @@ return array(
         array('5-day Bangalore, Mysore and Ooty itinerary', '/bangalore-mysore-ooty-tour'),
         array('Kerala tour packages', '/tours/kerala'),
     ),
-    'intro' => 'Ooty, Mysore and Coorg tour packages start in Bangalore and combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg, Wayanad or Kodaikanal. Our itineraries run 4 to 6 days by private cab.',
+    'intro' => 'Ooty, Mysore and Coorg tour packages combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg and Chikmagalur, Wayanad or Kodaikanal, and the ruins of Hampi. Most start in Bangalore; Nilgiri tours start in Coimbatore and Hampi tours in Hospet. Our itineraries run 3 to 7 days by road.',
     'why' => array(
         array('Royal Mysore', 'Mysore Palace, Chamundi Hills and the Brindavan Gardens.'),
         array('Nilgiri hills', 'Ooty and Coonoor: tea gardens, lakes and the Nilgiri Mountain Railway.'),
         array('Coffee country', 'Coorg’s coffee estates, waterfalls and misty hills.'),
         array(
             'Easy from Bangalore',
-            'Mysore is about 160 km from Bangalore, and every tour begins and ends there.',
+            'Mysore is about 145 km from Bangalore, where most tours begin and end.',
         ),
     ),
     'best_time' => array(
@@ -39,7 +39,7 @@ return array(
         array('July – September', 'Monsoon', 'Green and misty, with heavy rain in Coorg and Wayanad.'),
     ),
     'best_time_answer' => 'October to March is the best time to visit Mysore and Coorg; April to June is peak season in Ooty.',
-    'days_answer' => 'Four days covers Mysore with Coorg or Wayanad; allow 5 days for Mysore and Ooty, and 6 days to add Kodaikanal.',
+    'days_answer' => 'Three days covers Mysore from Bangalore; four days covers Coorg, Chikmagalur, Hampi, or Mysore with Coorg or Wayanad; allow 5–6 days for Ooty with Coonoor or Kodaikanal, and 7 days for Mysore, Ooty and Coorg together.',
     'days_rows' => array(
         array('4 days', 'Mysore and Coorg', 'mysore-coorg'),
         array('4 days', 'Mysore and Wayanad', 'south-india-mysore-wayanad'),
@@ -76,8 +76,8 @@ return array(
         'See the Tibetan settlement at Bylakuppe',
         'Boat on Kodaikanal Lake',
     ),
-    'stay' => 'Hotels as listed in each itinerary, deluxe category on twin sharing in some packages.',
-    'transport' => 'Tours start and end in Bangalore (or Mysore), with pick-up from the airport, railway station or bus stand and a private cab for transfers and sightseeing.',
+    'stay' => 'Standard / 3-star equivalent hotels with breakfast on the standard packages, deluxe on twin sharing in some others, as listed on each package.',
+    'transport' => 'Tours start and end in Bangalore, Mysore, Coimbatore, Madurai or Hospet, with pick-up from the airport, railway station or bus stand and transfers and sightseeing as specified on each package.',
     'who_title' => 'Who it suits',
     'who' => array(
         array('Families', 'Palaces, gardens and a toy train make this an easy family circuit.'),
@@ -92,12 +92,12 @@ return array(
     'faqs' => array(
         array(
             'What is included in these packages?',
-            '<p>Hotel stays as per the itinerary, pick-up and drop, and a private cab for transfers and sightseeing. Each package lists its exact inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions.</p>',
         ),
-        array('Where do these tours start?', '<p>In Bangalore, or in Mysore on some itineraries.</p>'),
+        array('Where do these tours start?', '<p>Most start in Bangalore; Nilgiri tours start in Coimbatore, and Hampi tours in Hospet.</p>'),
         array(
             'How many days are enough?',
-            '<p>Four days for Mysore with Coorg or Wayanad; five to six days to add Ooty or Kodaikanal.</p>',
+            '<p>Three to four days for Mysore, Coorg, Chikmagalur or Hampi; five to seven days to add Ooty or Kodaikanal.</p>',
         ),
         array(
             'What is the best time to visit?',

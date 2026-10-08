@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Goa',
     'image' => 'assets/img/destinations/goa.jpg',
     'map_query' => 'Goa, India',
@@ -19,14 +19,14 @@ return array(
         array('4-day Delightful Goa itinerary', '/delightful-goa-tour'),
         array('Goa with Dudhsagar jeep safari', '/sun-kissed-goa-escape'),
     ),
-    'intro' => 'Goa tour packages are 3-night, 4-day beach holidays with North and South Goa sightseeing, hotel stays with breakfast, and airport or station transfers; one itinerary adds a jeep safari to Dudhsagar Falls and a Panaji city tour.',
+    'intro' => 'Goa tour packages are beach holidays of 3 to 6 days with North and South Goa sightseeing, Old Goa and Panaji, hotel stays with breakfast, and airport or station transfers. Some stay in North or South Goa only, one splits the stay between both, and two add a jeep trip to Dudhsagar Falls.',
     'why' => array(
         array(
             'Beaches for every mood',
             'Lively Calangute, Baga and Anjuna in the north; quieter, wider beaches in the south.',
         ),
         array('Portuguese heritage', 'The churches of Old Goa, Fort Aguada and the Latin quarter of Panaji.'),
-        array('Easy short break', 'Every Goa package fits a long weekend: 3 nights, 4 days.'),
+        array('Easy short break', 'A weekend of 3 days covers the highlights; most packages are 4–5 days.'),
         array('Food and nightlife', 'Goan seafood, beach shacks, markets and evening cruises.'),
     ),
     'best_time' => array(
@@ -44,11 +44,13 @@ return array(
         array('October', 'Shoulder', 'Rain eases and the season begins.'),
     ),
     'best_time_answer' => 'November to February is the best time for a Goa beach holiday; the monsoon (June–September) is green and quieter.',
-    'days_answer' => 'Our Goa packages are 3 nights and 4 days, enough for North and South Goa sightseeing and time on the beach; add nights for a slower holiday.',
+    'days_answer' => 'Three days covers North Goa and Old Goa; 4–5 days adds South Goa or Dudhsagar Falls; allow 6 days to split the stay between North and South Goa.',
     'days_rows' => array(
         array('4 days', 'North Goa and a relaxed day in South Goa', 'delightful-goa-tour'),
         array('4 days', 'Full-day North and South Goa sightseeing', 'enticing-tour-to-goa'),
         array('4 days', 'Dudhsagar jeep safari and Panaji city tour', 'sun-kissed-goa-escape'),
+        array('3 days', 'Weekend: North Goa beaches and Old Goa', 'goa-weekend-getaway'),
+        array('6 days', 'Three nights in North Goa, two in South Goa with Palolem', 'goa-leisure-holiday'),
     ),
     'cost_answer' => 'The cost of a Goa package depends mainly on the hotel, the season and the number of travellers. We quote each trip for your dates; flights or trains to Goa are extra.',
     'cost_factors' => array(
@@ -100,7 +102,7 @@ return array(
         ),
         array(
             'How many days are enough for Goa?',
-            '<p>Three nights and four days covers North and South Goa; add nights for a relaxed beach holiday.</p>',
+            '<p>Four or five days covers North and South Goa; three days is enough for a weekend, and six days suits a relaxed beach holiday.</p>',
         ),
         array('What is the best time to visit Goa?', '<p>November to February.</p>'),
         array(

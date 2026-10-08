@@ -420,9 +420,10 @@ if (!function_exists('hg_render_package')) {
             // Same description as the page's meta description (approved SEO description where one exists).
             '@type' => 'TouristTrip', '@id' => hg_abs($url) . '#trip', 'name' => $name, 'url' => hg_abs($url),
             'description' => ($seo = hg_seo_meta($url)) && isset($seo['description']) ? $seo['description'] : $p['description'],
-            'image' => hg_abs($p['image']), 'touristType' => array('Leisure'),
+            'touristType' => array('Leisure'),
             'provider' => array('@id' => HG_SITE_URL . '/#organization'),
         );
+        if ($p['image'] !== '') $trip['image'] = hg_abs($p['image']);   // no photo yet: no image rather than an empty one
         // Only visible, true facts: the Package ID (shown in the itinerary) once approved, and an Offer only for a current approved rate.
         if ($pkgId && !hg_package_id_is_proposed($p['slug'])) $trip['identifier'] = array('@type' => 'PropertyValue', 'name' => 'Package ID', 'value' => $pkgId);
         if ($rate) {

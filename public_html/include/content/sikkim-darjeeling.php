@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Darjeeling & Sikkim',
     'image' => 'assets/img/destinations/sikkim-darjeeling.jpg',
     'map_query' => 'Gangtok, Sikkim',
@@ -19,7 +19,7 @@ return array(
         array('4-day Darjeeling Gangtok itinerary', '/darjeeling-gangtok'),
         array('6-day Gangtok with Lachen and Lachung', '/gangtok-with-lachen-and-lachung'),
     ),
-    'intro' => 'Darjeeling and Sikkim tour packages combine Gangtok, Darjeeling, Pelling and Kalimpong with high-altitude excursions to Tsomgo Lake, Lachung, Yumthang and Gurudongmar Lake. Our itineraries run 4 to 10 days, starting and ending at Siliguri (Bagdogra airport or New Jalpaiguri station).',
+    'intro' => 'Darjeeling and Sikkim tour packages combine Gangtok, Darjeeling, Pelling and Kalimpong with high-altitude excursions to Tsomgo Lake, Lachung, Yumthang and Gurudongmar Lake. Our itineraries run 4 to 11 days, starting and ending at Siliguri (Bagdogra airport or New Jalpaiguri station).',
     'why' => array(
         array(
             'Kanchenjunga views',
@@ -54,7 +54,7 @@ return array(
         array('January – February', 'Winter', 'Cold, with snow at higher places; some high roads may close.'),
     ),
     'best_time_answer' => 'March to May and October to December are the best times to visit Darjeeling and Sikkim.',
-    'days_answer' => 'Four days covers Darjeeling and Gangtok; allow 6–8 days to add Pelling, Kalimpong or North Sikkim (Lachung and Lachen), and 10 days for the full circuit.',
+    'days_answer' => 'Four days covers Darjeeling and Gangtok; allow 6–8 days to add Pelling, Kalimpong or North Sikkim (Lachung and Lachen), and 10–11 days for the full circuit.',
     'days_rows' => array(
         array('4 days', 'Darjeeling and Gangtok', 'darjeeling-gangtok'),
         array('5 days', 'Pelling and Gangtok with Tsomgo Lake', 'gangtok-pelling-tour'),
@@ -73,7 +73,7 @@ return array(
     'cost_factors' => array(
         'Number of nights and places',
         'North Sikkim excursions and permits',
-        'Hotel category (deluxe on twin sharing in many packages)',
+        'Hotel category (standard / 3-star equivalent, or deluxe on some packages)',
         'Season — spring and October–December are peak',
         'Flights or trains to Bagdogra or New Jalpaiguri',
         'GST where a package lists it as extra',
@@ -102,8 +102,8 @@ return array(
         'See Yumthang Valley and Gurudongmar Lake in North Sikkim',
         'Tour a Darjeeling tea garden',
     ),
-    'stay' => 'Deluxe category hotels on twin sharing in many packages; stays in Lachung and Lachen are simpler mountain lodges.',
-    'transport' => 'Packages start and end at Siliguri — Bagdogra airport (IXB) or New Jalpaiguri (NJP) railway station — with a private cab for transfers and sightseeing. North Sikkim and Tsomgo Lake need permits, arranged locally.',
+    'stay' => 'Standard / 3-star equivalent or deluxe hotels as listed on each package; stays in Lachung, Lachen and Zuluk are simpler mountain lodges or homestays.',
+    'transport' => 'Packages start and end at Siliguri — Bagdogra airport (IXB) or New Jalpaiguri (NJP) railway station — with transfers and sightseeing as specified on each package. North Sikkim and Tsomgo Lake need permits, arranged locally.',
     'who_title' => 'Who it suits',
     'who' => array(
         array(
@@ -125,7 +125,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Darjeeling and Sikkim packages?',
-            '<p>Hotel stays as per the itinerary, pick-up and drop at the railway station, bus stand or airport, a private cab for transfers and sightseeing, tolls, parking and driver allowance, and applicable taxes in many packages. Each package lists its inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions.</p>',
         ),
         array(
             'Where do these tours start?',

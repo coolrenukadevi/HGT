@@ -183,17 +183,19 @@ if (!function_exists('hg_guide_data')) {
         $D = hg_guide_data($key);
         $g = $D['g']; $c = $D['c']; $path = '/travel-guide/' . $key;
         $dest = array('@type' => 'TouristDestination', '@id' => hg_abs($path) . '#destination', 'name' => $g['name'], 'description' => $c['intro'],
-            'url' => hg_abs($g['hub_url']), 'image' => hg_abs($c['image']),
+            'url' => hg_abs($g['hub_url']),
             'includesAttraction' => array_map(function ($pl) { return array('@type' => 'TouristAttraction', 'name' => $pl[0], 'description' => $pl[1]); }, $c['places']));
         if (!empty($c['who'])) $dest['touristType'] = array_map(function ($w) { return $w[0]; }, $c['who']);
         $list = array('@type' => 'ItemList', 'name' => $g['name'] . ' holiday packages', 'itemListElement' => array());
         foreach ($D['rows'] as $i => $r) $list['itemListElement'][] = array('@type' => 'ListItem', 'position' => $i + 1, 'url' => hg_abs($r['p']['url']), 'name' => $r['p']['title'] ?: $r['p']['name']);
-        return array($dest, array(
+        $article = array(
             '@type' => 'Article', 'headline' => $title, 'description' => $description,
             'about' => array('@id' => hg_abs($path) . '#destination'),
             'author' => array('@id' => HG_SITE_URL . '/#organization'), 'publisher' => array('@id' => HG_SITE_URL . '/#organization'),
-            'dateModified' => $c['reviewed'], 'mainEntityOfPage' => hg_abs($path), 'image' => hg_abs($c['image']),
-        ), hg_faq_schema($faqs), $list);
+            'dateModified' => $c['reviewed'], 'mainEntityOfPage' => hg_abs($path),
+        );
+        if ($c['image'] !== '') { $dest['image'] = hg_abs($c['image']); $article['image'] = hg_abs($c['image']); }   // no photo yet: no image
+        return array($dest, $article, hg_faq_schema($faqs), $list);
     }
 
     /** SEO description from data, kept within 150–165 characters where possible. */

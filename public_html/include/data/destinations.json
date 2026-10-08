@@ -102,6 +102,16 @@
       "content": "goa"
     },
     {
+      "key": "rajasthan",
+      "name": "Rajasthan",
+      "region": "india",
+      "area": "North India",
+      "hub_url": "/tours/rajasthan",
+      "match": "rajasthan|jaipur|jodhpur|jaisalmer|udaipur",
+      "keywords": "rajasthan jaipur jodhpur jaisalmer udaipur pushkar mount abu ranthambore desert forts",
+      "content": "rajasthan"
+    },
+    {
       "key": "dubai",
       "name": "Dubai",
       "region": "international",

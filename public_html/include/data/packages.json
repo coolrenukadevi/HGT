@@ -15839,5 +15839,2052 @@
   "end": "Cochin",
   "itinerary_source": "standard",
   "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "kerala-munnar-thekkady-alleppey-kovalam",
+  "url": "/kerala-munnar-thekkady-alleppey-kovalam",
+  "title": "Kerala Hills, Backwaters and Beach",
+  "name": "Kerala Hills, Backwaters and Beach",
+  "page_title": "Kerala Hills, Backwaters and Beach – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days across Kerala: two nights in Munnar, Thekkady's spices, two nights by the Alleppey backwaters and Marari beach, and two at Kovalam.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Munnar - Thekkady - Alleppey - Marari - Kovalam - Poovar",
+  "image": "assets/img/packages/munnar-alleppey-kovalam-05-days.jpg",
+  "group": "kerala",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Munnar)Cochin to Munnar",
+    "text": "Arrive at Cochin airport or Ernakulam station, where our representative meets you, and drive to Munnar (about 130 km, 4–5 hours), stopping at the Cheeyappara and Valara waterfalls. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Munnar)Eravikulam and the tea museum",
+    "text": "After breakfast, visit Eravikulam National Park for the Nilgiri tahr (entry paid locally; closed in the calving season, usually February–March) and the Tata tea museum. In the afternoon, see Mattupetty dam and Kundala Lake. Overnight stay in Munnar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Thekkady)Munnar to Thekkady",
+    "text": "After breakfast, drive to Thekkady (about 90 km) through cardamom hills, with a guided spice garden walk in the afternoon (paid locally). Overnight stay in Thekkady.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Alleppey)Periyar Lake – Alleppey",
+    "text": "Early in the morning, take the boat ride on Periyar Lake in the tiger reserve (tickets paid locally), then drive to Alleppey (about 140 km). Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Alleppey)Backwaters and Marari beach",
+    "text": "In the morning, take a country-boat ride through the narrow canals and paddy fields (paid locally). Spend the afternoon at the quiet Marari beach, north of Alleppey. Overnight stay in Alleppey.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Kovalam)Alleppey to Kovalam",
+    "text": "After breakfast, drive south to Kovalam (about 160 km, 4–5 hours). Evening on the Lighthouse beach. Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Kovalam)Trivandrum and Poovar",
+    "text": "After breakfast, visit the Sree Padmanabhaswamy temple in Trivandrum (dress code applies) and the Napier museum. In the afternoon, take an optional boat trip through the Poovar estuary to its sand bar (paid locally). Overnight stay in Kovalam.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Kovalam to Trivandrum",
+    "text": "After breakfast, drive to Trivandrum (about 16 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Munnar",
+   "Thekkady",
+   "Alleppey",
+   "Marari",
+   "Kovalam",
+   "Poovar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Cochin",
+  "end": "Trivandrum",
+  "itinerary_source": "standard",
+  "special_notes": "A houseboat night on the backwaters is not part of the standard package; we can quote one on request."
+ },
+ {
+  "slug": "karnataka-bangalore-mysore",
+  "url": "/karnataka-bangalore-mysore",
+  "title": "Mysore Weekend from Bangalore",
+  "name": "Mysore Weekend from Bangalore",
+  "page_title": "Mysore Weekend from Bangalore – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day weekend from Bangalore: Srirangapatna, the Brindavan Gardens, Mysore Palace and Chamundi Hill.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Bangalore - Srirangapatna - Mysore",
+  "image": "assets/img/destinations/south-india.jpg",
+  "group": "south-india",
+  "departure": "Bangalore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Mysore)Bangalore to Mysore",
+    "text": "Our representative meets you in Bangalore for the drive to Mysore (about 145 km, 3–4 hours). On the way, stop at Srirangapatna for Tipu Sultan's summer palace, Daria Daulat Bagh, and the Ranganathaswamy temple. In the evening, visit the Brindavan Gardens below the KRS dam. Overnight stay in Mysore.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mysore)Mysore sightseeing",
+    "text": "After breakfast, visit the Mysore Palace (the palace is lit up on Sunday and holiday evenings), drive up Chamundi Hill for the temple and the Nandi statue, and see St. Philomena's Church and the Devaraja market. Overnight stay in Mysore.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Mysore to Bangalore",
+    "text": "After breakfast, drive from Mysore back to Bangalore (about 145 km, 3–4 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Bangalore",
+   "Srirangapatna",
+   "Mysore"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bangalore",
+  "end": "Bangalore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "karnataka-coorg",
+  "url": "/karnataka-coorg",
+  "title": "Coorg Holiday",
+  "name": "Coorg Holiday",
+  "page_title": "Coorg Holiday – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in the coffee hills of Coorg: the Golden Temple at Bylakuppe, Abbey Falls and Raja's Seat, and the source of the Kaveri at Talacauvery.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Bylakuppe - Coorg - Madikeri - Talacauvery",
+  "image": "assets/img/packages/banglore-mysore-coorg--tour-05-days.jpg",
+  "group": "south-india",
+  "departure": "Bangalore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Coorg)Bangalore to Coorg",
+    "text": "Our representative meets you in Bangalore for the drive to Coorg (about 265 km, 6 hours). On the way, visit the Namdroling Golden Temple at the Tibetan settlement of Bylakuppe. Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Coorg)Madikeri sightseeing",
+    "text": "After breakfast, see Madikeri: Abbey Falls, the Raja's Seat viewpoint, the Omkareshwara temple and the old fort. In the afternoon, walk through a coffee plantation (paid locally). Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Coorg)Talacauvery and Bhagamandala",
+    "text": "After breakfast, drive to Bhagamandala, where three rivers meet, and up to Talacauvery, the source of the Kaveri, with views across the Western Ghats. In the afternoon, visit the Nisargadhama island on the Kaveri. Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Coorg to Bangalore",
+    "text": "After breakfast, drive from Coorg back to Bangalore (about 265 km, 6 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Bylakuppe",
+   "Coorg",
+   "Madikeri",
+   "Talacauvery"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bangalore",
+  "end": "Bangalore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "nilgiris-ooty-coonoor",
+  "url": "/nilgiris-ooty-coonoor",
+  "title": "Ooty and Coonoor: Nilgiri Hills",
+  "name": "Ooty and Coonoor: Nilgiri Hills",
+  "page_title": "Ooty and Coonoor: Nilgiri Hills – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in the Nilgiri hills: Ooty's gardens and Doddabetta, the heritage toy train to Coonoor, its tea estates, and Pykara.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Ooty - Coonoor - Doddabetta - Pykara",
+  "image": "assets/img/packages/mysore-coorg-04-days.jpg",
+  "group": "south-india",
+  "departure": "Coimbatore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ooty)Coimbatore to Ooty",
+    "text": "Arrive at Coimbatore airport or railway station and drive up to Ooty (about 85 km, 3 hours) by way of Mettupalayam and the Nilgiri ghat road. Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ooty)Ooty sightseeing",
+    "text": "After breakfast, visit the Government Botanical Garden, the rose garden and Doddabetta peak, the highest point in the Nilgiris. In the evening, take a boat on Ooty Lake (paid locally). Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Coonoor)Nilgiri toy train to Coonoor",
+    "text": "Take the Nilgiri Mountain Railway toy train from Ooty down to Coonoor (tickets paid locally, subject to availability), a UNESCO World Heritage line. In Coonoor, visit Sim's Park, Dolphin's Nose and Lamb's Rock. Overnight stay in Coonoor.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Coonoor)Tea country and Pykara",
+    "text": "After breakfast, visit a tea factory in Coonoor, then drive to the Pykara falls and lake beyond Ooty (boating paid locally). Return to Coonoor in the evening. Overnight stay in Coonoor.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Coonoor to Coimbatore",
+    "text": "After breakfast, drive down to Coimbatore (about 70 km, 2.5 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ooty",
+   "Coonoor",
+   "Doddabetta",
+   "Pykara"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Coimbatore",
+  "end": "Coimbatore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "nilgiris-ooty-kodaikanal",
+  "url": "/nilgiris-ooty-kodaikanal",
+  "title": "Ooty and Kodaikanal Tour",
+  "name": "Ooty and Kodaikanal Tour",
+  "page_title": "Ooty and Kodaikanal Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in two South Indian hill stations: Ooty and Coonoor in the Nilgiris, then Kodaikanal, ending at Madurai's Meenakshi temple.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Ooty - Coonoor - Kodaikanal - Madurai",
+  "image": "assets/img/packages/mysore-ooty-kodaikanal-06-days.jpg",
+  "group": "south-india",
+  "departure": "Coimbatore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ooty)Coimbatore to Ooty",
+    "text": "Arrive at Coimbatore airport or railway station and drive up to Ooty (about 85 km, 3 hours) through Mettupalayam. Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ooty)Ooty sightseeing",
+    "text": "After breakfast, visit the Government Botanical Garden, the rose garden and Doddabetta peak, the highest point in the Nilgiris. In the evening, take a boat on Ooty Lake (paid locally). Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ooty)Coonoor day trip",
+    "text": "After breakfast, take the toy train to Coonoor if tickets are available (paid locally), or drive there, for Sim's Park and Dolphin's Nose. Return to Ooty in the evening. Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kodaikanal)Ooty to Kodaikanal",
+    "text": "After an early breakfast, drive to Kodaikanal (about 250 km, 7–8 hours) by way of Coimbatore and Palani. Overnight stay in Kodaikanal.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kodaikanal)Kodaikanal sightseeing",
+    "text": "After breakfast, walk along Coaker's Walk, visit Bryant Park, the Pillar Rocks and the Silver Cascade falls, and take a boat or cycle round Kodai Lake (paid locally). Overnight stay in Kodaikanal.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Kodaikanal to Madurai",
+    "text": "After breakfast, drive to Madurai (about 120 km, 3.5 hours) and visit the Meenakshi Amman temple before your onward journey. The tour ends in Madurai.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ooty",
+   "Coonoor",
+   "Kodaikanal",
+   "Madurai"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Coimbatore",
+  "end": "Madurai",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "karnataka-mysore-coorg-chikmagalur",
+  "url": "/karnataka-mysore-coorg-chikmagalur",
+  "title": "Mysore, Coorg and Chikmagalur Tour",
+  "name": "Mysore, Coorg and Chikmagalur Tour",
+  "page_title": "Mysore, Coorg and Chikmagalur Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in Karnataka's coffee country: Mysore, two nights in Coorg, the Hoysala temple at Belur, and Chikmagalur's highest peaks.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Mysore - Coorg - Belur - Chikmagalur",
+  "image": "assets/img/packages/bangalore-mysore-ooty-tour-05-days.jpg",
+  "group": "south-india",
+  "departure": "Bangalore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Mysore)Bangalore to Mysore",
+    "text": "Our representative meets you in Bangalore for the drive to Mysore (about 145 km, 3–4 hours). On the way, stop at Srirangapatna for Tipu Sultan's summer palace, Daria Daulat Bagh, and the Ranganathaswamy temple. In the evening, visit the Brindavan Gardens below the KRS dam. Overnight stay in Mysore.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Coorg)Mysore Palace – Coorg",
+    "text": "After breakfast, visit the Mysore Palace, then drive to Coorg (about 120 km, 3 hours), stopping at the Golden Temple at Bylakuppe. Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Coorg)Madikeri sightseeing",
+    "text": "After breakfast, see Madikeri: Abbey Falls, the Raja's Seat viewpoint, the Omkareshwara temple and the old fort. In the afternoon, walk through a coffee plantation (paid locally). Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Chikmagalur)Coorg to Chikmagalur via Belur",
+    "text": "After breakfast, drive to Chikmagalur (about 180 km, 5 hours) by way of Belur, where the 12th-century Chennakeshava temple shows the finest Hoysala carving. Overnight stay in Chikmagalur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Chikmagalur)Mullayanagiri and Baba Budangiri",
+    "text": "After breakfast, drive up to Mullayanagiri, the highest peak in Karnataka, and Baba Budangiri, where coffee was first planted in India. A jeep ride to Jhari waterfall is available locally (paid locally). Overnight stay in Chikmagalur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Chikmagalur to Bangalore",
+    "text": "After breakfast, drive from Chikmagalur back to Bangalore (about 245 km, 5–6 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Mysore",
+   "Coorg",
+   "Belur",
+   "Chikmagalur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bangalore",
+  "end": "Bangalore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "karnataka-chikmagalur",
+  "url": "/karnataka-chikmagalur",
+  "title": "Chikmagalur Coffee Country Tour",
+  "name": "Chikmagalur Coffee Country Tour",
+  "page_title": "Chikmagalur Coffee Country Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in Chikmagalur's coffee hills, with the Hoysala temples of Belur and Halebidu and the Bahubali statue at Shravanabelagola.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Belur - Halebidu - Chikmagalur - Shravanabelagola",
+  "image": "assets/img/packages/bangalore-mysore-ooty-tour-05-days.jpg",
+  "group": "south-india",
+  "departure": "Bangalore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Chikmagalur)Bangalore to Chikmagalur via Halebidu and Belur",
+    "text": "Our representative meets you in Bangalore for the drive to Chikmagalur (about 245 km, 5–6 hours), visiting the Hoysala temples of Halebidu and Belur on the way. Overnight stay in Chikmagalur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Chikmagalur)Mullayanagiri and Baba Budangiri",
+    "text": "After breakfast, drive up to Mullayanagiri, the highest peak in Karnataka, and Baba Budangiri, where coffee was first planted in India. A jeep ride to Jhari waterfall is available locally (paid locally). Overnight stay in Chikmagalur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Chikmagalur)Hirekolale Lake and a coffee estate",
+    "text": "A slower day: walk through a coffee estate (paid locally) and visit the coffee museum, then watch sunset at Hirekolale Lake below the hills. Overnight stay in Chikmagalur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Chikmagalur to Bangalore via Shravanabelagola",
+    "text": "After breakfast, drive back to Bangalore, stopping at Shravanabelagola to climb to the 57-ft statue of Gommateshwara (Bahubali). The tour ends in Bangalore.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Belur",
+   "Halebidu",
+   "Chikmagalur",
+   "Shravanabelagola"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bangalore",
+  "end": "Bangalore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "karnataka-hampi",
+  "url": "/karnataka-hampi",
+  "title": "Hampi Heritage Tour",
+  "name": "Hampi Heritage Tour",
+  "page_title": "Hampi Heritage Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days at Hampi, the ruined capital of the Vijayanagara empire: the Virupaksha and Vittala temples, the royal centre, Anegundi and the Tungabhadra.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Hampi - Anegundi - Tungabhadra",
+  "image": "",
+  "group": "south-india",
+  "departure": "Hospet",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Hampi)Arrive Hospet – Hampi",
+    "text": "Arrive at Hospet (Hosapete) railway station, where our representative meets you, and drive to Hampi (about 13 km). In the evening, walk up Hemakuta Hill to watch the sun set over the temples and boulders. Overnight stay in Hampi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Hampi)The temples and royal centre of Hampi",
+    "text": "A full day among the ruins of Vijayanagara, a UNESCO World Heritage Site: the Virupaksha temple and Hampi bazaar, the Vittala temple with its stone chariot and musical pillars, the Lotus Mahal, the Elephant Stables and the Queen's Bath (monument entry paid locally). Overnight stay in Hampi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hampi)Anegundi and the Tungabhadra",
+    "text": "After breakfast, cross the Tungabhadra to Anegundi, older than Hampi itself, and climb Anjanadri Hill, believed to be the birthplace of Hanuman. A coracle ride on the river is available locally (paid locally). Evening at the Tungabhadra dam. Overnight stay in Hampi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Hampi to Hospet",
+    "text": "After breakfast, drive back to Hospet for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Hampi",
+   "Anegundi",
+   "Tungabhadra"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Hospet",
+  "end": "Hospet",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "south-india-mysore-ooty-coorg",
+  "url": "/south-india-mysore-ooty-coorg",
+  "title": "Mysore, Ooty and Coorg Tour",
+  "name": "Mysore, Ooty and Coorg Tour",
+  "page_title": "Mysore, Ooty and Coorg Tour – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days through South India's classic triangle: Mysore's palace and Chamundi Hill, the Nilgiri hills at Ooty, and the coffee estates of Coorg.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Mysore - Bandipur - Ooty - Coorg",
+  "image": "assets/img/destinations/south-india.jpg",
+  "group": "south-india",
+  "departure": "Bangalore",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Mysore)Bangalore to Mysore",
+    "text": "Our representative meets you in Bangalore for the drive to Mysore (about 145 km, 3–4 hours). On the way, stop at Srirangapatna for Tipu Sultan's summer palace, Daria Daulat Bagh, and the Ranganathaswamy temple. In the evening, visit the Brindavan Gardens below the KRS dam. Overnight stay in Mysore.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mysore)Mysore sightseeing",
+    "text": "After breakfast, visit the Mysore Palace (the palace is lit up on Sunday and holiday evenings), drive up Chamundi Hill for the temple and the Nandi statue, and see St. Philomena's Church and the Devaraja market. Overnight stay in Mysore.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ooty)Mysore to Ooty",
+    "text": "After breakfast, drive to Ooty (about 125 km, 4 hours) through the Bandipur and Mudumalai forests, then up the hairpin bends of the Nilgiri ghat. Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ooty)Ooty sightseeing",
+    "text": "After breakfast, visit the Government Botanical Garden, the rose garden and Doddabetta peak, the highest point in the Nilgiris. In the evening, take a boat on Ooty Lake (paid locally). Overnight stay in Ooty.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Coorg)Ooty to Coorg",
+    "text": "After breakfast, drive to Coorg (about 240 km, 6–7 hours) by way of Mysore's outskirts and Hunsur. Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Coorg)Madikeri sightseeing",
+    "text": "After breakfast, see Madikeri: Abbey Falls, the Raja's Seat viewpoint, the Omkareshwara temple and the old fort. In the afternoon, walk through a coffee plantation (paid locally). Overnight stay in Coorg.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Coorg to Bangalore",
+    "text": "After breakfast, drive from Coorg back to Bangalore (about 265 km, 6 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Mysore",
+   "Bandipur",
+   "Ooty",
+   "Coorg"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bangalore",
+  "end": "Bangalore",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-weekend-getaway",
+  "url": "/goa-weekend-getaway",
+  "title": "Goa Weekend Getaway",
+  "name": "Goa Weekend Getaway",
+  "page_title": "Goa Weekend Getaway – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day Goa weekend: North Goa's beaches and Fort Aguada, the churches of Old Goa and an evening in Panaji.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "North Goa - Old Goa - Panaji",
+  "image": "assets/img/packages/delightful-goa-tour-3n-4d.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in North Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Goa)North Goa beaches and Old Goa",
+    "text": "After breakfast, see Fort Aguada and the beaches of Candolim, Calangute and Baga, then drive to Old Goa for the Basilica of Bom Jesus and the Se Cathedral. Evening in Panaji, with an optional Mandovi river cruise (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "North Goa",
+   "Old Goa",
+   "Panaji"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-beaches-holiday",
+  "url": "/goa-beaches-holiday",
+  "title": "Goa Beaches Holiday",
+  "name": "Goa Beaches Holiday",
+  "page_title": "Goa Beaches Holiday – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days covering all of Goa: North Goa's beaches and Fort Aguada, Old Goa's churches and Panaji, and the quieter beaches of South Goa.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "North Goa - Old Goa - Panaji - South Goa",
+  "image": "assets/img/packages/enticing-tour-to-goa-3n-4d.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in North Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Goa)North Goa",
+    "text": "After breakfast, see North Goa: Fort Aguada and its lighthouse, then the beaches of Sinquerim, Candolim, Calangute and Baga. Water sports are available on the beaches (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Goa)Old Goa and Panaji",
+    "text": "After breakfast, visit Old Goa, a UNESCO World Heritage Site: the Basilica of Bom Jesus, which holds the relics of St. Francis Xavier, and the Se Cathedral. In Panaji, walk through the Fontainhas Latin quarter and see Miramar beach and Dona Paula. An evening cruise on the Mandovi river is available (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Goa)South Goa",
+    "text": "After breakfast, drive to South Goa for the Mangueshi temple at Ponda, then the wide, quiet beaches of Colva and Benaulim. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "North Goa",
+   "Old Goa",
+   "Panaji",
+   "South Goa"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-leisure-holiday",
+  "url": "/goa-leisure-holiday",
+  "title": "Goa Leisure Holiday: North and South",
+  "name": "Goa Leisure Holiday: North and South",
+  "page_title": "Goa Leisure Holiday: North and South – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six relaxed days split between North and South Goa: three nights near the lively northern beaches and two by the quieter southern ones, with Palolem.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "North Goa - Old Goa - Panaji - South Goa - Palolem",
+  "image": "assets/img/packages/fascinating-tour-to-goa-3n-4d.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in North Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Goa)North Goa",
+    "text": "After breakfast, see North Goa: Fort Aguada and its lighthouse, then the beaches of Sinquerim, Candolim, Calangute and Baga. Water sports are available on the beaches (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Goa)Old Goa and Panaji",
+    "text": "After breakfast, visit Old Goa, a UNESCO World Heritage Site: the Basilica of Bom Jesus, which holds the relics of St. Francis Xavier, and the Se Cathedral. In Panaji, walk through the Fontainhas Latin quarter and see Miramar beach and Dona Paula. An evening cruise on the Mandovi river is available (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (South Goa)Move to South Goa",
+    "text": "After breakfast, move to a hotel in South Goa, stopping at the Mangueshi temple at Ponda. Afternoon on Colva beach. Overnight stay in South Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (South Goa)Palolem and Cabo de Rama",
+    "text": "After breakfast, drive to Palolem, a crescent-shaped beach lined with palms, and the old Cabo de Rama fort on its cliff. A boat trip to Butterfly Beach is available locally (paid locally). Overnight stay in South Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "North Goa",
+   "Old Goa",
+   "Panaji",
+   "South Goa",
+   "Palolem"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-north-beaches",
+  "url": "/goa-north-beaches",
+  "title": "North Goa Beaches Holiday",
+  "name": "North Goa Beaches Holiday",
+  "page_title": "North Goa Beaches Holiday – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days on the North Goa coast, from Fort Aguada and Calangute up to Anjuna, Vagator, Chapora Fort and Arambol.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Candolim - Calangute - Anjuna - Vagator - Arambol",
+  "image": "assets/img/packages/fascinating-tour-to-goa-3n-4d.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in North Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Goa)Fort Aguada to Baga",
+    "text": "After breakfast, see North Goa: Fort Aguada and its lighthouse, then the beaches of Sinquerim, Candolim, Calangute and Baga. Water sports are available on the beaches (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Goa)Anjuna, Vagator and Arambol",
+    "text": "After breakfast, drive north to Anjuna (the flea market is on Wednesdays in season), the cliffs of Vagator below Chapora Fort, and on to the quiet beaches of Morjim, Ashwem and Arambol. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Candolim",
+   "Calangute",
+   "Anjuna",
+   "Vagator",
+   "Arambol"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-south-beaches",
+  "url": "/goa-south-beaches",
+  "title": "South Goa Beaches Holiday",
+  "name": "South Goa Beaches Holiday",
+  "page_title": "South Goa Beaches Holiday – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four quiet days in South Goa: Colva and Benaulim, the churches of Old Goa and the Ponda temples, and the beaches of Agonda and Palolem.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Colva - Old Goa - Ponda - Palolem - Cabo de Rama",
+  "image": "assets/img/destinations/goa.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (South Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in South Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (South Goa)Old Goa and the Ponda temples",
+    "text": "After breakfast, visit the Basilica of Bom Jesus and the Se Cathedral in Old Goa, then the Mangueshi and Shanta Durga temples at Ponda. A spice plantation tour with lunch is available near Ponda (paid locally). Overnight stay in South Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (South Goa)Palolem, Agonda and Cabo de Rama",
+    "text": "A day on the southern coast: Cabo de Rama fort above the sea, the quiet Agonda beach and the palm-lined crescent of Palolem. A boat trip to Butterfly Beach is available locally (paid locally). Overnight stay in South Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Colva",
+   "Old Goa",
+   "Ponda",
+   "Palolem",
+   "Cabo de Rama"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "goa-dudhsagar",
+  "url": "/goa-dudhsagar",
+  "title": "Goa with Dudhsagar Falls",
+  "name": "Goa with Dudhsagar Falls",
+  "page_title": "Goa with Dudhsagar Falls – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in Goa with a day trip to the four-tiered Dudhsagar Falls, plus North Goa's beaches, Old Goa and Panaji.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "North Goa - Dudhsagar Falls - Ponda - Old Goa - Panaji",
+  "image": "assets/img/packages/enticing-tour-to-goa-3n-4d.jpg",
+  "group": "goa",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Goa)Arrive in Goa",
+    "text": "Arrive at Goa airport (Dabolim or Mopa) or at Madgaon or Thivim railway station, where our representative meets you, and transfer to your hotel in North Goa. Evening at leisure on the beach. Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Goa)North Goa",
+    "text": "After breakfast, see North Goa: Fort Aguada and its lighthouse, then the beaches of Sinquerim, Candolim, Calangute and Baga. Water sports are available on the beaches (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Goa)Dudhsagar Falls",
+    "text": "After an early breakfast, drive to Collem and take the forest jeep through the Bhagwan Mahaveer sanctuary to Dudhsagar Falls on the Goa–Karnataka border (jeep and entry paid locally; the jeep safari usually runs from October to May). On the way back, visit a spice plantation near Ponda (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Goa)Old Goa and Panaji",
+    "text": "After breakfast, visit Old Goa, a UNESCO World Heritage Site: the Basilica of Bom Jesus, which holds the relics of St. Francis Xavier, and the Se Cathedral. In Panaji, walk through the Fontainhas Latin quarter and see Miramar beach and Dona Paula. An evening cruise on the Mandovi river is available (paid locally). Overnight stay in Goa.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Goa",
+    "text": "After breakfast, transfer to Goa airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "North Goa",
+   "Dudhsagar Falls",
+   "Ponda",
+   "Old Goa",
+   "Panaji"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Goa",
+  "end": "Goa",
+  "itinerary_source": "standard"
+ },
+ {
+  "slug": "rajasthan-jaipur",
+  "url": "/rajasthan-jaipur",
+  "title": "Jaipur Pink City Tour",
+  "name": "Jaipur Pink City Tour",
+  "page_title": "Jaipur Pink City Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day Jaipur break: Amber Fort, the City Palace, Jantar Mantar and Hawa Mahal, the old bazaars, and the view from Nahargarh.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Jaipur - Amber Fort - Nahargarh",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Nahargarh – departure",
+    "text": "Early in the morning, drive up to Nahargarh Fort for the view over Jaipur, then transfer to the airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Amber Fort",
+   "Nahargarh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Jaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-pushkar-ajmer",
+  "url": "/rajasthan-jaipur-pushkar-ajmer",
+  "title": "Jaipur, Ajmer and Pushkar Tour",
+  "name": "Jaipur, Ajmer and Pushkar Tour",
+  "page_title": "Jaipur, Ajmer and Pushkar Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in central Rajasthan: Jaipur's forts and palaces, the Dargah Sharif at Ajmer, and the holy lake and Brahma temple at Pushkar.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Jaipur - Ajmer - Pushkar",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Pushkar)Jaipur to Pushkar via Ajmer",
+    "text": "After breakfast, drive to Ajmer (about 135 km, 3 hours) to visit the Dargah of Khwaja Moinuddin Chishti and Ana Sagar lake, then continue to Pushkar (about 15 km). Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Pushkar)Pushkar",
+    "text": "After breakfast, visit the Brahma temple, one of very few in India, and walk along the ghats of Pushkar Lake. Take the ropeway to the Savitri temple for the view (paid locally). Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Pushkar to Jaipur",
+    "text": "After breakfast, drive back to Jaipur (about 150 km, 3 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Ajmer",
+   "Pushkar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Jaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-udaipur-mount-abu",
+  "url": "/rajasthan-udaipur-mount-abu",
+  "title": "Udaipur and Mount Abu Tour",
+  "name": "Udaipur and Mount Abu Tour",
+  "page_title": "Udaipur and Mount Abu Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days with Udaipur's lakes and palaces and the cool hill station of Mount Abu, with the marble Dilwara temples and Guru Shikhar.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Udaipur - Mount Abu - Dilwara",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Udaipur)Arrive in Udaipur",
+    "text": "Arrive at Udaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, drive up to the Monsoon Palace (Sajjangarh) for sunset over the lakes. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Mount Abu)Udaipur to Mount Abu",
+    "text": "After breakfast, drive to Mount Abu (about 165 km, 4 hours), Rajasthan's only hill station. In the evening, walk around Nakki Lake and watch sunset from Sunset Point. Overnight stay in Mount Abu.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Mount Abu)Dilwara temples and Guru Shikhar",
+    "text": "After breakfast, drive up to Guru Shikhar, the highest point of the Aravalli range, and Achalgarh. In the afternoon, visit the Dilwara Jain temples, famous for their marble carving (open to visitors in the afternoon; photography not allowed). Overnight stay in Mount Abu.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Mount Abu to Udaipur",
+    "text": "After breakfast, drive back to Udaipur (about 165 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Udaipur",
+   "Mount Abu",
+   "Dilwara"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Udaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jodhpur-jaisalmer",
+  "url": "/rajasthan-jodhpur-jaisalmer",
+  "title": "Jodhpur and Jaisalmer Desert Tour",
+  "name": "Jodhpur and Jaisalmer Desert Tour",
+  "page_title": "Jodhpur and Jaisalmer Desert Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in the Thar desert: Jodhpur's Mehrangarh Fort, two nights in golden Jaisalmer with its living fort, havelis and the Sam sand dunes.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Jodhpur - Jaisalmer - Sam Sand Dunes - Kuldhara",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jodhpur)Arrive in Jodhpur – Mehrangarh",
+    "text": "Arrive at Jodhpur airport or railway station, where our representative meets you. In the afternoon, visit Mehrangarh Fort and the Jaswant Thada. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaisalmer)Jodhpur to Jaisalmer",
+    "text": "After breakfast, drive across the Thar desert to Jaisalmer (about 285 km, 5–6 hours). Evening at Gadisar Lake. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jodhpur)Bada Bagh and Kuldhara – Jodhpur",
+    "text": "After breakfast, visit the royal cenotaphs at Bada Bagh and the abandoned village of Kuldhara, then drive back to Jodhpur (about 285 km). Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Jodhpur – departure",
+    "text": "After breakfast, visit the Umaid Bhawan Palace museum and the Clock Tower market if time allows, then transfer to the airport or railway station. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jodhpur",
+   "Jaisalmer",
+   "Sam Sand Dunes",
+   "Kuldhara"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jodhpur",
+  "end": "Jodhpur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-jodhpur-udaipur",
+  "url": "/rajasthan-jaipur-jodhpur-udaipur",
+  "title": "Jaipur, Jodhpur and Udaipur Tour",
+  "name": "Jaipur, Jodhpur and Udaipur Tour",
+  "page_title": "Jaipur, Jodhpur and Udaipur Tour – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days through Rajasthan's three great royal cities: the Pink City of Jaipur, the Blue City of Jodhpur and the lake city of Udaipur, via Ranakpur.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Jaipur - Jodhpur - Ranakpur - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jodhpur)Jaipur to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 335 km, 6 hours). In the evening, walk through the old city around the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jodhpur)Jodhpur sightseeing",
+    "text": "After breakfast, visit Mehrangarh Fort, rising above the blue houses of the old city, and the marble Jaswant Thada memorial. In the afternoon, see the Umaid Bhawan Palace museum and walk through the market at the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Udaipur)Jodhpur to Udaipur via Ranakpur",
+    "text": "After breakfast, drive to Udaipur (about 260 km, 6–7 hours), visiting the marble Jain temple at Ranakpur on the way. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Jodhpur",
+   "Ranakpur",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-jodhpur-jaisalmer",
+  "url": "/rajasthan-jaipur-jodhpur-jaisalmer",
+  "title": "Jaipur, Jodhpur and Jaisalmer Tour",
+  "name": "Jaipur, Jodhpur and Jaisalmer Tour",
+  "page_title": "Jaipur, Jodhpur and Jaisalmer Tour – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from the Pink City to the desert: Jaipur, Jodhpur's Mehrangarh and two nights in Jaisalmer with the Sam sand dunes.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Jaipur - Jodhpur - Jaisalmer - Sam Sand Dunes",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jodhpur)Jaipur to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 335 km, 6 hours). In the late afternoon, visit Mehrangarh Fort and the Jaswant Thada. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaisalmer)Jodhpur to Jaisalmer",
+    "text": "After breakfast, drive across the Thar desert to Jaisalmer (about 285 km, 5–6 hours). Evening at Gadisar Lake. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Jodhpur)Bada Bagh and Kuldhara – Jodhpur",
+    "text": "After breakfast, visit the royal cenotaphs at Bada Bagh and the abandoned village of Kuldhara, then drive back to Jodhpur (about 285 km). Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Jodhpur",
+    "text": "After breakfast, transfer to Jodhpur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Jodhpur",
+   "Jaisalmer",
+   "Sam Sand Dunes"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Jodhpur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-jodhpur-jaisalmer-udaipur",
+  "url": "/rajasthan-jaipur-jodhpur-jaisalmer-udaipur",
+  "title": "Royal Rajasthan Tour",
+  "name": "Royal Rajasthan Tour",
+  "page_title": "Royal Rajasthan Tour – 8 Nights / 9 Days | Holiday Guru Travel",
+  "description": "Nine days across royal Rajasthan: Jaipur, Jodhpur, the desert city of Jaisalmer and the Sam dunes, Ranakpur, and the lakes of Udaipur.",
+  "duration": "8 Nights / 9 Days",
+  "nights": 8,
+  "days": 9,
+  "cities": "Jaipur - Jodhpur - Jaisalmer - Ranakpur - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jodhpur)Jaipur to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 335 km, 6 hours). In the late afternoon, visit Mehrangarh Fort and the Jaswant Thada. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaisalmer)Jodhpur to Jaisalmer",
+    "text": "After breakfast, drive across the Thar desert to Jaisalmer (about 285 km, 5–6 hours). Evening at Gadisar Lake. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Jodhpur)Bada Bagh and Kuldhara – Jodhpur",
+    "text": "After breakfast, visit the royal cenotaphs at Bada Bagh and the abandoned village of Kuldhara, then drive back to Jodhpur (about 285 km). Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Udaipur)Jodhpur to Udaipur via Ranakpur",
+    "text": "After breakfast, drive to Udaipur (about 260 km, 6–7 hours), visiting the marble Jain temple at Ranakpur on the way. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Jodhpur",
+   "Jaisalmer",
+   "Ranakpur",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-udaipur-chittorgarh-kumbhalgarh",
+  "url": "/rajasthan-udaipur-chittorgarh-kumbhalgarh",
+  "title": "Forts of Mewar: Udaipur, Chittorgarh and Kumbhalgarh",
+  "name": "Forts of Mewar: Udaipur, Chittorgarh and Kumbhalgarh",
+  "page_title": "Forts of Mewar: Udaipur, Chittorgarh and Kumbhalgarh – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in the Mewar country around Udaipur: the lake city itself, the great fort of Chittorgarh, the Ranakpur temple and the walls of Kumbhalgarh.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Udaipur - Chittorgarh - Kumbhalgarh - Ranakpur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Udaipur)Arrive in Udaipur",
+    "text": "Arrive at Udaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, drive up to the Monsoon Palace (Sajjangarh) for sunset over the lakes. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Udaipur)Chittorgarh Fort",
+    "text": "After breakfast, drive to Chittorgarh (about 115 km, 2.5 hours), one of the hill forts of Rajasthan on the UNESCO World Heritage list. See the Vijay Stambh tower of victory, Rani Padmini's palace and the Meera temple, then drive back to Udaipur. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kumbhalgarh)Ranakpur and Kumbhalgarh",
+    "text": "After breakfast, drive to the marble Jain temple at Ranakpur, with its 1,444 carved pillars, and on to Kumbhalgarh Fort, whose wall runs for about 36 km over the Aravalli hills. Stay for the evening light on the walls. Overnight stay at Kumbhalgarh.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Kumbhalgarh to Udaipur",
+    "text": "After breakfast, drive back to Udaipur (about 85 km, 2.5 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Udaipur",
+   "Chittorgarh",
+   "Kumbhalgarh",
+   "Ranakpur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Udaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-ranthambore",
+  "url": "/rajasthan-jaipur-ranthambore",
+  "title": "Jaipur and Ranthambore Tour",
+  "name": "Jaipur and Ranthambore Tour",
+  "page_title": "Jaipur and Ranthambore Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days pairing Jaipur's forts and palaces with Ranthambore, one of the best places in India to see a tiger in the wild.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Jaipur - Ranthambore - Sawai Madhopur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ranthambore)Jaipur to Ranthambore",
+    "text": "After breakfast, drive to Ranthambore (about 180 km, 3.5–4 hours) near Sawai Madhopur. In the afternoon, go on your first safari in the tiger reserve (safari permits are booked in advance and paid as per park rules). Overnight stay at Ranthambore.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ranthambore)Morning safari and Ranthambore Fort",
+    "text": "An early-morning safari in the park, looking for tigers, leopards, sloth bears and deer around the old lakes. Later, climb up to the Ranthambore Fort and the Trinetra Ganesh temple inside the reserve. Overnight stay at Ranthambore.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Ranthambore to Jaipur",
+    "text": "After breakfast, drive back to Jaipur (about 180 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Ranthambore",
+   "Sawai Madhopur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Jaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally. Ranthambore safari permits are not part of the standard package; they are booked in advance on the official portal. The main zones close in the monsoon (about July to September)."
+ },
+ {
+  "slug": "rajasthan-bikaner-jaisalmer-jodhpur",
+  "url": "/rajasthan-bikaner-jaisalmer-jodhpur",
+  "title": "Thar Desert Circuit: Bikaner, Jaisalmer and Jodhpur",
+  "name": "Thar Desert Circuit: Bikaner, Jaisalmer and Jodhpur",
+  "page_title": "Thar Desert Circuit: Bikaner, Jaisalmer and Jodhpur – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days across the Thar desert: Bikaner's Junagarh Fort and Karni Mata temple, three nights in Jaisalmer with the Sam dunes, and Jodhpur.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Bikaner - Deshnoke - Jaisalmer - Sam Sand Dunes - Jodhpur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": "Bikaner",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Bikaner)Arrive in Bikaner – Junagarh Fort",
+    "text": "Arrive at Bikaner railway station, where our representative meets you. In the afternoon, visit Junagarh Fort, with its painted and mirrored palaces. Overnight stay in Bikaner.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Bikaner)Deshnoke and the camel farm",
+    "text": "After breakfast, drive to the Karni Mata temple at Deshnoke (about 30 km), then visit the National Research Centre on Camel and the Lalgarh Palace. Overnight stay in Bikaner.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jaisalmer)Bikaner to Jaisalmer",
+    "text": "After breakfast, drive across the desert to Jaisalmer (about 330 km, 6 hours). Evening at Gadisar Lake. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaisalmer)Bada Bagh, Kuldhara and the desert",
+    "text": "A slower day in Jaisalmer: the royal cenotaphs at Bada Bagh in the morning light, the abandoned village of Kuldhara, and an evening in the old city lanes. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Jodhpur)Jaisalmer to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 285 km, 5–6 hours). In the evening, walk through the market at the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Mehrangarh – departure",
+    "text": "After breakfast, visit Mehrangarh Fort and the Jaswant Thada, then transfer to Jodhpur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 4, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Bikaner",
+   "Deshnoke",
+   "Jaisalmer",
+   "Sam Sand Dunes",
+   "Jodhpur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bikaner",
+  "end": "Jodhpur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
  }
 ]

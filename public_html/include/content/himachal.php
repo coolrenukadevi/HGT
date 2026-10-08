@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Himachal Pradesh',
     'image' => 'assets/img/destinations/himachal.jpg',
     'map_query' => 'Manali, Himachal Pradesh',
@@ -19,7 +19,7 @@ return array(
         array('6-day Shimla Manali itinerary', '/shimla-manali-tour'),
         array('Manali Volvo weekend trip', '/himachal-manali-kullu-volvo'),
     ),
-    'intro' => 'Himachal tour packages combine Shimla and Manali with Kullu, Dharamshala, Dalhousie and, on several itineraries, Amritsar and Chandigarh. Our Himachal itineraries run 3 to 13 days, by private cab or by overnight Volvo from Delhi.',
+    'intro' => 'Himachal tour packages combine Shimla and Manali with Kullu, Dharamshala, Dalhousie and, on several itineraries, Amritsar and Chandigarh. Newer itineraries add Kasol, Bir, Chamba and the Kinnaur and Spiti valleys. Our Himachal itineraries run 3 to 13 days, by road or by overnight Volvo from Delhi.',
     'why' => array(
         array(
             'Classic hill stations',
@@ -57,7 +57,7 @@ return array(
         ),
     ),
     'best_time_answer' => 'March to June and October to November are the best times for sightseeing in Himachal; choose December to February for snow.',
-    'days_answer' => 'Five to six days covers Shimla and Manali; allow 7–9 days to add Dharamshala, Dalhousie and Amritsar.',
+    'days_answer' => 'Five to six days covers Shimla and Manali; allow 7–9 days to add Dharamshala, Dalhousie and Amritsar, or for the Spiti circuit.',
     'days_rows' => array(
         array('4 days', 'Shimla (Volvo from Delhi)', 'best-of-shimla'),
         array('5 days', 'Manali by overnight Volvo', 'himachal-manali-kullu-volvo'),
@@ -69,9 +69,9 @@ return array(
             'himachal-shimla-manali-dharamshala-vaishno-devi',
         ),
     ),
-    'cost_answer' => 'The cost of a Himachal tour depends on the number of nights, hotel category, season and whether you travel by private cab or Volvo. We quote each trip for your dates.',
+    'cost_answer' => 'The cost of a Himachal tour depends on the number of nights, hotel category, season and whether you travel by car or Volvo. We quote each trip for your dates.',
     'cost_factors' => array(
-        'Private cab from Chandigarh or Delhi, or overnight Volvo bus',
+        'Road transport from Chandigarh or Delhi, or an overnight Volvo bus',
         'Hotel category and meal plan',
         'Season — May–June and winter holidays are peak',
         'Optional activities in Solang Valley and Rohtang Pass permits',
@@ -106,8 +106,8 @@ return array(
         'Watch the Wagah Border ceremony near Amritsar',
         'Take a dip in the hot springs at Manikaran',
     ),
-    'stay' => 'Hotels as listed in each itinerary, deluxe category on twin sharing in several packages. If a listed hotel is unavailable, the package terms provide for a similar standard.',
-    'transport' => 'Most itineraries use a private cab from Chandigarh or Delhi. Volvo packages include overnight Volvo seats from Delhi to Manali (about 12 hours) and back, with a cab for local sightseeing.',
+    'stay' => 'Hotels as listed in each itinerary: standard / 3-star equivalent on the standard packages, deluxe on twin sharing in several others. If a listed hotel is unavailable, the package terms provide for a similar standard.',
+    'transport' => 'Itineraries start from Chandigarh, Delhi, Pathankot, Bhuntar or Shimla, with transfers and sightseeing as specified; some use a private cab. Volvo packages include overnight Volvo seats from Delhi to Manali (about 12 hours) and back, with a cab for local sightseeing.',
     'who_title' => 'Who Himachal suits',
     'who' => array(
         array(
@@ -129,7 +129,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Himachal tour packages?',
-            '<p>Hotel stays as per the itinerary, transfers and sightseeing by private cab (or Volvo seats on Volvo packages), and the meals listed on each package. Each package page lists its inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; Volvo packages include the Volvo seats, and some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions.</p>',
         ),
         array(
             'How many days are enough for Shimla and Manali?',
@@ -141,7 +141,7 @@ return array(
         ),
         array(
             'Is the Volvo bus ticket included?',
-            '<p>Yes, on our Volvo packages — they include Volvo seats from Delhi to Manali and back. Other packages use a private cab.</p>',
+            '<p>Yes, on our Volvo packages — they include Volvo seats from Delhi to Manali and back. Other packages travel by road as specified on each package.</p>',
         ),
         array(
             'Can I add Amritsar?',

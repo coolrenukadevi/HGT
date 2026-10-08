@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Amarnath Yatra',
     'image' => 'assets/img/destinations/amarnath.jpg',
     'map_query' => 'Baltal, Jammu and Kashmir',
@@ -19,7 +19,7 @@ return array(
         array('All pilgrimage tours', '/religious-tour'),
         array('Kashmir tour packages', '/tours/kashmir'),
     ),
-    'intro' => 'Amarnath Yatra packages start in Srinagar and reach the holy cave either by helicopter from Baltal or on foot via Pahalgam, with hotel stays, breakfast and dinner, and private cab transfers. Our Amarnath itineraries run 3 to 6 days; some add Srinagar or Gulmarg sightseeing.',
+    'intro' => 'Amarnath Yatra packages start in Srinagar or Jammu and reach the holy cave by helicopter or on foot, by the Baltal or Pahalgam route; hotels, meals and transfers are as listed on each package. Our Amarnath itineraries run 3 to 8 days; some add Mata Vaishno Devi or Kashmir sightseeing.',
     'why' => array(
         array(
             'Two routes',
@@ -32,7 +32,7 @@ return array(
         ),
         array(
             'Planned from Srinagar',
-            'Pick-up and drop at Srinagar, with a private cab for all road transfers.',
+            'Pick-up and drop at Srinagar, or a start from Jammu for the road and trek routes.',
         ),
     ),
     'best_time' => array(
@@ -44,7 +44,7 @@ return array(
         array('Rest of the year', 'Closed', 'The cave route is closed outside the yatra period.'),
     ),
     'best_time_answer' => 'The Amarnath Yatra takes place in July–August; dates are announced each year by the Shri Amarnathji Shrine Board.',
-    'days_answer' => 'Allow 3–4 days for a helicopter yatra from Srinagar, and 5–6 days for the trek route via Pahalgam.',
+    'days_answer' => 'Allow 3–4 days for a helicopter yatra from Srinagar, 5–7 days for the trek routes, and 7–8 days to add Mata Vaishno Devi or Kashmir sightseeing.',
     'days_rows' => array(
         array('3 days', 'By helicopter', 'amarnath-ji-yatra-by-helicopter'),
         array('4 days', 'By helicopter, with a Srinagar tour', 'amarnath-ji-yatra-by-helicopter-with-srinagar-tour'),
@@ -85,8 +85,8 @@ return array(
         'Stay on a houseboat in Srinagar on selected packages',
         'Visit Gulmarg on the longer itineraries',
     ),
-    'stay' => 'Deluxe category hotels on twin sharing, with houseboat nights in several itineraries, and breakfast and dinner. Accommodation on the trek route is in camps as per the itinerary.',
-    'transport' => 'Fly to Srinagar; packages include pick-up and drop and a private cab for all road transfers. The final stretch to the cave is on foot, by pony or palki.',
+    'stay' => 'Standard / 3-star equivalent or deluxe hotels as listed on each package, with houseboat nights in several itineraries, and breakfast (dinner where listed). Accommodation on the trek route is in camps as per the itinerary.',
+    'transport' => 'Fly to Srinagar, or start from Jammu on the road and trek itineraries; packages include pick-up and drop and road transfers as specified, some by private cab. The final stretch to the cave is on foot, by pony or palki.',
     'who_title' => 'Before you book',
     'who' => array(
         array(
@@ -111,7 +111,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Amarnath Yatra packages?',
-            '<p>Hotel stays (deluxe category on twin sharing), breakfast and dinner, pick-up and drop at Srinagar and a private cab for road transfers, and applicable taxes. Each package lists its exact inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions. Helicopter tickets, ponies and palkis are not included.</p>',
         ),
         array(
             'When is the Amarnath Yatra?',

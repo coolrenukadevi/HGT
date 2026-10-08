@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Leh Ladakh',
     'image' => 'assets/img/destinations/ladakh.jpg',
     'map_query' => 'Leh, Ladakh',
@@ -19,7 +19,7 @@ return array(
         array('6-day Jewels of Leh Ladakh itinerary', '/jewels-of-leh-ladakh-package'),
         array('Kashmir tour packages', '/tours/kashmir'),
     ),
-    'intro' => 'Leh Ladakh tour packages start in Leh and cover the Nubra Valley over Khardung La and the high-altitude Pangong Lake, with a private vehicle, permits, and breakfast and dinner included. Our Ladakh itineraries run 4 to 9 days; the longer ones add Tso Moriri and Tso Kar.',
+    'intro' => 'Leh Ladakh tour packages start in Leh, or reach it by road from Srinagar or Manali, and cover the Nubra Valley over Khardung La and the high-altitude Pangong Lake; transport, permits and the meal plan are as listed on each package. Our Ladakh itineraries run 4 to 12 days; the longer ones add Tso Moriri, Turtuk or the Srinagar–Leh–Manali highway.',
     'why' => array(
         array(
             'High passes and lakes',
@@ -35,7 +35,7 @@ return array(
         ),
         array(
             'Planned for altitude',
-            'Itineraries start with a rest day in Leh to acclimatise before the high passes.',
+            'Every itinerary includes a rest day in Leh to acclimatise before the high passes.',
         ),
     ),
     'best_time' => array(
@@ -61,7 +61,7 @@ return array(
         ),
     ),
     'best_time_answer' => 'May to September is the best time for a Ladakh tour, when the roads to Nubra and Pangong are open.',
-    'days_answer' => 'Allow at least 5–6 days for Leh, Nubra Valley and Pangong Lake, including a first day to acclimatise; choose 8–9 days to add Tso Moriri and Tso Kar.',
+    'days_answer' => 'Allow at least 5–6 days for Leh, Nubra Valley and Pangong Lake, including a first day to acclimatise; choose 8–9 days to add Tso Moriri and Tso Kar, and 9–12 days for the road journeys from Srinagar or Manali.',
     'days_rows' => array(
         array('4 days', 'Leh, its monasteries and Khardung La', 'breathtaking-leh-ladakh-tour'),
         array('5 days', 'Leh, Pangong Lake, Khardung La and Sham Valley', 'special-leh-ladakh-tour'),
@@ -73,7 +73,7 @@ return array(
         ),
         array('9 days', 'Adds Tso Moriri and Tso Kar', 'discover-leh-ladakh-tour'),
     ),
-    'cost_answer' => 'A Ladakh tour costs more per day than most Indian hill holidays because of the private vehicle over long mountain roads and the short season. We quote each trip for your dates; flights to Leh are extra.',
+    'cost_answer' => 'A Ladakh tour costs more per day than most Indian hill holidays because of the long mountain drives and the short season. We quote each trip for your dates; flights to Leh are extra.',
     'cost_factors' => array(
         'Number of days and whether you add Tso Moriri',
         'Season — June to August is peak',
@@ -112,8 +112,8 @@ return array(
         'See the Indus–Zanskar confluence near Leh',
         'Walk up to the Shanti Stupa for views over Leh',
     ),
-    'stay' => 'Our Ladakh packages include accommodation as indicated in each itinerary or similar, with breakfast and dinner. Heater charges are listed as extra where they apply.',
-    'transport' => 'Most travellers fly to Leh (IXL). Every itinerary includes arrival and departure transfers and a private vehicle with a professional driver for all sightseeing, plus the permits for Nubra and Pangong.',
+    'stay' => 'Our Ladakh packages include accommodation as indicated in each itinerary or similar, with breakfast, and dinner on packages that list it. Heater charges are listed as extra where they apply.',
+    'transport' => 'Most travellers fly to Leh (IXL). Itineraries include arrival and departure transfers and sightseeing as specified; several include a private vehicle with driver and the Nubra and Pangong permit charges, as listed on each package.',
     'who_title' => 'Who Ladakh suits',
     'who' => array(
         array(
@@ -139,7 +139,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Ladakh tour packages?',
-            '<p>Accommodation as per the itinerary, daily breakfast and dinner, arrival and departure transfers, a private vehicle with driver for sightseeing, and permit charges for Nubra and Pangong. Each package lists its exclusions, such as entry fees, oxygen cylinders and heater charges.</p>',
+            '<p>Accommodation as per the itinerary, daily breakfast (dinner where listed), arrival and departure transfers, sightseeing as specified, and — on packages that list them — a private vehicle with driver and the permit charges for Nubra and Pangong. Each package lists its exclusions, such as entry fees, oxygen cylinders and heater charges.</p>',
         ),
         array(
             'How many days are enough for Ladakh?',

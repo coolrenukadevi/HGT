@@ -6,11 +6,11 @@
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
- * Last reviewed: 2026-09-30.
+ * Last updated: 2026-10-08 (destination text refreshed for the new packages; owner review pending).
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Uttarakhand',
     'image' => 'assets/img/destinations/uttarakhand.jpg',
     'map_query' => 'Nainital, Uttarakhand',
@@ -19,7 +19,7 @@ return array(
         array('Char Dham Yatra packages', '/tours/char-dham'),
         array('4-day Corbett with Nainital itinerary', '/corbett-with-nainital'),
     ),
-    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Our Uttarakhand itineraries run 3 to 8 days by private cab.',
+    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Newer itineraries add Auli, Chopta, Binsar, Munsiyari and Lansdowne. Our Uttarakhand itineraries run 3 to 8 days by road.',
     'why' => array(
         array(
             'Close to Delhi',
@@ -77,10 +77,10 @@ return array(
     'cost_answer' => 'The cost of an Uttarakhand tour depends on the number of nights, hotel category, season and whether you add a Corbett safari. We quote each trip for your dates.',
     'cost_factors' => array(
         'Number of hill stations and nights',
-        'Hotel category (deluxe on twin sharing in many packages)',
+        'Hotel category (standard / 3-star equivalent, or deluxe on some packages)',
         'Season — May–June and long weekends are peak',
         'Jungle safari in Corbett, booked separately and subject to availability',
-        'Number of travellers sharing a room and cab',
+        'Number of travellers sharing a room and vehicle',
         'GST where a package lists it as extra',
     ),
     'places' => array(
@@ -113,8 +113,8 @@ return array(
         'Visit Kempty Falls near Mussoorie',
         'Walk the ghats and bridges of Rishikesh',
     ),
-    'stay' => 'Hotels as listed in each itinerary, deluxe category on twin sharing in many packages, with the meals shown on each package page.',
-    'transport' => 'Our Uttarakhand packages use a private cab for transfers and sightseeing, with pick-up from the railway station, bus stand or airport as listed. Tolls, parking and driver allowance are included in many packages.',
+    'stay' => 'Hotels as listed in each itinerary — standard / 3-star equivalent on the standard packages, deluxe on many others — with the meals shown on each package page.',
+    'transport' => 'Transfers and sightseeing are as specified on each package, with pick-up from the railway station, bus stand or airport as listed; many packages use a private cab and include tolls, parking and driver allowance.',
     'who_title' => 'Who Uttarakhand suits',
     'who' => array(
         array(
@@ -136,7 +136,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Uttarakhand tour packages?',
-            '<p>Hotel stays as per the itinerary, a private cab for transfers and sightseeing, and — in many packages — tolls, parking, driver allowance and applicable taxes. Each package lists its exact inclusions and exclusions.</p>',
+            '<p>Standard packages include standard / 3-star equivalent hotels with breakfast, transfers and sightseeing as specified in the itinerary, and travel assistance; some packages add deluxe hotels, dinner or a private cab. Each package page lists its exact inclusions and exclusions.</p>',
         ),
         array(
             'How many days are enough for Nainital?',

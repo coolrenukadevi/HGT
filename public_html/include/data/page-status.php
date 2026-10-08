@@ -18,6 +18,7 @@ return array(
     '/travel-guide/kerala'                => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/south-india'           => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/goa'                   => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
+    '/travel-guide/rajasthan'             => 'approved',   // destination guide, 2026-10-08 (new destination, batch 4)
     '/travel-guide/dubai'                 => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/singapore-malaysia'    => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/maldives'              => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
