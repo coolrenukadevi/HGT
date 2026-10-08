@@ -112,6 +112,26 @@
       "content": "rajasthan"
     },
     {
+      "key": "golden-triangle",
+      "name": "Golden Triangle",
+      "region": "india",
+      "area": "North India",
+      "hub_url": "/tours/golden-triangle",
+      "match": "golden-triangle|delhi|agra|jaipur|khajuraho|mathura|vrindavan",
+      "keywords": "golden triangle delhi agra jaipur taj mahal fatehpur sikri mathura vrindavan orchha khajuraho",
+      "content": "golden-triangle"
+    },
+    {
+      "key": "kashi-ayodhya",
+      "name": "Varanasi & Ayodhya",
+      "region": "india",
+      "area": "Pilgrimage",
+      "hub_url": "/tours/kashi-ayodhya",
+      "match": "varanasi|kashi|ayodhya|sarnath",
+      "keywords": "varanasi kashi ayodhya ram mandir sarnath ganga aarti kashi vishwanath",
+      "content": "kashi-ayodhya"
+    },
+    {
       "key": "dubai",
       "name": "Dubai",
       "region": "international",

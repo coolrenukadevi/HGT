@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -1533,6 +1533,156 @@
   {
    "package_id": "0207",
    "slug": "rajasthan-bikaner-jaisalmer-jodhpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0208",
+   "slug": "rajasthan-jaipur-pushkar-udaipur-from-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0209",
+   "slug": "rajasthan-grand-jaipur-pushkar-jodhpur-jaisalmer-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0210",
+   "slug": "rajasthan-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0211",
+   "slug": "rajasthan-jaisalmer",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0212",
+   "slug": "rajasthan-mount-abu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0213",
+   "slug": "rajasthan-jodhpur-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0214",
+   "slug": "rajasthan-shekhawati-bikaner",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0215",
+   "slug": "rajasthan-bundi-chittorgarh-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0216",
+   "slug": "golden-triangle-delhi-agra-jaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0217",
+   "slug": "golden-triangle-fatehpur-sikri-abhaneri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0218",
+   "slug": "golden-triangle-with-ranthambore",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0219",
+   "slug": "golden-triangle-with-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0220",
+   "slug": "golden-triangle-with-pushkar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0221",
+   "slug": "golden-triangle-with-varanasi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0222",
+   "slug": "golden-triangle-with-amritsar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0223",
+   "slug": "delhi-agra-taj-mahal-tour",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0224",
+   "slug": "agra-fatehpur-sikri-mathura-vrindavan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0225",
+   "slug": "delhi-jaipur-tour",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0226",
+   "slug": "golden-triangle-with-haridwar-rishikesh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0227",
+   "slug": "golden-triangle-with-jodhpur-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0228",
+   "slug": "golden-triangle-with-shimla",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0229",
+   "slug": "agra-orchha-khajuraho",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0230",
+   "slug": "varanasi-kashi-tour",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0231",
+   "slug": "varanasi-sarnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0232",
+   "slug": "ayodhya-ram-mandir-tour",
    "internal_key": "",
    "status": "approved"
   }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 292 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: 25 new packages (batch 4, IDs 0183–0207), new destination Rajasthan, destination text refreshed. -->
+<!-- 321 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–5 (IDs 0183–0232), new destinations Rajasthan, Golden Triangle and Varanasi & Ayodhya, destination text refreshed. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -704,6 +704,18 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://holidaygurutravel.in/tours/golden-triangle</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tours/kashi-ayodhya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://holidaygurutravel.in/tours/dubai</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -789,6 +801,18 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/travel-guide/rajasthan</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/travel-guide/golden-triangle</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/travel-guide/kashi-ayodhya</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1749,6 +1773,156 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/rajasthan-bikaner-jaisalmer-jodhpur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-jaipur-pushkar-udaipur-from-delhi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-grand-jaipur-pushkar-jodhpur-jaisalmer-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-jaisalmer</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-mount-abu</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-jodhpur-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-shekhawati-bikaner</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/rajasthan-bundi-chittorgarh-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-delhi-agra-jaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-fatehpur-sikri-abhaneri</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-ranthambore</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-pushkar</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-varanasi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-amritsar</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/delhi-agra-taj-mahal-tour</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/agra-fatehpur-sikri-mathura-vrindavan</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/delhi-jaipur-tour</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-haridwar-rishikesh</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-jodhpur-udaipur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/golden-triangle-with-shimla</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/agra-orchha-khajuraho</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-kashi-tour</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-sarnath</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ayodhya-ram-mandir-tour</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

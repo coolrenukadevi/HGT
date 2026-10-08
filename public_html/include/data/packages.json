@@ -17886,5 +17886,2159 @@
   "end": "Jodhpur",
   "itinerary_source": "standard",
   "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaipur-pushkar-udaipur-from-delhi",
+  "url": "/rajasthan-jaipur-pushkar-udaipur-from-delhi",
+  "title": "Jaipur, Pushkar and Udaipur from Delhi",
+  "name": "Jaipur, Pushkar and Udaipur from Delhi",
+  "page_title": "Jaipur, Pushkar and Udaipur from Delhi – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days by road from Delhi: Jaipur's forts and palaces, the Ajmer Dargah and Pushkar's holy lake, Chittorgarh Fort, and two nights in Udaipur.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Delhi - Jaipur - Ajmer - Pushkar - Chittorgarh - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Delhi to Jaipur",
+    "text": "Our representative meets you in Delhi for the drive to Jaipur (about 280 km, 5–6 hours). In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Pushkar)Jaipur to Pushkar via Ajmer",
+    "text": "After breakfast, drive to Ajmer (about 135 km) for the Dargah of Khwaja Moinuddin Chishti, then on to Pushkar (about 15 km). Evening aarti at the Pushkar ghats. Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Pushkar)Pushkar",
+    "text": "After breakfast, visit the Brahma temple, one of very few in India, and walk along the ghats of Pushkar Lake. Take the ropeway to the Savitri temple for the view (paid locally). Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Udaipur)Pushkar to Udaipur via Chittorgarh",
+    "text": "After an early breakfast, drive to Udaipur (about 280 km, 6–7 hours), stopping at Chittorgarh Fort, a UNESCO World Heritage Site, with its Vijay Stambh tower. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Jaipur",
+   "Ajmer",
+   "Pushkar",
+   "Chittorgarh",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-grand-jaipur-pushkar-jodhpur-jaisalmer-udaipur",
+  "url": "/rajasthan-grand-jaipur-pushkar-jodhpur-jaisalmer-udaipur",
+  "title": "Grand Rajasthan Tour",
+  "name": "Grand Rajasthan Tour",
+  "page_title": "Grand Rajasthan Tour – 10 Nights / 11 Days | Holiday Guru Travel",
+  "description": "Eleven days across Rajasthan: Jaipur, the holy lake at Pushkar, Jodhpur's Mehrangarh, two nights in desert Jaisalmer, Ranakpur and the lakes of Udaipur.",
+  "duration": "10 Nights / 11 Days",
+  "nights": 10,
+  "days": 11,
+  "cities": "Jaipur - Pushkar - Jodhpur - Jaisalmer - Ranakpur - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaipur)Arrive in Jaipur",
+    "text": "Arrive at Jaipur airport or railway station, where our representative meets you. In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Pushkar)Jaipur to Pushkar via Ajmer",
+    "text": "After breakfast, drive to Ajmer (about 135 km) for the Dargah Sharif, then to Pushkar. Evening at the ghats and the Brahma temple. Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jodhpur)Pushkar to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 190 km, 4 hours). In the evening, walk through the market around the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jodhpur)Jodhpur sightseeing",
+    "text": "After breakfast, visit Mehrangarh Fort, rising above the blue houses of the old city, and the marble Jaswant Thada memorial. In the afternoon, see the Umaid Bhawan Palace museum and walk through the market at the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Jaisalmer)Jodhpur to Jaisalmer",
+    "text": "After breakfast, drive across the Thar desert to Jaisalmer (about 285 km, 5–6 hours). Evening at Gadisar Lake. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Jodhpur)Bada Bagh and Kuldhara – Jodhpur",
+    "text": "After breakfast, visit the royal cenotaphs at Bada Bagh and the abandoned village of Kuldhara, then drive back to Jodhpur (about 285 km). Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : (Udaipur)Jodhpur to Udaipur via Ranakpur",
+    "text": "After breakfast, drive to Udaipur (about 260 km, 6–7 hours), visiting the marble Jain temple at Ranakpur, with its 1,444 carved pillars, on the way. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 10 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 11 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaipur",
+   "Pushkar",
+   "Jodhpur",
+   "Jaisalmer",
+   "Ranakpur",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-udaipur",
+  "url": "/rajasthan-udaipur",
+  "title": "Udaipur Lake City Holiday",
+  "name": "Udaipur Lake City Holiday",
+  "page_title": "Udaipur Lake City Holiday – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in Udaipur, the city of lakes: the City Palace and Lake Pichola, the Monsoon Palace, and a day to Eklingji, Nathdwara and Haldighati.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Udaipur - Eklingji - Nathdwara - Haldighati",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Udaipur)Arrive in Udaipur",
+    "text": "Arrive at Udaipur airport or railway station, where our representative meets you. In the evening, drive up to the Monsoon Palace (Sajjangarh) for sunset over the lakes. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Udaipur)Eklingji, Nathdwara and Haldighati",
+    "text": "After breakfast, visit the Eklingji temple complex (about 22 km), the Shrinathji temple at Nathdwara (darshan timings are fixed by the temple) and Haldighati, the battlefield of Maharana Pratap. Return to Udaipur for an evening by Fateh Sagar Lake. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Udaipur",
+   "Eklingji",
+   "Nathdwara",
+   "Haldighati"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Udaipur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jaisalmer",
+  "url": "/rajasthan-jaisalmer",
+  "title": "Jaisalmer Desert Break",
+  "name": "Jaisalmer Desert Break",
+  "page_title": "Jaisalmer Desert Break – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day desert break in golden Jaisalmer: the living fort and carved havelis, sunset on the Sam dunes, and Lodurva and Kuldhara.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Jaisalmer - Sam Sand Dunes - Kuldhara - Lodurva",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jaisalmer)Arrive in Jaisalmer",
+    "text": "Arrive at Jaisalmer railway station or airport, where our representative meets you. In the evening, walk around Gadisar Lake with its temples and gateway. Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaisalmer)Jaisalmer Fort and the Sam dunes",
+    "text": "After breakfast, explore Jaisalmer Fort, a living fort with homes, shops and Jain temples inside its golden walls, and the carved Patwon Ki Haveli and Nathmal Ki Haveli. In the afternoon, drive to the Sam sand dunes (about 40 km) for sunset; camel rides and jeep safaris are available (paid locally). Overnight stay in Jaisalmer.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Bada Bagh, Lodurva and Kuldhara – departure",
+    "text": "After breakfast, visit the royal cenotaphs at Bada Bagh, the Jain temples of Lodurva, the old capital, and the abandoned village of Kuldhara, then transfer to the station or airport. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jaisalmer",
+   "Sam Sand Dunes",
+   "Kuldhara",
+   "Lodurva"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jaisalmer",
+  "end": "Jaisalmer",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-mount-abu",
+  "url": "/rajasthan-mount-abu",
+  "title": "Mount Abu Hill Station Break",
+  "name": "Mount Abu Hill Station Break",
+  "page_title": "Mount Abu Hill Station Break – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day break in Mount Abu: Nakki Lake and Sunset Point, Guru Shikhar and Achalgarh, and the marble Dilwara Jain temples.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Mount Abu - Dilwara - Guru Shikhar - Achalgarh",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Mount Abu)Abu Road to Mount Abu",
+    "text": "Arrive at Abu Road railway station, where our representative meets you, and drive up to Mount Abu (about 28 km, 1 hour), Rajasthan's only hill station. In the evening, walk around Nakki Lake and watch sunset from Sunset Point. Overnight stay in Mount Abu.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mount Abu)Dilwara temples and Guru Shikhar",
+    "text": "After breakfast, drive up to Guru Shikhar, the highest point of the Aravalli range, and Achalgarh with its fort and Shiva temple. In the afternoon, visit the Dilwara Jain temples, famous for their marble carving (open to visitors in the afternoon; photography not allowed). Overnight stay in Mount Abu.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Mount Abu to Abu Road",
+    "text": "After breakfast, visit the Brahma Kumaris' Peace Park if time allows, then drive down to Abu Road for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Mount Abu",
+   "Dilwara",
+   "Guru Shikhar",
+   "Achalgarh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Abu Road",
+  "end": "Abu Road",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-jodhpur-udaipur",
+  "url": "/rajasthan-jodhpur-udaipur",
+  "title": "Jodhpur and Udaipur Tour",
+  "name": "Jodhpur and Udaipur Tour",
+  "page_title": "Jodhpur and Udaipur Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days linking the Blue City and the lake city: Jodhpur's Mehrangarh Fort, the Ranakpur Jain temple, and Udaipur's palaces and lakes.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Jodhpur - Ranakpur - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Jodhpur)Arrive in Jodhpur",
+    "text": "Arrive at Jodhpur airport or railway station, where our representative meets you. In the evening, walk through the old city around the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jodhpur)Jodhpur sightseeing",
+    "text": "After breakfast, visit Mehrangarh Fort, rising above the blue houses of the old city, and the marble Jaswant Thada memorial. In the afternoon, see the Umaid Bhawan Palace museum and walk through the market at the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Udaipur)Jodhpur to Udaipur via Ranakpur",
+    "text": "After breakfast, drive to Udaipur (about 260 km, 6–7 hours), visiting the marble Jain temple at Ranakpur, with its 1,444 carved pillars, on the way. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jodhpur",
+   "Ranakpur",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jodhpur",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-shekhawati-bikaner",
+  "url": "/rajasthan-shekhawati-bikaner",
+  "title": "Shekhawati Havelis and Bikaner",
+  "name": "Shekhawati Havelis and Bikaner",
+  "page_title": "Shekhawati Havelis and Bikaner – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days off the usual routes: the painted havelis of Shekhawati at Mandawa, Nawalgarh and Fatehpur, then Bikaner's Junagarh Fort and Karni Mata temple.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Mandawa - Nawalgarh - Fatehpur - Bikaner - Deshnoke",
+  "image": "",
+  "group": "rajasthan",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Mandawa)Delhi to Mandawa",
+    "text": "Our representative meets you in Delhi for the drive to Mandawa in the Shekhawati region (about 260 km, 6 hours). In the evening, walk through the lanes of painted havelis around the old fort. Overnight stay in Mandawa.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mandawa)Havelis of Shekhawati",
+    "text": "A day among the painted merchant havelis of Shekhawati, an open-air gallery of frescoes: Mandawa, Nawalgarh with the Podar Haveli museum, and Fatehpur with the Nadine Le Prince Haveli (entry fees paid locally). Overnight stay in Mandawa.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Bikaner)Mandawa to Bikaner",
+    "text": "After breakfast, drive to Bikaner (about 190 km, 4 hours). In the afternoon, visit Junagarh Fort, with its painted and mirrored palaces. Overnight stay in Bikaner.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Bikaner)Deshnoke and the camel farm",
+    "text": "After breakfast, drive to the Karni Mata temple at Deshnoke (about 30 km), then visit the National Research Centre on Camel and the Lalgarh Palace. Overnight stay in Bikaner.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Bikaner",
+    "text": "After breakfast, transfer to Bikaner airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Mandawa",
+   "Nawalgarh",
+   "Fatehpur",
+   "Bikaner",
+   "Deshnoke"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Bikaner",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "rajasthan-bundi-chittorgarh-udaipur",
+  "url": "/rajasthan-bundi-chittorgarh-udaipur",
+  "title": "Bundi, Chittorgarh and Udaipur Tour",
+  "name": "Bundi, Chittorgarh and Udaipur Tour",
+  "page_title": "Bundi, Chittorgarh and Udaipur Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days through southern Rajasthan: the painted palace and stepwells of Bundi, the great fort of Chittorgarh, and the lakes of Udaipur.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Kota - Bundi - Chittorgarh - Udaipur",
+  "image": "",
+  "group": "rajasthan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Bundi)Kota to Bundi",
+    "text": "Arrive at Kota railway station, where our representative meets you, and drive to Bundi (about 40 km, 1 hour), a small old town of blue houses below its fort. Evening walk to the Raniji Ki Baori stepwell. Overnight stay in Bundi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Bundi)Bundi Palace and Taragarh",
+    "text": "After breakfast, visit the Garh Palace and its Chitrashala, famous for its wall paintings, and walk up to Taragarh Fort above the town (entry paid locally). Afternoon at Sukh Mahal and the Jait Sagar lake. Overnight stay in Bundi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Chittorgarh)Bundi to Chittorgarh",
+    "text": "After breakfast, drive to Chittorgarh (about 160 km, 3.5 hours). In the afternoon, explore the fort, a UNESCO World Heritage Site: the Vijay Stambh, Rani Padmini's palace and the Meera temple. Overnight stay in Chittorgarh.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Udaipur)Chittorgarh to Udaipur",
+    "text": "After breakfast, drive to Udaipur (about 115 km, 2.5 hours). In the evening, drive up to the Monsoon Palace for sunset. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kota",
+   "Bundi",
+   "Chittorgarh",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Kota",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees, camel rides, desert jeep safaris and cultural shows are not part of the standard package and are paid locally."
+ },
+ {
+  "slug": "golden-triangle-delhi-agra-jaipur",
+  "url": "/golden-triangle-delhi-agra-jaipur",
+  "title": "Golden Triangle Tour: Delhi, Agra and Jaipur",
+  "name": "Golden Triangle Tour: Delhi, Agra and Jaipur",
+  "page_title": "Golden Triangle Tour: Delhi, Agra and Jaipur – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "The classic five-day Golden Triangle: Old and New Delhi, the Taj Mahal and Agra Fort, Fatehpur Sikri, and the forts and palaces of Jaipur.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Delhi - Agra - Fatehpur Sikri - Jaipur",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Jaipur sightseeing – Delhi",
+    "text": "After breakfast, visit Amber Fort and the Jal Mahal, then the City Palace, Jantar Mantar and Hawa Mahal. In the afternoon, drive back to Delhi (about 280 km, 5–6 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Fatehpur Sikri",
+   "Jaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-fatehpur-sikri-abhaneri",
+  "url": "/golden-triangle-fatehpur-sikri-abhaneri",
+  "title": "Golden Triangle with Fatehpur Sikri and Abhaneri",
+  "name": "Golden Triangle with Fatehpur Sikri and Abhaneri",
+  "page_title": "Golden Triangle with Fatehpur Sikri and Abhaneri – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days on the Golden Triangle at an easier pace, with a full day in Jaipur and stops at Fatehpur Sikri and the Chand Baori stepwell at Abhaneri.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Delhi - Agra - Fatehpur Sikri - Abhaneri - Jaipur - Nahargarh",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Abhaneri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site, and at Abhaneri for the Chand Baori, one of the deepest stepwells in India. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Watch sunset over the city from Nahargarh Fort. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Jaipur to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 280 km, 5–6 hours) for your onward journey. The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Fatehpur Sikri",
+   "Abhaneri",
+   "Jaipur",
+   "Nahargarh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-ranthambore",
+  "url": "/golden-triangle-with-ranthambore",
+  "title": "Golden Triangle with Ranthambore",
+  "name": "Golden Triangle with Ranthambore",
+  "page_title": "Golden Triangle with Ranthambore – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days pairing the Golden Triangle with two nights at Ranthambore, one of the best places in India to see a tiger in the wild.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Delhi - Agra - Jaipur - Ranthambore",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Delhi sightseeing – Agra",
+    "text": "After breakfast, visit Humayun's Tomb and the Qutub Minar, then drive to Agra (about 230 km, 4 hours). Sunset view of the Taj Mahal from Mehtab Bagh. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Ranthambore)Jaipur to Ranthambore",
+    "text": "After breakfast, drive to Ranthambore (about 180 km, 3.5–4 hours). In the afternoon, go on your first safari in the tiger reserve (safari permits are booked in advance and paid as per park rules). Overnight stay at Ranthambore.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Ranthambore)Morning safari and Ranthambore Fort",
+    "text": "An early-morning safari, looking for tigers, leopards and sloth bears around the old lakes. Later, climb up to Ranthambore Fort and the Trinetra Ganesh temple. Overnight stay at Ranthambore.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Ranthambore to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 390 km, 7–8 hours), or take a train from Sawai Madhopur (tickets not included). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Ranthambore"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays. Ranthambore safari permits are booked in advance and are not part of the standard package; the main zones close in the monsoon (about July to September)."
+ },
+ {
+  "slug": "golden-triangle-with-udaipur",
+  "url": "/golden-triangle-with-udaipur",
+  "title": "Golden Triangle with Udaipur",
+  "name": "Golden Triangle with Udaipur",
+  "page_title": "Golden Triangle with Udaipur – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days on the Golden Triangle, continuing by way of Chittorgarh Fort to two nights in Udaipur, the city of lakes.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Delhi - Agra - Jaipur - Chittorgarh - Udaipur",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Udaipur)Jaipur to Udaipur via Chittorgarh",
+    "text": "After an early breakfast, drive to Udaipur (about 400 km, 7–8 hours), stopping at Chittorgarh Fort with its Vijay Stambh tower. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Chittorgarh",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-pushkar",
+  "url": "/golden-triangle-with-pushkar",
+  "title": "Golden Triangle with Pushkar",
+  "name": "Golden Triangle with Pushkar",
+  "page_title": "Golden Triangle with Pushkar – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days on the Golden Triangle with two nights in Pushkar, the holy lake town, and the Dargah Sharif at Ajmer on the way.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Delhi - Agra - Jaipur - Ajmer - Pushkar",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi – sightseeing",
+    "text": "Arrive in Delhi, where our representative meets you. In the afternoon, visit Humayun's Tomb, the Qutub Minar and India Gate. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Pushkar)Jaipur to Pushkar via Ajmer",
+    "text": "After breakfast, drive to Ajmer (about 135 km) for the Dargah of Khwaja Moinuddin Chishti, then on to Pushkar. Evening aarti at the Pushkar ghats. Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Pushkar)Pushkar",
+    "text": "After breakfast, visit the Brahma temple, one of very few in India, and walk along the ghats of Pushkar Lake. Take the ropeway to the Savitri temple for the view (paid locally). Overnight stay in Pushkar.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Pushkar to Delhi",
+    "text": "After an early breakfast, drive back to Delhi (about 400 km, 7–8 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Ajmer",
+   "Pushkar"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-varanasi",
+  "url": "/golden-triangle-with-varanasi",
+  "title": "Golden Triangle with Varanasi",
+  "name": "Golden Triangle with Varanasi",
+  "page_title": "Golden Triangle with Varanasi – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days from the Golden Triangle to the holy city of Varanasi: Delhi, the Taj Mahal and Jaipur, then the Ganga aarti, a sunrise boat on the ghats and Sarnath.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Delhi - Agra - Jaipur - Varanasi - Sarnath",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Varanasi)Jaipur to Varanasi",
+    "text": "After breakfast, transfer to Jaipur airport or station for your flight or train to Varanasi (tickets not included). On arrival, our representative meets you. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed every evening with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Varanasi)Ghats of the Ganga and Sarnath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, visit the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside). In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Varanasi",
+    "text": "After breakfast, transfer to Varanasi airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Varanasi",
+   "Sarnath"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Varanasi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays. Flight or train tickets between cities are not part of the standard package; we can add them to your quote."
+ },
+ {
+  "slug": "golden-triangle-with-amritsar",
+  "url": "/golden-triangle-with-amritsar",
+  "title": "Golden Triangle with Amritsar",
+  "name": "Golden Triangle with Amritsar",
+  "page_title": "Golden Triangle with Amritsar – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days from the Golden Triangle to the Golden Temple: Delhi, the Taj Mahal and Jaipur, then Amritsar with Jallianwala Bagh and the Attari border ceremony.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Delhi - Agra - Jaipur - Amritsar - Attari",
+  "image": "assets/img/packages/golden-temple-amritsar.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Amritsar)Jaipur to Amritsar",
+    "text": "After breakfast, transfer to Jaipur airport or station for your flight or train to Amritsar (tickets not included). In the evening, visit the Golden Temple for the Palki Sahib ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Amritsar)Golden Temple and the Attari border",
+    "text": "Morning at the Golden Temple, with langar at the community kitchen, then Jallianwala Bagh and the Partition Museum. In the afternoon, drive to the Attari–Wagah border (about 30 km) for the Beating Retreat ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Amritsar",
+    "text": "After breakfast, transfer to Amritsar airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Amritsar",
+   "Attari"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Amritsar",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays. Flight or train tickets between cities are not part of the standard package; we can add them to your quote."
+ },
+ {
+  "slug": "delhi-agra-taj-mahal-tour",
+  "url": "/delhi-agra-taj-mahal-tour",
+  "title": "Delhi and Agra: Taj Mahal Tour",
+  "name": "Delhi and Agra: Taj Mahal Tour",
+  "page_title": "Delhi and Agra: Taj Mahal Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day trip from Delhi to the Taj Mahal: Delhi's Mughal monuments, Agra Fort and the Baby Taj, sunset from Mehtab Bagh and the Taj at sunrise.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Delhi - Agra - Mehtab Bagh",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi – sightseeing",
+    "text": "Arrive in Delhi, where our representative meets you. In the afternoon, visit Humayun's Tomb, the Qutub Minar and India Gate. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Taj Mahal at sunrise – Delhi",
+    "text": "Visit the Taj Mahal at sunrise, when the marble changes colour and the crowds are smallest (closed on Fridays). After breakfast, drive back to Delhi (about 230 km, 4 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Mehtab Bagh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "agra-fatehpur-sikri-mathura-vrindavan",
+  "url": "/agra-fatehpur-sikri-mathura-vrindavan",
+  "title": "Mathura, Vrindavan and Agra Tour",
+  "name": "Mathura, Vrindavan and Agra Tour",
+  "page_title": "Mathura, Vrindavan and Agra Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days combining the Braj pilgrimage towns of Mathura and Vrindavan with the Taj Mahal, Agra Fort and Fatehpur Sikri.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Mathura - Vrindavan - Agra - Fatehpur Sikri",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Vrindavan)Delhi to Mathura and Vrindavan",
+    "text": "Our representative meets you in Delhi for the drive to Mathura (about 180 km, 3.5 hours): the Shri Krishna Janmabhoomi temple and the Dwarkadhish temple. Continue to Vrindavan (about 12 km) for the lit-up Prem Mandir in the evening. Overnight stay in Vrindavan.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Vrindavan temples – Agra",
+    "text": "Morning darshan at the Banke Bihari temple (darshan timings are fixed by the temple), the ISKCON temple and the Radha Raman temple. After lunch, drive to Agra (about 70 km). Sunset view of the Taj Mahal from Mehtab Bagh. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Taj Mahal, Agra Fort and Fatehpur Sikri",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays) and Agra Fort after breakfast. In the afternoon, drive to Fatehpur Sikri (about 40 km), the Mughal capital of Akbar, with the Buland Darwaza. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Agra to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 230 km, 4 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Mathura",
+   "Vrindavan",
+   "Agra",
+   "Fatehpur Sikri"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "delhi-jaipur-tour",
+  "url": "/delhi-jaipur-tour",
+  "title": "Delhi and Jaipur Tour",
+  "name": "Delhi and Jaipur Tour",
+  "page_title": "Delhi and Jaipur Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day trip from Delhi to the Pink City: Delhi's monuments, then Jaipur's Amber Fort, City Palace, Jantar Mantar and Hawa Mahal.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Delhi - Jaipur - Amber Fort",
+  "image": "",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi – sightseeing",
+    "text": "Arrive in Delhi, where our representative meets you. In the afternoon, see the Red Fort area, Raj Ghat, Humayun's Tomb and India Gate. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Jaipur)Delhi to Jaipur",
+    "text": "After breakfast, drive to Jaipur (about 280 km, 5–6 hours). In the evening, visit the Birla Mandir and drive past the lit-up Albert Hall Museum. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Jaipur sightseeing – Delhi",
+    "text": "After breakfast, visit Amber Fort and the Jal Mahal, then the City Palace, Jantar Mantar and Hawa Mahal. In the afternoon, drive back to Delhi (about 280 km, 5–6 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Jaipur",
+   "Amber Fort"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-haridwar-rishikesh",
+  "url": "/golden-triangle-with-haridwar-rishikesh",
+  "title": "Golden Triangle with Haridwar and Rishikesh",
+  "name": "Golden Triangle with Haridwar and Rishikesh",
+  "page_title": "Golden Triangle with Haridwar and Rishikesh – 8 Nights / 9 Days | Holiday Guru Travel",
+  "description": "Nine days joining the Golden Triangle to the Ganga: Delhi, the Taj Mahal and Jaipur, then the Ganga aarti in Haridwar and the ashrams of Rishikesh.",
+  "duration": "8 Nights / 9 Days",
+  "nights": 8,
+  "days": 9,
+  "cities": "Delhi - Agra - Jaipur - Haridwar - Rishikesh",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Delhi)Jaipur to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 280 km, 5–6 hours). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Haridwar)Delhi to Haridwar",
+    "text": "After breakfast, drive to Haridwar (about 230 km, 6 hours). In the evening, attend the Ganga aarti at Har Ki Pauri. Overnight stay in Haridwar.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Rishikesh)Rishikesh",
+    "text": "After breakfast, drive to Rishikesh (about 25 km). Walk across the Ram Jhula footbridge to the ashrams, visit the Beatles Ashram (entry paid locally) and attend the evening aarti at Parmarth Niketan or Triveni Ghat. Overnight stay in Rishikesh.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : Rishikesh to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 240 km, 6 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Haridwar",
+   "Rishikesh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-jodhpur-udaipur",
+  "url": "/golden-triangle-with-jodhpur-udaipur",
+  "title": "Golden Triangle with Jodhpur and Udaipur",
+  "name": "Golden Triangle with Jodhpur and Udaipur",
+  "page_title": "Golden Triangle with Jodhpur and Udaipur – 9 Nights / 10 Days | Holiday Guru Travel",
+  "description": "Ten days from Delhi through the Golden Triangle and on to the Blue City of Jodhpur, the Ranakpur temple and the lakes of Udaipur.",
+  "duration": "9 Nights / 10 Days",
+  "nights": 9,
+  "days": 10,
+  "cities": "Delhi - Agra - Jaipur - Jodhpur - Ranakpur - Udaipur",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you at the airport or railway station and transfers you to your hotel. In the evening, drive past India Gate and the government buildings of Rajpath (Kartavya Path). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Delhi)Delhi sightseeing",
+    "text": "After breakfast, see Old and New Delhi: the Red Fort (a UNESCO World Heritage Site) and the Jama Masjid, a cycle-rickshaw ride through Chandni Chowk (paid locally), Raj Ghat, Humayun's Tomb and the Qutub Minar. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Jodhpur)Jaipur to Jodhpur",
+    "text": "After breakfast, drive to Jodhpur (about 335 km, 6 hours). In the evening, walk through the old city around the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Jodhpur)Jodhpur sightseeing",
+    "text": "After breakfast, visit Mehrangarh Fort, rising above the blue houses of the old city, and the marble Jaswant Thada memorial. In the afternoon, see the Umaid Bhawan Palace museum and walk through the market at the Clock Tower. Overnight stay in Jodhpur.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Udaipur)Jodhpur to Udaipur via Ranakpur",
+    "text": "After breakfast, drive to Udaipur (about 260 km, 6–7 hours), visiting the marble Jain temple at Ranakpur, with its 1,444 carved pillars, on the way. Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : (Udaipur)Udaipur sightseeing",
+    "text": "After breakfast, visit the City Palace above Lake Pichola, the Jagdish temple and the Saheliyon Ki Bari gardens. In the evening, take a boat on Lake Pichola (paid locally) or watch the folk dance show at Bagore Ki Haveli (paid locally). Overnight stay in Udaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 10 : Departure from Udaipur",
+    "text": "After breakfast, transfer to Udaipur airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Jodhpur",
+   "Ranakpur",
+   "Udaipur"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Udaipur",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "golden-triangle-with-shimla",
+  "url": "/golden-triangle-with-shimla",
+  "title": "Golden Triangle with Shimla",
+  "name": "Golden Triangle with Shimla",
+  "page_title": "Golden Triangle with Shimla – 8 Nights / 9 Days | Holiday Guru Travel",
+  "description": "Nine days combining the Golden Triangle with the hills: Delhi, the Taj Mahal and Jaipur, then two nights in Shimla and a night in Chandigarh.",
+  "duration": "8 Nights / 9 Days",
+  "nights": 8,
+  "days": 9,
+  "cities": "Delhi - Agra - Jaipur - Shimla - Kufri - Chandigarh",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi – sightseeing",
+    "text": "Arrive in Delhi, where our representative meets you. In the afternoon, visit Humayun's Tomb, the Qutub Minar and India Gate. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Delhi to Agra",
+    "text": "After breakfast, drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. In the afternoon, visit Agra Fort and the Itimad-ud-Daulah tomb, often called the Baby Taj, and watch sunset over the Taj Mahal from Mehtab Bagh across the river. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jaipur)Taj Mahal – Fatehpur Sikri – Jaipur",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, drive to Jaipur (about 240 km, 5 hours), stopping at Fatehpur Sikri, the abandoned Mughal capital and a UNESCO World Heritage Site. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jaipur)Amber Fort and the Pink City",
+    "text": "After breakfast, drive to Amber Fort on its hill above Maota Lake, stopping for a photo of the Jal Mahal on the way. In the afternoon, visit the City Palace, the Jantar Mantar observatory (a UNESCO World Heritage Site) and the Hawa Mahal, and shop in Johari and Bapu bazaars. Overnight stay in Jaipur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Delhi)Jaipur to Delhi",
+    "text": "After breakfast, drive back to Delhi (about 280 km, 5–6 hours). Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Shimla)Delhi to Shimla",
+    "text": "After an early breakfast, drive to Shimla (about 350 km, 8–9 hours) by way of Chandigarh and the Kalka–Shimla highway. Evening on the Mall Road and the Ridge. Overnight stay in Shimla.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Shimla)Kufri and Shimla",
+    "text": "After breakfast, drive to Kufri (about 16 km) for views of the snow ranges and pony rides (paid locally). In the afternoon, visit the Jakhoo temple and the Viceregal Lodge (entry paid locally). Overnight stay in Shimla.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : (Chandigarh)Shimla to Chandigarh",
+    "text": "After breakfast, drive down to Chandigarh (about 115 km, 3–4 hours). Visit Nek Chand's Rock Garden and walk by Sukhna Lake in the evening. Overnight stay in Chandigarh.",
+    "generated": true
+   },
+   {
+    "title": "Day 9 : Chandigarh to Delhi",
+    "text": "After breakfast, drive to Delhi (about 250 km, 5 hours). The tour ends in Delhi.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Shimla",
+   "Kufri",
+   "Chandigarh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "agra-orchha-khajuraho",
+  "url": "/agra-orchha-khajuraho",
+  "title": "Agra, Orchha and Khajuraho Tour",
+  "name": "Agra, Orchha and Khajuraho Tour",
+  "page_title": "Agra, Orchha and Khajuraho Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days from the Taj Mahal to central India: Agra, Gwalior Fort, the Bundela palaces and temples of Orchha, and the carved temples of Khajuraho.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Agra - Gwalior - Orchha - Khajuraho",
+  "image": "assets/img/packages/taj-mahal-agra.jpg",
+  "group": "golden-triangle",
+  "departure": "Delhi",
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Agra)Delhi to Agra",
+    "text": "Our representative meets you in Delhi for the drive to Agra (about 230 km, 4 hours) on the Yamuna Expressway. Sunset view of the Taj Mahal from Mehtab Bagh. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Agra)Taj Mahal and Agra Fort",
+    "text": "Visit the Taj Mahal at sunrise (closed on Fridays). After breakfast, see Agra Fort and the Itimad-ud-Daulah tomb, and the marble inlay workshops of the old city. Overnight stay in Agra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Orchha)Agra to Orchha via Gwalior",
+    "text": "After breakfast, drive to Orchha (about 250 km, 5–6 hours), stopping at Gwalior Fort with the Man Singh Palace and the Saas-Bahu temples. Overnight stay in Orchha.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Orchha)Orchha",
+    "text": "A day in Orchha, the old Bundela capital on the Betwa river: the Jahangir Mahal and Raj Mahal palaces, the Raja Ram temple, where Ram is worshipped as a king, the Chaturbhuj temple and the royal chhatris (cenotaphs) by the river at sunset. Overnight stay in Orchha.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Khajuraho)Orchha to Khajuraho",
+    "text": "After breakfast, drive to Khajuraho (about 175 km, 4 hours). In the afternoon, visit the Western Group of temples, a UNESCO World Heritage Site famous for their sculpture. The evening light and sound show is optional (paid locally). Overnight stay in Khajuraho.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Khajuraho temples – departure",
+    "text": "After breakfast, visit the Eastern and Jain group of temples, then transfer to Khajuraho airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Agra",
+   "Gwalior",
+   "Orchha",
+   "Khajuraho"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Khajuraho",
+  "itinerary_source": "standard",
+  "special_notes": "Monument entry fees are paid locally. The Taj Mahal is closed on Fridays; the Red Fort, Akshardham and the Lotus Temple are closed on Mondays."
+ },
+ {
+  "slug": "varanasi-kashi-tour",
+  "url": "/varanasi-kashi-tour",
+  "title": "Varanasi (Kashi) Spiritual Tour",
+  "name": "Varanasi (Kashi) Spiritual Tour",
+  "page_title": "Varanasi (Kashi) Spiritual Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day stay in Kashi: the evening Ganga aarti at Dashashwamedh Ghat, a sunrise boat along the ghats, and darshan at Kashi Vishwanath.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Varanasi - Dashashwamedh Ghat - Kashi Vishwanath",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed every evening with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Sunrise on the ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally), past Manikarnika and the old palaces on the riverfront. After breakfast, visit the Kashi Vishwanath temple through the new Kashi Vishwanath Dham corridor (mobile phones are not allowed inside), the Sankat Mochan Hanuman temple and the Banaras Hindu University campus. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Departure from Varanasi",
+    "text": "After breakfast, transfer to Varanasi airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Dashashwamedh Ghat",
+   "Kashi Vishwanath"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Varanasi",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides and entry fees are paid locally."
+ },
+ {
+  "slug": "varanasi-sarnath",
+  "url": "/varanasi-sarnath",
+  "title": "Varanasi and Sarnath Tour",
+  "name": "Varanasi and Sarnath Tour",
+  "page_title": "Varanasi and Sarnath Tour – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in Varanasi and Sarnath: the Ganga aarti and sunrise on the ghats, Kashi Vishwanath, the Dhamek Stupa where the Buddha first taught, and Ramnagar Fort.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Varanasi - Sarnath - Ramnagar",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed every evening with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Sunrise on the ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally), past Manikarnika and the old palaces on the riverfront. After breakfast, visit the Kashi Vishwanath temple through the new Kashi Vishwanath Dham corridor (mobile phones are not allowed inside), the Sankat Mochan Hanuman temple and the Banaras Hindu University campus. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Varanasi)Sarnath and Ramnagar Fort",
+    "text": "After breakfast, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa, the ruins of the old monasteries and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). In the afternoon, cross the Ganga to the Ramnagar Fort and its museum. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Varanasi",
+    "text": "After breakfast, transfer to Varanasi airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Sarnath",
+   "Ramnagar"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Varanasi",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides and entry fees are paid locally."
+ },
+ {
+  "slug": "ayodhya-ram-mandir-tour",
+  "url": "/ayodhya-ram-mandir-tour",
+  "title": "Ayodhya Ram Mandir Tour",
+  "name": "Ayodhya Ram Mandir Tour",
+  "page_title": "Ayodhya Ram Mandir Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day pilgrimage to Ayodhya: the Saryu aarti at Ram Ki Paidi, darshan at the Shri Ram Janmabhoomi temple, Hanuman Garhi and Kanak Bhawan.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Ayodhya - Ram Janmabhoomi - Hanuman Garhi - Saryu",
+  "image": "",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ayodhya)Arrive in Ayodhya – Saryu aarti",
+    "text": "Arrive at Ayodhya airport or Ayodhya Dham railway station, where our representative meets you, and transfer to your hotel. In the evening, attend the Saryu aarti at the ghats of Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ayodhya)Shri Ram Janmabhoomi temple and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available). Then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Departure from Ayodhya",
+    "text": "After breakfast, transfer to Ayodhya airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 5, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ayodhya",
+   "Ram Janmabhoomi",
+   "Hanuman Garhi",
+   "Saryu"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Ayodhya",
+  "end": "Ayodhya",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides and entry fees are paid locally."
  }
 ]

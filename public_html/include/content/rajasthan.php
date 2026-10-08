@@ -18,7 +18,7 @@ return array(
         array('Jaipur, Jodhpur and Udaipur in 7 days', '/rajasthan-jaipur-jodhpur-udaipur'),
         array('Royal Rajasthan with Jaisalmer', '/rajasthan-jaipur-jodhpur-jaisalmer-udaipur'),
     ),
-    'intro' => 'Rajasthan tour packages cover the royal cities of Jaipur, Jodhpur and Udaipur, the desert city of Jaisalmer with the Sam sand dunes, and Pushkar, Mount Abu, Chittorgarh, Kumbhalgarh, Bikaner and the Ranthambore tiger reserve. Our Rajasthan itineraries run 3 to 9 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Rajasthan tour packages cover the royal cities of Jaipur, Jodhpur and Udaipur, the desert city of Jaisalmer with the Sam sand dunes, and Pushkar, Mount Abu, Chittorgarh, Kumbhalgarh, Bundi, the painted havelis of Shekhawati, Bikaner and the Ranthambore tiger reserve. Our Rajasthan itineraries run 3 to 11 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('Forts and palaces', 'Amber, Mehrangarh, Jaisalmer, Chittorgarh and Kumbhalgarh — several of them on the UNESCO World Heritage list.'),
         array('Desert and dunes', 'Sunset on the Sam sand dunes and the golden lanes of Jaisalmer Fort.'),
@@ -31,7 +31,7 @@ return array(
         array('July – September', 'Monsoon', 'Lighter rain than most of India; Udaipur\'s lakes fill up, and Ranthambore\'s main zones close.'),
     ),
     'best_time_answer' => 'October to March is the best time to visit Rajasthan; summer (April–June) is very hot, especially in the Thar desert.',
-    'days_answer' => 'Two to three days covers Jaipur alone; allow 5 days for Jodhpur and Jaisalmer or Udaipur and Mount Abu, 7 days for Jaipur, Jodhpur and Udaipur, and 9 days to add Jaisalmer.',
+    'days_answer' => 'Two to three days covers Jaipur alone; allow 5 days for Jodhpur and Jaisalmer or Udaipur and Mount Abu, 7 days for Jaipur, Jodhpur and Udaipur, 9 days to add Jaisalmer, and 11 days for the grand tour with Pushkar.',
     'days_rows' => array(
         array('3 days', 'Jaipur: Amber Fort, City Palace and Hawa Mahal', 'rajasthan-jaipur'),
         array('5 days', 'Jodhpur and Jaisalmer with the Sam dunes', 'rajasthan-jodhpur-jaisalmer'),

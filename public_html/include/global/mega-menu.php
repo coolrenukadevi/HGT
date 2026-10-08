@@ -134,9 +134,9 @@ if ($hgMegaPanel === 'india') {
 } elseif ($hgMegaPanel === 'inbound') {
     echo $hgMega['cols']('inbound', array(
         'Himalayas & hills' => $hgMega['g'](array('kashmir', 'ladakh', 'himachal', 'uttarakhand', 'sikkim-darjeeling')),
-        'Spiritual India' => array_merge($hgMega['g'](array('char-dham', 'amarnath')), array(array('All pilgrimage tours', '/religious-tour'))),
+        'Spiritual India' => array_merge($hgMega['g'](array('char-dham', 'amarnath', 'kashi-ayodhya')), array(array('All pilgrimage tours', '/religious-tour'))),
         'Beaches & backwaters' => $hgMega['g'](array('kerala', 'goa', 'south-india')),
-        'Heritage & desert' => $hgMega['g'](array('rajasthan')),
+        'Heritage & desert' => $hgMega['g'](array('golden-triangle', 'rajasthan')),
     ), $hgMega['feature']('Visiting India from abroad?', 'Day-by-day India itineraries with hotels, private transfers and sightseeing — planned with you on WhatsApp before you fly.',
         array(array('India tours for visitors', '/india-tours', true), array('Plan my India trip', '/customized-holidays', false))));
 
