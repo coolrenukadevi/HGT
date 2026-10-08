@@ -21,7 +21,7 @@ return array(
         array('Ajanta and Ellora in 4 days', '/maharashtra-aurangabad-ajanta-ellora'),
         array('Mahabaleshwar and Panchgani in 4 days', '/maharashtra-mahabaleshwar-panchgani'),
     ),
-    'intro' => 'Maharashtra tour packages cover Mumbai and the Elephanta Caves, the hill stations of Lonavala, Mahabaleshwar and Panchgani, the Ajanta and Ellora caves, Shirdi and Shani Shingnapur, the Jyotirlingas of Trimbakeshwar, Grishneshwar and Bhimashankar, Kolhapur, the Konkan coast from Ganpatipule to Tarkarli, and Tadoba Tiger Reserve. Our itineraries run 3 to 6 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Maharashtra tour packages cover Mumbai and the Elephanta Caves, the hill stations of Lonavala, Mahabaleshwar and Panchgani, the Ajanta and Ellora caves, Shirdi and Shani Shingnapur, the Jyotirlingas of Trimbakeshwar, Grishneshwar and Bhimashankar, the eight Ashtavinayak temples, Pandharpur, Tuljapur and Akkalkot, Kolhapur, Matheran, Pune, Satara\'s Kaas plateau, Igatpuri and Bhandardara, the coast from Alibaug, Kashid and Ganpatipule to Tarkarli, and Tadoba Tiger Reserve. Our itineraries run 3 to 6 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('Cave art', 'The painted caves of Ajanta and the Kailasa temple at Ellora, both UNESCO World Heritage Sites.'),
         array('Pilgrimage', 'Shirdi, Trimbakeshwar, Grishneshwar, Bhimashankar and Kolhapur\'s Mahalaxmi.'),

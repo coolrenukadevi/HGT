@@ -19,7 +19,7 @@ return array(
         array('4-day Delightful Goa itinerary', '/delightful-goa-tour'),
         array('Goa with Dudhsagar jeep safari', '/sun-kissed-goa-escape'),
     ),
-    'intro' => 'Goa tour packages are beach holidays of 3 to 6 days with North and South Goa sightseeing, Old Goa and Panaji, hotel stays with breakfast, and airport or station transfers. Some stay in North or South Goa only, one splits the stay between both, and two add a jeep trip to Dudhsagar Falls.',
+    'intro' => 'Goa tour packages are holidays of 3 to 6 days with North and South Goa sightseeing, Old Goa and Panaji, hotel stays with breakfast, and airport or station transfers. Some stay in North or South Goa only, one splits the stay between both, and two add a jeep trip to Dudhsagar Falls. Others cover the heritage of Old Goa and Fontainhas, the quiet northern beaches of Morjim and Arambol, Palolem and Cabo de Rama in the south, the spice farms and Netravali sanctuary inland, Chorla Ghat, and Gokarna across the border.',
     'why' => array(
         array(
             'Beaches for every mood',
@@ -44,7 +44,7 @@ return array(
         array('October', 'Shoulder', 'Rain eases and the season begins.'),
     ),
     'best_time_answer' => 'November to February is the best time for a Goa beach holiday; the monsoon (June–September) is green and quieter.',
-    'days_answer' => 'Three days covers North Goa and Old Goa; 4–5 days adds South Goa or Dudhsagar Falls; allow 6 days to split the stay between North and South Goa.',
+    'days_answer' => 'Three days covers North Goa and Old Goa, the Old Goa heritage trail or Chorla Ghat; 4–5 days adds South Goa, Palolem, the hinterland, Dudhsagar Falls or Gokarna; allow 6 days to split the stay between North and South Goa.',
     'days_rows' => array(
         array('4 days', 'North Goa and a relaxed day in South Goa', 'delightful-goa-tour'),
         array('4 days', 'Full-day North and South Goa sightseeing', 'enticing-tour-to-goa'),

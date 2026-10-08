@@ -19,7 +19,7 @@ return array(
         array('4-day Munnar Alleppey itinerary', '/munnar-alleppey-tour-package'),
         array('5-day Munnar, Thekkady and Alleppey', '/munnar-thekkady-alleppey'),
     ),
-    'intro' => 'Kerala tour packages combine the tea hills of Munnar, the Periyar forests at Thekkady and the Alleppey and Kumarakom backwaters (some with a houseboat night), with Kovalam, Varkala, Kanyakumari or Wayanad on other trips. Our Kerala itineraries run 3 to 10 days from Cochin, Trivandrum or Kozhikode.',
+    'intro' => 'Kerala tour packages combine the tea hills of Munnar, the Periyar forests at Thekkady and the Alleppey and Kumarakom backwaters (some with a houseboat night), with Kovalam, Varkala, Kanyakumari or Wayanad on other trips. Shorter trips cover Fort Kochi\'s heritage, Guruvayur and Thrissur, Vagamon, Marari beach, Marayoor and Chinnar, Poovar, Ponmudi, Nelliyampathy, Bekal fort and the theyyam of Kannur. Our Kerala itineraries run 3 to 10 days from Cochin, Trivandrum, Kozhikode, Kannur, Mangalore or Coimbatore.',
     'why' => array(
         array(
             'Backwater houseboats',

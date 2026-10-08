@@ -38,6 +38,7 @@ return array(
     '/travel-guide/gujarat'               => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D2)
     '/travel-guide/madhya-pradesh'        => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D2)
     '/travel-guide/maharashtra'           => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D2)
+    '/travel-guide/andhra-telangana'      => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D3)
     '/cancellation-policy'  => 'approved',
     '/refund-policy'        => 'approved',
     '/payment-policy'       => 'approved',

@@ -93,12 +93,12 @@
     },
     {
       "key": "south-india",
-      "name": "Ooty, Mysore & Coorg",
+      "name": "Karnataka & Ooty",
       "region": "india",
       "area": "South India",
       "hub_url": "/tours/south-india",
-      "match": "ooty|mysore|coorg|bangalore|banglore|kodaikanal|wayand|kanyakumari",
-      "keywords": "ooty mysore coorg bangalore kodaikanal wayanad karnataka tamil nadu",
+      "match": "ooty|mysore|coorg|bangalore|banglore|kodaikanal|wayand|kanyakumari|karnataka|gokarna|udupi|badami|hampi|kabini",
+      "keywords": "ooty mysore coorg bangalore kodaikanal wayanad karnataka tamil nadu karnataka gokarna udupi murudeshwar mangalore dharmasthala kukke kollur sringeri badami pattadakal aihole belur halebidu shravanabelagola jog falls dandeli sakleshpur kabini bandipur br hills",
       "content": "south-india"
     },
     {
@@ -300,6 +300,16 @@
       "match": "maharashtra|mumbai|lonavala|mahabaleshwar|ajanta|ellora|shirdi|nashik|tadoba|konkan",
       "keywords": "maharashtra mumbai lonavala mahabaleshwar panchgani ajanta ellora aurangabad shirdi nashik trimbakeshwar kolhapur konkan tarkarli tadoba",
       "content": "maharashtra"
+    },
+    {
+      "key": "andhra-telangana",
+      "name": "Andhra Pradesh & Telangana",
+      "region": "india",
+      "area": "South India",
+      "hub_url": "/tours/andhra-telangana",
+      "match": "andhra|telangana|tirupati|tirumala|srisailam|hyderabad|warangal|vizag|visakhapatnam|araku|vijayawada",
+      "keywords": "andhra pradesh telangana tirupati tirumala srikalahasti srisailam hyderabad charminar golconda ramoji warangal ramappa yadadri vijayawada amaravati visakhapatnam vizag araku borra bhadrachalam papikondalu lepakshi puttaparthi gandikota belum",
+      "content": "andhra-telangana"
     }
   ]
 }

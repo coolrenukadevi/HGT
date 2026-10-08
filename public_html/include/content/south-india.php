@@ -1,8 +1,8 @@
 <?php
 /**
- * Ooty, Mysore & Coorg destination content (used by /tours/south-india and Ooty, Mysore & Coorg package pages).
+ * Karnataka & Ooty destination content (used by /tours/south-india and Karnataka & Ooty package pages).
  *
- * Sources: Holiday Guru Travel's own Ooty, Mysore & Coorg itineraries (routes, distances,
+ * Sources: Holiday Guru Travel's own Karnataka & Ooty itineraries (routes, distances,
  * inclusions) and well-established destination facts. Rules that change often
  * (visas, permits, registrations) are described generally and confirmed per booking.
  * STATUS 'review': published; owner/travel team to review wording.
@@ -11,7 +11,7 @@
 return array(
     'status' => 'review',
     'reviewed' => '2026-10-08',
-    'name' => 'Ooty, Mysore & Coorg',
+    'name' => 'Karnataka & Ooty',
     'image' => 'assets/img/destinations/south-india.jpg',
     'map_query' => 'Mysore, Karnataka',
     'related' => array('kerala', 'goa', 'sikkim-darjeeling', 'uttarakhand'),
@@ -19,7 +19,7 @@ return array(
         array('5-day Bangalore, Mysore and Ooty itinerary', '/bangalore-mysore-ooty-tour'),
         array('Kerala tour packages', '/tours/kerala'),
     ),
-    'intro' => 'Ooty, Mysore and Coorg tour packages combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg and Chikmagalur, Wayanad or Kodaikanal, and the ruins of Hampi. Most start in Bangalore; Nilgiri tours start in Coimbatore and Hampi tours in Hospet. Our itineraries run 3 to 7 days by road.',
+    'intro' => 'Karnataka and Ooty tour packages combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg, Chikmagalur and Sakleshpur, the wildlife of Kabini, Bandipur and BR Hills, the temple coast of Udupi, Murudeshwar and Gokarna, the pilgrim towns of Dharmasthala, Kukke, Kollur and Sringeri, Jog Falls and Dandeli, and the heritage of Hampi, Badami, Pattadakal, Belur and Halebidu, with Wayanad or Kodaikanal on some trips. Tours start in Bangalore, Mangalore, Hubli or Coimbatore. Our itineraries run 3 to 8 days by road.',
     'why' => array(
         array('Royal Mysore', 'Mysore Palace, Chamundi Hills and the Brindavan Gardens.'),
         array('Nilgiri hills', 'Ooty and Coonoor: tea gardens, lakes and the Nilgiri Mountain Railway.'),
@@ -39,12 +39,15 @@ return array(
         array('July – September', 'Monsoon', 'Green and misty, with heavy rain in Coorg and Wayanad.'),
     ),
     'best_time_answer' => 'October to March is the best time to visit Mysore and Coorg; April to June is peak season in Ooty.',
-    'days_answer' => 'Three days covers Mysore from Bangalore; four days covers Coorg, Chikmagalur, Hampi, or Mysore with Coorg or Wayanad; allow 5–6 days for Ooty with Coonoor or Kodaikanal, and 7 days for Mysore, Ooty and Coorg together.',
+    'days_answer' => 'Three days covers Mysore, Gokarna, Kabini or Sakleshpur; four days covers Coorg, Hampi, Badami, the Hoysala temples or the Udupi coast; allow 5–7 days for Ooty with Coonoor or Kodaikanal, or Coorg with Chikmagalur, and 8 days for the Karnataka heritage trail.',
     'days_rows' => array(
         array('4 days', 'Mysore and Coorg', 'mysore-coorg'),
         array('4 days', 'Mysore and Wayanad', 'south-india-mysore-wayanad'),
         array('5 days', 'Bangalore, Mysore and Ooty', 'bangalore-mysore-ooty-tour'),
         array('6 days', 'Mysore, Ooty and Kodaikanal', 'mysore-ooty-kodaikanal'),
+        array('4 days', 'Badami, Aihole and Pattadakal', 'karnataka-badami-aihole-pattadakal'),
+        array('5 days', 'Udupi, Murudeshwar and Gokarna', 'karnataka-udupi-murudeshwar-gokarna'),
+        array('8 days', 'Karnataka heritage trail', 'karnataka-heritage-hampi-badami-belur-halebidu'),
     ),
     'cost_answer' => 'The cost depends on the number of nights, hotel category and season. We quote each trip for your dates.',
     'cost_factors' => array(
@@ -67,6 +70,8 @@ return array(
         ),
         array('Wayanad', 'Forests, waterfalls and viewpoints in the Western Ghats; about 150 km from Mysore.'),
         array('Kodaikanal', 'A lake town in the Palani hills with forest walks and viewpoints.'),
+        array('Hampi, Badami and the Hoysala temples', 'The Vijayanagara ruins, the Chalukya caves and temples of Badami, Aihole and Pattadakal, and the carved temples of Belur and Halebidu.'),
+        array('The temple coast', 'Udupi\'s Krishna Matha, Murudeshwar\'s giant Shiva, Gokarna\'s beaches and Kollur Mookambika.'),
     ),
     'things' => array(
         'Tour Mysore Palace',
@@ -75,9 +80,11 @@ return array(
         'Visit the Botanical Garden and lake in Ooty',
         'See the Tibetan settlement at Bylakuppe',
         'Boat on Kodaikanal Lake',
+        'See the stone chariot of Hampi\'s Vittala temple',
+        'Walk the cliff path to Om beach at Gokarna',
     ),
     'stay' => 'Standard / 3-star equivalent hotels with breakfast on the standard packages, deluxe on twin sharing in some others, as listed on each package.',
-    'transport' => 'Tours start and end in Bangalore, Mysore, Coimbatore, Madurai or Hospet, with pick-up from the airport, railway station or bus stand and transfers and sightseeing as specified on each package.',
+    'transport' => 'Tours start and end in Bangalore, Mysore, Mangalore, Hubli, Coimbatore, Madurai or Hospet, with pick-up from the airport, railway station or bus stand and transfers and sightseeing as specified on each package.',
     'who_title' => 'Who it suits',
     'who' => array(
         array('Families', 'Palaces, gardens and a toy train make this an easy family circuit.'),
