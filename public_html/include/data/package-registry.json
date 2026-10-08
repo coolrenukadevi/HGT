@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -1857,6 +1857,156 @@
   {
    "package_id": "0261",
    "slug": "tamil-nadu-madurai-rameswaram-kanyakumari-kodaikanal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0262",
+   "slug": "thailand-bangkok-pattaya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0263",
+   "slug": "thailand-bangkok-ayutthaya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0264",
+   "slug": "thailand-phuket-phi-phi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0265",
+   "slug": "thailand-krabi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0266",
+   "slug": "thailand-phuket-krabi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0267",
+   "slug": "thailand-bangkok-phuket",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0268",
+   "slug": "thailand-bangkok-pattaya-phuket",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0269",
+   "slug": "thailand-bangkok-pattaya-krabi-phuket",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0270",
+   "slug": "thailand-chiang-mai-chiang-rai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0271",
+   "slug": "thailand-bangkok-chiang-mai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0272",
+   "slug": "uae-dubai-abu-dhabi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0273",
+   "slug": "uae-dubai-abu-dhabi-sharjah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0274",
+   "slug": "uae-abu-dhabi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0275",
+   "slug": "uae-dubai-ras-al-khaimah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0276",
+   "slug": "uae-dubai-fujairah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0277",
+   "slug": "uae-dubai-sharjah-ajman",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0278",
+   "slug": "uae-dubai-abu-dhabi-ras-al-khaimah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0279",
+   "slug": "uae-dubai-leisure",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0280",
+   "slug": "singapore-city-sentosa",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0281",
+   "slug": "singapore-with-sentosa-stay",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0282",
+   "slug": "singapore-kuala-lumpur-genting",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0283",
+   "slug": "singapore-bintan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0284",
+   "slug": "singapore-langkawi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0285",
+   "slug": "singapore-penang-kuala-lumpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0286",
+   "slug": "singapore-bali",
    "internal_key": "",
    "status": "approved"
   }

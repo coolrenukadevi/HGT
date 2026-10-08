@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 354 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–7 (IDs 0183–0261), new destinations Rajasthan, Golden Triangle, Varanasi & Ayodhya, Vaishno Devi and Tamil Nadu, destination text refreshed. -->
+<!-- 381 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–7 (IDs 0183–0261), new destinations Rajasthan, Golden Triangle, Varanasi & Ayodhya, Vaishno Devi and Tamil Nadu, destination text refreshed; international batch I1 (IDs 0262–0286) and new destination Thailand. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -729,13 +729,19 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/tours/dubai</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://holidaygurutravel.in/tours/singapore-malaysia</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tours/thailand</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -897,13 +903,19 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/travel-guide/dubai</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://holidaygurutravel.in/travel-guide/singapore-malaysia</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/travel-guide/thailand</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2121,6 +2133,156 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/tamil-nadu-madurai-rameswaram-kanyakumari-kodaikanal</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-pattaya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-ayutthaya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-phuket-phi-phi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-krabi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-phuket-krabi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-phuket</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-pattaya-phuket</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-pattaya-krabi-phuket</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-chiang-mai-chiang-rai</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/thailand-bangkok-chiang-mai</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-abu-dhabi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-abu-dhabi-sharjah</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-abu-dhabi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-ras-al-khaimah</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-fujairah</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-sharjah-ajman</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-abu-dhabi-ras-al-khaimah</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/uae-dubai-leisure</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-city-sentosa</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-with-sentosa-stay</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-kuala-lumpur-genting</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-bintan</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-langkawi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-penang-kuala-lumpur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/singapore-bali</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -10,8 +10,8 @@
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
-    'name' => 'Dubai',
+    'reviewed' => '2026-10-08',
+    'name' => 'Dubai & UAE',
     'image' => 'assets/img/destinations/dubai.jpg',
     'map_query' => 'Dubai, United Arab Emirates',
     'related' => array('singapore-malaysia', 'maldives', 'goa', 'kerala'),
@@ -20,11 +20,11 @@ return array(
         array('5-day Standard Dubai with flights from Delhi', '/standard-tour-to-dubai'),
         array('5-day Deluxe Dubai with airfare from Delhi', '/deluxe-tour-to-dubai'),
     ),
-    'intro' => 'Dubai tour packages include hotel stays with breakfast, a Dubai city tour with Burj Khalifa, a dhow cruise with dinner and a desert safari with BBQ dinner, with airport transfers. Our Dubai itineraries run 3 to 5 days; two of them (Standard and Deluxe) include economy airfare from Delhi.',
+    'intro' => 'Dubai and UAE tour packages cover Dubai\'s creek, souks, Palm Jumeirah and Burj Khalifa, with Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah and Fujairah. Some packages include the dhow cruise, desert safari and Burj Khalifa, and two include economy airfare from Delhi; on the standard land-only packages these are optional. Our itineraries run 3 to 7 days.',
     'why' => array(
         array(
             'Burj Khalifa',
-            'City tours include the observation deck of the world’s tallest building on several packages.',
+            'The observation deck of the world’s tallest building is included on several packages and optional on the others.',
         ),
         array('Desert safari', 'Dune drive, camp activities and a BBQ dinner in the desert.'),
         array('Dhow cruise', 'An evening cruise with dinner on a traditional wooden dhow.'),
@@ -41,7 +41,7 @@ return array(
         array('October', 'Shoulder', 'Heat eases and outdoor activities restart.'),
     ),
     'best_time_answer' => 'November to March is the best time to visit Dubai; summer (June–September) is very hot.',
-    'days_answer' => 'Three to four days covers the city tour, Burj Khalifa, a dhow cruise and a desert safari; allow 5 days to add a day at leisure or an Abu Dhabi excursion.',
+    'days_answer' => 'Three to four days covers the city tour, Burj Khalifa, a dhow cruise and a desert safari; allow 5–7 days to add Abu Dhabi, Sharjah, Ras Al Khaimah or Fujairah, or free days at leisure.',
     'days_rows' => array(
         array('3 days', 'City tour with Burj Khalifa and dhow cruise', 'best-of-dubai-tour'),
         array('4 days', 'City tour, dhow cruise and desert safari', 'best-dubai-tour'),
@@ -95,7 +95,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in Dubai tour packages?',
-            '<p>Hotel stays with breakfast, airport transfers, and the sightseeing listed — typically a city tour with Burj Khalifa, a dhow cruise with dinner and a desert safari with dinner. Selected packages also include economy airfare from Delhi, as listed in their inclusions.</p>',
+            '<p>Hotel stays with breakfast, airport transfers, and the sightseeing listed. Some packages include a city tour with Burj Khalifa, a dhow cruise with dinner and a desert safari with dinner; on the standard land-only packages these are optional extras. Selected packages also include economy airfare from Delhi, as listed in their inclusions.</p>',
         ),
         array(
             'Are flights included?',
@@ -107,7 +107,7 @@ return array(
         ),
         array(
             'How many days are enough for Dubai?',
-            '<p>Three to four days for the main sights; five days for a more relaxed trip.</p>',
+            '<p>Three to four days for the main sights of Dubai; five to seven days to add Abu Dhabi and the other emirates.</p>',
         ),
         array('What is the best time to visit Dubai?', '<p>November to March.</p>'),
         array(

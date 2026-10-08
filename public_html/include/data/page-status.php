@@ -26,6 +26,7 @@ return array(
     '/travel-guide/dubai'                 => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/singapore-malaysia'    => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/maldives'              => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
+    '/travel-guide/thailand'              => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I1)
     '/cancellation-policy'  => 'approved',
     '/refund-policy'        => 'approved',
     '/payment-policy'       => 'approved',

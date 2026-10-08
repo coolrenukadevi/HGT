@@ -10,7 +10,7 @@
  */
 return array(
     'status' => 'review',
-    'reviewed' => '2026-09-30',
+    'reviewed' => '2026-10-08',
     'name' => 'Singapore & Malaysia',
     'image' => 'assets/img/destinations/singapore-malaysia.jpg',
     'map_query' => 'Singapore',
@@ -19,7 +19,7 @@ return array(
         array('5-day Singapore and Kuala Lumpur', '/singapore-and-kuala-lumpur-tour'),
         array('The Magical Tour to Singapore', '/the-magical-tour-to-singapore'),
     ),
-    'intro' => 'Singapore and Malaysia tour packages combine Singapore with Kuala Lumpur, and on the 9-day itineraries continue to Thailand (Pattaya, Phuket and Bangkok). Hotels are named on each package, with return airport transfers and sightseeing on a shared basis. Our itineraries run 5 or 9 days.',
+    'intro' => 'Singapore and Malaysia tour packages cover Singapore\'s Marina Bay, Gardens by the Bay and Sentosa, with Kuala Lumpur, Genting, Penang and Langkawi in Malaysia, the island of Bintan, and Bali. Some packages name their hotels; the standard land-only packages use standard / 3-star hotels with breakfast. Our itineraries run 4 to 9 days.',
     'why' => array(
         array('Singapore highlights', 'Sentosa, Universal Studios and the Night Safari on selected packages.'),
         array(
@@ -27,8 +27,8 @@ return array(
             'Singapore with Kuala Lumpur, and optional Thailand on the longer tours.',
         ),
         array(
-            'Named hotels',
-            'Each package lists its hotels, such as Ibis Styles properties in Singapore, Kuala Lumpur, Phuket and Bangkok.',
+            'Islands nearby',
+            'Sentosa, Bintan by ferry, Langkawi and Bali are a short trip from Singapore.',
         ),
         array('Great for families', 'Theme parks, safaris and clean, easy cities.'),
     ),
@@ -46,7 +46,7 @@ return array(
         ),
     ),
     'best_time_answer' => 'Singapore and Malaysia can be visited year-round; February to April is usually the driest.',
-    'days_answer' => 'Five days covers Singapore, or Singapore with Kuala Lumpur; allow 9 days to add Thailand.',
+    'days_answer' => 'Four days covers Singapore; 5–6 days adds Sentosa, Bintan, Langkawi or Kuala Lumpur; allow 7–9 days for Penang, Bali or Thailand.',
     'days_rows' => array(
         array('5 days', 'Singapore with Sentosa and Night Safari', 'the-magical-tour-to-singapore'),
         array(
@@ -101,7 +101,7 @@ return array(
         'Visit Batu Caves',
         'Take the Phi Phi Island tour from Phuket',
     ),
-    'stay' => 'Each package names its hotels — for example Ibis Styles hotels in Singapore, Kuala Lumpur, Phuket and Bangkok, or V Lavender and Holiday Inn Express on the 5-day Singapore–Kuala Lumpur tour.',
+    'stay' => 'Some packages name their hotels — for example Ibis Styles hotels, or V Lavender and Holiday Inn Express on the 5-day Singapore–Kuala Lumpur tour; the standard packages use standard / 3-star hotels with breakfast.',
     'transport' => 'Return airport transfers are private; sightseeing is on a shared (seat-in-coach) basis unless stated. Some itineraries include a coach transfer from Singapore to Kuala Lumpur.',
     'who_title' => 'Who it suits',
     'who' => array(
@@ -117,7 +117,7 @@ return array(
     'faqs' => array(
         array(
             'What is included in these packages?',
-            '<p>Named hotel stays, return airport transfers on a private basis, sightseeing on a shared basis as per the itinerary, and applicable taxes. Each package lists its inclusions and exclusions.</p>',
+            '<p>Hotel stays with breakfast, airport transfers and sightseeing as listed on each package. Attraction tickets, ferries and flights between countries are optional or quoted separately. Each package lists its inclusions and exclusions.</p>',
         ),
         array(
             'Are flights and visas included?',
@@ -125,9 +125,9 @@ return array(
         ),
         array(
             'How many days are enough?',
-            '<p>Five days for Singapore, or Singapore with Kuala Lumpur; nine days to add Thailand.</p>',
+            '<p>Four to five days for Singapore; six to eight days to add Malaysia, Bintan or Bali.</p>',
         ),
-        array('Which hotels are used?', '<p>Each package names its hotels on the package page.</p>'),
+        array('Which hotels are used?', '<p>Packages with named hotels list them on the package page; the standard packages use standard / 3-star hotels or similar.</p>'),
         array(
             'What is the best time to visit?',
             '<p>Year-round; February to April is usually the driest.</p>',

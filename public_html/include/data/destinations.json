@@ -153,12 +153,12 @@
     },
     {
       "key": "dubai",
-      "name": "Dubai",
+      "name": "Dubai & UAE",
       "region": "international",
       "area": "Middle East",
       "hub_url": "/tours/dubai",
       "match": "dubai",
-      "keywords": "dubai uae burj khalifa desert safari",
+      "keywords": "dubai uae burj khalifa desert safari uae abu dhabi sharjah ras al khaimah fujairah",
       "content": "dubai"
     },
     {
@@ -170,6 +170,16 @@
       "match": "singapore|thailand|kuala|pattaya",
       "keywords": "singapore malaysia kuala lumpur thailand pattaya",
       "content": "singapore-malaysia"
+    },
+    {
+      "key": "thailand",
+      "name": "Thailand",
+      "region": "international",
+      "area": "South-East Asia",
+      "hub_url": "/tours/thailand",
+      "match": "thailand|bangkok|phuket|krabi|pattaya|chiang",
+      "keywords": "thailand bangkok pattaya phuket krabi phi phi chiang mai chiang rai ayutthaya",
+      "content": "thailand"
     },
     {
       "key": "maldives",
