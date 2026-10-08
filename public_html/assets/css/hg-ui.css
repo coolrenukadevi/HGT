@@ -1196,6 +1196,15 @@ a.hg-tp__logo:focus-visible { outline: 3px solid var(--hg-navy); outline-offset:
 .hg-rcard__price span { display: block; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--hg-muted-2); }
 .hg-rcard__price strong { display: block; font-family: var(--hg-font-head); font-size: 19px; color: var(--hg-navy); }
 .hg-rcard__price small { display: block; font-size: 12px; color: var(--hg-muted-2); }
+.hg-moredest { padding-top: 24px; padding-bottom: 24px; }
+.hg-moredest__title { font-size: 1.125rem; margin: 0 0 12px; }
+.hg-moredest__list { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0; padding: 0; list-style: none; }
+.hg-moredest__list a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.hg-moredest__list span { color: var(--hg-muted, #5b6472); font-size: .875em; }
+.hg-allpkgs { margin-top: 24px; border: 1px solid var(--hg-border); border-radius: var(--hg-r-sm); background: #fff; padding: 0 16px; }
+.hg-allpkgs summary { min-height: 44px; display: flex; align-items: center; font-weight: 600; cursor: pointer; }
+.hg-allpkgs .hg-linklist { padding-bottom: 12px; }
+.hg-allpkgs__dur { color: var(--hg-muted, #5b6472); font-size: .875em; white-space: nowrap; }
 .hg-pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 24px; }
 .hg-pager a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 12px; border: 1px solid var(--hg-border); border-radius: var(--hg-r-sm); background: #fff; font-weight: 600; text-decoration: none; }
 .hg-pager a[aria-current="page"] { background: var(--hg-navy); border-color: var(--hg-navy); color: #fff; }

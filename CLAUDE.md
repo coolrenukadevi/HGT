@@ -15,10 +15,15 @@ Website: `public_html/` (PHP). CMS/CRM: `cms/`. These rules come from the owner 
 - Days = Nights + 1. The suggested-plan note shows only for generated itineraries.
 - Cancellation slabs: 30+ / 29–20 / 19–14 / 13–8 / ≤7 days before departure.
 
-## URLs (owner rule 2026-10-05)
+## URLs (owner rule 2026-10-05, reconfirmed 2026-10-08: no numbers, also for D3–D5)
 - Package URLs never contain numbers: no nights/days such as `4n-5d`, `4night`, `05-days`, `03nt04dy`.
 - Pattern for new packages: `/{destination}-{route}`, unique; when two packages share a route, distinguish them by a real difference (e.g. `-with-kedarnath-night`, `-tsomgo-lake`), never by duration.
 - Any URL change: rename the page file, update packages.json (slug, url, corrections note), package-registry.json (`previous_slugs`), seo-meta.php, sitemap.xml, search-index.json and content links; add a single-hop 301 in `.htaccess` (also `.php` and trailing-slash forms) and a row in `docs/url-migrations.csv`.
+
+## Related packages (owner rule 2026-10-08)
+- "Similar packages" are ranked: shared place > same destination > shared route > same theme > duration > link spread. Any shared place outranks every package without one.
+- Never show an unrelated package to fill the row; show fewer (or none) instead. Avoid near-duplicates when a materially different relevant package exists.
+- Keep the separate, labelled "More {destination} tours" line on package pages and the "All {destination} packages" list on destination pages.
 
 ## Package programme
 - Package IDs are append-only (`include/data/package-registry.json`); never renumber or reuse.

@@ -470,6 +470,12 @@ $check = function ($name, $value, $label, $count, $checked) {
                 <?php if ($page < $pages) { ?><a href="<?= hg_e($pageUrl($page + 1)) ?>" rel="next">More tours &rarr;</a><?php } ?>
             </nav>
             <?php } ?>
+            <?php if ($group && $pages > 1 && !$hasParams) { $az = $results; usort($az, function ($x, $y) { return strcasecmp($x['title'] ?: $x['name'], $y['title'] ?: $y['name']); }); ?>
+            <details class="hg-allpkgs">
+                <summary>All <?= hg_e($name) ?> packages (<?= count($az) ?>), A–Z</summary>
+                <ul class="hg-linklist"><?php foreach ($az as $p) { ?><li><a href="<?= hg_e($p['url']) ?>"><?= hg_e($p['title'] ?: $p['name']) ?></a> <span class="hg-allpkgs__dur"><?= hg_e($p['duration']) ?></span></li><?php } ?></ul>
+            </details>
+            <?php } ?>
             <?php } ?>
         </div>
 

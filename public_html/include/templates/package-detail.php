@@ -167,11 +167,14 @@ if (!function_exists('hg_render_package')) {
     }
 
     /**
-     * Related packages (Phase 9.8 internal linking), chosen by relevance, not list order:
-     * same destination, shared places (overlap of the packages' own place lists), similar length (only when
-     * neither duration is disputed), pilgrimage type and departure city. Packages from another destination
-     * qualify only when they share places. Among equally relevant packages (same score to 0.5), the one
-     * fewer packages already link to comes first, so links spread across the catalogue. Deterministic.
+     * Related packages ("Similar packages"), chosen by relevance, never to fill the row. Owner rule 2026-10-08,
+     * in priority order: (1) shared place/attraction, (2) same destination, (3) shared route (same start or end
+     * city), (4) same theme (pilgrimage, wildlife, beach, heritage, hills; from the itinerary text), (5) similar duration (only when neither duration is
+     * disputed), (6) spread of links across the catalogue (fewest incoming links first). A package qualifies
+     * only if it shares a place, or is in the same destination AND shares the route or theme; otherwise it is
+     * not shown, so a page may show fewer than three. Weights keep the order strict: any shared place outranks
+     * every package without one. Near-duplicates (place sets 80%+ alike) of a package already picked are moved
+     * behind materially different alternatives. Deterministic.
      */
     function hg_related_packages($slug, $n = 3)
     {
@@ -179,28 +182,51 @@ if (!function_exists('hg_render_package')) {
         if ($picks === null) {
             $all = array_values(hg_packages());
             $placeSet = function ($x) { return array_values(array_unique(array_map('mb_strtolower', array_filter($x['places'])))); };
-            $rel = function ($a, $b) use ($placeSet) {
-                $pa = $placeSet($a); $pb = $placeSet($b);
-                $shared = count(array_intersect($pa, $pb));
+            $city = function ($v) { return trim(preg_replace('/\s*\(.*$/', '', mb_strtolower((string) $v))); };
+            $theme = function ($x) {
+                $t = array();
+                if (!empty($x['pilgrimage'])) $t['pilgrimage'] = true;
+                $txt = mb_strtolower(implode(' ', array_map(function ($d) { return isset($d['text']) ? $d['text'] : ''; }, $x['itinerary'])));
+                if (preg_match('/\bjeep safaris?\b|\btiger reserve\b|\bnational park\b|\bwildlife sanctuary\b|\bbird sanctuary\b/', $txt)) $t['wildlife'] = true;
+                if (preg_match('/\bbeach(es)?\b/', $txt)) $t['beach'] = true;
+                if (preg_match('/\bfort\b|\bpalace\b|\bunesco\b|\bcaves?\b|\bruins\b|\bstepwell\b/', $txt)) $t['heritage'] = true;
+                if (preg_match('/\bhill station\b|\bhills\b|\bwaterfalls?\b|\bpeak\b|\bvalley\b/', $txt)) $t['hills'] = true;
+                return $t;
+            };
+            $info = array();
+            foreach ($all as $x) $info[$x['slug']] = array('places' => $placeSet($x), 'start' => $city(isset($x['start']) ? $x['start'] : ''), 'end' => $city(isset($x['end']) ? $x['end'] : ''), 'theme' => $theme($x));
+            $rel = function ($a, $b) use ($info) {
+                $ia = $info[$a['slug']]; $ib = $info[$b['slug']];
+                $shared = count(array_intersect($ia['places'], $ib['places']));
                 $same = $a['group'] !== '' && $a['group'] === $b['group'];
-                if (!$same && !$shared) return 0;
-                $score = ($same ? 4 : 0) + ($pa && $pb ? 4 * $shared / count(array_unique(array_merge($pa, $pb))) : 0);
+                $route = ($ia['start'] !== '' && ($ia['start'] === $ib['start'] || $ia['start'] === $ib['end'])) || ($ia['end'] !== '' && ($ia['end'] === $ib['end'] || $ia['end'] === $ib['start']));
+                $themes = count(array_intersect_key($ia['theme'], $ib['theme']));
+                if (!$shared && !($same && ($route || $themes))) return 0;   // relevance gate
+                $score = 0;
+                if ($shared) $score += 20 + 10 * $shared / count(array_unique(array_merge($ia['places'], $ib['places'])));
+                if ($same) $score += 5;
+                if ($route) $score += 3;
+                if ($themes) $score += 2;
                 if (!hg_package_duration_disputed($a) && !hg_package_duration_disputed($b)) {
                     $diff = abs((int) $a['days'] - (int) $b['days']);
-                    $score += $diff <= 1 ? 1.5 : ($diff <= 2 ? 0.75 : 0);
+                    $score += $diff <= 1 ? 1 : ($diff <= 2 ? 0.5 : 0);
                 }
-                if (!empty($a['pilgrimage']) && !empty($b['pilgrimage'])) $score += 1;
-                if ($a['departure'] && $a['departure'] === $b['departure']) $score += 0.5;
                 return $score;
+            };
+            $alike = function ($s1, $s2) use ($info) {
+                $p1 = $info[$s1]['places']; $p2 = $info[$s2]['places'];
+                $u = count(array_unique(array_merge($p1, $p2)));
+                return $u && count(array_intersect($p1, $p2)) / $u >= 0.8;
             };
             $incoming = array();
             $picks = array();
+            $scores = array();
             foreach ($all as $a) {
                 $cand = array();
                 foreach ($all as $b) {
                     if ($b['slug'] === $a['slug']) continue;
                     $r = $rel($a, $b);
-                    if ($r > 0) $cand[] = array('slug' => $b['slug'], 'bucket' => floor($r * 2) / 2);
+                    if ($r > 0) { $cand[] = array('slug' => $b['slug'], 'bucket' => floor($r * 2) / 2); $scores[$a['slug']][$b['slug']] = $r; }
                 }
                 usort($cand, function ($x, $y) use (&$incoming) {
                     if ($x['bucket'] != $y['bucket']) return $y['bucket'] <=> $x['bucket'];
@@ -208,15 +234,19 @@ if (!function_exists('hg_render_package')) {
                     $iy = isset($incoming[$y['slug']]) ? $incoming[$y['slug']] : 0;
                     return $ix !== $iy ? $ix <=> $iy : strcmp($x['slug'], $y['slug']);
                 });
-                $picks[$a['slug']] = array();
+                // Diversity: a near-duplicate of an earlier pick waits behind materially different candidates.
+                $first = array(); $later = array();
                 foreach (array_slice($cand, 0, 16) as $c) {   // spares: callers asking for more, and the coverage pass (16: groups now hold 30+ packages)
-                    $picks[$a['slug']][] = $c['slug'];
+                    $dup = false;
+                    foreach ($first as $f) if ($alike($f, $c['slug'])) { $dup = true; break; }
+                    if ($dup) $later[] = $c['slug']; else $first[] = $c['slug'];
                 }
+                $picks[$a['slug']] = array_merge($first, $later);
                 foreach (array_slice($picks[$a['slug']], 0, 3) as $s) $incoming[$s] = (isset($incoming[$s]) ? $incoming[$s] : 0) + 1;
             }
             // Coverage pass: every package should appear in at least 3 "Similar packages" lists. A page may swap its
-            // pick for an under-linked package only if that package is among its own 16 most relevant, and only
-            // when the link it drops keeps 3+ other incoming links. Relevance order otherwise stays as computed.
+            // pick for an under-linked package only if that package is among its own 16 most relevant, is in the same
+            // relevance tier (both share a place with this package, or neither does), and only when the link it drops keeps 3+ other incoming links. Relevance order otherwise stays as computed.
             for ($round = 0; $round < 6; $round++) {
                 $moved = false;
                 foreach ($picks as $from => $list) {
@@ -229,6 +259,8 @@ if (!function_exists('hg_render_package')) {
                         $drop = null;
                         foreach (array_reverse($shown) as $sh) if ((isset($incoming[$sh]) ? $incoming[$sh] : 0) > 3 && ($drop === null || $incoming[$sh] > $incoming[$drop])) $drop = $sh;
                         if ($drop === null) continue;
+                        // never let a less relevant tier replace a more relevant one (a shared place always wins)
+                        if (($scores[$from][$spare] >= 20) !== ($scores[$from][$drop] >= 20)) continue;
                         $i = array_search($drop, $list, true); $j = array_search($spare, $list, true);
                         $list[$i] = $spare; $list[$j] = $drop;
                         $incoming[$drop]--; $incoming[$spare] = $need + 1;
@@ -242,6 +274,32 @@ if (!function_exists('hg_render_package')) {
         $out = array();
         foreach (isset($picks[$slug]) ? array_slice($picks[$slug], 0, $n) : array() as $s) {
             if ($x = hg_package($s)) $out[] = $x;
+        }
+        return $out;
+    }
+
+    /**
+     * "More {destination} tours": a labelled browse line of other packages in the same destination (owner
+     * priority 2), separate from "Similar packages" and never presented as similar. Each page lists the next
+     * $k packages of its destination in catalogue order (wrapping round, skipping itself and its similar
+     * picks), so every package in a destination is linked from about $k other pages. Text links only.
+     */
+    function hg_more_in_destination(array $p, array $exclude, $k = 4)
+    {
+        static $byGroup = null;
+        if ($byGroup === null) {
+            $byGroup = array();
+            foreach (hg_packages() as $x) if ($x['group'] !== '') $byGroup[$x['group']][] = $x['slug'];
+        }
+        $list = isset($byGroup[$p['group']]) ? $byGroup[$p['group']] : array();
+        $n = count($list);
+        $i = array_search($p['slug'], $list, true);
+        if ($i === false || $n < 3) return array();
+        $skip = array_flip(array_merge(array($p['slug']), $exclude));
+        $out = array();
+        for ($j = 1; $j < $n && count($out) < $k; $j++) {
+            $s = $list[($i + $j) % $n];
+            if (!isset($skip[$s]) && ($x = hg_package($s))) $out[] = $x;
         }
         return $out;
     }
@@ -688,6 +746,14 @@ if (!function_exists('hg_render_package')) {
         <?= hg_package_grid($similar) ?>
     </div>
 </section>
+<?php } ?>
+<?php $more = $g ? hg_more_in_destination($p, array_map(function ($x) { return $x['slug']; }, $similar)) : array(); if ($more) { ?>
+<nav class="hg-section hg-moredest" aria-labelledby="moredest-title">
+    <div class="hg-container">
+        <h2 class="hg-moredest__title" id="moredest-title">More <?= hg_e($g['name']) ?> tours</h2>
+        <ul class="hg-moredest__list"><?php foreach ($more as $x) { ?><li><a href="<?= hg_e($x['url']) ?>"><?= hg_e($x['title'] ?: $x['name']) ?></a> <span><?= hg_e($x['duration']) ?></span></li><?php } ?><li><a href="<?= hg_e($g['hub_url']) ?>">All <?= hg_e($g['name']) ?> packages</a></li></ul>
+    </div>
+</nav>
 <?php } ?>
 
 <?php
