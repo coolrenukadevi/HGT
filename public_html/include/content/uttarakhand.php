@@ -19,7 +19,7 @@ return array(
         array('Char Dham Yatra packages', '/tours/char-dham'),
         array('4-day Corbett with Nainital itinerary', '/corbett-with-nainital'),
     ),
-    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Newer itineraries add Auli, Chopta, Binsar, Munsiyari and Lansdowne. Our Uttarakhand itineraries run 3 to 8 days by road.',
+    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Newer itineraries add Auli, Chopta, Binsar, Munsiyari and Lansdowne, the Valley of Flowers and Hemkund Sahib, Adi Kailash and Om Parvat, Chakrata, Kanatal and Tehri lake, Shivpuri and the Harsil valley. Our Uttarakhand itineraries run 3 to 9 days by road.',
     'why' => array(
         array(
             'Close to Delhi',
@@ -58,7 +58,7 @@ return array(
         ),
     ),
     'best_time_answer' => 'March to June and October to November are the best times for Uttarakhand hill stations; October to June suits a Corbett safari.',
-    'days_answer' => 'Three days is enough for one hill station such as Nainital or Mussoorie; allow 5–6 days to combine Nainital with Jim Corbett and Kausani or Ranikhet, and 7–8 days for a wider Kumaon and Garhwal circuit.',
+    'days_answer' => 'Three days is enough for one hill station such as Nainital or Mussoorie; allow 5–6 days to combine Nainital with Jim Corbett and Kausani or Ranikhet, and 7–8 days for a wider Kumaon and Garhwal circuit; Hemkund Sahib and the Valley of Flowers take 7 days and Adi Kailash 9 days.',
     'days_rows' => array(
         array('3 days', 'Nainital', 'nainital-tour'),
         array('4 days', 'Jim Corbett and Nainital', 'corbett-with-nainital'),

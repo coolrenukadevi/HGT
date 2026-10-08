@@ -19,7 +19,7 @@ return array(
         array('All pilgrimage tours', '/religious-tour'),
         array('Char Dham Yatra by helicopter', '/chardham-yatra-by-helicopter'),
     ),
-    'intro' => 'Char Dham Yatra packages cover Yamunotri, Gangotri, Kedarnath and Badrinath in the Garhwal Himalaya, by road from Haridwar or Delhi or by helicopter. We also offer Do Dham packages for Kedarnath and Badrinath, and a Yamunotri–Gangotri Do Dham. Ek Dham packages cover Kedarnath or Badrinath alone. Our yatra itineraries run 4 to 12 days, from Haridwar, Dehradun or Delhi.',
+    'intro' => 'Char Dham Yatra packages cover Yamunotri, Gangotri, Kedarnath and Badrinath in the Garhwal Himalaya, by road from Haridwar or Delhi or by helicopter. We also offer Do Dham packages for Kedarnath and Badrinath, and a Yamunotri–Gangotri Do Dham. Ek Dham packages cover Kedarnath or Badrinath alone. Our yatra itineraries run 4 to 12 days, from Haridwar, Rishikesh, Dehradun or Delhi, and one Yamunotri–Gangotri yatra stays a night at Harsil.',
     'why' => array(
         array(
             'All four dhams in one trip',

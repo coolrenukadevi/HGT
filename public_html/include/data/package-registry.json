@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08. 0372–0431 (domestic phase D2: Gujarat, Madhya Pradesh, Maharashtra) added 2026-10-08. 0432–0491 (domestic phase D3: Maharashtra, Karnataka, Andhra Pradesh & Telangana, Kerala, Goa) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08. 0372–0431 (domestic phase D2: Gujarat, Madhya Pradesh, Maharashtra) added 2026-10-08. 0432–0491 (domestic phase D3: Maharashtra, Karnataka, Andhra Pradesh & Telangana, Kerala, Goa) added 2026-10-08. 0492–0551 (domestic phase D4: Punjab, Bihar, West Bengal, Mathura & Vrindavan, Rajasthan, Golden Triangle, Varanasi & Ayodhya, Char Dham, Uttarakhand) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -3237,6 +3237,366 @@
   {
    "package_id": "0491",
    "slug": "goa-gokarna",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0492",
+   "slug": "punjab-amritsar-golden-temple-wagah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0493",
+   "slug": "punjab-amritsar-tarn-taran-goindwal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0494",
+   "slug": "punjab-amritsar-kapurthala-jalandhar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0495",
+   "slug": "punjab-amritsar-anandpur-sahib",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0496",
+   "slug": "punjab-amritsar-anandpur-sahib-chandigarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0497",
+   "slug": "punjab-chandigarh-city",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0498",
+   "slug": "punjab-patiala-chandigarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0499",
+   "slug": "punjab-takht-sahib-anandpur-talwandi-sabo",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0500",
+   "slug": "bihar-bodh-gaya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0501",
+   "slug": "bihar-gaya-pind-daan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0502",
+   "slug": "bihar-bodh-gaya-rajgir-nalanda",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0503",
+   "slug": "bihar-jain-circuit-pawapuri-rajgir",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0504",
+   "slug": "bihar-patna-vaishali-kesaria",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0505",
+   "slug": "bihar-patna-sahib-takht",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0506",
+   "slug": "bihar-buddhist-circuit-bodh-gaya-kushinagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0507",
+   "slug": "bihar-valmiki-tiger-reserve",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0508",
+   "slug": "west-bengal-kolkata-city",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0509",
+   "slug": "west-bengal-sundarbans",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0510",
+   "slug": "west-bengal-kolkata-sundarbans",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0511",
+   "slug": "west-bengal-mayapur-nabadwip",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0512",
+   "slug": "west-bengal-gangasagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0513",
+   "slug": "west-bengal-shantiniketan-bishnupur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0514",
+   "slug": "west-bengal-digha-mandarmani",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0515",
+   "slug": "west-bengal-dooars-jaldapara-gorumara",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0516",
+   "slug": "mathura-vrindavan-from-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0517",
+   "slug": "mathura-vrindavan-gokul-mahavan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0518",
+   "slug": "mathura-vrindavan-govardhan-barsana",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0519",
+   "slug": "mathura-vrindavan-haridwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0520",
+   "slug": "rajasthan-nathdwara-udaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0521",
+   "slug": "rajasthan-khatu-shyam-salasar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0522",
+   "slug": "rajasthan-mehandipur-balaji-jaipur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0523",
+   "slug": "rajasthan-ajmer-sharif-pushkar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0524",
+   "slug": "rajasthan-sariska-bhangarh-alwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0525",
+   "slug": "rajasthan-bharatpur-keoladeo",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0526",
+   "slug": "rajasthan-kota-bundi-jhalawar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0527",
+   "slug": "rajasthan-jodhpur-osian-khimsar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0528",
+   "slug": "rajasthan-bikaner-karni-mata-gajner",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0529",
+   "slug": "rajasthan-jaisalmer-tanot-longewala",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0530",
+   "slug": "rajasthan-ranakpur-mount-abu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0531",
+   "slug": "rajasthan-jawai-leopard",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0532",
+   "slug": "rajasthan-banswara-dungarpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0533",
+   "slug": "rajasthan-udaipur-jodhpur-jaisalmer",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0534",
+   "slug": "golden-triangle-with-mathura-vrindavan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0535",
+   "slug": "golden-triangle-with-bharatpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0536",
+   "slug": "golden-triangle-with-khajuraho",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0537",
+   "slug": "golden-triangle-with-jodhpur-jaisalmer",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0538",
+   "slug": "delhi-old-and-new-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0539",
+   "slug": "prayagraj-sangam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0540",
+   "slug": "chitrakoot-prayagraj",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0541",
+   "slug": "varanasi-chunar-vindhyachal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0542",
+   "slug": "varanasi-ayodhya-gorakhpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0543",
+   "slug": "lucknow-city-heritage",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0544",
+   "slug": "char-dham-yatra-from-rishikesh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0545",
+   "slug": "char-dham-gangotri-yamunotri-from-haridwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0546",
+   "slug": "uttarakhand-hemkund-sahib-valley-of-flowers",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0547",
+   "slug": "uttarakhand-adi-kailash-om-parvat",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0548",
+   "slug": "uttarakhand-chakrata",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0549",
+   "slug": "uttarakhand-kanatal-tehri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0550",
+   "slug": "uttarakhand-rishikesh-shivpuri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0551",
+   "slug": "uttarakhand-harsil-valley",
    "internal_key": "",
    "status": "approved"
   }

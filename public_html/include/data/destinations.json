@@ -310,6 +310,46 @@
       "match": "andhra|telangana|tirupati|tirumala|srisailam|hyderabad|warangal|vizag|visakhapatnam|araku|vijayawada",
       "keywords": "andhra pradesh telangana tirupati tirumala srikalahasti srisailam hyderabad charminar golconda ramoji warangal ramappa yadadri vijayawada amaravati visakhapatnam vizag araku borra bhadrachalam papikondalu lepakshi puttaparthi gandikota belum",
       "content": "andhra-telangana"
+    },
+    {
+      "key": "punjab",
+      "name": "Amritsar & Punjab",
+      "region": "india",
+      "area": "North India",
+      "hub_url": "/tours/punjab",
+      "match": "punjab|amritsar|golden temple|wagah|anandpur|chandigarh|patiala",
+      "keywords": "punjab amritsar golden temple harmandir sahib wagah attari jallianwala bagh tarn taran goindwal anandpur sahib chandigarh rock garden patiala talwandi sabo kapurthala",
+      "content": "punjab"
+    },
+    {
+      "key": "bihar",
+      "name": "Bodh Gaya & Bihar",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/bihar",
+      "match": "bihar|bodh gaya|bodhgaya|gaya|rajgir|nalanda|patna|vaishali",
+      "keywords": "bihar bodh gaya mahabodhi gaya pind daan vishnupad rajgir nalanda pawapuri patna sahib vaishali kesaria kushinagar valmiki",
+      "content": "bihar"
+    },
+    {
+      "key": "west-bengal",
+      "name": "Kolkata & West Bengal",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/west-bengal",
+      "match": "west bengal|kolkata|calcutta|sundarban|mayapur|gangasagar|digha|dooars",
+      "keywords": "west bengal kolkata calcutta victoria memorial dakshineswar belur math sundarbans mayapur gangasagar shantiniketan bishnupur digha mandarmani dooars jaldapara gorumara",
+      "content": "west-bengal"
+    },
+    {
+      "key": "mathura-vrindavan",
+      "name": "Mathura & Vrindavan",
+      "region": "india",
+      "area": "Pilgrimage",
+      "hub_url": "/tours/mathura-vrindavan",
+      "match": "mathura|vrindavan|govardhan|barsana|braj|gokul",
+      "keywords": "mathura vrindavan krishna janmabhoomi banke bihari prem mandir iskcon govardhan parikrama barsana nandgaon gokul baldeo braj",
+      "content": "mathura-vrindavan"
     }
   ]
 }

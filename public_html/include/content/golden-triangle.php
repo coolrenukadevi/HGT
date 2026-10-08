@@ -16,7 +16,7 @@ return array(
         array('Classic Golden Triangle in 5 days', '/golden-triangle-delhi-agra-jaipur'),
         array('Delhi and Agra: the Taj Mahal in 3 days', '/delhi-agra-taj-mahal-tour'),
     ),
-    'intro' => 'Golden Triangle tour packages link Delhi, Agra and Jaipur — the Red Fort and Qutub Minar, the Taj Mahal and Agra Fort, Fatehpur Sikri, and Jaipur\'s Amber Fort — with extensions to Ranthambore, Udaipur, Pushkar, Varanasi, Amritsar, Rishikesh, Shimla, Mathura–Vrindavan and Khajuraho. Our itineraries run 3 to 10 days from Delhi, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Golden Triangle tour packages link Delhi, Agra and Jaipur — the Red Fort and Qutub Minar, the Taj Mahal and Agra Fort, Fatehpur Sikri, and Jaipur\'s Amber Fort — with extensions to Ranthambore, Udaipur, Pushkar, Varanasi, Amritsar, Rishikesh, Shimla, Mathura–Vrindavan, Bharatpur, Orchha and Khajuraho, and Jodhpur and Jaisalmer, plus an Old and New Delhi city break. Our itineraries run 3 to 10 days from Delhi, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('Three UNESCO cities in a week', 'The Taj Mahal, Agra Fort, Fatehpur Sikri, the Red Fort, Humayun\'s Tomb, the Qutub Minar, Jantar Mantar and Amber Fort.'),
         array('Easy first trip to India', 'Short drives on good highways between Delhi, Agra and Jaipur.'),

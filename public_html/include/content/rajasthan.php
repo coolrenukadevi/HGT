@@ -18,7 +18,7 @@ return array(
         array('Jaipur, Jodhpur and Udaipur in 7 days', '/rajasthan-jaipur-jodhpur-udaipur'),
         array('Royal Rajasthan with Jaisalmer', '/rajasthan-jaipur-jodhpur-jaisalmer-udaipur'),
     ),
-    'intro' => 'Rajasthan tour packages cover the royal cities of Jaipur, Jodhpur and Udaipur, the desert city of Jaisalmer with the Sam sand dunes, and Pushkar, Mount Abu, Chittorgarh, Kumbhalgarh, Bundi, the painted havelis of Shekhawati, Bikaner and the Ranthambore tiger reserve. Our Rajasthan itineraries run 3 to 11 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Rajasthan tour packages cover the royal cities of Jaipur, Jodhpur and Udaipur, the desert city of Jaisalmer with the Sam sand dunes, and Pushkar, Mount Abu, Chittorgarh, Kumbhalgarh, Bundi, the painted havelis of Shekhawati, Bikaner and the Ranthambore tiger reserve. Newer itineraries add Nathdwara and Eklingji, Khatu Shyam, Salasar and Mehandipur Balaji, Ajmer Sharif, Sariska and Bhangarh, Bharatpur\'s bird sanctuary, the Hadoti towns of Kota and Jhalawar, Osian and Khimsar, Tanot and Longewala, Ranakpur, the leopards of Jawai, and Banswara and Dungarpur. Our Rajasthan itineraries run 3 to 11 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('Forts and palaces', 'Amber, Mehrangarh, Jaisalmer, Chittorgarh and Kumbhalgarh — several of them on the UNESCO World Heritage list.'),
         array('Desert and dunes', 'Sunset on the Sam sand dunes and the golden lanes of Jaisalmer Fort.'),

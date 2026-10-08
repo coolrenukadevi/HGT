@@ -16,7 +16,7 @@ return array(
         array('Varanasi (Kashi) in 3 days', '/varanasi-kashi-tour'),
         array('Ayodhya Ram Mandir in 3 days', '/ayodhya-ram-mandir-tour'),
     ),
-    'intro' => 'Varanasi and Ayodhya tour packages cover Kashi\'s ghats on the Ganga — the evening aarti at Dashashwamedh Ghat, a sunrise boat and darshan at Kashi Vishwanath — Sarnath, where the Buddha first taught, Ayodhya\'s Shri Ram Janmabhoomi temple and Saryu aarti, and the Triveni Sangam at Prayagraj, with Chitrakoot, Naimisharanya, Lucknow, and Bodhgaya and Nalanda in Bihar. Our itineraries run 3 to 7 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Varanasi and Ayodhya tour packages cover Kashi\'s ghats on the Ganga — the evening aarti at Dashashwamedh Ghat, a sunrise boat and darshan at Kashi Vishwanath — Sarnath, where the Buddha first taught, Ayodhya\'s Shri Ram Janmabhoomi temple and Saryu aarti, and the Triveni Sangam at Prayagraj, with Chitrakoot and Shringverpur, Chunar and the Vindhyachal Shakti Peeth, Naimisharanya, Gorakhpur, the Nawabi city of Lucknow, and Bodhgaya and Nalanda in Bihar. Our itineraries run 3 to 7 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('The ghats of Kashi', 'The Ganga aarti every evening and the ghats at sunrise, seen from a boat.'),
         array('Two great pilgrimages', 'Kashi Vishwanath, one of the twelve Jyotirlingas, and the Shri Ram Janmabhoomi temple in Ayodhya.'),
