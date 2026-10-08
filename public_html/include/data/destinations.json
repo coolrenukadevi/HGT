@@ -270,6 +270,36 @@
       "match": "odisha|puri|konark|bhubaneswar|chilika|gopalpur",
       "keywords": "odisha puri jagannath konark bhubaneswar chilika gopalpur daringbadi simlipal bhitarkanika ratnagiri koraput sambalpur",
       "content": "odisha"
+    },
+    {
+      "key": "gujarat",
+      "name": "Gujarat",
+      "region": "india",
+      "area": "West India",
+      "hub_url": "/tours/gujarat",
+      "match": "gujarat|dwarka|somnath|gir|kutch|bhuj|ahmedabad|statue of unity|diu|palitana",
+      "keywords": "gujarat dwarka somnath nageshwar gir lions kutch white rann bhuj dholavira ahmedabad statue of unity diu palitana saputara",
+      "content": "gujarat"
+    },
+    {
+      "key": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "region": "india",
+      "area": "West India",
+      "hub_url": "/tours/madhya-pradesh",
+      "match": "madhya pradesh|khajuraho|orchha|gwalior|ujjain|omkareshwar|indore|bhopal|pachmarhi|kanha|bandhavgarh|pench",
+      "keywords": "madhya pradesh khajuraho orchha gwalior ujjain mahakal omkareshwar indore maheshwar mandu bhopal sanchi pachmarhi kanha bandhavgarh pench jabalpur",
+      "content": "madhya-pradesh"
+    },
+    {
+      "key": "maharashtra",
+      "name": "Maharashtra",
+      "region": "india",
+      "area": "West India",
+      "hub_url": "/tours/maharashtra",
+      "match": "maharashtra|mumbai|lonavala|mahabaleshwar|ajanta|ellora|shirdi|nashik|tadoba|konkan",
+      "keywords": "maharashtra mumbai lonavala mahabaleshwar panchgani ajanta ellora aurangabad shirdi nashik trimbakeshwar kolhapur konkan tarkarli tadoba",
+      "content": "maharashtra"
     }
   ]
 }

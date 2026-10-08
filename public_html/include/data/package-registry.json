@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08. 0372–0431 (domestic phase D2: Gujarat, Madhya Pradesh, Maharashtra) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -2517,6 +2517,366 @@
   {
    "package_id": "0371",
    "slug": "odisha-grand-puri-chilika-gopalpur-daringbadi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0372",
+   "slug": "gujarat-ahmedabad-heritage",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0373",
+   "slug": "gujarat-statue-of-unity",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0374",
+   "slug": "gujarat-ahmedabad-statue-of-unity",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0375",
+   "slug": "gujarat-vadodara-statue-of-unity-champaner",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0376",
+   "slug": "gujarat-dakor-pavagadh-champaner",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0377",
+   "slug": "gujarat-ambaji-modhera-patan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0378",
+   "slug": "gujarat-polo-forest-idar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0379",
+   "slug": "gujarat-little-rann-wild-ass",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0380",
+   "slug": "gujarat-rann-of-kutch-bhuj",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0381",
+   "slug": "gujarat-bhuj-mandvi-kutch",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0382",
+   "slug": "gujarat-dholavira-kutch",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0383",
+   "slug": "gujarat-dwarka-nageshwar-bet-dwarka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0384",
+   "slug": "gujarat-dwarka-somnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0385",
+   "slug": "gujarat-ahmedabad-dwarka-somnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0386",
+   "slug": "gujarat-dwarka-somnath-gir",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0387",
+   "slug": "gujarat-jamnagar-dwarka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0388",
+   "slug": "gujarat-gir-national-park-sasan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0389",
+   "slug": "gujarat-junagadh-girnar-gir",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0390",
+   "slug": "gujarat-somnath-gir-diu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0391",
+   "slug": "gujarat-diu-somnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0392",
+   "slug": "gujarat-palitana-bhavnagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0393",
+   "slug": "gujarat-velavadar-blackbuck",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0394",
+   "slug": "gujarat-saputara",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0395",
+   "slug": "gujarat-saurashtra-grand",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0396",
+   "slug": "madhya-pradesh-khajuraho",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0397",
+   "slug": "madhya-pradesh-khajuraho-orchha",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0398",
+   "slug": "madhya-pradesh-panna-khajuraho",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0399",
+   "slug": "madhya-pradesh-gwalior-orchha",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0400",
+   "slug": "madhya-pradesh-gwalior-shivpuri-chanderi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0401",
+   "slug": "madhya-pradesh-ujjain-mahakal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0402",
+   "slug": "madhya-pradesh-ujjain-omkareshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0403",
+   "slug": "madhya-pradesh-indore-ujjain-omkareshwar-maheshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0404",
+   "slug": "madhya-pradesh-mandu-maheshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0405",
+   "slug": "madhya-pradesh-bhopal-ujjain-indore",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0406",
+   "slug": "madhya-pradesh-bhopal-sanchi-bhimbetka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0407",
+   "slug": "madhya-pradesh-pachmarhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0408",
+   "slug": "madhya-pradesh-bhopal-pachmarhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0409",
+   "slug": "madhya-pradesh-satpura-madhai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0410",
+   "slug": "madhya-pradesh-jabalpur-bhedaghat",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0411",
+   "slug": "madhya-pradesh-kanha",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0412",
+   "slug": "madhya-pradesh-bandhavgarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0413",
+   "slug": "madhya-pradesh-pench",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0414",
+   "slug": "madhya-pradesh-kanha-bandhavgarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0415",
+   "slug": "madhya-pradesh-pench-kanha-bandhavgarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0416",
+   "slug": "madhya-pradesh-khajuraho-bandhavgarh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0417",
+   "slug": "madhya-pradesh-amarkantak",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0418",
+   "slug": "madhya-pradesh-chitrakoot-maihar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0419",
+   "slug": "madhya-pradesh-heartland-grand",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0420",
+   "slug": "maharashtra-mumbai-city",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0421",
+   "slug": "maharashtra-lonavala-khandala",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0422",
+   "slug": "maharashtra-mahabaleshwar-panchgani",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0423",
+   "slug": "maharashtra-mumbai-lonavala-mahabaleshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0424",
+   "slug": "maharashtra-aurangabad-ajanta-ellora",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0425",
+   "slug": "maharashtra-shirdi-shani-shingnapur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0426",
+   "slug": "maharashtra-nashik-trimbakeshwar-shirdi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0427",
+   "slug": "maharashtra-jyotirlinga-trimbakeshwar-grishneshwar-bhimashankar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0428",
+   "slug": "maharashtra-kolhapur-mahalaxmi-jyotiba",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0429",
+   "slug": "maharashtra-konkan-ganpatipule-ratnagiri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0430",
+   "slug": "maharashtra-malvan-tarkarli",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0431",
+   "slug": "maharashtra-tadoba",
    "internal_key": "",
    "status": "approved"
   }
