@@ -127,7 +127,7 @@ if ($hgMegaPanel === 'india') {
 
 } elseif ($hgMegaPanel === 'intl') {
     $req = '<p class="hg-mega__note">No ready packages yet — we plan these trips around your dates.</p><ul class="hg-mega__places hg-mega__places--wide">';
-    foreach (array('Bali', 'Europe', 'Sri Lanka', 'Nepal', 'Bhutan') as $d) $req .= '<li><a href="/customized-holidays?destination=' . rawurlencode($d) . '">' . hg_e($d) . '</a></li>';
+    foreach (array('Europe', 'Sri Lanka', 'Nepal', 'Bhutan') as $d) $req .= '<li><a href="/customized-holidays?destination=' . rawurlencode($d) . '">' . hg_e($d) . '</a></li>';
     $req .= '</ul>';
     echo $hgMega['tabs']('intl', $hgMega['regions']['international'], 'All international tours', '/international-holidays', array(), array('Plan on request' => $req));
 

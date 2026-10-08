@@ -24625,5 +24625,1895 @@
   "end": "Bali",
   "itinerary_source": "standard",
   "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Attraction tickets (Gardens by the Bay domes, Marina Bay Sands SkyPark, Sentosa attractions, Universal Studios, Night Safari) and ferries are optional and paid locally or quoted separately. Bali is in Indonesia; check the visa rules for Indonesia before you travel. Bali also charges a tourist levy on arrival."
+ },
+ {
+  "slug": "bali-kuta-ubud",
+  "url": "/bali-kuta-ubud",
+  "title": "Bali Holiday: Kuta and Ubud",
+  "name": "Bali Holiday: Kuta and Ubud",
+  "page_title": "Bali Holiday: Kuta and Ubud – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days for a first Bali trip: two nights by the beach in Kuta with the sea temples of Tanah Lot and Uluwatu, and two in Ubud with the rice terraces and Kintamani.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Kuta - Ubud - Kintamani - Tanah Lot - Uluwatu",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Kuta)Arrive in Bali",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and transfer to your hotel in Kuta. Evening free to settle in. Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Kuta)Tanah Lot and Uluwatu",
+    "text": "After a free morning, visit the Tanah Lot temple on its rock in the sea, then drive to the Uluwatu temple on its cliff for sunset; the Kecak fire dance is optional (paid locally). Overnight stay in Kuta.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ubud)Kuta to Ubud",
+    "text": "After breakfast, move to Ubud in the hills. On the way, see the Tegallalang rice terraces; in the afternoon, the Sacred Monkey Forest and the Ubud art market. Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ubud)Kintamani and Tirta Empul",
+    "text": "After breakfast, drive up to Kintamani for the view of Mount Batur and its crater lake, then visit the Tirta Empul water temple, where Balinese bathe in the holy spring, and the Goa Gajah cave (entry paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kuta",
+   "Ubud",
+   "Kintamani",
+   "Tanah Lot",
+   "Uluwatu"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "bali-ubud-seminyak",
+  "url": "/bali-ubud-seminyak",
+  "title": "Ubud and Seminyak Short Break",
+  "name": "Ubud and Seminyak Short Break",
+  "page_title": "Ubud and Seminyak Short Break – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "A four-day Bali break: two nights among the rice terraces and temples of Ubud, and a night on the beach at Seminyak.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Ubud - Tegallalang - Seminyak",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ubud)Arrive in Bali – Ubud",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and drive to Ubud (about 1.5 hours). Evening walk to the Ubud Palace and Jalan Monkey Forest. Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ubud)Rice terraces and the water temple",
+    "text": "After breakfast, visit the Tegallalang rice terraces in the morning light, the Tirta Empul water temple and the Sacred Monkey Forest (entry paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Seminyak)Ubud to Seminyak",
+    "text": "After breakfast, drive down to Seminyak on the coast (about 1 hour). Afternoon on the beach, then sunset from one of the beach cafés and the Petitenget temple. Overnight stay in Seminyak.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ubud",
+   "Tegallalang",
+   "Seminyak"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "bali-nusa-penida",
+  "url": "/bali-nusa-penida",
+  "title": "Bali with Nusa Penida",
+  "name": "Bali with Nusa Penida",
+  "page_title": "Bali with Nusa Penida – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in Bali with a fast-boat day trip to the cliffs and beaches of Nusa Penida, plus Ubud and the sea temples of Tanah Lot and Uluwatu.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Seminyak - Ubud - Nusa Penida - Uluwatu",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Seminyak)Arrive in Bali",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and transfer to your hotel in Seminyak. Evening free to settle in. Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Seminyak)Ubud",
+    "text": "After breakfast, spend the day around Ubud: the Tegallalang rice terraces, the Sacred Monkey Forest, the Ubud Palace and the art market (entry fees paid locally). Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Seminyak)Nusa Penida",
+    "text": "An early transfer to Sanur for the fast boat to Nusa Penida (about 45 minutes; boat paid locally). See Kelingking Beach with its T-Rex-shaped cliff, Broken Beach and Angel's Billabong, and return to Bali in the evening. Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Seminyak)Tanah Lot and Uluwatu",
+    "text": "After a free morning, visit the Tanah Lot temple on its rock in the sea, then drive to the Uluwatu temple on its cliff for sunset; the Kecak fire dance is optional (paid locally). Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Seminyak)Free day",
+    "text": "A free day for the beach, a spa or the water sports at Tanjung Benoa (optional, paid locally). Overnight stay in Bali.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Seminyak",
+   "Ubud",
+   "Nusa Penida",
+   "Uluwatu"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "bali-gili-islands",
+  "url": "/bali-gili-islands",
+  "title": "Bali and the Gili Islands",
+  "name": "Bali and the Gili Islands",
+  "page_title": "Bali and the Gili Islands – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days combining Bali with the car-free Gili Islands off Lombok: Ubud, two nights on Gili Trawangan with turtles and snorkelling, and Seminyak.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Ubud - Gili Trawangan - Lombok - Seminyak",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ubud)Arrive in Bali – Ubud",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and drive to Ubud (about 1.5 hours). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ubud)Ubud",
+    "text": "After breakfast, spend the day around Ubud: the Tegallalang rice terraces, the Sacred Monkey Forest, the Ubud Palace and the art market (entry fees paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Gili Trawangan)Fast boat to the Gili Islands",
+    "text": "An early transfer to Padang Bai for the fast boat to Gili Trawangan off Lombok (about 2 hours; boat ticket not included). The island has no cars — get around on foot, by bicycle or horse cart. Sunset on the west coast. Overnight stay on Gili Trawangan.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Gili Trawangan)Snorkelling with turtles",
+    "text": "A glass-bottom boat trip round the three Gili islands, snorkelling with sea turtles and over the underwater statues off Gili Meno (paid locally). Overnight stay on Gili Trawangan.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Seminyak)Back to Bali – Seminyak",
+    "text": "After breakfast, take the fast boat back to Bali and transfer to Seminyak. Evening on the beach. Overnight stay in Seminyak.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Seminyak)Tanah Lot and Uluwatu",
+    "text": "After a free morning, visit the Tanah Lot temple on its rock in the sea, then drive to the Uluwatu temple on its cliff for sunset; the Kecak fire dance is optional (paid locally). Overnight stay in Seminyak.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ubud",
+   "Gili Trawangan",
+   "Lombok",
+   "Seminyak"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally. Fast boats to the Gili Islands depend on the sea and may be cancelled on rough days."
+ },
+ {
+  "slug": "bali-ubud-kintamani-nusa-dua",
+  "url": "/bali-ubud-kintamani-nusa-dua",
+  "title": "Bali Week: Ubud, Kintamani and Nusa Dua",
+  "name": "Bali Week: Ubud, Kintamani and Nusa Dua",
+  "page_title": "Bali Week: Ubud, Kintamani and Nusa Dua – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "A slow eight-day Bali week: three nights in Ubud with the rice terraces, Kintamani and Jatiluwih, then four by the calm beaches of Nusa Dua.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Ubud - Kintamani - Jatiluwih - Nusa Dua - Uluwatu",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ubud)Arrive in Bali – Ubud",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and drive to Ubud (about 1.5 hours). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ubud)Ubud",
+    "text": "After breakfast, spend the day around Ubud: the Tegallalang rice terraces, the Sacred Monkey Forest, the Ubud Palace and the art market (entry fees paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ubud)Kintamani and Tirta Empul",
+    "text": "After breakfast, drive up to Kintamani for the view of Mount Batur and its crater lake, then visit the Tirta Empul water temple, where Balinese bathe in the holy spring, and the Goa Gajah cave (entry paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Nusa Dua)Jatiluwih and Tanah Lot – Nusa Dua",
+    "text": "After breakfast, drive to the Jatiluwih rice terraces, part of a UNESCO World Heritage landscape, and the Tanah Lot sea temple, then on to Nusa Dua. Overnight stay in Nusa Dua.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Nusa Dua)Free beach day",
+    "text": "A free day on the calm beaches of Nusa Dua; water sports at Tanjung Benoa are optional (paid locally). Overnight stay in Nusa Dua.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Nusa Dua)Uluwatu",
+    "text": "After a free morning, drive to the Uluwatu temple on its cliff for sunset; the Kecak fire dance is optional (paid locally). Seafood dinner on Jimbaran beach is optional. Overnight stay in Nusa Dua.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Nusa Dua)Free day",
+    "text": "A last free day for a spa, shopping or the beach. Overnight stay in Nusa Dua.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ubud",
+   "Kintamani",
+   "Jatiluwih",
+   "Nusa Dua",
+   "Uluwatu"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "indonesia-yogyakarta-bali",
+  "url": "/indonesia-yogyakarta-bali",
+  "title": "Yogyakarta and Bali: Borobudur and Prambanan",
+  "name": "Yogyakarta and Bali: Borobudur and Prambanan",
+  "page_title": "Yogyakarta and Bali: Borobudur and Prambanan – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days in Indonesia: the great temples of Borobudur and Prambanan from Yogyakarta on Java, then Bali's Ubud, Tanah Lot and Uluwatu.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Yogyakarta - Borobudur - Prambanan - Ubud - Kuta",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Yogyakarta)Arrive in Yogyakarta",
+    "text": "Arrive at Yogyakarta airport, where our representative meets you. In the afternoon, visit the Kraton, the Sultan's palace, and the Taman Sari water castle, and walk along Malioboro Street in the evening. Overnight stay in Yogyakarta.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Yogyakarta)Borobudur and Prambanan",
+    "text": "An early start for Borobudur, the largest Buddhist monument in the world and a UNESCO World Heritage Site (entry paid locally; access to the upper terraces is limited). In the afternoon, visit the Hindu temples of Prambanan, also on the UNESCO list. Overnight stay in Yogyakarta.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ubud)Yogyakarta to Bali",
+    "text": "Transfer to the airport for your flight to Bali (about 1 hour 15 minutes; ticket not included). Our representative meets you and drives you to Ubud. Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ubud)Ubud and Kintamani",
+    "text": "After breakfast, see the Tegallalang rice terraces, drive up to Kintamani for the view of Mount Batur, and visit the Tirta Empul water temple (entry paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kuta)Ubud to Kuta – Tanah Lot",
+    "text": "After breakfast, move to Kuta, visiting the Tanah Lot sea temple for sunset on the way. Overnight stay in Kuta.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Kuta)Uluwatu",
+    "text": "A free morning on the beach, then the Uluwatu temple on its cliff for sunset; the Kecak dance is optional (paid locally). Overnight stay in Kuta.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Yogyakarta",
+   "Borobudur",
+   "Prambanan",
+   "Ubud",
+   "Kuta"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Yogyakarta",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "bali-north-lovina",
+  "url": "/bali-north-lovina",
+  "title": "North Bali: Bedugul, Waterfalls and Lovina",
+  "name": "North Bali: Bedugul, Waterfalls and Lovina",
+  "page_title": "North Bali: Bedugul, Waterfalls and Lovina – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days for the quieter north of Bali: Ubud, the lake temple of Ulun Danu Beratan, the waterfalls of the highlands, and the black-sand coast at Lovina.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Ubud - Bedugul - Lovina - Seminyak",
+  "image": "",
+  "group": "bali",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ubud)Arrive in Bali – Ubud",
+    "text": "Arrive at Bali (Denpasar) airport, where our representative meets you, and drive to Ubud (about 1.5 hours). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ubud)Ubud",
+    "text": "After breakfast, spend the day around Ubud: the Tegallalang rice terraces, the Sacred Monkey Forest, the Ubud Palace and the art market (entry fees paid locally). Overnight stay in Ubud.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Lovina)Ubud to Lovina via Bedugul",
+    "text": "After breakfast, drive into the cool highlands to the Ulun Danu Beratan temple on Lake Beratan at Bedugul, the Handara gate and the Banyumala twin waterfalls, then down to Lovina on the north coast. Overnight stay in Lovina.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Lovina)Dolphins at sunrise and Gitgit",
+    "text": "At sunrise, an optional boat trip to see dolphins off Lovina (paid locally). Later, visit the Gitgit waterfall and the Brahmavihara Arama monastery. Overnight stay in Lovina.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Seminyak)Lovina to Seminyak",
+    "text": "After breakfast, drive back south to Seminyak (about 3 hours) for an evening on the beach. Overnight stay in Seminyak.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Bali",
+    "text": "After breakfast, transfer to Bali (Denpasar) airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ubud",
+   "Bedugul",
+   "Lovina",
+   "Seminyak"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Bali",
+  "end": "Bali",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bali charges a tourist levy on arrival. Temples need a sarong (usually lent at the gate); entry fees, boat trips and shows are paid locally."
+ },
+ {
+  "slug": "vietnam-hanoi-halong-bay",
+  "url": "/vietnam-hanoi-halong-bay",
+  "title": "Hanoi and Halong Bay",
+  "name": "Hanoi and Halong Bay",
+  "page_title": "Hanoi and Halong Bay – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in northern Vietnam: Hanoi's Old Quarter and Temple of Literature, and a day cruise among the limestone islands of Halong Bay.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Hanoi - Halong Bay",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Hanoi)Arrive in Hanoi",
+    "text": "Arrive at Hanoi airport, where our representative meets you, and transfer to your hotel in or near the Old Quarter. Evening walk round Hoan Kiem Lake and the Old Quarter streets. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Hanoi)Halong Bay day cruise",
+    "text": "An early drive to Halong Bay (about 2.5 hours by expressway) for a day cruise among the limestone islands, with a cave visit and kayaking where possible (cruise paid locally). Return to Hanoi in the evening. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hanoi)Hanoi city tour",
+    "text": "After breakfast, see Hanoi: the Ho Chi Minh Mausoleum area and the One Pillar Pagoda (from outside when the mausoleum is closed), the Temple of Literature and the Old Quarter. In the evening, the water puppet show is optional (paid locally). Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Hanoi",
+    "text": "After breakfast, transfer to Hanoi airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Hanoi",
+   "Halong Bay"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Hanoi",
+  "end": "Hanoi",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-ho-chi-minh-mekong",
+  "url": "/vietnam-ho-chi-minh-mekong",
+  "title": "Ho Chi Minh City and the Mekong Delta",
+  "name": "Ho Chi Minh City and the Mekong Delta",
+  "page_title": "Ho Chi Minh City and the Mekong Delta – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days in southern Vietnam: the Cu Chi tunnels, the War Remnants Museum and Ben Thanh market, and a boat day in the Mekong Delta.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Ho Chi Minh City - Cu Chi - Mekong Delta",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ho Chi Minh City)Arrive in Ho Chi Minh City",
+    "text": "Arrive at Ho Chi Minh City airport, where our representative meets you, and transfer to your hotel. Evening walk along Nguyen Hue walking street. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ho Chi Minh City)Cu Chi tunnels and the city",
+    "text": "After breakfast, drive to the Cu Chi tunnels (about 70 km) used in the Vietnam War. In the afternoon, see the War Remnants Museum, the Central Post Office and the Ben Thanh market (entry paid locally). Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ho Chi Minh City)Mekong Delta",
+    "text": "A day in the Mekong Delta: by boat through the canals near My Tho and Ben Tre, with coconut workshops, fruit orchards and a sampan ride (boat trip paid locally). Return to Ho Chi Minh City in the evening. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Ho Chi Minh City",
+    "text": "After breakfast, transfer to Ho Chi Minh City airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ho Chi Minh City",
+   "Cu Chi",
+   "Mekong Delta"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Ho Chi Minh City",
+  "end": "Ho Chi Minh City",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-hanoi-halong-sapa",
+  "url": "/vietnam-hanoi-halong-sapa",
+  "title": "Hanoi, Halong Bay and Sapa",
+  "name": "Hanoi, Halong Bay and Sapa",
+  "page_title": "Hanoi, Halong Bay and Sapa – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in northern Vietnam: Hanoi, a day on Halong Bay, and two nights in the mountains of Sapa with Fansipan and the Muong Hoa rice terraces.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Hanoi - Halong Bay - Sapa - Fansipan",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Hanoi)Arrive in Hanoi",
+    "text": "Arrive at Hanoi airport, where our representative meets you, and transfer to your hotel in or near the Old Quarter. Evening walk round Hoan Kiem Lake and the Old Quarter streets. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Hanoi)Hanoi city tour",
+    "text": "After breakfast, see Hanoi: the Ho Chi Minh Mausoleum area and the One Pillar Pagoda (from outside when the mausoleum is closed), the Temple of Literature and the Old Quarter. In the evening, the water puppet show is optional (paid locally). Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hanoi)Halong Bay day cruise",
+    "text": "An early drive to Halong Bay (about 2.5 hours by expressway) for a day cruise among the limestone islands, with a cave visit and kayaking where possible (cruise paid locally). Return to Hanoi in the evening. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Sapa)Hanoi to Sapa",
+    "text": "After breakfast, travel to Sapa in the northern mountains (about 5–6 hours by expressway). In the afternoon, walk down to Cat Cat village of the Black Hmong people. Overnight stay in Sapa.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Sapa)Fansipan and the Muong Hoa valley",
+    "text": "Ride the cable car to the summit of Fansipan, the highest mountain in Indochina (cable car paid locally, weather permitting), then walk through the rice terraces of the Muong Hoa valley. Overnight stay in Sapa.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Sapa to Hanoi – departure",
+    "text": "After breakfast, travel back to Hanoi (about 5–6 hours) and transfer to the airport for your evening flight. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Hanoi",
+   "Halong Bay",
+   "Sapa",
+   "Fansipan"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Hanoi",
+  "end": "Hanoi",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-da-nang-hoi-an",
+  "url": "/vietnam-da-nang-hoi-an",
+  "title": "Da Nang and Hoi An",
+  "name": "Da Nang and Hoi An",
+  "page_title": "Da Nang and Hoi An – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days on Vietnam's central coast: Da Nang's beach and the Golden Bridge in the Ba Na Hills, the Marble Mountains, Hoi An and My Son.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Da Nang - Ba Na Hills - Marble Mountains - Hoi An - My Son",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Da Nang)Arrive in Da Nang",
+    "text": "Arrive at Da Nang airport, where our representative meets you, and transfer to your hotel near My Khe beach. Evening by the Han river and the Dragon Bridge. Overnight stay in Da Nang.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Da Nang)Ba Na Hills and the Golden Bridge",
+    "text": "After breakfast, ride the cable car up to the Ba Na Hills and walk the Golden Bridge held up by two giant stone hands (cable car paid locally). Overnight stay in Da Nang.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hoi An)Marble Mountains – Hoi An",
+    "text": "After breakfast, climb among the caves and pagodas of the Marble Mountains, then continue to Hoi An (about 30 km). Evening among the lanterns of the old town. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Hoi An)Hoi An and My Son",
+    "text": "In the morning, visit the My Son temple ruins of the Cham kingdom (about 40 km; entry paid locally). Afternoon in Hoi An's ancient town with the Japanese Covered Bridge. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Da Nang",
+    "text": "After breakfast, transfer to Da Nang airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Da Nang",
+   "Ba Na Hills",
+   "Marble Mountains",
+   "Hoi An",
+   "My Son"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Da Nang",
+  "end": "Da Nang",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-hanoi-halong-da-nang-hoi-an",
+  "url": "/vietnam-hanoi-halong-da-nang-hoi-an",
+  "title": "Hanoi, Halong Bay, Da Nang and Hoi An",
+  "name": "Hanoi, Halong Bay, Da Nang and Hoi An",
+  "page_title": "Hanoi, Halong Bay, Da Nang and Hoi An – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from the north to the centre of Vietnam: Hanoi and Halong Bay, then Da Nang, the Ba Na Hills and the ancient town of Hoi An.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Hanoi - Halong Bay - Da Nang - Ba Na Hills - Hoi An",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Hanoi)Arrive in Hanoi",
+    "text": "Arrive at Hanoi airport, where our representative meets you, and transfer to your hotel in or near the Old Quarter. Evening walk round Hoan Kiem Lake and the Old Quarter streets. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Hanoi)Halong Bay day cruise",
+    "text": "An early drive to Halong Bay (about 2.5 hours by expressway) for a day cruise among the limestone islands, with a cave visit and kayaking where possible (cruise paid locally). Return to Hanoi in the evening. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Da Nang)Hanoi city tour – fly to Da Nang",
+    "text": "After breakfast, a morning in Hanoi: the Temple of Literature and the Old Quarter. In the afternoon, fly to Da Nang (about 1 hour 20 minutes; ticket not included). Overnight stay in Da Nang.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Da Nang)Ba Na Hills and the Golden Bridge",
+    "text": "After breakfast, ride the cable car up to the Ba Na Hills and walk the Golden Bridge held up by two giant stone hands (cable car paid locally). Overnight stay in Da Nang.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Hoi An)Marble Mountains – Hoi An",
+    "text": "After breakfast, visit the Marble Mountains and drive to Hoi An. Evening on the lantern-lit riverside. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Hoi An)Hoi An ancient town",
+    "text": "After breakfast, walk through Hoi An's ancient town, a UNESCO World Heritage Site: the Japanese Covered Bridge, the old merchant houses and assembly halls (entry ticket paid locally). In the evening, the lanterns light up along the Thu Bon river. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Da Nang",
+    "text": "After breakfast, transfer to Da Nang airport (about 45 minutes) for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Hanoi",
+   "Halong Bay",
+   "Da Nang",
+   "Ba Na Hills",
+   "Hoi An"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Hanoi",
+  "end": "Da Nang",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-north-to-south",
+  "url": "/vietnam-north-to-south",
+  "title": "Vietnam North to South",
+  "name": "Vietnam North to South",
+  "page_title": "Vietnam North to South – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days the length of Vietnam: Hanoi and Halong Bay in the north, Hoi An in the centre, and Ho Chi Minh City with the Cu Chi tunnels and the Mekong Delta.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Hanoi - Halong Bay - Hoi An - Ho Chi Minh City - Mekong Delta",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Hanoi)Arrive in Hanoi",
+    "text": "Arrive at Hanoi airport, where our representative meets you, and transfer to your hotel in or near the Old Quarter. Evening walk round Hoan Kiem Lake and the Old Quarter streets. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Hanoi)Halong Bay day cruise",
+    "text": "An early drive to Halong Bay (about 2.5 hours by expressway) for a day cruise among the limestone islands, with a cave visit and kayaking where possible (cruise paid locally). Return to Hanoi in the evening. Overnight stay in Hanoi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hoi An)Hanoi – fly to Da Nang – Hoi An",
+    "text": "A morning at the Temple of Literature, then fly to Da Nang (ticket not included) and drive to Hoi An (about 30 km). Evening among the lanterns. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Hoi An)Hoi An ancient town",
+    "text": "After breakfast, walk through Hoi An's ancient town, a UNESCO World Heritage Site: the Japanese Covered Bridge, the old merchant houses and assembly halls (entry ticket paid locally). In the evening, the lanterns light up along the Thu Bon river. Overnight stay in Hoi An.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Ho Chi Minh City)Fly to Ho Chi Minh City",
+    "text": "After breakfast, transfer to Da Nang airport for your flight to Ho Chi Minh City (ticket not included). Evening on Nguyen Hue walking street. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Ho Chi Minh City)Cu Chi tunnels and the city",
+    "text": "After breakfast, drive to the Cu Chi tunnels (about 70 km) used in the Vietnam War. In the afternoon, see the War Remnants Museum, the Central Post Office and the Ben Thanh market (entry paid locally). Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Ho Chi Minh City)Mekong Delta",
+    "text": "A day in the Mekong Delta: by boat through the canals near My Tho and Ben Tre, with coconut workshops, fruit orchards and a sampan ride (boat trip paid locally). Return to Ho Chi Minh City in the evening. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Ho Chi Minh City",
+    "text": "After breakfast, transfer to Ho Chi Minh City airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Hanoi",
+   "Halong Bay",
+   "Hoi An",
+   "Ho Chi Minh City",
+   "Mekong Delta"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Hanoi",
+  "end": "Ho Chi Minh City",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "vietnam-phu-quoc",
+  "url": "/vietnam-phu-quoc",
+  "title": "Phu Quoc Island Holiday",
+  "name": "Phu Quoc Island Holiday",
+  "page_title": "Phu Quoc Island Holiday – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days on Vietnam's tropical island of Phu Quoc: Sao Beach, the Hon Thom sea cable car, snorkelling in the An Thoi islands and the night market.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Phu Quoc - Hon Thom - Sao Beach",
+  "image": "",
+  "group": "vietnam",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Phu Quoc)Arrive in Phu Quoc",
+    "text": "Arrive at Phu Quoc airport, where our representative meets you, and transfer to your beach hotel. Evening at the Phu Quoc night market for seafood (paid locally). Overnight stay in Phu Quoc.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Phu Quoc)Southern Phu Quoc and the Hon Thom cable car",
+    "text": "After breakfast, tour the south of the island: Sao Beach with its white sand, a pepper farm and the old Phu Quoc prison, then ride the long sea cable car to Hon Thom island (paid locally). Overnight stay in Phu Quoc.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Phu Quoc)Island hopping and snorkelling",
+    "text": "A boat trip to the An Thoi islands for snorkelling over coral and lunch on the boat (paid locally). Overnight stay in Phu Quoc.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Phu Quoc)Free day",
+    "text": "A free day on the beach; the safari park and the Grand World entertainment district in the north of the island are optional (paid locally). Sunset at the Sunset Town. Overnight stay in Phu Quoc.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Phu Quoc",
+    "text": "After breakfast, transfer to Phu Quoc airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Phu Quoc",
+   "Hon Thom",
+   "Sao Beach"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Phu Quoc",
+  "end": "Phu Quoc",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Bay cruises, cable cars, boat trips, shows and entry fees are paid locally or quoted separately; flights within Vietnam are not included."
+ },
+ {
+  "slug": "japan-tokyo-mount-fuji",
+  "url": "/japan-tokyo-mount-fuji",
+  "title": "Tokyo and Mount Fuji",
+  "name": "Tokyo and Mount Fuji",
+  "page_title": "Tokyo and Mount Fuji – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in Tokyo: the Senso-ji temple and Meiji shrine, Shibuya and Shinjuku, and a day trip to Lake Kawaguchiko below Mount Fuji.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Tokyo - Asakusa - Mount Fuji - Kawaguchiko",
+  "image": "",
+  "group": "japan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Tokyo)Arrive in Tokyo",
+    "text": "Arrive at Tokyo (Narita or Haneda) airport, where our representative meets you, and transfer to your hotel. Evening at the Shibuya crossing and Shinjuku. Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Tokyo)Tokyo city tour",
+    "text": "A full day in Tokyo by metro with a guide: the Senso-ji temple in Asakusa, the Meiji Jingu shrine, Harajuku and the view from the Tokyo Skytree or a free city observatory (Skytree paid locally). Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Tokyo)Mount Fuji",
+    "text": "A day trip to Mount Fuji (about 2 hours each way): Lake Kawaguchiko, the Chureito Pagoda with Fuji behind it, and the Fuji fifth station when the road is open (usually April to November, weather permitting). Return to Tokyo. Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Tokyo)Free day in Tokyo",
+    "text": "A free day: Akihabara, the teamLab digital art museum, Tokyo DisneySea or shopping in Ginza (all optional, paid locally). Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Tokyo",
+    "text": "After breakfast, transfer to Tokyo airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Tokyo",
+   "Asakusa",
+   "Mount Fuji",
+   "Kawaguchiko"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Tokyo",
+  "end": "Tokyo",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Indian passport holders need a visa for Japan. Shinkansen (bullet train) tickets or rail passes, cable cars, cruises, theme parks and entry fees are not included and can be quoted or paid locally."
+ },
+ {
+  "slug": "japan-osaka-kyoto-nara",
+  "url": "/japan-osaka-kyoto-nara",
+  "title": "Osaka, Kyoto and Nara",
+  "name": "Osaka, Kyoto and Nara",
+  "page_title": "Osaka, Kyoto and Nara – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in Japan's Kansai region: the temples and shrines of Kyoto, the Great Buddha and deer of Nara, and Osaka Castle and Dotonbori.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Kyoto - Arashiyama - Nara - Osaka",
+  "image": "",
+  "group": "japan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Kyoto)Arrive in Osaka – Kyoto",
+    "text": "Arrive at Osaka Kansai airport, where our representative meets you, and transfer to Kyoto (about 1.5 hours). Evening walk through Gion. Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Kyoto)Kyoto",
+    "text": "A full day in Kyoto: the Fushimi Inari shrine, the Kinkaku-ji golden pavilion, the Arashiyama bamboo grove and the Kiyomizu-dera temple (entry fees paid locally). Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Osaka)Nara – Osaka",
+    "text": "After breakfast, visit Nara (about 45 minutes): the Great Buddha in the Todai-ji temple and the deer of Nara Park. Continue to Osaka for Osaka Castle and an evening in Dotonbori. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Osaka)Free day in Osaka",
+    "text": "A free day: Universal Studios Japan, the Osaka Aquarium or the Umeda Sky Building (all optional, paid locally). Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Osaka",
+    "text": "After breakfast, transfer to Osaka Kansai airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kyoto",
+   "Arashiyama",
+   "Nara",
+   "Osaka"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Osaka",
+  "end": "Osaka",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Indian passport holders need a visa for Japan. Shinkansen (bullet train) tickets or rail passes, cable cars, cruises, theme parks and entry fees are not included and can be quoted or paid locally."
+ },
+ {
+  "slug": "japan-tokyo-kyoto-osaka",
+  "url": "/japan-tokyo-kyoto-osaka",
+  "title": "Japan Golden Route: Tokyo, Kyoto and Osaka",
+  "name": "Japan Golden Route: Tokyo, Kyoto and Osaka",
+  "page_title": "Japan Golden Route: Tokyo, Kyoto and Osaka – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days on Japan's Golden Route: Tokyo and Mount Fuji, the bullet train to Kyoto's temples, Nara's Great Buddha, and Osaka.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Tokyo - Mount Fuji - Kyoto - Nara - Osaka",
+  "image": "",
+  "group": "japan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Tokyo)Arrive in Tokyo",
+    "text": "Arrive at Tokyo (Narita or Haneda) airport, where our representative meets you, and transfer to your hotel. Evening at the Shibuya crossing and Shinjuku. Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Tokyo)Tokyo city tour",
+    "text": "A full day in Tokyo by metro with a guide: the Senso-ji temple in Asakusa, the Meiji Jingu shrine, Harajuku and the view from the Tokyo Skytree or a free city observatory (Skytree paid locally). Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Tokyo)Mount Fuji",
+    "text": "A day trip to Mount Fuji (about 2 hours each way): Lake Kawaguchiko, the Chureito Pagoda with Fuji behind it, and the Fuji fifth station when the road is open (usually April to November, weather permitting). Return to Tokyo. Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kyoto)Bullet train to Kyoto",
+    "text": "After breakfast, take the Shinkansen bullet train to Kyoto (about 2 hours 15 minutes; ticket not included). In the afternoon, visit the Kiyomizu-dera temple and walk through Gion. Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kyoto)Kyoto",
+    "text": "A full day in Kyoto: the thousands of red gates of the Fushimi Inari shrine, the golden pavilion of Kinkaku-ji, the Kiyomizu-dera temple and an evening walk through Gion (entry fees paid locally). Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Osaka)Nara – Osaka",
+    "text": "After breakfast, visit Nara (about 45 minutes): the Great Buddha in the Todai-ji temple and the deer of Nara Park. Continue to Osaka for Osaka Castle and an evening in Dotonbori. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Osaka",
+    "text": "After breakfast, transfer to Osaka Kansai airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Tokyo",
+   "Mount Fuji",
+   "Kyoto",
+   "Nara",
+   "Osaka"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Tokyo",
+  "end": "Osaka",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Indian passport holders need a visa for Japan. Shinkansen (bullet train) tickets or rail passes, cable cars, cruises, theme parks and entry fees are not included and can be quoted or paid locally."
+ },
+ {
+  "slug": "japan-tokyo-hakone-kyoto-osaka",
+  "url": "/japan-tokyo-hakone-kyoto-osaka",
+  "title": "Japan with Hakone: Tokyo, Hakone, Kyoto and Osaka",
+  "name": "Japan with Hakone: Tokyo, Hakone, Kyoto and Osaka",
+  "page_title": "Japan with Hakone: Tokyo, Hakone, Kyoto and Osaka – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days across Japan with a night in the hot-spring hills of Hakone: Tokyo, Lake Ashi and Owakudani, Kyoto, Nara and Osaka.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Tokyo - Hakone - Lake Ashi - Kyoto - Osaka",
+  "image": "",
+  "group": "japan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Tokyo)Arrive in Tokyo",
+    "text": "Arrive at Tokyo (Narita or Haneda) airport, where our representative meets you, and transfer to your hotel. Evening at the Shibuya crossing and Shinjuku. Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Tokyo)Tokyo city tour",
+    "text": "A full day in Tokyo by metro with a guide: the Senso-ji temple in Asakusa, the Meiji Jingu shrine, Harajuku and the view from the Tokyo Skytree or a free city observatory (Skytree paid locally). Overnight stay in Tokyo.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hakone)Tokyo to Hakone",
+    "text": "After breakfast, travel to Hakone (about 1.5 hours). Cruise Lake Ashi with Mount Fuji in view on clear days and ride the ropeway over the volcanic valley of Owakudani (cruise and ropeway paid locally). Overnight stay in Hakone, with a hot-spring bath at many hotels.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kyoto)Hakone to Kyoto",
+    "text": "After breakfast, take the Shinkansen from Odawara to Kyoto (about 2 hours; ticket not included). Evening walk through Gion. Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kyoto)Kyoto",
+    "text": "A full day in Kyoto: the thousands of red gates of the Fushimi Inari shrine, the golden pavilion of Kinkaku-ji, the Arashiyama bamboo grove and the Kiyomizu-dera temple (entry fees paid locally). Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Osaka)Nara – Osaka",
+    "text": "After breakfast, visit Nara (about 45 minutes): the Great Buddha in the Todai-ji temple and the deer of Nara Park. Continue to Osaka for Osaka Castle and an evening in Dotonbori. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Osaka)Free day in Osaka",
+    "text": "A free day: Universal Studios Japan or the Osaka Aquarium (optional, paid locally), or the shops of Shinsaibashi. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Departure from Osaka",
+    "text": "After breakfast, transfer to Osaka Kansai airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Tokyo",
+   "Hakone",
+   "Lake Ashi",
+   "Kyoto",
+   "Osaka"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Tokyo",
+  "end": "Osaka",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Indian passport holders need a visa for Japan. Shinkansen (bullet train) tickets or rail passes, cable cars, cruises, theme parks and entry fees are not included and can be quoted or paid locally."
+ },
+ {
+  "slug": "japan-kyoto-hiroshima-osaka",
+  "url": "/japan-kyoto-hiroshima-osaka",
+  "title": "Kyoto, Hiroshima and Osaka",
+  "name": "Kyoto, Hiroshima and Osaka",
+  "page_title": "Kyoto, Hiroshima and Osaka – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days in western Japan: Kyoto's temples, Hiroshima's Peace Memorial and the floating torii of Miyajima, Nara and Osaka.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Kyoto - Hiroshima - Miyajima - Nara - Osaka",
+  "image": "",
+  "group": "japan",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Kyoto)Arrive in Osaka – Kyoto",
+    "text": "Arrive at Osaka Kansai airport, where our representative meets you, and transfer to Kyoto (about 1.5 hours). Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Kyoto)Kyoto",
+    "text": "A full day in Kyoto: the thousands of red gates of the Fushimi Inari shrine, the golden pavilion of Kinkaku-ji, the Kiyomizu-dera temple and an evening walk through Gion (entry fees paid locally). Overnight stay in Kyoto.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Hiroshima)Kyoto to Hiroshima",
+    "text": "After breakfast, take the Shinkansen to Hiroshima (about 1 hour 45 minutes; ticket not included). Visit the Peace Memorial Park and Museum and the A-Bomb Dome, a UNESCO World Heritage Site. Overnight stay in Hiroshima.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Osaka)Miyajima – Osaka",
+    "text": "Take the ferry to Miyajima island for the Itsukushima shrine and its great torii gate standing in the sea (ferry paid locally). In the afternoon, take the Shinkansen to Osaka (ticket not included). Evening in Dotonbori. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Osaka)Nara",
+    "text": "A half-day trip to Nara for the Great Buddha of Todai-ji and the deer park, then Osaka Castle in the afternoon. Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Osaka)Free day in Osaka",
+    "text": "A free day: Universal Studios Japan, the Osaka Aquarium or the Umeda Sky Building (all optional, paid locally). Overnight stay in Osaka.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Osaka",
+    "text": "After breakfast, transfer to Osaka Kansai airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Kyoto",
+   "Hiroshima",
+   "Miyajima",
+   "Nara",
+   "Osaka"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Osaka",
+  "end": "Osaka",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. Indian passport holders need a visa for Japan. Shinkansen (bullet train) tickets or rail passes, cable cars, cruises, theme parks and entry fees are not included and can be quoted or paid locally."
+ },
+ {
+  "slug": "cambodia-siem-reap-angkor",
+  "url": "/cambodia-siem-reap-angkor",
+  "title": "Siem Reap and the Temples of Angkor",
+  "name": "Siem Reap and the Temples of Angkor",
+  "page_title": "Siem Reap and the Temples of Angkor – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days at Angkor: sunrise over Angkor Wat, the faces of the Bayon, the jungle temple of Ta Prohm, Banteay Srei and the Tonle Sap lake.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Siem Reap - Angkor Wat - Angkor Thom - Tonle Sap",
+  "image": "",
+  "group": "cambodia",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Siem Reap)Arrive in Siem Reap",
+    "text": "Arrive at Siem Reap airport, where our representative meets you, and transfer to your hotel. Evening at the Old Market and Pub Street. Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Siem Reap)Angkor Wat, the Bayon and Ta Prohm",
+    "text": "Before dawn, watch the sunrise over Angkor Wat, then explore the temple itself, Angkor Thom with the faces of the Bayon, and the jungle-covered Ta Prohm (Angkor Pass paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Siem Reap)Banteay Srei and Tonle Sap",
+    "text": "After breakfast, visit Banteay Srei, the \"citadel of women\", famous for its pink sandstone carving. In the afternoon, take a boat to a floating village on the Tonle Sap lake (paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Departure from Siem Reap",
+    "text": "After breakfast, transfer to Siem Reap airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Siem Reap",
+   "Angkor Wat",
+   "Angkor Thom",
+   "Tonle Sap"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Siem Reap",
+  "end": "Siem Reap",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. The Angkor Pass (1-day or 3-day) is required for the temples and is paid locally; temples need covered shoulders and knees."
+ },
+ {
+  "slug": "cambodia-siem-reap-phnom-penh",
+  "url": "/cambodia-siem-reap-phnom-penh",
+  "title": "Siem Reap and Phnom Penh",
+  "name": "Siem Reap and Phnom Penh",
+  "page_title": "Siem Reap and Phnom Penh – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in Cambodia: three nights at Siem Reap for the temples of Angkor, and two in the capital, Phnom Penh, with the Royal Palace and its history.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Siem Reap - Angkor Wat - Phnom Penh",
+  "image": "",
+  "group": "cambodia",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Siem Reap)Arrive in Siem Reap",
+    "text": "Arrive at Siem Reap airport, where our representative meets you, and transfer to your hotel. Evening at the Old Market. Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Siem Reap)Angkor Wat, the Bayon and Ta Prohm",
+    "text": "Before dawn, watch the sunrise over Angkor Wat, then explore the temple itself, Angkor Thom with the faces of the Bayon, and the jungle-covered Ta Prohm (Angkor Pass paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Siem Reap)Banteay Srei and the Roluos temples",
+    "text": "After breakfast, visit Banteay Srei for its fine carving and the older Roluos group of temples; the evening Phare circus is optional (paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Phnom Penh)Siem Reap to Phnom Penh",
+    "text": "After breakfast, travel to Phnom Penh (about 315 km, 5–6 hours by road). Evening on the riverside promenade where the Mekong and Tonle Sap meet. Overnight stay in Phnom Penh.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Phnom Penh)Phnom Penh",
+    "text": "After breakfast, visit the Royal Palace and the Silver Pagoda, the National Museum, and the Tuol Sleng Genocide Museum and Choeung Ek memorial, which tell the history of the Khmer Rouge years (entry paid locally). Overnight stay in Phnom Penh.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Phnom Penh",
+    "text": "After breakfast, transfer to Phnom Penh airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Siem Reap",
+   "Angkor Wat",
+   "Phnom Penh"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Siem Reap",
+  "end": "Phnom Penh",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. The Angkor Pass (1-day or 3-day) is required for the temples and is paid locally; temples need covered shoulders and knees."
+ },
+ {
+  "slug": "vietnam-cambodia-ho-chi-minh-siem-reap",
+  "url": "/vietnam-cambodia-ho-chi-minh-siem-reap",
+  "title": "Vietnam and Cambodia: Ho Chi Minh City and Angkor",
+  "name": "Vietnam and Cambodia: Ho Chi Minh City and Angkor",
+  "page_title": "Vietnam and Cambodia: Ho Chi Minh City and Angkor – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days in two countries: Ho Chi Minh City, the Cu Chi tunnels and the Mekong Delta in Vietnam, then the temples of Angkor in Cambodia.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Ho Chi Minh City - Mekong Delta - Siem Reap - Angkor Wat",
+  "image": "",
+  "group": "cambodia",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Ho Chi Minh City)Arrive in Ho Chi Minh City",
+    "text": "Arrive at Ho Chi Minh City airport, where our representative meets you, and transfer to your hotel. Evening on Nguyen Hue walking street. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ho Chi Minh City)Cu Chi tunnels and the city",
+    "text": "After breakfast, drive to the Cu Chi tunnels (about 70 km) used in the Vietnam War. In the afternoon, see the War Remnants Museum, the Central Post Office and the Ben Thanh market (entry paid locally). Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ho Chi Minh City)Mekong Delta",
+    "text": "A day in the Mekong Delta: by boat through the canals near My Tho and Ben Tre, with coconut workshops, fruit orchards and a sampan ride (boat trip paid locally). Return to Ho Chi Minh City in the evening. Overnight stay in Ho Chi Minh City.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Siem Reap)Fly to Siem Reap",
+    "text": "After breakfast, fly to Siem Reap in Cambodia (about 1 hour; ticket not included). Our representative meets you; evening at the Old Market. Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Siem Reap)Angkor Wat, the Bayon and Ta Prohm",
+    "text": "Before dawn, watch the sunrise over Angkor Wat, then explore the temple itself, Angkor Thom with the faces of the Bayon, and the jungle-covered Ta Prohm (Angkor Pass paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Siem Reap)Banteay Srei and Tonle Sap",
+    "text": "After breakfast, visit Banteay Srei and, in the afternoon, a floating village on the Tonle Sap lake by boat (paid locally). Overnight stay in Siem Reap.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Siem Reap",
+    "text": "After breakfast, transfer to Siem Reap airport for your flight home. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-08: new package (international expansion batch I2, owner approved). Land-only itinerary written from the route and well-established destination facts; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Ho Chi Minh City",
+   "Mekong Delta",
+   "Siem Reap",
+   "Angkor Wat"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Ho Chi Minh City",
+  "end": "Siem Reap",
+  "itinerary_source": "standard",
+  "special_notes": "Flights, visa fees and travel insurance are not part of the standard package; we can quote them. Visa rules for Indian passport holders change from time to time, so we confirm the current rules when you book. The Angkor Pass (1-day or 3-day) is required for the temples and is paid locally; temples need covered shoulders and knees. Separate visas are needed for Vietnam and Cambodia."
  }
 ]

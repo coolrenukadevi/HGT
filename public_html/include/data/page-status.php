@@ -27,6 +27,10 @@ return array(
     '/travel-guide/singapore-malaysia'    => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/maldives'              => 'approved',   // destination guide, 2026-10-05 (owner: generate all 13 guides)
     '/travel-guide/thailand'              => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I1)
+    '/travel-guide/bali'                  => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
+    '/travel-guide/vietnam'               => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
+    '/travel-guide/japan'                 => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
+    '/travel-guide/cambodia'              => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
     '/cancellation-policy'  => 'approved',
     '/refund-policy'        => 'approved',
     '/payment-policy'       => 'approved',

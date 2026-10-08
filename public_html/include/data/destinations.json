@@ -190,6 +190,46 @@
       "match": "maldives",
       "keywords": "maldives island resort",
       "content": "maldives"
+    },
+    {
+      "key": "bali",
+      "name": "Bali",
+      "region": "international",
+      "area": "South-East Asia",
+      "hub_url": "/tours/bali",
+      "match": "bali|ubud|kuta|seminyak|nusa|gili|lovina|yogyakarta|indonesia",
+      "keywords": "bali indonesia ubud kuta seminyak nusa dua nusa penida gili lombok kintamani lovina yogyakarta borobudur",
+      "content": "bali"
+    },
+    {
+      "key": "vietnam",
+      "name": "Vietnam",
+      "region": "international",
+      "area": "South-East Asia",
+      "hub_url": "/tours/vietnam",
+      "match": "vietnam|hanoi|halong|sapa|hoi an|da nang|phu quoc|mekong",
+      "keywords": "vietnam hanoi halong bay sapa da nang hoi an ho chi minh saigon mekong phu quoc",
+      "content": "vietnam"
+    },
+    {
+      "key": "japan",
+      "name": "Japan",
+      "region": "international",
+      "area": "East Asia",
+      "hub_url": "/tours/japan",
+      "match": "japan|tokyo|kyoto|osaka|hiroshima|fuji|hakone",
+      "keywords": "japan tokyo mount fuji hakone kyoto nara osaka hiroshima miyajima",
+      "content": "japan"
+    },
+    {
+      "key": "cambodia",
+      "name": "Cambodia",
+      "region": "international",
+      "area": "South-East Asia",
+      "hub_url": "/tours/cambodia",
+      "match": "cambodia|siem reap|angkor|phnom penh",
+      "keywords": "cambodia siem reap angkor wat phnom penh tonle sap",
+      "content": "cambodia"
     }
   ]
 }

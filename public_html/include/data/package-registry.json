@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08).",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -2009,6 +2009,156 @@
    "slug": "singapore-bali",
    "internal_key": "",
    "status": "approved"
+  },
+  {
+   "package_id": "0287",
+   "slug": "bali-kuta-ubud",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0288",
+   "slug": "bali-ubud-seminyak",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0289",
+   "slug": "bali-nusa-penida",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0290",
+   "slug": "bali-gili-islands",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0291",
+   "slug": "bali-ubud-kintamani-nusa-dua",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0292",
+   "slug": "indonesia-yogyakarta-bali",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0293",
+   "slug": "bali-north-lovina",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0294",
+   "slug": "vietnam-hanoi-halong-bay",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0295",
+   "slug": "vietnam-ho-chi-minh-mekong",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0296",
+   "slug": "vietnam-hanoi-halong-sapa",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0297",
+   "slug": "vietnam-da-nang-hoi-an",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0298",
+   "slug": "vietnam-hanoi-halong-da-nang-hoi-an",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0299",
+   "slug": "vietnam-north-to-south",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0300",
+   "slug": "vietnam-phu-quoc",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0301",
+   "slug": "japan-tokyo-mount-fuji",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0302",
+   "slug": "japan-osaka-kyoto-nara",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0303",
+   "slug": "japan-tokyo-kyoto-osaka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0304",
+   "slug": "japan-tokyo-hakone-kyoto-osaka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0305",
+   "slug": "japan-kyoto-hiroshima-osaka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0306",
+   "slug": "cambodia-siem-reap-angkor",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0307",
+   "slug": "cambodia-siem-reap-phnom-penh",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0308",
+   "slug": "vietnam-cambodia-ho-chi-minh-siem-reap",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0309",
+   "slug": "myanmar-yangon-bagan",
+   "internal_key": "",
+   "status": "proposed"
+  },
+  {
+   "package_id": "0310",
+   "slug": "myanmar-yangon-bagan-mandalay",
+   "internal_key": "",
+   "status": "proposed"
+  },
+  {
+   "package_id": "0311",
+   "slug": "myanmar-yangon-bagan-mandalay-inle",
+   "internal_key": "",
+   "status": "proposed"
   }
  ]
 }
