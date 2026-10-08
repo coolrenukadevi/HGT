@@ -320,4 +320,8 @@ return array(
     '/travel-guide/vaishno-devi' => array('description' => 'Plan the Vaishno Devi yatra: registration, the 13 km climb, ponies and the helicopter, the best months, and trips with Amritsar or Srinagar.'),
     '/tours/tamil-nadu' => array('description' => 'Tamil Nadu tour packages of 3 to 8 days: Madurai, Rameswaram, Kanyakumari, the Chola temples, Chennai, Mahabalipuram and Pondicherry.'),
     '/travel-guide/tamil-nadu' => array('description' => 'Plan a Tamil Nadu trip: the best months, temple dress codes, how many days for Madurai, Rameswaram, the Chola temples and Pondicherry.'),
+    '/tamil-nadu-pondicherry' => array('title' => 'Pondicherry & Auroville Break | Holiday Guru Travel', 'description' => 'Three days from Chennai: Pondicherry\'s French Quarter and Promenade, the Aurobindo Ashram, Auroville\'s Matrimandir and Paradise Beach.'),
+    '/tamil-nadu-rameswaram-kanyakumari' => array('title' => 'Rameswaram & Kanyakumari Tour | Holiday Guru Travel', 'description' => 'Four days: the Ramanathaswamy temple and its 22 theerthams, Dhanushkodi, Kanyakumari\'s sunrise and Vivekananda Rock, ending in Trivandrum.'),
+    '/tamil-nadu-chennai-mahabalipuram-pondicherry-thanjavur' => array('title' => 'Chennai to Thanjavur: Coast & Chola Temples | Holiday Guru Travel', 'description' => 'Six days: Chennai, Mahabalipuram\'s Pallava monuments, Pondicherry, Chidambaram\'s Nataraja temple, Thanjavur and Srirangam.'),
+    '/tamil-nadu-madurai-rameswaram-kanyakumari-kodaikanal' => array('title' => 'Temples, Coast & Hills of Tamil Nadu | Holiday Guru Travel', 'description' => 'Eight days from Madurai: the Meenakshi temple, Rameswaram and Dhanushkodi, Kanyakumari and Suchindram, and two nights in Kodaikanal.'),
 );

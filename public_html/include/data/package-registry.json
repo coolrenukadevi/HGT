@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -1833,6 +1833,30 @@
   {
    "package_id": "0257",
    "slug": "tamil-nadu-madurai-kodaikanal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0258",
+   "slug": "tamil-nadu-pondicherry",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0259",
+   "slug": "tamil-nadu-rameswaram-kanyakumari",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0260",
+   "slug": "tamil-nadu-chennai-mahabalipuram-pondicherry-thanjavur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0261",
+   "slug": "tamil-nadu-madurai-rameswaram-kanyakumari-kodaikanal",
    "internal_key": "",
    "status": "approved"
   }

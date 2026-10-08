@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 350 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–6 (IDs 0183–0257), new destinations Rajasthan, Golden Triangle, Varanasi & Ayodhya, Vaishno Devi and Tamil Nadu, destination text refreshed. -->
+<!-- 354 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–7 (IDs 0183–0261), new destinations Rajasthan, Golden Triangle, Varanasi & Ayodhya, Vaishno Devi and Tamil Nadu, destination text refreshed. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -2097,6 +2097,30 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/tamil-nadu-madurai-kodaikanal</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-pondicherry</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-rameswaram-kanyakumari</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-chennai-mahabalipuram-pondicherry-thanjavur</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-madurai-rameswaram-kanyakumari-kodaikanal</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
