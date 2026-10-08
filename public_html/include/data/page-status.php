@@ -31,6 +31,10 @@ return array(
     '/travel-guide/vietnam'               => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
     '/travel-guide/japan'                 => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
     '/travel-guide/cambodia'              => 'approved',   // destination guide, 2026-10-08 (new destination, international batch I2)
+    '/travel-guide/andaman'               => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D1)
+    '/travel-guide/meghalaya-assam'       => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D1)
+    '/travel-guide/arunachal-nagaland'    => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D1)
+    '/travel-guide/odisha'                => 'approved',   // destination guide, 2026-10-08 (new destination, domestic phase D1)
     '/cancellation-policy'  => 'approved',
     '/refund-policy'        => 'approved',
     '/payment-policy'       => 'approved',

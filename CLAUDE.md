@@ -22,5 +22,5 @@ Website: `public_html/` (PHP). CMS/CRM: `cms/`. These rules come from the owner 
 
 ## Package programme
 - Package IDs are append-only (`include/data/package-registry.json`); never renumber or reuse.
-- Domestic expansion to 250 packages in batches of 25; each batch is scored to 98+ with a report, and the next batch starts only after owner approval.
+- Domestic expansion to 250 packages in batches of 25 (done). Owner rule 2026-10-08: domestic target 550, i.e. 300 more (0312–0611) in 5 phases of 60 (D1–D5), mostly new states; each phase is scored to 98+ with a report, and the next phase starts only after owner approval. IDs 0309–0311 stay reserved for Myanmar (proposed, unpublished).
 - Photos: use a related photo from the existing library, otherwise leave `image` blank for the owner to add. Package images ≤ 960 px; never use hero images as package images.

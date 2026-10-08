@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08).",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -2159,6 +2159,366 @@
    "slug": "myanmar-yangon-bagan-mandalay-inle",
    "internal_key": "",
    "status": "proposed"
+  },
+  {
+   "package_id": "0312",
+   "slug": "andaman-port-blair-ross-north-bay",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0313",
+   "slug": "andaman-port-blair-chidiya-tapu-wandoor",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0314",
+   "slug": "andaman-port-blair-baratang-limestone-caves",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0315",
+   "slug": "andaman-port-blair-havelock",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0316",
+   "slug": "andaman-havelock-radhanagar-beach",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0317",
+   "slug": "andaman-port-blair-neil-island",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0318",
+   "slug": "andaman-port-blair-havelock-neil",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0319",
+   "slug": "andaman-havelock-long-island",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0320",
+   "slug": "andaman-port-blair-havelock-neil-baratang",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0321",
+   "slug": "andaman-middle-rangat-mayabunder",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0322",
+   "slug": "andaman-havelock-neil-chidiya-tapu-leisure",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0323",
+   "slug": "andaman-north-diglipur-ross-smith",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0324",
+   "slug": "meghalaya-shillong-cherrapunji",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0325",
+   "slug": "meghalaya-shillong-umiam-weekend",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0326",
+   "slug": "meghalaya-shillong-cherrapunji-dawki",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0327",
+   "slug": "meghalaya-shillong-cherrapunji-mawlynnong-dawki",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0328",
+   "slug": "meghalaya-living-root-bridge-nongriat",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0329",
+   "slug": "meghalaya-jaintia-hills-krang-suri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0330",
+   "slug": "meghalaya-shillong-sohra-shnongpdeng",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0331",
+   "slug": "assam-kamakhya-guwahati",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0332",
+   "slug": "assam-kamakhya-umananda-shillong",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0333",
+   "slug": "assam-guwahati-kaziranga",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0334",
+   "slug": "assam-kaziranga-nameri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0335",
+   "slug": "assam-manas-national-park",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0336",
+   "slug": "assam-kaziranga-majuli",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0337",
+   "slug": "assam-kaziranga-majuli-sivasagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0338",
+   "slug": "assam-jorhat-dibrugarh-tea-gardens",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0339",
+   "slug": "assam-kaziranga-shillong-cherrapunji",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0340",
+   "slug": "north-east-shillong-cherrapunji-kaziranga-majuli",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0341",
+   "slug": "meghalaya-shillong-laitlum-mawsynram",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0342",
+   "slug": "arunachal-dirang-bomdila",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0343",
+   "slug": "arunachal-tawang-bomdila-dirang",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0344",
+   "slug": "arunachal-tawang-bumla-pass",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0345",
+   "slug": "arunachal-tawang-with-kaziranga",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0346",
+   "slug": "arunachal-itanagar-ziro",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0347",
+   "slug": "arunachal-ziro-along-pasighat",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0348",
+   "slug": "arunachal-mechuka",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0349",
+   "slug": "arunachal-namdapha-miao",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0350",
+   "slug": "arunachal-parshuram-kund-tezu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0351",
+   "slug": "nagaland-kohima-khonoma",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0352",
+   "slug": "nagaland-kohima-dzukou-valley",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0353",
+   "slug": "nagaland-hornbill-festival-kohima",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0354",
+   "slug": "nagaland-mon-longwa",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0355",
+   "slug": "nagaland-kohima-kaziranga",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0356",
+   "slug": "odisha-puri-jagannath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0357",
+   "slug": "odisha-bhubaneswar-temples-dhauli",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0358",
+   "slug": "odisha-bhubaneswar-puri-konark",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0359",
+   "slug": "odisha-bhubaneswar-puri-konark-chilika",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0360",
+   "slug": "odisha-mangalajodi-chilika-birds",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0361",
+   "slug": "odisha-buddhist-diamond-triangle",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0362",
+   "slug": "odisha-puri-konark-diamond-triangle",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0363",
+   "slug": "odisha-gopalpur-taptapani",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0364",
+   "slug": "odisha-bhubaneswar-puri-gopalpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0365",
+   "slug": "odisha-daringbadi-hills",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0366",
+   "slug": "odisha-simlipal-national-park",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0367",
+   "slug": "odisha-bhitarkanika-mangroves",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0368",
+   "slug": "odisha-puri-konark-bhitarkanika",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0369",
+   "slug": "odisha-koraput-jeypore-tribal-markets",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0370",
+   "slug": "odisha-hirakud-sambalpur",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0371",
+   "slug": "odisha-grand-puri-chilika-gopalpur-daringbadi",
+   "internal_key": "",
+   "status": "approved"
   }
  ]
 }

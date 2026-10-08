@@ -230,6 +230,46 @@
       "match": "cambodia|siem reap|angkor|phnom penh",
       "keywords": "cambodia siem reap angkor wat phnom penh tonle sap",
       "content": "cambodia"
+    },
+    {
+      "key": "andaman",
+      "name": "Andaman Islands",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/andaman",
+      "match": "andaman|port blair|havelock|neil|baratang|diglipur|rangat",
+      "keywords": "andaman islands port blair havelock swaraj dweep neil shaheed dweep baratang ross island north bay diglipur long island",
+      "content": "andaman"
+    },
+    {
+      "key": "meghalaya-assam",
+      "name": "Meghalaya & Assam",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/meghalaya-assam",
+      "match": "meghalaya|shillong|cherrapunji|sohra|dawki|assam|kaziranga|majuli|guwahati|kamakhya",
+      "keywords": "meghalaya assam shillong cherrapunji sohra dawki mawlynnong root bridge guwahati kamakhya kaziranga majuli manas nameri sivasagar jorhat dibrugarh",
+      "content": "meghalaya-assam"
+    },
+    {
+      "key": "arunachal-nagaland",
+      "name": "Arunachal & Nagaland",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/arunachal-nagaland",
+      "match": "arunachal|tawang|bomdila|dirang|ziro|mechuka|nagaland|kohima|hornbill",
+      "keywords": "arunachal tawang bomdila dirang sela bum la ziro mechuka namdapha parshuram kund nagaland kohima khonoma dzukou hornbill mon longwa",
+      "content": "arunachal-nagaland"
+    },
+    {
+      "key": "odisha",
+      "name": "Odisha",
+      "region": "india",
+      "area": "East & North East",
+      "hub_url": "/tours/odisha",
+      "match": "odisha|puri|konark|bhubaneswar|chilika|gopalpur",
+      "keywords": "odisha puri jagannath konark bhubaneswar chilika gopalpur daringbadi simlipal bhitarkanika ratnagiri koraput sambalpur",
+      "content": "odisha"
     }
   ]
 }
