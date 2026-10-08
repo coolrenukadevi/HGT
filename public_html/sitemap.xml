@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 321 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–5 (IDs 0183–0232), new destinations Rajasthan, Golden Triangle and Varanasi & Ayodhya, destination text refreshed. -->
+<!-- 350 URLs: indexable, canonical, 200 pages only (packages, destinations, travel guides, blog, static pages). lastmod = date the page content last changed. Updated 2026-10-08: batches 4–6 (IDs 0183–0257), new destinations Rajasthan, Golden Triangle, Varanasi & Ayodhya, Vaishno Devi and Tamil Nadu, destination text refreshed. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://holidaygurutravel.in/religious-tour</loc>
@@ -716,6 +716,18 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://holidaygurutravel.in/tours/vaishno-devi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tours/tamil-nadu</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://holidaygurutravel.in/tours/dubai</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -813,6 +825,18 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/travel-guide/kashi-ayodhya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/travel-guide/vaishno-devi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/travel-guide/tamil-nadu</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1923,6 +1947,156 @@
   </url>
   <url>
     <loc>https://holidaygurutravel.in/ayodhya-ram-mandir-tour</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-ayodhya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/prayagraj-varanasi-ayodhya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-bodhgaya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-prayagraj-chitrakoot-ayodhya</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/lucknow-ayodhya-varanasi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-ayodhya-naimisharanya-lucknow</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-bodhgaya-rajgir-nalanda-prayagraj</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/ayodhya-varanasi-from-delhi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/varanasi-sarnath-ayodhya-prayagraj</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-katra</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-katra-shiv-khori</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-katra-patnitop</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-amritsar-katra</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-katra-patnitop-srinagar</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-from-delhi</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-katra-dalhousie-dharamshala</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/vaishno-devi-himachal-devi-temples-amritsar</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-chennai-mahabalipuram</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-chennai-mahabalipuram-pondicherry</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-madurai-rameswaram</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-madurai-rameswaram-kanyakumari</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-thanjavur-kumbakonam-trichy</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-chennai-kanchipuram-tiruvannamalai</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-chennai-pondicherry-thanjavur-madurai-rameswaram</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://holidaygurutravel.in/tamil-nadu-madurai-kodaikanal</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

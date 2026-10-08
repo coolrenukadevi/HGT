@@ -3,7 +3,7 @@
  * Varanasi (Kashi) and Ayodhya destination content (used by /tours/kashi-ayodhya, its travel guide and package pages).
  * Sources: Holiday Guru Travel's own itineraries and well-established facts; temple timings and security rules change
  * and are confirmed per booking. STATUS 'review': published; owner/travel team to review wording.
- * Added: 2026-10-08 (domestic expansion batch 5; more packages follow in batch 6).
+ * Added: 2026-10-08 (domestic expansion batch 5; extended in batch 6).
  */
 return array(
     'status' => 'review',
@@ -16,7 +16,7 @@ return array(
         array('Varanasi (Kashi) in 3 days', '/varanasi-kashi-tour'),
         array('Ayodhya Ram Mandir in 3 days', '/ayodhya-ram-mandir-tour'),
     ),
-    'intro' => 'Varanasi and Ayodhya tour packages cover Kashi\'s ghats on the Ganga — the evening aarti at Dashashwamedh Ghat, a sunrise boat and darshan at Kashi Vishwanath — Sarnath, where the Buddha first taught, and Ayodhya\'s Shri Ram Janmabhoomi temple and Saryu aarti. Our itineraries run 3 to 4 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Varanasi and Ayodhya tour packages cover Kashi\'s ghats on the Ganga — the evening aarti at Dashashwamedh Ghat, a sunrise boat and darshan at Kashi Vishwanath — Sarnath, where the Buddha first taught, Ayodhya\'s Shri Ram Janmabhoomi temple and Saryu aarti, and the Triveni Sangam at Prayagraj, with Chitrakoot, Naimisharanya, Lucknow, and Bodhgaya and Nalanda in Bihar. Our itineraries run 3 to 7 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('The ghats of Kashi', 'The Ganga aarti every evening and the ghats at sunrise, seen from a boat.'),
         array('Two great pilgrimages', 'Kashi Vishwanath, one of the twelve Jyotirlingas, and the Shri Ram Janmabhoomi temple in Ayodhya.'),
@@ -29,11 +29,13 @@ return array(
         array('July – September', 'Monsoon', 'The Ganga rises; boat rides and the aarti location can change.'),
     ),
     'best_time_answer' => 'October to March is the best time to visit Varanasi and Ayodhya; summer is very hot, and in the monsoon the Ganga rises over the lower ghats.',
-    'days_answer' => 'Three days covers Varanasi or Ayodhya; four days adds Sarnath and Ramnagar to Varanasi.',
+    'days_answer' => 'Three days covers Varanasi or Ayodhya; 4–5 days adds Sarnath, or combines Varanasi and Ayodhya; allow 6–7 days to add Prayagraj, Chitrakoot, Naimisharanya, Lucknow or Bodhgaya.',
     'days_rows' => array(
         array('3 days', 'Varanasi: aarti, sunrise boat and Kashi Vishwanath', 'varanasi-kashi-tour'),
         array('4 days', 'Varanasi with Sarnath and Ramnagar Fort', 'varanasi-sarnath'),
         array('3 days', 'Ayodhya: Ram Janmabhoomi, Hanuman Garhi and the Saryu', 'ayodhya-ram-mandir-tour'),
+        array('6 days', 'Prayagraj, Varanasi and Ayodhya', 'prayagraj-varanasi-ayodhya'),
+        array('7 days', 'Ram Van Gaman: Varanasi, Prayagraj, Chitrakoot and Ayodhya', 'varanasi-prayagraj-chitrakoot-ayodhya'),
     ),
     'cost_answer' => 'The cost depends mainly on the hotel category, the season (festivals are busiest) and the number of travellers. We quote each trip for your dates; flights or trains to Varanasi or Ayodhya are extra.',
     'cost_factors' => array(
@@ -47,6 +49,9 @@ return array(
         array('Varanasi', 'The ghats of the Ganga, the evening aarti at Dashashwamedh Ghat and the Kashi Vishwanath temple.'),
         array('Sarnath', 'The Dhamek Stupa and the museum with the Lion Capital of Ashoka (closed on Fridays).'),
         array('Ayodhya', 'The Shri Ram Janmabhoomi temple, Hanuman Garhi, Kanak Bhawan and the Saryu ghats.'),
+        array('Prayagraj', 'The Triveni Sangam of the Ganga, Yamuna and Saraswati, and the Bade Hanuman temple.'),
+        array('Chitrakoot', 'Ramghat on the Mandakini and the Kamadgiri parikrama.'),
+        array('Bodhgaya', 'The Mahabodhi Temple and the Bodhi tree, a UNESCO World Heritage Site.'),
     ),
     'things' => array(
         'Watch the Ganga aarti at Dashashwamedh Ghat',
@@ -79,7 +84,7 @@ return array(
         array('What is the best time to visit?', '<p>October to March; Dev Deepawali in November is special but very crowded.</p>'),
         array(
             'Can I combine Varanasi and Ayodhya?',
-            '<p>Yes. <a href="/customized-holidays?destination=Varanasi%20and%20Ayodhya">Tell us your dates</a> and we will plan both.</p>',
+            '<p>Yes — see <a href="/varanasi-ayodhya">Varanasi and Ayodhya</a> or <a href="/prayagraj-varanasi-ayodhya">Prayagraj, Varanasi and Ayodhya</a>, or <a href="/customized-holidays?destination=Varanasi%20and%20Ayodhya">tell us your dates</a>.</p>',
         ),
     ),
 );

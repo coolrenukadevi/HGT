@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -1683,6 +1683,156 @@
   {
    "package_id": "0232",
    "slug": "ayodhya-ram-mandir-tour",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0233",
+   "slug": "varanasi-ayodhya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0234",
+   "slug": "prayagraj-varanasi-ayodhya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0235",
+   "slug": "varanasi-bodhgaya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0236",
+   "slug": "varanasi-prayagraj-chitrakoot-ayodhya",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0237",
+   "slug": "lucknow-ayodhya-varanasi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0238",
+   "slug": "varanasi-ayodhya-naimisharanya-lucknow",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0239",
+   "slug": "varanasi-bodhgaya-rajgir-nalanda-prayagraj",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0240",
+   "slug": "ayodhya-varanasi-from-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0241",
+   "slug": "varanasi-sarnath-ayodhya-prayagraj",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0242",
+   "slug": "vaishno-devi-katra",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0243",
+   "slug": "vaishno-devi-katra-shiv-khori",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0244",
+   "slug": "vaishno-devi-katra-patnitop",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0245",
+   "slug": "vaishno-devi-amritsar-katra",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0246",
+   "slug": "vaishno-devi-katra-patnitop-srinagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0247",
+   "slug": "vaishno-devi-from-delhi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0248",
+   "slug": "vaishno-devi-katra-dalhousie-dharamshala",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0249",
+   "slug": "vaishno-devi-himachal-devi-temples-amritsar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0250",
+   "slug": "tamil-nadu-chennai-mahabalipuram",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0251",
+   "slug": "tamil-nadu-chennai-mahabalipuram-pondicherry",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0252",
+   "slug": "tamil-nadu-madurai-rameswaram",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0253",
+   "slug": "tamil-nadu-madurai-rameswaram-kanyakumari",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0254",
+   "slug": "tamil-nadu-thanjavur-kumbakonam-trichy",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0255",
+   "slug": "tamil-nadu-chennai-kanchipuram-tiruvannamalai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0256",
+   "slug": "tamil-nadu-chennai-pondicherry-thanjavur-madurai-rameswaram",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0257",
+   "slug": "tamil-nadu-madurai-kodaikanal",
    "internal_key": "",
    "status": "approved"
   }

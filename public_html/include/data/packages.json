@@ -20040,5 +20040,2158 @@
   "end": "Ayodhya",
   "itinerary_source": "standard",
   "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides and entry fees are paid locally."
+ },
+ {
+  "slug": "varanasi-ayodhya",
+  "url": "/varanasi-ayodhya",
+  "title": "Varanasi and Ayodhya Pilgrimage",
+  "name": "Varanasi and Ayodhya Pilgrimage",
+  "page_title": "Varanasi and Ayodhya Pilgrimage – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days for two great pilgrimages: the Ganga aarti, ghats and Kashi Vishwanath in Varanasi, and the Shri Ram Janmabhoomi temple and Saryu aarti in Ayodhya.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Varanasi - Ayodhya",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ayodhya)Varanasi to Ayodhya",
+    "text": "After breakfast, drive from Varanasi to Ayodhya (about 200 km, 4–5 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Ayodhya",
+    "text": "After breakfast, transfer to Ayodhya airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Ayodhya"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Ayodhya",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "prayagraj-varanasi-ayodhya",
+  "url": "/prayagraj-varanasi-ayodhya",
+  "title": "Prayagraj, Varanasi and Ayodhya Yatra",
+  "name": "Prayagraj, Varanasi and Ayodhya Yatra",
+  "page_title": "Prayagraj, Varanasi and Ayodhya Yatra – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days on the classic Uttar Pradesh pilgrimage: the Triveni Sangam at Prayagraj, the ghats and Kashi Vishwanath in Varanasi, and the Ram Janmabhoomi temple in Ayodhya.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Prayagraj - Triveni Sangam - Varanasi - Ayodhya",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Prayagraj)Arrive in Prayagraj – Triveni Sangam",
+    "text": "Arrive at Prayagraj airport or railway station, where our representative meets you. Take a boat to the Triveni Sangam, where the Ganga, the Yamuna and the unseen Saraswati meet, for a holy dip (boat paid locally). Visit the Bade Hanuman temple near the Sangam and Anand Bhawan, the Nehru family home (entry paid locally). Overnight stay in Prayagraj.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Prayagraj to Varanasi",
+    "text": "After breakfast, drive to Varanasi (about 125 km, 3 hours). In the evening, attend the Ganga aarti at Dashashwamedh Ghat. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Varanasi)Ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ayodhya)Varanasi to Ayodhya",
+    "text": "After breakfast, drive from Varanasi to Ayodhya (about 200 km, 4–5 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Ayodhya",
+    "text": "After breakfast, transfer to Ayodhya airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Prayagraj",
+   "Triveni Sangam",
+   "Varanasi",
+   "Ayodhya"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Prayagraj",
+  "end": "Ayodhya",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "varanasi-bodhgaya",
+  "url": "/varanasi-bodhgaya",
+  "title": "Varanasi and Bodhgaya Tour",
+  "name": "Varanasi and Bodhgaya Tour",
+  "page_title": "Varanasi and Bodhgaya Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days from the ghats of Varanasi and Sarnath to Bodhgaya, where the Buddha attained enlightenment, with the Vishnupad temple at Gaya.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Varanasi - Sarnath - Bodhgaya - Gaya",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats, Kashi Vishwanath and Sarnath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Bodhgaya)Varanasi to Bodhgaya",
+    "text": "After breakfast, drive to Bodhgaya (about 250 km, 6 hours). In the evening, visit the Mahabodhi Temple, a UNESCO World Heritage Site, and the Bodhi tree where the Buddha attained enlightenment. Overnight stay in Bodhgaya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Bodhgaya)Bodhgaya and Gaya",
+    "text": "After breakfast, visit the 80-ft Great Buddha Statue, the Thai, Japanese and Bhutanese monasteries, and Sujata village. In the afternoon, drive to the Vishnupad temple in Gaya, where pind daan rites are performed (arranged locally on request). Overnight stay in Bodhgaya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Gaya",
+    "text": "After breakfast, transfer to Gaya airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Sarnath",
+   "Bodhgaya",
+   "Gaya"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Gaya",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "varanasi-prayagraj-chitrakoot-ayodhya",
+  "url": "/varanasi-prayagraj-chitrakoot-ayodhya",
+  "title": "Ram Van Gaman Yatra: Varanasi, Prayagraj, Chitrakoot and Ayodhya",
+  "name": "Ram Van Gaman Yatra: Varanasi, Prayagraj, Chitrakoot and Ayodhya",
+  "page_title": "Ram Van Gaman Yatra: Varanasi, Prayagraj, Chitrakoot and Ayodhya – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days following places linked with the Ramayana: Kashi, the Sangam at Prayagraj, two nights at Chitrakoot, and the Ram Janmabhoomi temple in Ayodhya.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Varanasi - Prayagraj - Chitrakoot - Ayodhya",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Prayagraj)Varanasi to Prayagraj",
+    "text": "After breakfast, drive to Prayagraj (about 125 km, 3 hours). Take a boat to the Triveni Sangam, where the Ganga, the Yamuna and the unseen Saraswati meet, for a holy dip (boat paid locally). Visit the Bade Hanuman temple near the Sangam and Anand Bhawan, the Nehru family home (entry paid locally). Overnight stay in Prayagraj.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Chitrakoot)Prayagraj to Chitrakoot",
+    "text": "After breakfast, drive to Chitrakoot (about 130 km, 3.5 hours), where Ram, Sita and Lakshman spent years of their exile. In the evening, attend the aarti at Ramghat on the Mandakini. Overnight stay in Chitrakoot.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Chitrakoot)Chitrakoot",
+    "text": "After breakfast, walk the parikrama of Kamadgiri hill (about 5 km), then visit the Sati Anusuya ashram, the Gupt Godavari caves and Hanuman Dhara (steps or ropeway, paid locally). Overnight stay in Chitrakoot.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Ayodhya)Chitrakoot to Ayodhya",
+    "text": "After an early breakfast, drive to Ayodhya (about 290 km, 6–7 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Ram Janmabhoomi – departure",
+    "text": "Morning darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available) and Hanuman Garhi, then transfer to Ayodhya airport or railway station. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Prayagraj",
+   "Chitrakoot",
+   "Ayodhya"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Ayodhya",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "lucknow-ayodhya-varanasi",
+  "url": "/lucknow-ayodhya-varanasi",
+  "title": "Lucknow, Ayodhya and Varanasi Tour",
+  "name": "Lucknow, Ayodhya and Varanasi Tour",
+  "page_title": "Lucknow, Ayodhya and Varanasi Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days from the Nawabi city of Lucknow to Ayodhya and Varanasi, with the Imambaras, Ram Janmabhoomi, the Ganga aarti and Sarnath.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Lucknow - Ayodhya - Varanasi - Sarnath",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Lucknow)Arrive in Lucknow",
+    "text": "Arrive at Lucknow airport or railway station, where our representative meets you. In the afternoon, visit the Bara Imambara with its Bhool Bhulaiya maze, the Rumi Darwaza and the Chota Imambara, and taste Awadhi food in the old Chowk (paid locally). Overnight stay in Lucknow.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ayodhya)Lucknow to Ayodhya",
+    "text": "After breakfast, drive from Lucknow to Ayodhya (about 135 km, 3 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Varanasi)Ayodhya to Varanasi",
+    "text": "After breakfast, drive to Varanasi (about 200 km, 4–5 hours). In the evening, attend the Ganga aarti at Dashashwamedh Ghat. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Varanasi)Ghats, Kashi Vishwanath and Sarnath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Varanasi",
+    "text": "After breakfast, transfer to Varanasi airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Lucknow",
+   "Ayodhya",
+   "Varanasi",
+   "Sarnath"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Lucknow",
+  "end": "Varanasi",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "varanasi-ayodhya-naimisharanya-lucknow",
+  "url": "/varanasi-ayodhya-naimisharanya-lucknow",
+  "title": "Varanasi, Ayodhya and Naimisharanya Yatra",
+  "name": "Varanasi, Ayodhya and Naimisharanya Yatra",
+  "page_title": "Varanasi, Ayodhya and Naimisharanya Yatra – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days through the holy places of Uttar Pradesh: Kashi, Ayodhya, the forest shrines of Naimisharanya, and Lucknow.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Varanasi - Ayodhya - Naimisharanya - Lucknow",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ayodhya)Varanasi to Ayodhya",
+    "text": "After breakfast, drive from Varanasi to Ayodhya (about 200 km, 4–5 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Naimisharanya)Ayodhya to Naimisharanya",
+    "text": "After breakfast, drive to Naimisharanya (about 220 km, 5 hours), the forest of the sages where the Puranas are said to have been recited. Visit the Chakra Tirth, the Lalita Devi temple, Vyas Gaddi and the Hanuman Garhi here. Overnight stay at Naimisharanya.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Lucknow)Naimisharanya to Lucknow",
+    "text": "After breakfast, drive to Lucknow (about 95 km, 2.5 hours) and visit the Bara Imambara and the Rumi Darwaza. Overnight stay in Lucknow.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Lucknow",
+    "text": "After breakfast, transfer to Lucknow airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Ayodhya",
+   "Naimisharanya",
+   "Lucknow"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Lucknow",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "varanasi-bodhgaya-rajgir-nalanda-prayagraj",
+  "url": "/varanasi-bodhgaya-rajgir-nalanda-prayagraj",
+  "title": "Varanasi, Bodhgaya, Nalanda and Prayagraj Tour",
+  "name": "Varanasi, Bodhgaya, Nalanda and Prayagraj Tour",
+  "page_title": "Varanasi, Bodhgaya, Nalanda and Prayagraj Tour – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days linking Hindu and Buddhist holy places: Varanasi and Sarnath, Bodhgaya, Rajgir and the ruins of Nalanda, and the Triveni Sangam at Prayagraj.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Varanasi - Bodhgaya - Rajgir - Nalanda - Prayagraj",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats, Kashi Vishwanath and Sarnath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Bodhgaya)Varanasi to Bodhgaya",
+    "text": "After breakfast, drive to Bodhgaya (about 250 km, 6 hours). In the evening, visit the Mahabodhi Temple and the Bodhi tree. Overnight stay in Bodhgaya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Bodhgaya)Rajgir and Nalanda",
+    "text": "After breakfast, drive to Rajgir (about 75 km) for the Vishwa Shanti Stupa (ropeway paid locally) and Griddhakuta hill, then to the ruins of Nalanda University, a UNESCO World Heritage Site. Return to Bodhgaya. Overnight stay in Bodhgaya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Prayagraj)Bodhgaya to Prayagraj",
+    "text": "After an early breakfast, drive to Prayagraj (about 370 km, 8 hours). Overnight stay in Prayagraj.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Prayagraj)Triveni Sangam",
+    "text": "Take a boat to the Triveni Sangam, where the Ganga, the Yamuna and the unseen Saraswati meet, for a holy dip (boat paid locally). Visit the Bade Hanuman temple near the Sangam and Anand Bhawan, the Nehru family home (entry paid locally). Overnight stay in Prayagraj.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Prayagraj",
+    "text": "After breakfast, transfer to Prayagraj airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Bodhgaya",
+   "Rajgir",
+   "Nalanda",
+   "Prayagraj"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Prayagraj",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "ayodhya-varanasi-from-delhi",
+  "url": "/ayodhya-varanasi-from-delhi",
+  "title": "Ayodhya and Varanasi from Delhi",
+  "name": "Ayodhya and Varanasi from Delhi",
+  "page_title": "Ayodhya and Varanasi from Delhi – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from Delhi to Ayodhya and Kashi: Ram Janmabhoomi and the Saryu aarti, then three nights in Varanasi with the ghats, Kashi Vishwanath and Sarnath.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Delhi - Ayodhya - Varanasi - Sarnath",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": "Delhi",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Delhi)Arrive in Delhi",
+    "text": "Arrive in Delhi, where our representative meets you. In the afternoon, visit the Akshardham temple (closed on Mondays; phones not allowed) or the Birla Mandir. Overnight stay in Delhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Ayodhya)Delhi to Ayodhya",
+    "text": "Transfer to Delhi airport or railway station for your flight or train to Ayodhya (tickets not included). On arrival, our representative meets you; in the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Varanasi)Ayodhya to Varanasi",
+    "text": "After breakfast, drive to Varanasi (about 200 km, 4–5 hours). In the evening, attend the Ganga aarti at Dashashwamedh Ghat. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Varanasi)Ghats and Kashi Vishwanath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Varanasi)Sarnath and Ramnagar Fort",
+    "text": "After breakfast, drive to Sarnath for the Dhamek Stupa and the museum (closed on Fridays), then cross the Ganga to Ramnagar Fort. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Varanasi",
+    "text": "After breakfast, transfer to Varanasi airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Ayodhya",
+   "Varanasi",
+   "Sarnath"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Varanasi",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally. Flight or train tickets are not part of the standard package; we can add them to your quote."
+ },
+ {
+  "slug": "varanasi-sarnath-ayodhya-prayagraj",
+  "url": "/varanasi-sarnath-ayodhya-prayagraj",
+  "title": "Varanasi, Ayodhya and Prayagraj Tour",
+  "name": "Varanasi, Ayodhya and Prayagraj Tour",
+  "page_title": "Varanasi, Ayodhya and Prayagraj Tour – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days in a loop of holy cities: Varanasi with Sarnath, Ayodhya's Ram Janmabhoomi temple, and the Triveni Sangam at Prayagraj.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Varanasi - Sarnath - Ayodhya - Prayagraj",
+  "image": "assets/img/packages/varanasi-ganga-aarti.jpg",
+  "group": "kashi-ayodhya",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Varanasi)Arrive in Varanasi – Ganga aarti",
+    "text": "Arrive at Varanasi airport or railway station, where our representative meets you, and transfer to your hotel. In the evening, walk down to Dashashwamedh Ghat for the Ganga aarti, performed with lamps, bells and conch shells. Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Varanasi)Ghats, Kashi Vishwanath and Sarnath",
+    "text": "Before sunrise, take a boat along the ghats of the Ganga (paid locally). After breakfast, have darshan at the Kashi Vishwanath temple through the Kashi Vishwanath Dham corridor (mobile phones are not allowed inside) and visit the Sankat Mochan Hanuman temple. In the afternoon, drive to Sarnath (about 10 km), where the Buddha gave his first sermon: the Dhamek Stupa and the museum with the Lion Capital of Ashoka (the museum is closed on Fridays). Overnight stay in Varanasi.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Ayodhya)Varanasi to Ayodhya",
+    "text": "After breakfast, drive from Varanasi to Ayodhya (about 200 km, 4–5 hours). In the evening, attend the Saryu aarti at Ram Ki Paidi. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Ayodhya)Ram Janmabhoomi and Hanuman Garhi",
+    "text": "After breakfast, have darshan at the Shri Ram Janmabhoomi temple (mobile phones and bags are not allowed; lockers are available), then visit Hanuman Garhi, Kanak Bhawan, Dashrath Mahal and Guptar Ghat on the Saryu. Overnight stay in Ayodhya.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Prayagraj)Ayodhya to Prayagraj",
+    "text": "After breakfast, drive to Prayagraj (about 170 km, 4 hours). In the late afternoon, take a boat to the Triveni Sangam (paid locally) and visit the Bade Hanuman temple. Overnight stay in Prayagraj.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Departure from Prayagraj",
+    "text": "After breakfast, visit Anand Bhawan if time allows (entry paid locally), then transfer to Prayagraj airport or railway station. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Varanasi",
+   "Sarnath",
+   "Ayodhya",
+   "Prayagraj"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Varanasi",
+  "end": "Prayagraj",
+  "itinerary_source": "standard",
+  "special_notes": "Temple darshan timings and security rules are set by each temple; mobile phones and bags are not allowed inside Kashi Vishwanath or the Shri Ram Janmabhoomi temple (lockers are available). Boat rides, entry fees and any puja are paid locally."
+ },
+ {
+  "slug": "vaishno-devi-katra",
+  "url": "/vaishno-devi-katra",
+  "title": "Mata Vaishno Devi Yatra",
+  "name": "Mata Vaishno Devi Yatra",
+  "page_title": "Mata Vaishno Devi Yatra – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "A three-day yatra from Jammu to Mata Vaishno Devi: two nights at Katra, the 13 km climb to the Holy Cave, and the Bhairon temple.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Jammu - Katra - Vaishno Devi - Bhairon",
+  "image": "",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Katra to Jammu",
+    "text": "After breakfast, drive to Jammu (about 50 km) and visit the Raghunath temple if time allows, then transfer to the airport or railway station. The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Jammu",
+   "Katra",
+   "Vaishno Devi",
+   "Bhairon"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Jammu",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-katra-shiv-khori",
+  "url": "/vaishno-devi-katra-shiv-khori",
+  "title": "Vaishno Devi with Shiv Khori",
+  "name": "Vaishno Devi with Shiv Khori",
+  "page_title": "Vaishno Devi with Shiv Khori – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days for two cave shrines: Mata Vaishno Devi above Katra, and the Shiv Khori cave with its natural Shivling.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Katra - Vaishno Devi - Shiv Khori",
+  "image": "",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Katra)Shiv Khori cave",
+    "text": "After a late breakfast, drive to Ransoo (about 80 km, 3 hours) and walk about 3.5 km to the Shiv Khori cave, with its natural Shivling (ponies paid locally). Return to Katra in the evening. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Katra to Jammu",
+    "text": "After breakfast, drive to Jammu (about 50 km) and visit the Raghunath temple if time allows, then transfer to the airport or railway station. The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Katra",
+   "Vaishno Devi",
+   "Shiv Khori"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Jammu",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-katra-patnitop",
+  "url": "/vaishno-devi-katra-patnitop",
+  "title": "Vaishno Devi with Patnitop",
+  "name": "Vaishno Devi with Patnitop",
+  "page_title": "Vaishno Devi with Patnitop – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days pairing the Vaishno Devi yatra with two restful nights in the pine forests of Patnitop and the meadow at Sanasar.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Katra - Vaishno Devi - Patnitop - Sanasar",
+  "image": "",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Patnitop)Katra to Patnitop",
+    "text": "After a late breakfast, drive to Patnitop (about 85 km, 3 hours), a hill resort in pine forest. Evening walk to the Nathatop viewpoint if you feel up to it. Overnight stay in Patnitop.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Patnitop)Patnitop and Sanasar",
+    "text": "After breakfast, drive to Sanasar (about 20 km), a meadow ringed by deodar forest, and visit the Nag temple at Patnitop. Paragliding and pony rides are available locally (paid locally). Overnight stay in Patnitop.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Patnitop to Jammu",
+    "text": "After breakfast, drive down to Jammu (about 110 km, 3–4 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Katra",
+   "Vaishno Devi",
+   "Patnitop",
+   "Sanasar"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Jammu",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-amritsar-katra",
+  "url": "/vaishno-devi-amritsar-katra",
+  "title": "Amritsar and Vaishno Devi Tour",
+  "name": "Amritsar and Vaishno Devi Tour",
+  "page_title": "Amritsar and Vaishno Devi Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days from the Golden Temple to Mata Vaishno Devi: Amritsar with Jallianwala Bagh and the Attari border, then darshan at the Holy Cave from Katra.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Amritsar - Attari - Katra - Vaishno Devi",
+  "image": "assets/img/packages/golden-temple-amritsar.jpg",
+  "group": "vaishno-devi",
+  "departure": "Amritsar",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Amritsar)Arrive in Amritsar – Golden Temple",
+    "text": "Arrive at Amritsar airport or railway station, where our representative meets you. In the evening, visit the Golden Temple for the Palki Sahib ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Amritsar)Amritsar and the Attari border",
+    "text": "Morning at the Golden Temple, with langar at the community kitchen, then Jallianwala Bagh and the Durgiana temple. In the afternoon, drive to the Attari–Wagah border (about 30 km) for the Beating Retreat ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Katra)Amritsar to Katra",
+    "text": "After breakfast, drive to Katra (about 260 km, 6 hours) and collect your yatra registration card. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Katra to Jammu",
+    "text": "After breakfast, drive to Jammu (about 50 km) and visit the Raghunath temple if time allows, then transfer to the airport or railway station. The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Amritsar",
+   "Attari",
+   "Katra",
+   "Vaishno Devi"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Amritsar",
+  "end": "Jammu",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-katra-patnitop-srinagar",
+  "url": "/vaishno-devi-katra-patnitop-srinagar",
+  "title": "Vaishno Devi with Patnitop and Srinagar",
+  "name": "Vaishno Devi with Patnitop and Srinagar",
+  "page_title": "Vaishno Devi with Patnitop and Srinagar – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from Jammu: Mata Vaishno Devi from Katra, a night at Patnitop, and three nights in Srinagar with Gulmarg and the Mughal gardens.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Katra - Vaishno Devi - Patnitop - Srinagar - Gulmarg",
+  "image": "assets/img/destinations/kashmir.jpg",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Patnitop)Katra to Patnitop",
+    "text": "After a late breakfast, drive to Patnitop (about 85 km, 3 hours) and rest among the pine forests. Overnight stay in Patnitop.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Srinagar)Patnitop to Srinagar",
+    "text": "After breakfast, drive to Srinagar (about 200 km, 6–7 hours) through the Banihal tunnel into the Kashmir valley. Evening by Dal Lake. Overnight stay in Srinagar.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Srinagar)Gulmarg day trip",
+    "text": "After breakfast, drive to Gulmarg (about 56 km, 2 hours) for its meadows; the Gulmarg Gondola is available (paid locally). Return to Srinagar in the evening. Overnight stay in Srinagar.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Srinagar)Srinagar sightseeing",
+    "text": "After breakfast, visit the Mughal gardens — Nishat Bagh and Shalimar Bagh — the Shankaracharya temple and the Hazratbal shrine. A boat ride on Dal Lake is available (paid locally). Overnight stay in Srinagar.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Srinagar",
+    "text": "After breakfast, transfer to Srinagar airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Katra",
+   "Vaishno Devi",
+   "Patnitop",
+   "Srinagar",
+   "Gulmarg"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Srinagar",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-from-delhi",
+  "url": "/vaishno-devi-from-delhi",
+  "title": "Vaishno Devi Yatra from Delhi",
+  "name": "Vaishno Devi Yatra from Delhi",
+  "page_title": "Vaishno Devi Yatra from Delhi – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days from Delhi by train: two nights at Katra for darshan at Mata Vaishno Devi with a rest day after the climb, and a night in Jammu.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Delhi - Katra - Vaishno Devi - Jammu",
+  "image": "",
+  "group": "vaishno-devi",
+  "departure": "Delhi",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Delhi to Katra by train",
+    "text": "Take the train from Delhi to Shri Mata Vaishno Devi Katra station (tickets not included; the Vande Bharat takes about 8 hours). Our representative meets you at Katra; collect your yatra registration card. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Katra)Rest day – Katra",
+    "text": "A rest day after the climb. In the afternoon, visit the Bhimgarh fort area or shop in the Katra market for dry fruits and prasad. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jammu)Katra to Jammu",
+    "text": "After breakfast, drive to Jammu (about 50 km). Visit the Raghunath temple, the Bahu Fort and its Bawe Wali Mata temple, and the Amar Mahal museum (entry paid locally). Overnight stay in Jammu.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Jammu to Delhi",
+    "text": "After breakfast, transfer to Jammu railway station or airport for your train or flight to Delhi (tickets not included). The yatra ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Delhi",
+   "Katra",
+   "Vaishno Devi",
+   "Jammu"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Delhi",
+  "end": "Delhi",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal. Flight or train tickets are not part of the standard package; we can add them to your quote."
+ },
+ {
+  "slug": "vaishno-devi-katra-dalhousie-dharamshala",
+  "url": "/vaishno-devi-katra-dalhousie-dharamshala",
+  "title": "Vaishno Devi with Dalhousie and Dharamshala",
+  "name": "Vaishno Devi with Dalhousie and Dharamshala",
+  "page_title": "Vaishno Devi with Dalhousie and Dharamshala – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days from Jammu: Mata Vaishno Devi darshan, then the hill stations of Dalhousie and Khajjiar and two nights in Dharamshala and McLeod Ganj.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Katra - Vaishno Devi - Dalhousie - Khajjiar - Dharamshala - McLeod Ganj",
+  "image": "assets/img/packages/shimla-manali-with-dalhousie-amritsar-08-days.jpg",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Dalhousie)Katra to Dalhousie",
+    "text": "After a late breakfast, drive to Dalhousie (about 200 km, 5–6 hours) by way of Pathankot. Overnight stay in Dalhousie.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Dalhousie)Khajjiar and Dalhousie",
+    "text": "After breakfast, drive to Khajjiar (about 22 km), a meadow ringed by deodar forest, and visit the Khajji Nag temple. In the afternoon, see Dalhousie's churches and Panchpula. Overnight stay in Dalhousie.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Dharamshala)Dalhousie to Dharamshala",
+    "text": "After breakfast, drive to Dharamshala (about 120 km, 4 hours). Evening in the Tibetan market at McLeod Ganj. Overnight stay in Dharamshala.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Dharamshala)McLeod Ganj and Kangra",
+    "text": "After breakfast, visit the Dalai Lama's temple complex, the Bhagsunag temple and waterfall, and the Kangra Devi (Brajeshwari) temple. Overnight stay in Dharamshala.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Dharamshala to Pathankot",
+    "text": "After breakfast, drive to Pathankot (about 90 km, 3 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Katra",
+   "Vaishno Devi",
+   "Dalhousie",
+   "Khajjiar",
+   "Dharamshala",
+   "McLeod Ganj"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Pathankot",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "vaishno-devi-himachal-devi-temples-amritsar",
+  "url": "/vaishno-devi-himachal-devi-temples-amritsar",
+  "title": "Vaishno Devi, Himachal Devi Temples and Amritsar",
+  "name": "Vaishno Devi, Himachal Devi Temples and Amritsar",
+  "page_title": "Vaishno Devi, Himachal Devi Temples and Amritsar – 6 Nights / 7 Days | Holiday Guru Travel",
+  "description": "Seven days for the Devi temples of the north: Mata Vaishno Devi, Chintpurni, Jwalamukhi and Kangra Devi, ending at the Golden Temple in Amritsar.",
+  "duration": "6 Nights / 7 Days",
+  "nights": 6,
+  "days": 7,
+  "cities": "Katra - Vaishno Devi - Chintpurni - Jwalamukhi - Kangra - Amritsar",
+  "image": "assets/img/packages/golden-temple-amritsar.jpg",
+  "group": "vaishno-devi",
+  "departure": "Jammu",
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Katra)Arrive Jammu – Katra",
+    "text": "Arrive at Jammu airport or railway station, where our representative meets you, and drive to Katra (about 50 km, 1.5–2 hours), the base town for Mata Vaishno Devi. Collect your yatra registration card and rest. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Katra)Mata Vaishno Devi darshan",
+    "text": "An early start for the climb from Katra through Banganga and Ardhkuwari to the Bhawan (about 13 km), on foot or by pony or palki (paid locally); the helicopter to Sanjhichhat is booked separately. After darshan of the Holy Cave, take the ropeway or walk up to the Bhairon temple, then return to Katra. Overnight stay in Katra.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Jwalamukhi)Katra to Chintpurni and Jwalamukhi",
+    "text": "After a late breakfast, drive to Chintpurni (about 170 km, 5 hours) for darshan at the Chintpurni Mata temple, then on to Jwalamukhi (about 35 km). Overnight stay at Jwalamukhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Jwalamukhi)Jwalamukhi and Kangra Devi",
+    "text": "Morning darshan at the Jwalamukhi temple, where natural flames burn from the rock, then drive to Kangra for the Brajeshwari Devi temple and Kangra Fort. Return to Jwalamukhi. Overnight stay at Jwalamukhi.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Amritsar)Jwalamukhi to Amritsar",
+    "text": "After breakfast, drive to Amritsar (about 200 km, 5 hours). In the evening, visit the Golden Temple for the Palki Sahib ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Amritsar)Amritsar and the Attari border",
+    "text": "Morning at the Golden Temple, with langar, then Jallianwala Bagh and the Durgiana temple. In the afternoon, drive to the Attari–Wagah border for the Beating Retreat ceremony. Overnight stay in Amritsar.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : Departure from Amritsar",
+    "text": "After breakfast, transfer to Amritsar airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Katra",
+   "Vaishno Devi",
+   "Chintpurni",
+   "Jwalamukhi",
+   "Kangra",
+   "Amritsar"
+  ],
+  "features": [
+   "Pilgrimage",
+   "Helicopter option"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Jammu",
+  "end": "Amritsar",
+  "itinerary_source": "standard",
+  "special_notes": "A yatra registration (RFID card) is compulsory for every pilgrim; it is free at the Katra registration counters or online. The climb is about 13 km each way; ponies, palkis, the battery car and the Bhairon ropeway are paid locally, and helicopter seats are booked separately on the Shrine Board portal."
+ },
+ {
+  "slug": "tamil-nadu-chennai-mahabalipuram",
+  "url": "/tamil-nadu-chennai-mahabalipuram",
+  "title": "Chennai and Mahabalipuram Tour",
+  "name": "Chennai and Mahabalipuram Tour",
+  "page_title": "Chennai and Mahabalipuram Tour – 2 Nights / 3 Days | Holiday Guru Travel",
+  "description": "Three days on the Coromandel coast: Chennai's Kapaleeshwarar temple and Marina Beach, and the UNESCO-listed shore temples of Mahabalipuram.",
+  "duration": "2 Nights / 3 Days",
+  "nights": 2,
+  "days": 3,
+  "cities": "Chennai - Mylapore - Mahabalipuram",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Chennai)Arrive in Chennai",
+    "text": "Arrive at Chennai airport or railway station, where our representative meets you. In the afternoon, visit the Kapaleeshwarar temple in Mylapore, the San Thome Basilica and Fort St. George, and walk on Marina Beach at sunset. Overnight stay in Chennai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mahabalipuram)Chennai to Mahabalipuram",
+    "text": "After breakfast, drive down the East Coast Road to Mahabalipuram (about 58 km), stopping at DakshinaChitra if you wish (entry paid locally). See the UNESCO-listed Shore Temple, the Five Rathas, Arjuna's Penance and Krishna's Butter Ball. Overnight stay in Mahabalipuram.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : Mahabalipuram to Chennai",
+    "text": "After a morning on the beach, drive back to Chennai (about 58 km) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Chennai",
+   "Mylapore",
+   "Mahabalipuram"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Chennai",
+  "end": "Chennai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-chennai-mahabalipuram-pondicherry",
+  "url": "/tamil-nadu-chennai-mahabalipuram-pondicherry",
+  "title": "Chennai, Mahabalipuram and Pondicherry",
+  "name": "Chennai, Mahabalipuram and Pondicherry",
+  "page_title": "Chennai, Mahabalipuram and Pondicherry – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days down the East Coast Road: Chennai, the rock-cut temples of Mahabalipuram, and two nights in French Pondicherry with Auroville.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Chennai - Mahabalipuram - Pondicherry - Auroville",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Chennai)Arrive in Chennai",
+    "text": "Arrive at Chennai airport or railway station, where our representative meets you. In the afternoon, visit the Kapaleeshwarar temple in Mylapore, the San Thome Basilica and Fort St. George, and walk on Marina Beach at sunset. Overnight stay in Chennai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Mahabalipuram)Chennai to Mahabalipuram",
+    "text": "After breakfast, drive down the East Coast Road to Mahabalipuram (about 58 km), stopping at DakshinaChitra if you wish (entry paid locally). See the UNESCO-listed Shore Temple, the Five Rathas, Arjuna's Penance and Krishna's Butter Ball. Overnight stay in Mahabalipuram.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Pondicherry)Mahabalipuram to Pondicherry",
+    "text": "After breakfast, drive to Pondicherry (about 100 km, 2.5 hours). Evening walk along the Promenade. Overnight stay in Pondicherry.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Pondicherry)Pondicherry and Auroville",
+    "text": "After breakfast, walk through the French Quarter of Pondicherry with its yellow villas, the Promenade beach, the Sri Aurobindo Ashram and the Manakula Vinayagar temple. In the afternoon, visit Auroville and the Matrimandir viewing point (the inner chamber needs advance booking). Overnight stay in Pondicherry.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Pondicherry to Chennai",
+    "text": "After breakfast, drive back to Chennai (about 150 km, 3.5 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Chennai",
+   "Mahabalipuram",
+   "Pondicherry",
+   "Auroville"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Chennai",
+  "end": "Chennai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-madurai-rameswaram",
+  "url": "/tamil-nadu-madurai-rameswaram",
+  "title": "Madurai and Rameswaram Pilgrimage",
+  "name": "Madurai and Rameswaram Pilgrimage",
+  "page_title": "Madurai and Rameswaram Pilgrimage – 3 Nights / 4 Days | Holiday Guru Travel",
+  "description": "Four days for two great temples: the Meenakshi Amman temple in Madurai and the Ramanathaswamy Jyotirlinga at Rameswaram, with Dhanushkodi.",
+  "duration": "3 Nights / 4 Days",
+  "nights": 3,
+  "days": 4,
+  "cities": "Madurai - Rameswaram - Dhanushkodi",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Madurai)Arrive in Madurai – Meenakshi temple",
+    "text": "Arrive at Madurai airport or railway station, where our representative meets you. Visit the Meenakshi Amman temple, with its towering gopurams, and the Thirumalai Nayak Palace. Return to the temple at night for the Palliyarai ceremony if you wish. Overnight stay in Madurai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Rameswaram)Madurai to Rameswaram",
+    "text": "After breakfast, drive to Rameswaram (about 175 km, 4 hours) across the Pamban bridge. Have darshan at the Ramanathaswamy temple, one of the twelve Jyotirlingas, famous for its long pillared corridors and its 22 holy wells (theerthams). Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Rameswaram)Dhanushkodi",
+    "text": "After breakfast, drive to Dhanushkodi (about 20 km), the ghost town at the tip of the island, and Arichal Munai, where the Bay of Bengal meets the Indian Ocean. Visit the Dr. APJ Abdul Kalam memorial and the Agni Theertham beach. Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : Rameswaram to Madurai",
+    "text": "After breakfast, drive back to Madurai (about 175 km, 4 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Madurai",
+   "Rameswaram",
+   "Dhanushkodi"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Madurai",
+  "end": "Madurai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-madurai-rameswaram-kanyakumari",
+  "url": "/tamil-nadu-madurai-rameswaram-kanyakumari",
+  "title": "Madurai, Rameswaram and Kanyakumari",
+  "name": "Madurai, Rameswaram and Kanyakumari",
+  "page_title": "Madurai, Rameswaram and Kanyakumari – 5 Nights / 6 Days | Holiday Guru Travel",
+  "description": "Six days from Madurai to the southern tip of India: the Meenakshi temple, Rameswaram and Dhanushkodi, and sunrise and sunset at Kanyakumari.",
+  "duration": "5 Nights / 6 Days",
+  "nights": 5,
+  "days": 6,
+  "cities": "Madurai - Rameswaram - Dhanushkodi - Kanyakumari - Suchindram",
+  "image": "assets/img/packages/kovalam-kanyakumari-tour-4-days.jpg",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Madurai)Arrive in Madurai – Meenakshi temple",
+    "text": "Arrive at Madurai airport or railway station, where our representative meets you. Visit the Meenakshi Amman temple, with its towering gopurams, and the Thirumalai Nayak Palace. Return to the temple at night for the Palliyarai ceremony if you wish. Overnight stay in Madurai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Rameswaram)Madurai to Rameswaram",
+    "text": "After breakfast, drive to Rameswaram (about 175 km, 4 hours) across the Pamban bridge. Have darshan at the Ramanathaswamy temple, one of the twelve Jyotirlingas, famous for its long pillared corridors and its 22 holy wells (theerthams). Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Rameswaram)Dhanushkodi",
+    "text": "After breakfast, drive to Dhanushkodi (about 20 km), the ghost town at the tip of the island, and Arichal Munai, where the Bay of Bengal meets the Indian Ocean. Visit the Dr. APJ Abdul Kalam memorial and the Agni Theertham beach. Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kanyakumari)Rameswaram to Kanyakumari",
+    "text": "After breakfast, drive to Kanyakumari (about 310 km, 6 hours) along the coast, at the southern tip of India. Watch the sunset over the sea. Overnight stay in Kanyakumari.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Kanyakumari)Kanyakumari",
+    "text": "Watch the sunrise over the sea at Kanyakumari. Take the ferry to the Vivekananda Rock Memorial and the Thiruvalluvar statue (ferry paid locally), then visit the Kumari Amman temple and the Gandhi Mandapam. In the afternoon, visit the Suchindram temple (about 12 km). Overnight stay in Kanyakumari.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : Kanyakumari to Trivandrum",
+    "text": "After breakfast, drive to Trivandrum (about 90 km, 2.5 hours), visiting the Padmanabhapuram Palace on the way (closed on Mondays). The tour ends at Trivandrum.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Madurai",
+   "Rameswaram",
+   "Dhanushkodi",
+   "Kanyakumari",
+   "Suchindram"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Madurai",
+  "end": "Trivandrum",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-thanjavur-kumbakonam-trichy",
+  "url": "/tamil-nadu-thanjavur-kumbakonam-trichy",
+  "title": "Chola Temples: Trichy, Thanjavur and Kumbakonam",
+  "name": "Chola Temples: Trichy, Thanjavur and Kumbakonam",
+  "page_title": "Chola Temples: Trichy, Thanjavur and Kumbakonam – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days in the Chola heartland: Srirangam and the Rock Fort at Trichy, and the three UNESCO-listed Great Living Chola Temples of Thanjavur, Darasuram and Gangaikonda Cholapuram.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Trichy - Srirangam - Thanjavur - Darasuram - Kumbakonam - Gangaikonda Cholapuram",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Trichy)Arrive in Trichy – Srirangam and the Rock Fort",
+    "text": "Arrive at Trichy airport or railway station, where our representative meets you. Visit the Ranganathaswamy temple at Srirangam, one of the largest temple complexes in India, the Jambukeswarar temple, and climb to the Rock Fort Ucchi Pillayar temple at sunset. Overnight stay in Trichy.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Thanjavur)Trichy to Thanjavur",
+    "text": "After breakfast, drive to Thanjavur (about 60 km). Visit the Brihadeeswarar temple, built by Rajaraja Chola and a UNESCO World Heritage Site, and the Thanjavur Palace with the Saraswathi Mahal library. Overnight stay in Thanjavur.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kumbakonam)Darasuram to Kumbakonam",
+    "text": "After breakfast, drive to Darasuram for the Airavatesvara temple, another of the Great Living Chola Temples, and on to Kumbakonam (about 40 km in all) for the Adi Kumbeswarar and Sarangapani temples. Overnight stay in Kumbakonam.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Kumbakonam)Gangaikonda Cholapuram and the Navagraha temples",
+    "text": "After breakfast, visit Gangaikonda Cholapuram, the third of the UNESCO-listed Chola temples, and some of the Navagraha temples around Kumbakonam (timings vary by temple). Overnight stay in Kumbakonam.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Kumbakonam to Trichy",
+    "text": "After breakfast, drive back to Trichy (about 95 km, 2.5 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Trichy",
+   "Srirangam",
+   "Thanjavur",
+   "Darasuram",
+   "Kumbakonam",
+   "Gangaikonda Cholapuram"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Trichy",
+  "end": "Trichy",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-chennai-kanchipuram-tiruvannamalai",
+  "url": "/tamil-nadu-chennai-kanchipuram-tiruvannamalai",
+  "title": "Chennai, Kanchipuram and Tiruvannamalai",
+  "name": "Chennai, Kanchipuram and Tiruvannamalai",
+  "page_title": "Chennai, Kanchipuram and Tiruvannamalai – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days for the temple towns north of Tamil Nadu's heartland: Kanchipuram's great temples and silk, and Tiruvannamalai below the holy Arunachala hill.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Chennai - Kanchipuram - Tiruvannamalai",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": true,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Chennai)Arrive in Chennai",
+    "text": "Arrive at Chennai airport or railway station, where our representative meets you. In the afternoon, visit the Kapaleeshwarar temple in Mylapore, the San Thome Basilica and Fort St. George, and walk on Marina Beach at sunset. Overnight stay in Chennai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Kanchipuram)Chennai to Kanchipuram",
+    "text": "After breakfast, drive to Kanchipuram (about 75 km, 2 hours), the city of a thousand temples: the Ekambareswarar, Kailasanathar, Kamakshi Amman and Varadharaja Perumal temples. See silk weavers at work in the evening. Overnight stay in Kanchipuram.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Tiruvannamalai)Kanchipuram to Tiruvannamalai",
+    "text": "After breakfast, drive to Tiruvannamalai (about 120 km, 3 hours) below the sacred Arunachala hill. Have darshan at the Arunachaleswarar temple in the evening. Overnight stay in Tiruvannamalai.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Tiruvannamalai)Ramana Ashram and Girivalam",
+    "text": "Visit the Sri Ramana Maharshi ashram and walk up to the Virupaksha and Skandashram caves on the hill. Pilgrims who wish can walk the 14 km Girivalam path round Arunachala. Overnight stay in Tiruvannamalai.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Tiruvannamalai to Chennai",
+    "text": "After breakfast, drive back to Chennai (about 190 km, 4.5 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Chennai",
+   "Kanchipuram",
+   "Tiruvannamalai"
+  ],
+  "features": [
+   "Pilgrimage"
+  ],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Chennai",
+  "end": "Chennai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-chennai-pondicherry-thanjavur-madurai-rameswaram",
+  "url": "/tamil-nadu-chennai-pondicherry-thanjavur-madurai-rameswaram",
+  "title": "Grand Tamil Nadu Tour",
+  "name": "Grand Tamil Nadu Tour",
+  "page_title": "Grand Tamil Nadu Tour – 7 Nights / 8 Days | Holiday Guru Travel",
+  "description": "Eight days across Tamil Nadu: Chennai and Mahabalipuram, French Pondicherry, the Chola temples of Thanjavur, Madurai's Meenakshi temple, and Rameswaram.",
+  "duration": "7 Nights / 8 Days",
+  "nights": 7,
+  "days": 8,
+  "cities": "Chennai - Mahabalipuram - Pondicherry - Thanjavur - Madurai - Rameswaram",
+  "image": "",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Chennai)Arrive in Chennai",
+    "text": "Arrive at Chennai airport or railway station, where our representative meets you. In the afternoon, visit the Kapaleeshwarar temple in Mylapore, the San Thome Basilica and Fort St. George, and walk on Marina Beach at sunset. Overnight stay in Chennai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Pondicherry)Mahabalipuram – Pondicherry",
+    "text": "After breakfast, drive down the East Coast Road to Mahabalipuram for the Shore Temple, the Five Rathas and Arjuna's Penance, then on to Pondicherry (about 160 km in all). Overnight stay in Pondicherry.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Pondicherry)Pondicherry and Auroville",
+    "text": "After breakfast, walk through the French Quarter of Pondicherry with its yellow villas, the Promenade beach, the Sri Aurobindo Ashram and the Manakula Vinayagar temple. In the afternoon, visit Auroville and the Matrimandir viewing point (the inner chamber needs advance booking). Overnight stay in Pondicherry.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Thanjavur)Pondicherry to Thanjavur",
+    "text": "After breakfast, drive to Thanjavur (about 180 km, 4 hours), visiting the Airavatesvara temple at Darasuram on the way. In the evening, see the Brihadeeswarar temple lit up. Overnight stay in Thanjavur.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : (Madurai)Thanjavur to Madurai",
+    "text": "After breakfast, visit the Thanjavur Palace, then drive to Madurai (about 190 km, 4 hours). In the evening, have darshan at the Meenakshi Amman temple. Overnight stay in Madurai.",
+    "generated": true
+   },
+   {
+    "title": "Day 6 : (Rameswaram)Madurai to Rameswaram",
+    "text": "After a morning at the Thirumalai Nayak Palace, drive to Rameswaram (about 175 km, 4 hours) across the Pamban bridge. Evening darshan at the Ramanathaswamy temple. Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 7 : (Rameswaram)Dhanushkodi",
+    "text": "After breakfast, drive to Dhanushkodi (about 20 km), the ghost town at the tip of the island, and Arichal Munai, where the Bay of Bengal meets the Indian Ocean. Visit the Dr. APJ Abdul Kalam memorial and the Agni Theertham beach. Overnight stay in Rameswaram.",
+    "generated": true
+   },
+   {
+    "title": "Day 8 : Rameswaram to Madurai",
+    "text": "After breakfast, drive back to Madurai (about 175 km, 4 hours) for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Chennai",
+   "Mahabalipuram",
+   "Pondicherry",
+   "Thanjavur",
+   "Madurai",
+   "Rameswaram"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Chennai",
+  "end": "Madurai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
+ },
+ {
+  "slug": "tamil-nadu-madurai-kodaikanal",
+  "url": "/tamil-nadu-madurai-kodaikanal",
+  "title": "Madurai and Kodaikanal Tour",
+  "name": "Madurai and Kodaikanal Tour",
+  "page_title": "Madurai and Kodaikanal Tour – 4 Nights / 5 Days | Holiday Guru Travel",
+  "description": "Five days pairing the temple city of Madurai with the cool hill station of Kodaikanal, its lake, Coaker's Walk and Pillar Rocks.",
+  "duration": "4 Nights / 5 Days",
+  "nights": 4,
+  "days": 5,
+  "cities": "Madurai - Kodaikanal",
+  "image": "assets/img/packages/mysore-ooty-kodaikanal-06-days.jpg",
+  "group": "tamil-nadu",
+  "departure": null,
+  "pilgrimage": false,
+  "itinerary": [
+   {
+    "title": "Day 1 : (Madurai)Arrive in Madurai – Meenakshi temple",
+    "text": "Arrive at Madurai airport or railway station, where our representative meets you. Visit the Meenakshi Amman temple, with its towering gopurams, and the Thirumalai Nayak Palace. Return to the temple at night for the Palliyarai ceremony if you wish. Overnight stay in Madurai.",
+    "generated": true
+   },
+   {
+    "title": "Day 2 : (Kodaikanal)Madurai to Kodaikanal",
+    "text": "After breakfast, drive up to Kodaikanal (about 120 km, 3.5 hours), stopping at the Silver Cascade falls. Evening by Kodai Lake. Overnight stay in Kodaikanal.",
+    "generated": true
+   },
+   {
+    "title": "Day 3 : (Kodaikanal)Kodaikanal sightseeing",
+    "text": "After breakfast, walk along Coaker's Walk, visit Bryant Park, the Pillar Rocks and Guna Caves viewpoint, and take a boat or cycle round Kodai Lake (paid locally). Overnight stay in Kodaikanal.",
+    "generated": true
+   },
+   {
+    "title": "Day 4 : (Madurai)Kodaikanal to Madurai",
+    "text": "After a slow morning in the hills, drive back to Madurai. In the afternoon, visit the Gandhi Memorial Museum and the Vandiyur Mariamman Teppakulam tank. Overnight stay in Madurai.",
+    "generated": true
+   },
+   {
+    "title": "Day 5 : Departure from Madurai",
+    "text": "After breakfast, transfer to Madurai airport or railway station for your onward journey. The tour ends here.",
+    "generated": true
+   }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "terms": [
+   "Extra adult 35% and extra child 25% of the package cost (children below 5 complimentary).",
+   "If a listed hotel is unavailable, accommodation is arranged in a hotel of similar standard.",
+   "Transport is provided as per the itinerary and is not at disposal; sightseeing depends on the time available.",
+   "Cancellation 30 days or more before departure: non-refundable deposit (25% of the total package).",
+   "Between 29 and 20 days before departure: non-refundable deposit + 25% of the holiday cost.",
+   "Between 19 and 14 days before departure: non-refundable deposit + 50% of the holiday cost.",
+   "Between 13 and 8 days before departure: non-refundable deposit + 75% of the holiday cost.",
+   "Within 7 days of departure: 100% of the holiday cost.",
+   "Any refund due is paid after Holiday Guru Travel receives the refund from the service providers; processing charges are deducted."
+  ],
+  "booking": [
+   "To book and confirm your tour, pay 35% of the total package cost as an advance; the balance is due before departure.",
+   "Air and train tickets need full payment.",
+   "Mode of payment: net banking, IMPS, NEFT, cheque, UPI (Google Pay, PhonePe, Paytm) or QR code. Cash is not accepted.",
+   "Check-in and check-out as per hotel policy.",
+   "A booking voucher is issued once payment is received."
+  ],
+  "warnings": [],
+  "corrections": [
+   "2026-10-05: new package (domestic expansion batch 6, owner approved). Itinerary written from the route and the company's own destination data; standard hotel category, meal plan, inclusions and exclusions apply unless stated."
+  ],
+  "places": [
+   "Madurai",
+   "Kodaikanal"
+  ],
+  "features": [],
+  "hotel": "",
+  "meals": "",
+  "transfers": "",
+  "start": "Madurai",
+  "end": "Madurai",
+  "itinerary_source": "standard",
+  "special_notes": "Temples have dress codes (men may be asked to remove shirts at some temples) and fixed darshan timings; cameras are not allowed inside many inner sanctums. Entry fees, boat rides and ferries are paid locally."
  }
 ]
