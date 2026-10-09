@@ -19,7 +19,7 @@ return array(
         array('Char Dham Yatra packages', '/tours/char-dham'),
         array('4-day Corbett with Nainital itinerary', '/corbett-with-nainital'),
     ),
-    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Newer itineraries add Auli, Chopta, Binsar, Munsiyari and Lansdowne, the Valley of Flowers and Hemkund Sahib, Adi Kailash and Om Parvat, Chakrata, Kanatal and Tehri lake, Shivpuri and the Harsil valley. Our Uttarakhand itineraries run 3 to 9 days by road.',
+    'intro' => 'Uttarakhand tour packages combine the lake town of Nainital, Mussoorie and the Jim Corbett National Park with Kumaon hill stations such as Ranikhet, Kausani and Almora, and the Ganga towns of Haridwar and Rishikesh. Newer itineraries add Auli, Chopta, Binsar, Munsiyari and Lansdowne, the Valley of Flowers and Hemkund Sahib, Adi Kailash and Om Parvat, Chakrata, Kanatal and Tehri lake, Shivpuri and the Harsil valley, Pithoragarh and Patal Bhuvaneshwar, the Bhimtal lakes, Jageshwar, and Khirsu and Pauri. Our Uttarakhand itineraries run 3 to 9 days by road.',
     'why' => array(
         array(
             'Close to Delhi',

@@ -19,7 +19,7 @@ return array(
         array('6-day Jewels of Leh Ladakh itinerary', '/jewels-of-leh-ladakh-package'),
         array('Kashmir tour packages', '/tours/kashmir'),
     ),
-    'intro' => 'Leh Ladakh tour packages start in Leh, or reach it by road from Srinagar or Manali, and cover the Nubra Valley over Khardung La and the high-altitude Pangong Lake; transport, permits and the meal plan are as listed on each package. Our Ladakh itineraries run 4 to 12 days; the longer ones add Tso Moriri, Turtuk or the Srinagar–Leh–Manali highway.',
+    'intro' => 'Leh Ladakh tour packages start in Leh, or reach it by road from Srinagar or Manali, and cover the Nubra Valley over Khardung La and the high-altitude Pangong Lake; transport, permits and the meal plan are as listed on each package. Our Ladakh itineraries run 4 to 12 days; the longer ones add Tso Moriri, Turtuk or the Srinagar–Leh–Manali highway. Newer itineraries add the Sham valley and Alchi, Tso Kar, the Aryan valley of Dha Hanu, Kargil and Drass, the Hanle dark-sky reserve and Zanskar.',
     'why' => array(
         array(
             'High passes and lakes',

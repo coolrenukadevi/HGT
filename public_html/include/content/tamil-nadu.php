@@ -16,7 +16,7 @@ return array(
         array('Madurai and Rameswaram in 4 days', '/tamil-nadu-madurai-rameswaram'),
         array('Chennai, Mahabalipuram and Pondicherry', '/tamil-nadu-chennai-mahabalipuram-pondicherry'),
     ),
-    'intro' => 'Tamil Nadu tour packages cover the great temples of South India — Madurai\'s Meenakshi Amman, the Ramanathaswamy Jyotirlinga at Rameswaram, Srirangam and the UNESCO-listed Chola temples of Thanjavur — with Chennai, Mahabalipuram, Pondicherry, Kanchipuram, Tiruvannamalai, Kanyakumari and Kodaikanal. Our itineraries run 3 to 8 days, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Tamil Nadu tour packages cover the great temples of South India — Madurai\'s Meenakshi Amman, the Ramanathaswamy Jyotirlinga at Rameswaram, Srirangam and the UNESCO-listed Chola temples of Thanjavur — with Chennai, Mahabalipuram, Pondicherry, Kanchipuram, Tiruvannamalai, Kanyakumari and Kodaikanal. Newer itineraries add the hills of Yercaud, Yelagiri, Kolli and Valparai, Hogenakkal falls, Palani, the Navagraha temples of Kumbakonam, Chettinad, Velankanni, Chidambaram and Pichavaram, Courtallam and Tiruchendur. Our itineraries run 3 to 8 days, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('Temple country', 'Towering gopurams at Madurai, Srirangam, Kanchipuram and Tiruvannamalai.'),
         array('UNESCO heritage', 'The shore temples of Mahabalipuram and the Great Living Chola Temples of Thanjavur, Darasuram and Gangaikonda Cholapuram.'),

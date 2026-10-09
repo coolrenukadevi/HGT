@@ -19,7 +19,7 @@ return array(
         array('6-day Shimla Manali itinerary', '/shimla-manali-tour'),
         array('Manali Volvo weekend trip', '/himachal-manali-kullu-volvo'),
     ),
-    'intro' => 'Himachal tour packages combine Shimla and Manali with Kullu, Dharamshala, Dalhousie and, on several itineraries, Amritsar and Chandigarh. Newer itineraries add Kasol, Bir, Chamba and the Kinnaur and Spiti valleys. Our Himachal itineraries run 3 to 13 days, by road or by overnight Volvo from Delhi.',
+    'intro' => 'Himachal tour packages combine Shimla and Manali with Kullu, Dharamshala, Dalhousie and, on several itineraries, Amritsar and Chandigarh. Newer itineraries add Kasol, Bir, Chamba and the Kinnaur and Spiti valleys, the Barot valley, Shoja and the Jalori pass, Palampur\'s tea gardens, Narkanda, Parashar lake, Bharmour, Naggar, Renuka Ji and the Shakti Peeth temples of the lower hills. Our Himachal itineraries run 3 to 13 days, by road or by overnight Volvo from Delhi.',
     'why' => array(
         array(
             'Classic hill stations',

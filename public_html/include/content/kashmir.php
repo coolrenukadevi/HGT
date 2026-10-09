@@ -24,7 +24,7 @@ return array(
     ),
     'more_html' => 'For month-by-month advice, how to reach and packing tips, read our <a href="/travel-guide/kashmir">Kashmir travel guide</a>. Planning the pilgrimage? See <a href="/tours/amarnath">Amarnath Yatra packages</a>.',
 
-    'intro' => 'Kashmir tour packages combine Srinagar’s Dal Lake and Mughal gardens with day trips or stays in Gulmarg, Pahalgam and Sonmarg, with transfers from Srinagar airport, or by road from Jammu. Our Kashmir itineraries run 3 to 10 days; several include a night on a houseboat, and some add Mata Vaishno Devi at Katra.',
+    'intro' => 'Kashmir tour packages combine Srinagar’s Dal Lake and Mughal gardens with day trips or stays in Gulmarg, Pahalgam and Sonmarg, with transfers from Srinagar airport, or by road from Jammu. Newer itineraries reach the Gurez, Lolab and Bangus valleys, Daksum and Sinthan Top, the springs of Kokernag and Verinag, Patnitop and Sanasar, the Kheer Bhawani temple, the spring tulip garden and Gulmarg in winter snow. Our Kashmir itineraries run 3 to 10 days; several include a night on a houseboat, and some add Mata Vaishno Devi at Katra.',
 
     'why' => array(
         array('Lakes, meadows and mountains', 'Dal Lake shikara rides, the meadows of Gulmarg and Sonmarg, and the Lidder valley at Pahalgam — all within a day’s drive of Srinagar.'),

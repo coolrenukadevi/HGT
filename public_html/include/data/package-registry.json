@@ -1,5 +1,5 @@
 {
- "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08. 0372–0431 (domestic phase D2: Gujarat, Madhya Pradesh, Maharashtra) added 2026-10-08. 0432–0491 (domestic phase D3: Maharashtra, Karnataka, Andhra Pradesh & Telangana, Kerala, Goa) added 2026-10-08. 0492–0551 (domestic phase D4: Punjab, Bihar, West Bengal, Mathura & Vrindavan, Rajasthan, Golden Triangle, Varanasi & Ayodhya, Char Dham, Uttarakhand) added 2026-10-08.",
+ "_about": "Package ID registry. The Package ID (0001…) is the only package identifier (itinerary key; CRM, quotations, payments). Domestic, international and speciality packages share this sequence; Offer Codes (OF-0001…) have their own sequence in offers.json. Append-only once approved: never renumber, reuse or delete. Shown publicly (package hero, Quick Facts, itinerary header) only for approved IDs; 0001–0107 approved by the owner 2026-10-04. See docs/package-registry/PACKAGE-ID-MAPPING.md. 0054 and 0102 were rebuilt as distinct products on 2026-10-05 (owner) instead of being retired. 0108–0132 (domestic expansion batch 1: Kashmir, Ladakh, Amarnath, Himachal) added 2026-10-05. 2026-10-05: the 80 remaining package URLs with night/day numbers were renamed (owner rule: no numbers in URLs); old slugs are in previous_slugs and 301 to the new URL. 0133–0157 (batch 2: Himachal, Uttarakhand, Ek Dham) added 2026-10-05. 0158–0182 (batch 3: Char Dham, Sikkim–Darjeeling, Kerala) added 2026-10-05. 0183–0207 (batch 4: Kerala, South India, Goa, Rajasthan) added 2026-10-08. 0208–0232 (batch 5: Rajasthan, Golden Triangle, Varanasi & Ayodhya) added 2026-10-08. 0233–0257 (batch 6: Varanasi & Ayodhya, Vaishno Devi, Tamil Nadu) added 2026-10-08. 0258–0261 (batch 7: Tamil Nadu) added 2026-10-08, completing 250 domestic packages. 0262–0286 (international batch I1: Thailand, UAE, Singapore) added 2026-10-08. 0287–0308 (international batch I2: Bali & Indonesia, Vietnam, Japan, Cambodia) added 2026-10-08. 0309–0311 (Myanmar) reserved as proposed: built but not published until the owner confirms (owner option a, 2026-10-08). 0312–0371 (domestic phase D1: Andaman, Meghalaya & Assam, Arunachal & Nagaland, Odisha) added 2026-10-08. 0372–0431 (domestic phase D2: Gujarat, Madhya Pradesh, Maharashtra) added 2026-10-08. 0432–0491 (domestic phase D3: Maharashtra, Karnataka, Andhra Pradesh & Telangana, Kerala, Goa) added 2026-10-08. 0492–0551 (domestic phase D4: Punjab, Bihar, West Bengal, Mathura & Vrindavan, Rajasthan, Golden Triangle, Varanasi & Ayodhya, Char Dham, Uttarakhand) added 2026-10-08. 0552–0611 (domestic phase D5: Himachal, Kashmir, Ladakh, Sikkim & Darjeeling, Tamil Nadu, Karnataka & Ooty, Uttarakhand, Kerala, Vaishno Devi, Amarnath) added 2026-10-08, completing 550 domestic packages.",
  "numbering_order": "destination display order, then trip length, then name",
  "entries": [
   {
@@ -3597,6 +3597,366 @@
   {
    "package_id": "0551",
    "slug": "uttarakhand-harsil-valley",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0552",
+   "slug": "himachal-barot-valley",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0553",
+   "slug": "himachal-shoja-jalori-pass",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0554",
+   "slug": "himachal-palampur-tea-gardens-baijnath",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0555",
+   "slug": "himachal-shimla-narkanda",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0556",
+   "slug": "himachal-spiti-kaza-from-manali",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0557",
+   "slug": "himachal-parashar-lake-mandi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0558",
+   "slug": "himachal-chamba-bharmour",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0559",
+   "slug": "himachal-nahan-renuka-ji",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0560",
+   "slug": "himachal-shakti-peeth-jwalamukhi-chamunda-chintpurni",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0561",
+   "slug": "himachal-manali-naggar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0562",
+   "slug": "kashmir-gurez-valley",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0563",
+   "slug": "kashmir-lolab-bangus-kupwara",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0564",
+   "slug": "kashmir-tulip-garden-srinagar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0565",
+   "slug": "kashmir-gulmarg-winter-snow",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0566",
+   "slug": "kashmir-kokernag-verinag-achabal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0567",
+   "slug": "kashmir-sinthan-top-daksum",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0568",
+   "slug": "kashmir-jammu-patnitop-sanasar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0569",
+   "slug": "kashmir-srinagar-temples-kheer-bhawani",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0570",
+   "slug": "kashmir-sonmarg-thajiwas-zero-point",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0571",
+   "slug": "ladakh-leh-hemis-thiksey-monasteries",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0572",
+   "slug": "ladakh-leh-sham-valley-likir",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0573",
+   "slug": "ladakh-leh-tso-kar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0574",
+   "slug": "ladakh-aryan-valley-dha-hanu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0575",
+   "slug": "ladakh-kargil-drass",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0576",
+   "slug": "ladakh-hanle-dark-sky",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0577",
+   "slug": "ladakh-zanskar-padum",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0578",
+   "slug": "sikkim-gangtok-nathu-la",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0579",
+   "slug": "sikkim-namchi-ravangla",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0580",
+   "slug": "sikkim-yuksom-pelling",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0581",
+   "slug": "sikkim-dzongu-valley",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0582",
+   "slug": "sikkim-rinchenpong-kaluk",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0583",
+   "slug": "sikkim-west-uttarey-okhrey",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0584",
+   "slug": "darjeeling-kurseong",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0585",
+   "slug": "darjeeling-sittong-lamahatta",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0586",
+   "slug": "darjeeling-tinchuley-takdah",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0587",
+   "slug": "darjeeling-sandakphu-manebhanjan",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0588",
+   "slug": "kalimpong-lava-lolegaon",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0589",
+   "slug": "tamil-nadu-yercaud",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0590",
+   "slug": "tamil-nadu-yelagiri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0591",
+   "slug": "tamil-nadu-kolli-hills",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0592",
+   "slug": "tamil-nadu-hogenakkal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0593",
+   "slug": "tamil-nadu-pollachi-valparai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0594",
+   "slug": "tamil-nadu-palani-kodaikanal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0595",
+   "slug": "tamil-nadu-navagraha-temples-kumbakonam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0596",
+   "slug": "tamil-nadu-chettinad-karaikudi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0597",
+   "slug": "tamil-nadu-velankanni-nagapattinam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0598",
+   "slug": "tamil-nadu-chidambaram-pichavaram",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0599",
+   "slug": "tamil-nadu-tirunelveli-courtallam",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0600",
+   "slug": "tamil-nadu-tiruchendur-kanyakumari",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0601",
+   "slug": "nilgiris-coonoor-kotagiri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0602",
+   "slug": "south-india-ooty-masinagudi-mudumalai",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0603",
+   "slug": "south-india-coorg-wayanad",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0604",
+   "slug": "uttarakhand-pithoragarh-patal-bhuvaneshwar",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0605",
+   "slug": "uttarakhand-bhimtal-sattal-naukuchiatal",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0606",
+   "slug": "uttarakhand-jageshwar-almora",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0607",
+   "slug": "uttarakhand-khirsu-pauri",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0608",
+   "slug": "kerala-thekkady-gavi",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0609",
+   "slug": "kerala-idukki-ramakkalmedu",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0610",
+   "slug": "vaishno-devi-katra-jammu-city",
+   "internal_key": "",
+   "status": "approved"
+  },
+  {
+   "package_id": "0611",
+   "slug": "amarnath-yatra-via-baltal",
    "internal_key": "",
    "status": "approved"
   }

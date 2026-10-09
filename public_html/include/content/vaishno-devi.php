@@ -17,7 +17,7 @@ return array(
         array('Vaishno Devi yatra from Jammu in 3 days', '/vaishno-devi-katra'),
         array('Amritsar and Vaishno Devi in 5 days', '/vaishno-devi-amritsar-katra'),
     ),
-    'intro' => 'Vaishno Devi tour packages take you to Katra for the 13 km climb to the Holy Cave of Mata Vaishno Devi and the Bhairon temple, with extensions to Shiv Khori, Patnitop, Srinagar, Amritsar, Dalhousie and Dharamshala, and the Devi temples of Himachal. Our itineraries run 3 to 7 days from Jammu, Amritsar or Delhi, with standard / 3-star equivalent hotels and breakfast.',
+    'intro' => 'Vaishno Devi tour packages take you to Katra for the 13 km climb to the Holy Cave of Mata Vaishno Devi and the Bhairon temple, with Jammu city sightseeing or extensions to Shiv Khori, Patnitop, Srinagar, Amritsar, Dalhousie and Dharamshala, and the Devi temples of Himachal. Our itineraries run 3 to 7 days from Jammu, Amritsar or Delhi, with standard / 3-star equivalent hotels and breakfast.',
     'why' => array(
         array('The Holy Cave', 'Darshan of the three pindis of Mata Vaishno Devi, one of the most visited shrines in India.'),
         array('Choose your pace', 'Walk, ride a pony, take a palki or book the helicopter to Sanjhichhat.'),

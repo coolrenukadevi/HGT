@@ -19,7 +19,7 @@ return array(
         array('4-day Darjeeling Gangtok itinerary', '/darjeeling-gangtok'),
         array('6-day Gangtok with Lachen and Lachung', '/gangtok-with-lachen-and-lachung'),
     ),
-    'intro' => 'Darjeeling and Sikkim tour packages combine Gangtok, Darjeeling, Pelling and Kalimpong with high-altitude excursions to Tsomgo Lake, Lachung, Yumthang and Gurudongmar Lake. Our itineraries run 4 to 11 days, starting and ending at Siliguri (Bagdogra airport or New Jalpaiguri station).',
+    'intro' => 'Darjeeling and Sikkim tour packages combine Gangtok, Darjeeling, Pelling and Kalimpong with high-altitude excursions to Tsomgo Lake, Lachung, Yumthang and Gurudongmar Lake. Newer itineraries add Nathu La, Namchi and Ravangla, Yuksom, the Lepcha reserve of Dzongu, Rinchenpong, Uttarey and the Barsey rhododendrons, Kurseong, Sittong, Tinchuley, Sandakphu, and Lava and Lolegaon. Our itineraries run 3 to 11 days, starting and ending at Siliguri (Bagdogra airport or New Jalpaiguri station).',
     'why' => array(
         array(
             'Kanchenjunga views',

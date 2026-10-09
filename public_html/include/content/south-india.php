@@ -19,7 +19,7 @@ return array(
         array('5-day Bangalore, Mysore and Ooty itinerary', '/bangalore-mysore-ooty-tour'),
         array('Kerala tour packages', '/tours/kerala'),
     ),
-    'intro' => 'Karnataka and Ooty tour packages combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg, Chikmagalur and Sakleshpur, the wildlife of Kabini, Bandipur and BR Hills, the temple coast of Udupi, Murudeshwar and Gokarna, the pilgrim towns of Dharmasthala, Kukke, Kollur and Sringeri, Jog Falls and Dandeli, and the heritage of Hampi, Badami, Pattadakal, Belur and Halebidu, with Wayanad or Kodaikanal on some trips. Tours start in Bangalore, Mangalore, Hubli or Coimbatore. Our itineraries run 3 to 8 days by road.',
+    'intro' => 'Karnataka and Ooty tour packages combine Mysore’s palace with the Nilgiri hills at Ooty and Coonoor, the coffee country of Coorg, Chikmagalur and Sakleshpur, the wildlife of Kabini, Bandipur and BR Hills, the temple coast of Udupi, Murudeshwar and Gokarna, the pilgrim towns of Dharmasthala, Kukke, Kollur and Sringeri, Jog Falls and Dandeli, and the heritage of Hampi, Badami, Pattadakal, Belur and Halebidu, with Wayanad, Kotagiri, Masinagudi and Mudumalai, or Kodaikanal on some trips. Tours start in Bangalore, Mangalore, Hubli or Coimbatore. Our itineraries run 3 to 8 days by road.',
     'why' => array(
         array('Royal Mysore', 'Mysore Palace, Chamundi Hills and the Brindavan Gardens.'),
         array('Nilgiri hills', 'Ooty and Coonoor: tea gardens, lakes and the Nilgiri Mountain Railway.'),
