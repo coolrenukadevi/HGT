@@ -11,6 +11,7 @@ require_once __DIR__ . '/controllers/enquiries.php';
 require_once __DIR__ . '/controllers/quotes.php';
 require_once __DIR__ . '/controllers/admin.php';
 require_once __DIR__ . '/controllers/api.php';
+require_once __DIR__ . '/intake.php';
 require_once __DIR__ . '/controllers/account.php';
 require_once __DIR__ . '/mail.php';
 require_once __DIR__ . '/site_export.php';

@@ -36,8 +36,9 @@ return array(
     // from the website and shown in Pricing and Preview; it does not need this switch.
     'payment_gateway' => false,
 
-    // Website → CRM enquiry intake (POST /api/enquiries). Empty = intake disabled.
-    // Set a long random value in config.php and the same value on the website side.
+    // Website → CRM enquiries. On the same server as the website (cms/ beside public_html) the website saves enquiries
+    // directly into this CMS: leave this EMPTY. Only if the CMS runs on another server: set a long random value here;
+    // the website then sends enquiries over HTTPS (POST /api/enquiries) with it.
     'intake_token' => '',
 
     // Address used in emailed links (password reset). Never taken from the request.
