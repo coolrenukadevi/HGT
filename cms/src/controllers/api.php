@@ -127,5 +127,43 @@ function api_enquiry_intake()
         'departure_city' => mb_substr((string) ($in['departure_city'] ?? ''), 0, 80), 'message' => mb_substr((string) ($in['message'] ?? ''), 0, 4000),
         'addons' => je($addons), 'utm' => je($utm), 'is_test' => !empty($in['is_test']) ? 1 : 0, 'raw' => je($in)));
     cms_log('Website enquiry received', $ctx ? $ctx['package_pk'] : null, 'enquiry', '', '#' . $id);
-    api_json(array('enquiry_id' => $id, 'package_id' => $ctx ? $ctx['package_id'] : null, 'price_version' => $ctx ? $ctx['rate_version'] : null, 'offer_code' => $ctx ? $ctx['offer_code'] : null), 201);
+    api_json(array('enquiry_id' => $id, 'enquiry_no' => enquiry_no($id), 'package_id' => $ctx ? $ctx['package_id'] : null, 'price_version' => $ctx ? $ctx['rate_version'] : null, 'offer_code' => $ctx ? $ctx['offer_code'] : null), 201);
+}
+
+/**
+ * Website "Track your enquiry": status of one enquiry for its customer. Same shared intake token as the intake
+ * (the website calls this server-to-server; browsers never see the token). The customer must give the enquiry
+ * number AND the email or phone used on the enquiry; a wrong number or contact gets the same "not found" answer,
+ * so the endpoint never confirms that an enquiry number exists. Test enquiries are never shown.
+ */
+const HG_STAGE_PUBLIC = array(
+    'new'       => array('Received', 'We have your enquiry. A travel expert will call or WhatsApp you shortly.'),
+    'contacted' => array('In progress', 'Our travel expert has contacted you and is working on your trip.'),
+    'qualified' => array('In progress', 'We are planning your itinerary and checking hotels and prices.'),
+    'quoted'    => array('Quotation sent', 'Your quotation has been sent. Please check your email or WhatsApp, or contact us with any changes.'),
+    'won'       => array('Confirmed', 'Your trip is confirmed. Our team will share your booking details and vouchers.'),
+    'lost'      => array('Closed', 'This enquiry is closed. Contact us any time to plan a new trip.'),
+);
+
+function api_enquiry_status()
+{
+    $token = (string) cms_config('intake_token');
+    $given = isset($_SERVER['HTTP_X_HG_INTAKE_TOKEN']) ? $_SERVER['HTTP_X_HG_INTAKE_TOKEN'] : '';
+    if ($token === '') return api_json(array('error' => 'intake disabled'), 503);
+    if (!hash_equals($token, $given)) return api_json(array('error' => 'unauthorised'), 401);
+    $in = json_decode((string) file_get_contents('php://input'), true);
+    $pk = is_array($in) ? enquiry_pk_from_no($in['enquiry_no'] ?? '') : null;
+    $contact = is_array($in) ? trim((string) ($in['contact'] ?? '')) : '';
+    $e = ($pk && $contact !== '') ? q1('SELECT * FROM enquiries WHERE enquiry_pk = ? AND is_test = 0', array($pk)) : null;
+    $digits = function ($s) { return substr(preg_replace('/\D/', '', (string) $s), -10); };
+    $match = $e && ((strpos($contact, '@') !== false && $e['email'] !== '' && strcasecmp($e['email'], $contact) === 0)
+        || (strlen($digits($contact)) === 10 && $digits($e['phone']) === $digits($contact)));
+    if (!$match) return api_json(array('error' => 'not found'), 404);
+    $st = HG_STAGE_PUBLIC[$e['stage']] ?? HG_STAGE_PUBLIC['new'];
+    $quote = q1("SELECT status, updated_at FROM custom_itineraries WHERE enquiry_pk = ?", array($pk));
+    api_json(array(
+        'enquiry_no' => enquiry_no($pk), 'received' => substr($e['created_at'], 0, 10), 'status' => $st[0], 'status_text' => $st[1],
+        'package_name' => (string) $e['package_name'], 'package_id' => $e['package_id'], 'travel_date' => (string) $e['travel_date'],
+        'quotation_sent' => $quote && in_array($quote['status'], array('sent', 'confirmed'), true) ? substr($quote['updated_at'], 0, 10) : null,
+    ));
 }

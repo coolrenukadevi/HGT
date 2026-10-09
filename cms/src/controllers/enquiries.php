@@ -6,6 +6,15 @@
 
 const HG_STAGES = array('new' => 'New', 'contacted' => 'Contacted', 'qualified' => 'Qualified', 'quoted' => 'Quoted', 'won' => 'Won', 'lost' => 'Lost');
 
+/** Enquiry number given to the customer (website confirmation, emails, quotation, tracking): HGT-E-00012. */
+function enquiry_no($pk) { return 'HGT-E-' . str_pad((string) (int) $pk, 5, '0', STR_PAD_LEFT); }
+
+/** enquiry_pk from an enquiry number as a customer may type it ("HGT-E-00012", "hgt e 12", "E12"); null if not one. */
+function enquiry_pk_from_no($s)
+{
+    return preg_match('/^\s*(?:HGT)?[\s\-]*E[\s\-]*0*(\d{1,9})\s*$/i', (string) $s, $m) ? (int) $m[1] : null;
+}
+
 function enquiries_list()
 {
     need('enquiries');
@@ -14,7 +23,8 @@ function enquiries_list()
     if (isset(HG_STAGES[$stage])) { $where .= ' AND stage = ?'; $args[] = $stage; }
     $q = get('q');
     if ($q !== '') {
-        if (preg_match('/^\d{1,4}$/', $q)) { $where .= ' AND package_id = ?'; $args[] = str_pad($q, 4, '0', STR_PAD_LEFT); }
+        if (($en = enquiry_pk_from_no($q)) !== null) { $where .= ' AND enquiry_pk = ?'; $args[] = $en; }
+        elseif (preg_match('/^\d{1,4}$/', $q)) { $where .= ' AND package_id = ?'; $args[] = str_pad($q, 4, '0', STR_PAD_LEFT); }
         elseif (preg_match('/^OF-\d{4}$/i', $q)) { $where .= ' AND offer_code = ?'; $args[] = strtoupper($q); }
         else { $where .= ' AND (name LIKE ? OR email LIKE ? OR phone LIKE ? OR package_name LIKE ?)'; $l = '%' . $q . '%'; array_push($args, $l, $l, $l, $l); }
     }
@@ -71,7 +81,7 @@ function enquiry_new_post()
         'adults' => post('adults') === '' ? null : (int) post('adults'), 'children' => post('children') === '' ? null : (int) post('children'), 'departure_city' => post('departure_city'),
         'message' => post('message'), 'addons' => je($addons), 'assigned_to' => uid(), 'is_test' => post('is_test') === '1' ? 1 : 0));
     cms_log('Enquiry logged', $ctx ? $ctx['package_pk'] : null, 'enquiry', '', '#' . $id . ' (' . $src . ')');
-    flash('Enquiry #' . $id . ' logged.');
+    flash('Enquiry ' . enquiry_no($id) . ' logged.');
     redirect('/enquiries/' . $id);
 }
 

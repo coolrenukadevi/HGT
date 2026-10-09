@@ -353,7 +353,7 @@
         if (btn) btn.disabled = true;
         return fetch(url, { method: 'POST', body: new URLSearchParams(data), credentials: 'same-origin' })
             .then(function (r) { return r.text(); })
-            .then(function (t) { return t.trim() === '1'; })
+            .then(function (t) { var m = /^1(?:\|(HGT-E-\d+))?$/.exec(t.trim()); return m ? { no: m[1] || '' } : false; })
             .catch(function () { return false; })
             .then(function (ok) { if (btn) btn.disabled = false; return ok; });
     }
@@ -371,7 +371,7 @@
             status(form, 'Sending…', true);
             send(form, '/mail.php').then(function (ok) {
                 if (ok) {
-                    status(form, 'Thank you. A travel expert will contact you shortly on phone or WhatsApp.', true);
+                    status(form, 'Thank you. A travel expert will contact you shortly on phone or WhatsApp.' + (ok.no ? ' Your enquiry number is ' + ok.no + ' — keep it to track your enquiry under Help & Support → Track your enquiry.' : ''), true);
                     form.reset();
                     var pk = form.querySelector('[name="package_url"]');
                     track('enquiry_submit', { form_id: form.id, package_url: pk ? pk.value : '' });

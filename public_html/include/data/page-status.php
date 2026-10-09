@@ -49,7 +49,8 @@ return array(
     '/payment'              => 'approved',   // indexed (and to be added to sitemap.xml) once a Pay Now link or bank details are filled in
     '/leadership'           => 'approved',   // photos, names and roles to be supplied by the owner
     '/our-team'             => 'approved',   // photos, names and roles to be supplied by the owner
-    '/grievance-redress'    => 'approved',   // officer details supplied by the owner
+    '/grievance-redress'    => 'approved',
+    '/track-enquiry'        => 'approved',   // enquiry tracking (noindex; needs the CMS connection), 2026-10-09   // officer details supplied by the owner
     '/offers'               => 'approved',   // offer details, prices and validity to be supplied by the owner
     // Company pages from the owner's page pack (2026-09-30).
     '/why-us'               => 'approved',   // owner's own wording

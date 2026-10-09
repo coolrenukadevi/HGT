@@ -239,6 +239,9 @@ t(!in_array($old, $sb['summary']['added'], true) && in_array($old, $sb['summary'
 t($sb['count'] === $siteCount, 'website sync after the import keeps the same number of website packages');
 
 t(site_renamed_on_site() === array(), 'the website lists no package under an old (renamed) URL');
+// Enquiry numbers (shown to the customer and used by Track your enquiry)
+require_once __DIR__ . '/../src/controllers/enquiries.php';
+t(enquiry_no(12) === 'HGT-E-00012' && enquiry_pk_from_no('HGT-E-00012') === 12 && enquiry_pk_from_no('hgt e 12') === 12 && enquiry_pk_from_no('12') === null && enquiry_pk_from_no('HGT-Q-0012') === null, 'enquiry number format and parsing');
 // Staging CMS never writes the website (the "changes here do not reach the live website" ribbon)
 $h = sha1_file(site_data_path('packages.json'));
 $sx = site_export('test');

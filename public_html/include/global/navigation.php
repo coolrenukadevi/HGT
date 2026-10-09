@@ -58,7 +58,7 @@
                 <a href="<?= hg_e(hg_whatsapp_href()) ?>" target="_blank" rel="noopener"><?= hg_icon('whatsapp') ?> WhatsApp</a>
                 <a href="<?= hg_e(hg_mailto_href()) ?>"><?= hg_icon('mail') ?> Email</a>
             </div>
-            <ul class="hg-nav__secondary"><li><a href="/faqs">FAQs</a></li></ul>
+            <ul class="hg-nav__secondary"><li><a href="/track-enquiry">Track your enquiry</a></li><li><a href="/faqs">FAQs</a></li></ul>
         </div>
     </nav>
     <div class="hg-nav__scrim" data-hg-menu-close hidden></div>

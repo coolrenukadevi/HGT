@@ -12,7 +12,7 @@ ob_start(); ?>
     <tbody>
     <?php foreach ($rows as $x) { ?>
         <tr>
-            <td data-label="#"><a href="/enquiries/<?= (int) $x['enquiry_pk'] ?>">#<?= (int) $x['enquiry_pk'] ?></a><?= $x['is_test'] ? ' <span class="cms-pill cms-pill--test">Test</span>' : '' ?></td>
+            <td data-label="#"><a href="/enquiries/<?= (int) $x['enquiry_pk'] ?>"><code><?= e(enquiry_no($x['enquiry_pk'])) ?></code></a><?= $x['is_test'] ? ' <span class="cms-pill cms-pill--test">Test</span>' : '' ?></td>
             <td data-label="Received"><?= e(dmy($x['created_at'])) ?></td>
             <td data-label="Traveller"><a class="cms-strong" href="/enquiries/<?= (int) $x['enquiry_pk'] ?>"><?= e($x['name']) ?></a></td>
             <td data-label="Package"><?= $x['package_id'] ? '<span class="cms-code">' . e($x['package_id']) . '</span> ' : '' ?><?= e($x['package_name'] ?: '—') ?></td>

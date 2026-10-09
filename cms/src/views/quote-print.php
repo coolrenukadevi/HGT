@@ -148,7 +148,7 @@ ul.ck li::before { content: ""; position: absolute; left: 0; top: .55em; width: 
             <p class="eyebrow">Tour quotation &amp; itinerary</p>
             <h1><?= e($q['title']) ?></h1>
         </div>
-        <p class="ref">Ref <b><?= e($ref) ?></b><br>Date <b><?= e($dmy($row['updated_at'])) ?></b><?php if ($e['package_id']) { ?><br>Package ID <b><?= e($e['package_id']) ?></b><?php } ?></p>
+        <p class="ref">Ref <b><?= e($ref) ?></b><br>Enquiry no. <b><?= e(enquiry_no($e['enquiry_pk'])) ?></b><br>Date <b><?= e($dmy($row['updated_at'])) ?></b><?php if ($e['package_id']) { ?><br>Package ID <b><?= e($e['package_id']) ?></b><?php } ?></p>
     </div>
 
     <div class="greet">

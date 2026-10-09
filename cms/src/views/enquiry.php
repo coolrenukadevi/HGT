@@ -80,5 +80,5 @@ ob_start(); ?>
 </div>
 <?php
 $content = ob_get_clean();
-cms_render('layout', array('title' => 'Enquiry #' . $e['enquiry_pk'], 'active' => 'enquiries', 'crumbs' => array(array('Dashboard', '/'), array('Enquiries', '/enquiries'), array('#' . $e['enquiry_pk'], null)),
-    'head' => page_head('Enquiry #' . $e['enquiry_pk'], 'Received ' . dmy($e['created_at']) . ' · ' . ucfirst($e['source']), '', '<span class="cms-pill cms-pill--stage-' . e($e['stage']) . '">' . e(HG_STAGES[$e['stage']]) . '</span>' . ($e['owner'] ? ' <span class="cms-muted cms-small">Owner: ' . e($e['owner']) . '</span>' : '')), 'content' => $content));
+cms_render('layout', array('title' => 'Enquiry ' . enquiry_no($e['enquiry_pk']), 'active' => 'enquiries', 'crumbs' => array(array('Dashboard', '/'), array('Enquiries', '/enquiries'), array(enquiry_no($e['enquiry_pk']), null)),
+    'head' => page_head('Enquiry ' . enquiry_no($e['enquiry_pk']), 'Received ' . dmy($e['created_at']) . ' · ' . ucfirst($e['source']), '', '<span class="cms-pill cms-pill--stage-' . e($e['stage']) . '">' . e(HG_STAGES[$e['stage']]) . '</span>' . ($e['owner'] ? ' <span class="cms-muted cms-small">Owner: ' . e($e['owner']) . '</span>' : '')), 'content' => $content));

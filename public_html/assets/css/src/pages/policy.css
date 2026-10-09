@@ -1,3 +1,14 @@
 .hg-sitemap__list { margin: 0 0 24px !important; padding-left: 1.1em !important; font-size: 14.5px; }
 .hg-sitemap__list li { margin-bottom: 6px; }
 .hg-policy h2 { margin-top: 28px; }
+
+/* Track your enquiry (/track-enquiry) */
+.hg-track { display: grid; gap: 16px; padding: 20px; border: 1px solid var(--hg-border); border-radius: var(--hg-r-md); background: #fff; }
+.hg-track__fields { display: grid; gap: 14px; }
+@media (min-width: 640px) { .hg-track__fields { grid-template-columns: 1fr 1fr; } }
+.hg-track .hg-btn { justify-self: start; }
+.hg-track__result { margin-top: 24px; display: grid; gap: 14px; }
+.hg-track__status { margin: 0; }
+.hg-track__badge { display: inline-block; margin-right: 6px; padding: 3px 12px; border-radius: 999px; background: var(--hg-orange-50); color: var(--hg-orange-text); font-weight: 700; }
+.hg-track__msg { margin-top: 20px; padding: 14px 16px; border: 1px solid #F5C2BC; border-radius: var(--hg-r-sm); background: #FDF1EF; color: #8E1B12; }
+.hg-track__note { margin-top: 18px; font-size: 14px; }

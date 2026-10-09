@@ -23,6 +23,7 @@ function cms_dispatch($method, $path)
     if (strpos($path, '/assets/') === 0) return serve_site_asset($path);
     if ($path === '/login') return $method === 'POST' ? login_post() : login_get();
     if ($path === '/api/enquiries' && $method === 'POST') return api_enquiry_intake();
+    if ($path === '/api/enquiries/status' && $method === 'POST') return api_enquiry_status();
     if ($path === '/forgot') return $method === 'POST' ? forgot_post() : forgot_get();
     if ($path === '/reset') return $method === 'POST' ? reset_post() : reset_get();
 

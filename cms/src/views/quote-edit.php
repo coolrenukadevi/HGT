@@ -139,7 +139,7 @@ ob_start(); ?>
 </script>
 <?php
 $content = ob_get_clean();
-cms_render('layout', array('title' => 'Quotation · Enquiry #' . $e['enquiry_pk'], 'active' => 'quotations',
-    'crumbs' => array(array('Dashboard', '/'), array('Enquiries', '/enquiries'), array('#' . $e['enquiry_pk'], '/enquiries/' . (int) $e['enquiry_pk']), array('Quotation', null)),
+cms_render('layout', array('title' => 'Quotation · Enquiry ' . enquiry_no($e['enquiry_pk']), 'active' => 'quotations',
+    'crumbs' => array(array('Dashboard', '/'), array('Enquiries', '/enquiries'), array(enquiry_no($e['enquiry_pk']), '/enquiries/' . (int) $e['enquiry_pk']), array('Quotation', null)),
     'head' => page_head('Custom itinerary & quotation', $e['name'] . ($e['package_name'] ? ' · ' . $e['package_name'] : ''), $row ? '<a class="cms-btn cms-btn--primary" href="/enquiries/' . (int) $e['enquiry_pk'] . '/quotation/print" target="_blank" rel="noopener">' . icon('download') . 'Download PDF</a>' : '', $row ? '<span class="cms-pill">' . e(HG_QUOTE_STATUSES[$row['status']]) . '</span> <span class="cms-muted cms-small">Updated ' . e(dmy($row['updated_at'])) . '</span>' : ''),
     'content' => $content));
