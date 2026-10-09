@@ -56,7 +56,7 @@ $active = isset($active) ? $active : '';
 </head>
 <body class="cms <?= isset($bodyClass) ? e($bodyClass) : '' ?>">
 <a class="cms-skip" href="#cms-main">Skip to content</a>
-<?php if (cms_is_staging()) { ?><div class="cms-ribbon" role="note">Staging CMS — changes here do not reach the live website</div><?php } ?>
+<?php if (!cms_site_writes()) { ?><div class="cms-ribbon" role="note">Staging CMS — changes here do not reach the live website</div><?php } ?>
 <div class="cms-shell">
     <aside class="cms-side" id="cms-side" aria-label="CMS navigation">
         <div class="cms-side__brand">

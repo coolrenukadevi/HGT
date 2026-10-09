@@ -96,6 +96,21 @@ function site_resync_post()
     redirect('/');
 }
 
+/** POST /site-import: import the website packages the CMS does not have yet (same as bin/import-new-from-site.php --apply). */
+function site_import_post()
+{
+    if (!hg_may(role(), 'publish')) deny();
+    try {
+        $r = site_import_new(true);
+    } catch (Throwable $x) {
+        error_log('hg cms import: ' . $x->getMessage());
+        flash('Import failed; nothing was changed. ' . $x->getMessage(), 'err');
+        redirect('/');
+    }
+    flash($r['imported'] ? 'Imported ' . $r['imported'] . ' package' . ($r['imported'] === 1 ? '' : 's') . ' from the website.' . ($r['id_taken'] ? ' Package ID already in use, left proposed: ' . implode(', ', array_keys($r['id_taken'])) . '.' : '') : 'All website packages are already in the CMS.', $r['id_taken'] ? 'warn' : 'ok');
+    redirect('/');
+}
+
 function site_sync_post()
 {
     need('packages', 'manage');

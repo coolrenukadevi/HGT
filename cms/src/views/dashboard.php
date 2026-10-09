@@ -100,9 +100,16 @@ if (hg_can(role(), 'enquiries')) {
 <?php
 $last = site_last_sync();
 $b = '<p class="cms-sync"><span class="cms-sync__dot" aria-hidden="true"></span>' . ($last ? 'Last updated ' . e(dmy($last['at'])) . ', ' . e(substr($last['at'], 11, 5)) . ' UTC' : 'No changes sent yet') . '</p>'
-   . '<p class="cms-hint">Publishing, pausing or archiving a package, approving a rate and saving offers update the website automatically. Every update is backed up first.</p>'
-   . (hg_can(role(), 'packages', 'manage') ? '<form method="post" action="/site-sync">' . csrf_field() . '<button class="cms-btn cms-btn--ghost cms-btn--sm" type="submit">' . icon('upload') . 'Sync website now</button></form>' : '')
+   . (cms_site_writes() ? '<p class="cms-hint">Publishing, pausing or archiving a package, approving a rate and saving offers update the website automatically. Every update is backed up first.</p>'
+      : '<p class="cms-hint"><strong>Website sync is off.</strong> This staging CMS does not change the website: publishing, rates and offers stay in the CMS until the owner switches website sync on.</p>')
+   . (cms_site_writes() && hg_can(role(), 'packages', 'manage') ? '<form method="post" action="/site-sync">' . csrf_field() . '<button class="cms-btn cms-btn--ghost cms-btn--sm" type="submit">' . icon('upload') . 'Sync website now</button></form>' : '')
    . (hg_may(role(), 'publish') ? '<form method="post" action="/site-resync" class="cms-mt-s">' . csrf_field() . '<button class="cms-btn cms-btn--ghost cms-btn--sm" type="submit" data-cms-confirm="Copy the website’s current itineraries, inclusions, hotel category and meal plans into the CMS? Packages with unpublished CMS edits are skipped.">' . icon('restore') . 'Re-sync from website</button></form><p class="cms-hint">Use after package data was improved on the website directly, so a CMS publish never writes older data back.</p>' : '');
+if (hg_may(role(), 'publish') && ($dupOnSite = site_renamed_on_site())) {
+    $b .= '<p class="cms-flash cms-flash--err" role="alert">The website lists ' . count($dupOnSite) . ' packages twice under old URLs (e.g. /' . e($dupOnSite[0]) . '). Restore the website\'s packages.json from the backup before importing or syncing.</p>';
+} elseif (hg_may(role(), 'publish')) {
+    $newOnSite = count(site_import_candidates()['new']);
+    if ($newOnSite) $b .= '<form method="post" action="/site-import" class="cms-mt-s">' . csrf_field() . '<button class="cms-btn cms-btn--sm" type="submit" data-cms-confirm="Import ' . $newOnSite . ' website package' . ($newOnSite === 1 ? '' : 's') . ' into the CMS? Existing CMS packages are not changed.">' . icon('download') . 'Import ' . $newOnSite . ' new package' . ($newOnSite === 1 ? '' : 's') . '</button></form><p class="cms-hint">' . $newOnSite . ' package' . ($newOnSite === 1 ? ' is' : 's are') . ' on the website but not in the CMS yet.</p>';
+}
 echo card('Website', $b, array('class' => 'cms-rail-card', 'actions' => '<a class="cms-link" href="' . e(rtrim(cms_config('site_url'), '/')) . '/" target="_blank" rel="noopener">Open site</a>'));
 
 // Calendar: weeks start on Sunday, as in the owner's reference.

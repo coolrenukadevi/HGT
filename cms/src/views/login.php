@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/cms-assets/cms.css?v=<?= filemtime(CMS_ROOT . '/public/cms-assets/cms.css') ?>">
 </head>
 <body class="cms cms-login">
-<?php if (cms_is_staging()) { ?><div class="cms-ribbon" role="note">Staging CMS — changes here do not reach the live website</div><?php } ?>
+<?php if (!cms_site_writes()) { ?><div class="cms-ribbon" role="note">Staging CMS — changes here do not reach the live website</div><?php } ?>
 <main class="cms-login__wrap">
     <form class="cms-login__card" method="post" action="/login<?= get('next') ? '?next=' . e(rawurlencode(get('next'))) : '' ?>">
         <img class="cms-login__logo" src="/assets/brand/holiday-guru-travel-logo-script-540.png" alt="Holiday Guru Travel" width="248" height="44">

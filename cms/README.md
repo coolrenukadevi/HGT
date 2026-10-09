@@ -10,6 +10,7 @@ cp cms/config.example.php cms/config.php   # no secrets in the example
 php cms/bin/setup.php --reset              # staging DB, website package import, one user per role
 php -S 127.0.0.1:8099 -t cms/public cms/public/router.php
 php cms/tests/unit.php                     # domain tests
+php cms/bin/import-new-from-site.php --apply   # add website packages the CMS does not have yet (dashboard: Import new packages)
 php cms/bin/create-user.php --email=… --name="…" --role=super_admin   # real login; asks for the password (hidden)
 ```
 

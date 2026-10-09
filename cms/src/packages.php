@@ -14,7 +14,8 @@ const HG_STANDARD_EXCLUSIONS = array('Airfare', 'Train fare', 'Bus fare');
 const HG_STANDARD_STATEMENT = 'Standard package cost excludes airfare, train fare and bus fare unless specifically mentioned in the package inclusions.';
 
 // Country for each destination group of the website (destinations.json has no country field).
-const HG_GROUP_COUNTRY = array('dubai' => 'United Arab Emirates', 'maldives' => 'Maldives', 'singapore-malaysia' => 'Singapore & Malaysia');
+const HG_GROUP_COUNTRY = array('dubai' => 'United Arab Emirates', 'maldives' => 'Maldives', 'singapore-malaysia' => 'Singapore & Malaysia',
+    'thailand' => 'Thailand', 'bali' => 'Indonesia', 'vietnam' => 'Vietnam', 'japan' => 'Japan', 'cambodia' => 'Cambodia');
 
 function site_path($rel) { return rtrim(cms_config('site_root'), '/') . '/' . ltrim($rel, '/'); }
 

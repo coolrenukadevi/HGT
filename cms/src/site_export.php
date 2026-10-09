@@ -111,6 +111,24 @@ function site_retired_slugs()
     return $out;
 }
 
+/** Old slugs of website packages (registry previous_slugs, approved URL migrations): never added back as new packages. */
+function site_renamed_slugs()
+{
+    $r = site_json_read('package-registry.json', array());
+    $out = array();
+    foreach ((array) (isset($r['entries']) ? $r['entries'] : array()) as $e) foreach ((array) (isset($e['previous_slugs']) ? $e['previous_slugs'] : array()) as $old) $out[$old] = $e['slug'];
+    return $out;
+}
+
+/** Website packages still listed under an old (renamed) URL: duplicates that must be removed before any sync or import. */
+function site_renamed_on_site()
+{
+    $renamed = site_renamed_slugs();
+    $out = array();
+    foreach (site_json_read('packages.json', array()) as $e) if (isset($renamed[$e['slug']]) || isset($renamed[str_replace(array('–', '—'), '-', $e['slug'])])) $out[] = $e['slug'];
+    return $out;
+}
+
 /**
  * Publish safety: 'ok' when the website still holds what the CMS last synced or wrote for this package;
  * 'required' when the website record changed outside the CMS (or was never synced) — the CMS must not overwrite it;
@@ -121,7 +139,10 @@ function site_sync_state(array $row)
     $site = array();   // read fresh every time: a cached copy could hide a change made a moment ago
     foreach (site_json_read('packages.json', array()) as $e) $site[$e['slug']] = $e;
     if (isset(site_retired_slugs()[$row['slug']])) return 'retired';
-    if (!isset($site[$row['slug']])) return 'new';
+    if (!isset($site[$row['slug']])) {
+        $renamed = site_renamed_slugs();
+        return isset($renamed[$row['slug']]) || isset($renamed[str_replace(array('–', '—'), '-', $row['slug'])]) ? 'required' : 'new';
+    }
     return (!empty($row['site_hash']) && $row['site_hash'] === site_pkg_hash($site[$row['slug']])) ? 'ok' : 'required';
 }
 
@@ -165,7 +186,8 @@ function site_resync_slug(array $row, array $bySlug)
     // Approved URL migrations: the registry keeps every previous slug of a Package ID.
     $reg = site_json_read('package-registry.json', array());
     foreach ((array) (isset($reg['entries']) ? $reg['entries'] : array()) as $e) {
-        if (!in_array($row['slug'], (array) (isset($e['previous_slugs']) ? $e['previous_slugs'] : array()), true) || !isset($bySlug[$e['slug']])) continue;
+        $prev = (array) (isset($e['previous_slugs']) ? $e['previous_slugs'] : array());
+        if (!(in_array($row['slug'], $prev, true) || in_array(str_replace(array('–', '—'), '-', $row['slug']), $prev, true)) || !isset($bySlug[$e['slug']])) continue;
         q('UPDATE packages SET slug = ?, public_url = ? WHERE package_pk = ?', array($e['slug'], '/' . $e['slug'], (int) $row['package_pk']));
         cms_log('Slug updated to the migrated URL', (int) $row['package_pk'], 'slug', $row['slug'], $e['slug']);
         return $e['slug'];
@@ -222,6 +244,7 @@ function site_publish_image($rel, $slug)
     $dir = 'assets/img/packages/cms';
     $base = $slug . '-' . substr(sha1_file($src), 0, 10);
     $dest = site_path($dir . '/' . $base . '.' . $ext);
+    if (!cms_site_writes()) return $dir . '/' . $base . '.' . $ext;   // staging: report the path, copy nothing
     if (!is_dir(dirname($dest))) mkdir(dirname($dest), 0755, true);
     if (!is_file($dest)) {
         copy($src, $dest);
@@ -266,6 +289,7 @@ function site_build()
     $bySlug = array(); foreach ($site as $i => $e) $bySlug[$e['slug']] = $i;
     $sum = array('updated' => array(), 'added' => array(), 'removed' => array(), 'pages' => array(), 'sync_required' => array(), 'hashes' => array());
     $retired = site_retired_slugs();
+    $renamed = site_renamed_slugs();
     $seo = array(); $live = array();
     foreach (q('SELECT package_pk, slug, status, source, published_version, site_baseline_version, site_hash, public_url FROM packages ORDER BY package_pk')->fetchAll() as $row) {
         $slug = $row['slug']; $onSite = isset($bySlug[$slug]);
@@ -294,8 +318,8 @@ function site_build()
                 if (empty($row['site_hash']) || $row['site_hash'] !== site_pkg_hash($site[$bySlug[$slug]])) { $sum['sync_required'][] = $slug; }
                 else { $site[$bySlug[$slug]] = $e; $sum['updated'][$slug] = array_keys($changed); $sum['hashes'][$slug] = site_pkg_hash($e); }
             }
-        } elseif (isset($retired[$slug])) {
-            $sum['sync_required'][] = $slug;   // retired Package ID: never re-add
+        } elseif (isset($retired[$slug]) || isset($renamed[$slug]) || isset($renamed[str_replace(array('–', '—'), '-', $slug)])) {
+            $sum['sync_required'][] = $slug;   // retired Package ID, or an old URL the website renamed: never re-add
         } else {
             $f = array(); foreach ($now as $vals) $f += $vals;
             $f['image'] = site_publish_image($f['image'], $slug);
@@ -358,6 +382,10 @@ function site_build()
  */
 function site_export($reason = 'auto', $dry = false)
 {
+    // Staging CMS: never write the website (the ribbon promises it). Dry runs still report what would change.
+    if (!$dry && !cms_site_writes()) return array('ok' => false, 'changed' => array(), 'summary' => array(), 'message' => 'Staging CMS: the website was not changed. Website sync is switched off (config site_sync).');
+    $dup = site_renamed_on_site();
+    if (!$dry && $dup) return array('ok' => false, 'changed' => array(), 'summary' => array(), 'message' => 'Refused: the website still lists ' . count($dup) . ' packages under old (renamed) URLs, e.g. ' . $dup[0] . '. Restore include/data/packages.json from the backup first (INSTALL-CMS.md, part A).');
     $lockFile = CMS_ROOT . '/storage/site-export.lock';
     $lock = fopen($lockFile, 'c');
     if (!$lock || !flock($lock, LOCK_EX)) return array('ok' => false, 'changed' => array(), 'summary' => array(), 'message' => 'Another sync is running.');
@@ -423,4 +451,135 @@ function pkg_publish_blockers(array $p)
     $live = site_snapshot($p['package_pk'], $p['published_version']);
     $had = $live ? array_column(pkg_blockers($live)[0], 'key') : array();
     return array_values(array_filter($err, function ($i) use ($had) { return !in_array($i['key'], $had, true); }));
+}
+
+/* ---------- Website → CMS import of packages the CMS does not have yet ---------- */
+
+/**
+ * Insert one website package (packages.json entry) into the CMS as a published, site-imported package: package row,
+ * itinerary days (overnight places, suggested-day flags), inclusions/exclusions, SEO and the featured photo.
+ * $reg is the website's registry entry for the slug (or null); $usePackageId = false leaves the Package ID unassigned
+ * (it stays "proposed") when the number is already held by another CMS package. Returns the new package_pk.
+ * The caller writes version 1 (site_import_finish) once rates, offers and curation are attached.
+ */
+function site_import_package(array $p, $reg, $usePackageId = true)
+{
+    $db = cms_db();
+    $dest = hg_destinations();
+    $g = isset($dest[$p['group']]) ? $dest[$p['group']] : array('country' => '', 'region' => '');
+    $idStatus = $reg ? (($reg['status'] === 'approved' && $usePackageId) ? 'approved' : 'proposed') : 'pending';
+    q('INSERT INTO packages(package_id, proposed_package_id, package_id_status, slug, name, country, region, destination, city_route, package_type, speciality_type, days, nights,
+        suitable_for, short_description, description_html, highlights, status, public_url, source, created_at, updated_at, published_at)
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', array(
+        $idStatus === 'approved' ? $reg['package_id'] : null, $reg ? $reg['package_id'] : null, $idStatus,
+        $p['slug'], $p['name'], $g['country'], $g['region'], $p['group'], $p['places'] ? implode(' – ', $p['places']) : $p['cities'],
+        $p['pilgrimage'] ? 'Pilgrimage' : '', $p['pilgrimage'] ? 'Pilgrimage' : '', (int) $p['days'], (int) $p['nights'],
+        '[]', mb_strlen($p['description']) <= 300 ? $p['description'] : '', '<p>' . e($p['description']) . '</p>', je(array_values((array) $p['features'])),
+        'published', $p['url'], 'site-import', now(), now(), now(),
+    ));
+    $pk = (int) $db->lastInsertId();
+    // Package-level values and overnight places / suggested-day flags, so the first export baseline matches the site.
+    q('UPDATE packages SET hotel_category = ?, meal_plan = ?, transport = ?, start_point = ?, end_point = ?, special_notes = ?, itinerary_source = ?, site_hash = ? WHERE package_pk = ?', array(
+        (string) $p['hotel'], (string) $p['meals'], (string) $p['transfers'], (string) ($p['start'] ?? ''), (string) ($p['end'] ?? ''), (string) ($p['special_notes'] ?? ''),
+        ($p['itinerary_source'] ?? '') === 'standard' ? 'standard' : 'package', site_pkg_hash($p), $pk));
+    foreach ($p['itinerary'] as $i => $d) {
+        list($over, $title) = site_split_day_title(preg_replace('/\s+/', ' ', $d['title']));
+        q('INSERT INTO itinerary_days(package_pk, day_number, title, overnight, description, generated) VALUES (?,?,?,?,?,?)', array($pk, $i + 1, $title, $over, trim($d['text']), empty($d['generated']) ? 0 : 1));
+    }
+    $n = 0;
+    foreach ($p['inclusions'] as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order) VALUES (?, 'inclusion', 'Imported', ?, ?)", array($pk, $t, $n++));
+    $n = 0;
+    foreach (HG_STANDARD_EXCLUSIONS as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order, is_standard, icon) VALUES (?, 'exclusion', 'Travel', ?, ?, 1, 'ticket')", array($pk, $t, $n++));
+    foreach ($p['exclusions'] as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order) VALUES (?, 'exclusion', 'Imported', ?, ?)", array($pk, $t, $n++));
+    q('INSERT INTO package_seo(package_pk, meta_title, meta_description, canonical) VALUES (?,?,?,?)', array($pk, $p['page_title'], $p['description'], rtrim(cms_config('site_url'), '/') . $p['url']));
+    if ($p['image'] && is_file(site_path($p['image']))) {
+        $rel = 'site:' . $p['image'];
+        $mid = qv('SELECT media_id FROM media WHERE file_path = ?', array($rel));
+        if (!$mid) {
+            $info = @getimagesize(site_path($p['image']));
+            q('INSERT INTO media(file_path, mime, width, height, bytes, destination, created_at) VALUES (?,?,?,?,?,?,?)', array(
+                $rel, $info ? $info['mime'] : '', $info ? $info[0] : 0, $info ? $info[1] : 0, filesize(site_path($p['image'])), $p['group'], now()));
+            $mid = $db->lastInsertId();
+        }
+        q("INSERT INTO package_media(package_pk, media_id, role) VALUES (?, ?, 'featured')", array($pk, $mid));
+    }
+    return $pk;
+}
+
+/** Version 1 of an imported package: the snapshot the website shows, used as the publish and export baseline. */
+function site_import_finish($pk, $note = 'Imported from the website (include/data/packages.json)')
+{
+    $p = pkg_load($pk); unset($p['reviews']);
+    q('INSERT INTO package_versions(package_pk, package_id, version, sections, note, snapshot, changed_by, changed_at) VALUES (?,?,?,?,?,?,?,?)', array($pk, pkg_public_id($p), 1, 'import', $note, je($p), uid(), now()));
+    q('UPDATE packages SET version = 1, published_version = 1, site_baseline_version = 1 WHERE package_pk = ?', array($pk));
+}
+
+/**
+ * Website packages the CMS does not hold yet. A website package counts as already in the CMS when a CMS package has
+ * its slug, one of its previous slugs (registry, approved URL migrations) or its en-dash spelling; retired Package IDs
+ * are never imported. Returns ['new' => [entry + '_reg' + '_id_taken'], 'known' => int, 'retired' => [slugs]].
+ */
+function site_import_candidates()
+{
+    $site = site_json_read('packages.json', array());
+    $reg = site_json_read('package-registry.json', array());
+    $regBySlug = array();
+    foreach ((array) (isset($reg['entries']) ? $reg['entries'] : array()) as $e) $regBySlug[$e['slug']] = $e;
+    $retired = site_retired_slugs();
+    $cmsSlugs = array();
+    foreach (q('SELECT slug FROM packages')->fetchAll(PDO::FETCH_COLUMN) as $s) { $cmsSlugs[$s] = true; $cmsSlugs[str_replace(array('–', '—'), '-', $s)] = true; }
+    $ids = array_flip(q('SELECT package_id FROM packages WHERE package_id IS NOT NULL')->fetchAll(PDO::FETCH_COLUMN));
+    $out = array('new' => array(), 'known' => 0, 'retired' => array());
+    foreach ($site as $p) {
+        $r = isset($regBySlug[$p['slug']]) ? $regBySlug[$p['slug']] : null;
+        if (isset($retired[$p['slug']])) { $out['retired'][] = $p['slug']; continue; }
+        $known = isset($cmsSlugs[$p['slug']]);
+        foreach ((array) ($r && isset($r['previous_slugs']) ? $r['previous_slugs'] : array()) as $old) if (isset($cmsSlugs[$old]) || isset($cmsSlugs[str_replace(array('–', '—'), '-', $old)])) $known = true;
+        if ($known) { $out['known']++; continue; }
+        $p['_reg'] = $r;
+        $p['_id_taken'] = $r && isset($ids[$r['package_id']]);
+        $out['new'][] = $p;
+    }
+    return $out;
+}
+
+/**
+ * Import every website package the CMS does not have yet (one transaction). Existing CMS packages, rates, offers,
+ * curation, users and settings are not touched. $apply = false only reports. Returns
+ * ['imported' => n, 'known' => n, 'id_taken' => [slug => id], 'retired' => [...], 'slugs' => [...]].
+ */
+function site_import_new($apply)
+{
+    $dup = site_renamed_on_site();
+    if ($apply && $dup) throw new RuntimeException('The website still lists ' . count($dup) . ' packages under old (renamed) URLs, e.g. ' . $dup[0] . '. Restore include/data/packages.json from the backup first (INSTALL-CMS.md, part A).');
+    if ($apply) {
+        // CMS packages still under an old (renamed) URL take the website's current slug first, as a re-sync does.
+        $bySlug = array(); foreach (site_json_read('packages.json', array()) as $sp) $bySlug[$sp['slug']] = true;
+        foreach (q('SELECT package_pk, slug FROM packages')->fetchAll() as $row) if (!isset($bySlug[$row['slug']])) site_resync_slug($row, $bySlug);
+    }
+    $c = site_import_candidates();
+    $res = array('imported' => count($c['new']), 'known' => $c['known'], 'id_taken' => array(), 'retired' => $c['retired'], 'slugs' => array());
+    foreach ($c['new'] as $p) { $res['slugs'][] = $p['slug']; if ($p['_id_taken']) $res['id_taken'][$p['slug']] = $p['_reg']['package_id']; }
+    if (!$apply || !$c['new']) return $res;
+    $db = cms_db();
+    $db->beginTransaction();
+    try {
+        foreach ($c['new'] as $p) {
+            $entry = $p['_reg']; $taken = $p['_id_taken'];
+            unset($p['_reg'], $p['_id_taken']);   // helper keys: never part of the stored record or its hash
+            $pk = site_import_package($p, $entry, !$taken);
+            site_import_finish($pk);
+        }
+        // New CMS packages continue after the highest number in the website's Package ID registry.
+        $reg = site_json_read('package-registry.json', array());
+        $maxId = 0;
+        foreach ((array) (isset($reg['entries']) ? $reg['entries'] : array()) as $e) $maxId = max($maxId, (int) $e['package_id']);
+        q("UPDATE sequences SET last_value = ? WHERE name = 'package_id' AND last_value < ?", array($maxId, $maxId));
+        cms_log('New website packages imported', null, '', '', count($c['new']) . ' packages' . ($res['id_taken'] ? '; Package ID already in use, left proposed: ' . implode(', ', array_keys($res['id_taken'])) : ''));
+        $db->commit();
+    } catch (Throwable $x) {
+        $db->rollBack();
+        throw $x;
+    }
+    return $res;
 }

@@ -221,6 +221,29 @@ if ($any) {
     t(site_sync_state(pkg_row($any['package_pk'])) === 'required', 'package never synced with the website → SYNC REQUIRED');
 } else t(true, 'SYNC REQUIRED check (no imported package in the test database)');
 
+// Website → CMS import of packages the CMS does not have yet (reads the website, writes only the test database)
+$siteCount = count(site_json_read('packages.json', array()));
+$dry = site_import_new(false);
+t($dry['imported'] + $dry['known'] === $siteCount && $dry['imported'] > 0, 'import dry run: every website package is either new or already in the CMS');
+$before = (int) qv('SELECT COUNT(*) FROM packages');
+$res = site_import_new(true);
+t((int) qv('SELECT COUNT(*) FROM packages') === $before + $res['imported'] && site_import_new(false)['imported'] === 0, 'import adds the new packages once; a second run imports nothing');
+$imp = pkg_row((int) qv('SELECT package_pk FROM packages WHERE slug = ?', array($res['slugs'][0])));
+t($imp['status'] === 'published' && (int) $imp['published_version'] === 1 && (int) $imp['site_baseline_version'] === 1 && site_sync_state($imp) === 'ok', 'imported package is live, baselined at version 1 and in sync with the website');
+// A CMS package still under an old (renamed) URL is never added to the website as a new package
+$ren = site_renamed_slugs();
+$old = key($ren);
+q('UPDATE packages SET slug = ? WHERE slug = ?', array($old, $ren[$old]));
+$sb = site_build();
+t(!in_array($old, $sb['summary']['added'], true) && in_array($old, $sb['summary']['sync_required'], true) && site_sync_state(pkg_row((int) qv('SELECT package_pk FROM packages WHERE slug = ?', array($old)))) === 'required', 'old renamed URL is SYNC REQUIRED, never re-added to the website');
+t($sb['count'] === $siteCount, 'website sync after the import keeps the same number of website packages');
+
+t(site_renamed_on_site() === array(), 'the website lists no package under an old (renamed) URL');
+// Staging CMS never writes the website (the "changes here do not reach the live website" ribbon)
+$h = sha1_file(site_data_path('packages.json'));
+$sx = site_export('test');
+t(!$sx['ok'] && !cms_site_writes() && sha1_file(site_data_path('packages.json')) === $h && !is_file(site_data_path('cms-seo.json')), 'staging CMS: website sync is refused and the website files stay unchanged');
+
 exec('rm -rf ' . escapeshellarg($tmp));
 echo "\n$pass passed, $fail failed\n";
 exit($fail ? 1 : 0);

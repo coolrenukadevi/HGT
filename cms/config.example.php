@@ -7,6 +7,10 @@ return array(
     // 'staging' shows the staging ribbon and allows the setup script. Use 'production' only after owner approval.
     'env' => 'staging',
 
+    // Website sync. A staging CMS never writes the website's data files (packages, rates, offers, curation, sitemap)
+    // unless this is true. Turn it on only with owner approval, after "Import new packages" and "Re-sync from website".
+    'site_sync' => false,
+
     // SQLite database for staging. Production uses MySQL/MariaDB (schema/mysql.sql):
     //   'dsn' => 'mysql:host=localhost;dbname=hgt_cms;charset=utf8mb4', 'db_user' => '…', 'db_pass' => '…'
     'dsn' => 'sqlite:' . __DIR__ . '/storage/cms.sqlite',

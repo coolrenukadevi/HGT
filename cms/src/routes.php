@@ -32,7 +32,7 @@ function cms_dispatch($method, $path)
     }
     if ($method === 'POST' && strpos($path, '/api/') !== 0) csrf_check();
     // Any change to packages, prices, offers or curation: update the website after the response is sent.
-    if ($method === 'POST' && preg_match('#^/(packages|offers|curation|pricing|media)(/|$)#', $path)) {
+    if ($method === 'POST' && cms_site_writes() && preg_match('#^/(packages|offers|curation|pricing|media)(/|$)#', $path)) {
         register_shutdown_function(function () {
             if (function_exists('litespeed_finish_request')) litespeed_finish_request();
             elseif (function_exists('fastcgi_finish_request')) fastcgi_finish_request();
@@ -88,6 +88,7 @@ function cms_dispatch($method, $path)
         array('POST', '#^/users/(\d+)/reset$#', 'user_reset_post'),
         array('POST', '#^/site-sync$#', 'site_sync_post'),
         array('POST', '#^/site-resync$#', 'site_resync_post'),
+        array('POST', '#^/site-import$#', 'site_import_post'),
         array('GET', '#^/account$#', 'account_get'),
         array('POST', '#^/account$#', 'account_post'),
         array('POST', '#^/account/photo$#', 'account_photo_post'),

@@ -58,52 +58,9 @@ if ((int) qv('SELECT COUNT(*) FROM packages') === 0) {
     $cur = $read('curation.json');
     $proposed = array();
     foreach ($reg['entries'] as $r) $proposed[$r['slug']] = $r;
-    $dest = hg_destinations();
-    $site = rtrim(cms_config('site_url'), '/');
     $db->beginTransaction();
     $pkByslug = array();
-    foreach ($pkgs as $p) {
-        $g = isset($dest[$p['group']]) ? $dest[$p['group']] : array('country' => '', 'region' => '');
-        $r = isset($proposed[$p['slug']]) ? $proposed[$p['slug']] : null;
-        $idStatus = $r ? ($r['status'] === 'approved' ? 'approved' : 'proposed') : 'pending';
-        q('INSERT INTO packages(package_id, proposed_package_id, package_id_status, slug, name, country, region, destination, city_route, package_type, speciality_type, days, nights,
-            suitable_for, short_description, description_html, highlights, status, public_url, source, created_at, updated_at, published_at)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', array(
-            $idStatus === 'approved' ? $r['package_id'] : null, $r ? $r['package_id'] : null, $idStatus,
-            $p['slug'], $p['name'], $g['country'], $g['region'], $p['group'], $p['places'] ? implode(' – ', $p['places']) : $p['cities'],
-            $p['pilgrimage'] ? 'Pilgrimage' : '', $p['pilgrimage'] ? 'Pilgrimage' : '', (int) $p['days'], (int) $p['nights'],
-            '[]', mb_strlen($p['description']) <= 300 ? $p['description'] : '', '<p>' . e($p['description']) . '</p>', je(array_values($p['features'])),
-            'published', $p['url'], 'site-import', now(), now(), now(),
-        ));
-        $pk = (int) $db->lastInsertId();
-        $pkByslug[$p['slug']] = $pk;
-        // Package-level values and overnight places / suggested-day flags, so the first export baseline matches the site.
-        q('UPDATE packages SET hotel_category = ?, meal_plan = ?, transport = ?, start_point = ?, end_point = ?, special_notes = ?, itinerary_source = ? WHERE package_pk = ?', array(
-            (string) $p['hotel'], (string) $p['meals'], (string) $p['transfers'], (string) ($p['start'] ?? ''), (string) ($p['end'] ?? ''), (string) ($p['special_notes'] ?? ''),
-            ($p['itinerary_source'] ?? '') === 'standard' ? 'standard' : 'package', $pk));
-        q('UPDATE packages SET site_hash = ? WHERE package_pk = ?', array(site_pkg_hash($p), $pk));
-        foreach ($p['itinerary'] as $i => $d) {
-            list($over, $title) = site_split_day_title(preg_replace('/\s+/', ' ', $d['title']));
-            q('INSERT INTO itinerary_days(package_pk, day_number, title, overnight, description, generated) VALUES (?,?,?,?,?,?)', array($pk, $i + 1, $title, $over, trim($d['text']), empty($d['generated']) ? 0 : 1));
-        }
-        $n = 0;
-        foreach ($p['inclusions'] as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order) VALUES (?, 'inclusion', 'Imported', ?, ?)", array($pk, $t, $n++));
-        $n = 0;
-        foreach (HG_STANDARD_EXCLUSIONS as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order, is_standard, icon) VALUES (?, 'exclusion', 'Travel', ?, ?, 1, 'ticket')", array($pk, $t, $n++));
-        foreach ($p['exclusions'] as $t) q("INSERT INTO scope_items(package_pk, kind, category, name, sort_order) VALUES (?, 'exclusion', 'Imported', ?, ?)", array($pk, $t, $n++));
-        q('INSERT INTO package_seo(package_pk, meta_title, meta_description, canonical) VALUES (?,?,?,?)', array($pk, $p['page_title'], $p['description'], $site . $p['url']));
-        if ($p['image'] && is_file(site_path($p['image']))) {
-            $rel = 'site:' . $p['image'];
-            $mid = qv('SELECT media_id FROM media WHERE file_path = ?', array($rel));
-            if (!$mid) {
-                $info = @getimagesize(site_path($p['image']));
-                q('INSERT INTO media(file_path, mime, width, height, bytes, destination, created_at) VALUES (?,?,?,?,?,?,?)', array(
-                    $rel, $info ? $info['mime'] : '', $info ? $info[0] : 0, $info ? $info[1] : 0, filesize(site_path($p['image'])), $p['group'], now()));
-                $mid = $db->lastInsertId();
-            }
-            q("INSERT INTO package_media(package_pk, media_id, role) VALUES (?, ?, 'featured')", array($pk, $mid));
-        }
-    }
+    foreach ($pkgs as $p) $pkByslug[$p['slug']] = site_import_package($p, isset($proposed[$p['slug']]) ? $proposed[$p['slug']] : null);
     foreach ($rates['versions'] as $v) {
         if (!isset($pkByslug[$v['slug']])) continue;
         q('INSERT INTO rate_versions(package_pk, version, base_price, currency, price_unit, valid_from, valid_until, rate_status, price_notes, created_at, approved_at) VALUES (?,?,?,?,?,?,?,?,?,?,?)', array(
@@ -126,11 +83,7 @@ if ((int) qv('SELECT COUNT(*) FROM packages') === 0) {
     $maxOf = 0;
     foreach ($offers['offers'] as $o) $maxOf = max($maxOf, (int) substr($o['offer_code'], 3));
     q("UPDATE sequences SET last_value = MAX(last_value, ?) WHERE name = 'offer_code'", array($maxOf));
-    foreach ($pkByslug as $pk) {
-        $p = pkg_load($pk); unset($p['reviews']);
-        q('INSERT INTO package_versions(package_pk, package_id, version, sections, note, snapshot, changed_at) VALUES (?,?,?,?,?,?,?)', array($pk, pkg_public_id($p), 1, 'import', 'Imported from the website (include/data/packages.json)', je($p), now()));
-    }
-    q('UPDATE packages SET published_version = 1');
+    foreach ($pkByslug as $pk) site_import_finish($pk);
     q("INSERT INTO activity_log(at, action, new_value, ip) VALUES (?, 'Website packages imported', ?, 'cli')", array(now(), count($pkByslug) . ' packages'));
     $db->commit();
     echo 'Imported ' . count($pkByslug) . " website packages (Package IDs stay proposed until the owner approves the mapping).\n";

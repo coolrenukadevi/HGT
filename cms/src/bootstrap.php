@@ -258,3 +258,5 @@ function cms_render($view, array $vars = array())
 }
 
 function cms_is_staging() { return cms_config('env') !== 'production'; }
+/** True when the CMS may write the website's data files: production, or staging with 'site_sync' => true set by the owner. */
+function cms_site_writes() { return !cms_is_staging() || cms_config('site_sync') === true; }
